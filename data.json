@@ -149,11 +149,41 @@
       "filename": "avatar_mythology_5.jpg",
       "prompt": "Cosmic Lotus Bloom",
       "theme": "mythology"
+    },
+    {
+      "id": "lotus_01",
+      "filename": "avatar_lotus_1.jpg",
+      "prompt": "Sacred Lotus at Dawn",
+      "theme": "lotus"
+    },
+    {
+      "id": "lotus_02",
+      "filename": "avatar_lotus_2.jpg",
+      "prompt": "Golden Lotus Mandala",
+      "theme": "lotus"
+    },
+    {
+      "id": "lotus_03",
+      "filename": "avatar_lotus_3.jpg",
+      "prompt": "Crystal Lotus in Cosmic Void",
+      "theme": "lotus"
+    },
+    {
+      "id": "lotus_04",
+      "filename": "avatar_lotus_4.jpg",
+      "prompt": "Watercolor Dream Lotus",
+      "theme": "lotus"
+    },
+    {
+      "id": "lotus_05",
+      "filename": "avatar_lotus_5.jpg",
+      "prompt": "Cosmic Lotus Bloom",
+      "theme": "lotus"
     }
   ],
   "metadata": {
-    "total": 25,
-    "themes": ["fantasy", "sci-fi", "nature", "abstract", "mythology"],
+    "total": 30,
+    "themes": ["fantasy", "sci-fi", "nature", "abstract", "mythology", "lotus"],
     "images_per_theme": 5,
     "format": "512x512 JPEG",
     "generated": "2026-06-19",

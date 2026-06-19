@@ -9,7 +9,8 @@
 <body>
   <header class="gallery-header">
     <h1>Apollo Avatar Gallery</h1>
-    <p class="subtitle">25 AI-generated themed avatars</p>
+    <p class="subtitle">25 AI-generated themed avatars — Click "Use Style" to extract and apply styles</p>
+    <a href="lotus-gallery.html" class="lotus-link" style="display:inline-block; margin-top:0.75rem; padding:0.5rem 1rem; background:linear-gradient(135deg, #e8b4ff, #ff6b9d); color:#0d0d0d; border-radius:2rem; font-size:0.875rem; font-weight:600; text-decoration:none; transition:transform 0.2s, box-shadow 0.2s;">🌸 View Lotus Gallery</a>
   </header>
 
   <nav class="filter-nav" aria-label="Theme filters">
@@ -19,6 +20,7 @@
     <button class="filter-btn" data-filter="nature">Nature</button>
     <button class="filter-btn" data-filter="abstract">Abstract</button>
     <button class="filter-btn" data-filter="mythology">Mythology</button>
+    <button class="filter-btn" data-filter="lotus">Lotus</button>
   </nav>
 
   <main class="gallery-main">
@@ -26,6 +28,7 @@
     <p class="no-results" id="noResults" hidden>No avatars match the selected filter.</p>
   </main>
 
+  <!-- Lightbox for image preview -->
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Avatar preview" hidden>
     <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">&times;</button>
     <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&lsaquo;</button>
@@ -39,6 +42,21 @@
     </div>
     <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&rsaquo;</button>
   </div>
+
+  <!-- Style Reference Panel (Side Panel) -->
+  <div class="style-panel-overlay" id="stylePanelOverlay" hidden></div>
+  <aside class="style-panel" id="stylePanel" role="dialog" aria-modal="true" aria-label="Style Reference" hidden>
+    <div class="style-panel-header">
+      <h2 id="stylePanelTitle">Style Reference</h2>
+      <button class="style-panel-close" id="stylePanelClose" aria-label="Close panel">&times;</button>
+    </div>
+    <div class="style-panel-body" id="stylePanelBody">
+      <!-- Dynamic content loaded based on step -->
+    </div>
+    <div class="style-panel-footer" id="stylePanelFooter">
+      <!-- Dynamic buttons based on step -->
+    </div>
+  </aside>
 
   <footer class="gallery-footer">
     <p>Images generated via <a href="https://pollinations.ai" target="_blank" rel="noopener">Pollinations.ai</a> (Flux model) — free AI image generation API.</p>

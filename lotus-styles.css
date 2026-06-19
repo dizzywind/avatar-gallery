@@ -1,0 +1,132 @@
+/* Lotus Gallery — Dedicated Theme Styles */
+
+:root {
+  /* Lotus theme color palette */
+  --lotus-primary: #e8b4ff;
+  --lotus-primary-hover: #d99eff;
+  --lotus-secondary: #c8a0ff;
+  --lotus-accent: #ff6b9d;
+  --lotus-accent-hover: #ff8fab;
+  --lotus-soft: rgba(232, 180, 255, 0.15);
+  --lotus-glow: rgba(255, 107, 157, 0.4);
+  --lotus-petal: #fff0f8;
+  --lotus-stem: #7cb342;
+  --lotus-stem-dark: #558b2f;
+}
+
+/* Header */
+.lotus-header {
+  position: relative;
+  padding: 3rem 1rem 2rem;
+  background: linear-gradient(180deg, 
+    rgba(232, 180, 255, 0.08) 0%, 
+    rgba(200, 160, 255, 0.04) 50%, 
+    var(--bg-secondary) 100%);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.back-link {
+  position: absolute;
+  left: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.back-link:hover {
+  color: var(--lotus-accent);
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .back-link {
+    position: static;
+    transform: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+}
+
+.lotus-header h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--lotus-primary), var(--lotus-accent), var(--lotus-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+
+.lotus-header .subtitle {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  font-style: italic;
+}
+
+/* Gallery grid - reuse existing but with lotus accent on hover */
+#lotusGalleryGrid .gallery-item:hover {
+  border-color: var(--lotus-primary);
+  box-shadow: 0 12px 32px var(--lotus-glow);
+}
+
+#lotusGalleryGrid .gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+#lotusGalleryGrid .gallery-item-theme {
+  background: linear-gradient(135deg, var(--lotus-primary), var(--lotus-accent));
+  color: var(--bg-primary);
+}
+
+/* Lightbox customizations for lotus */
+.lotus-badge {
+  background: linear-gradient(135deg, var(--lotus-primary), var(--lotus-accent)) !important;
+  color: var(--bg-primary) !important;
+}
+
+/* Lightbox nav hover for lotus page */
+#lightbox .lightbox-nav:hover {
+  background: var(--lotus-primary);
+  color: var(--bg-primary);
+}
+
+#lightbox .lightbox-close:hover {
+  background: var(--lotus-accent);
+  color: var(--bg-primary);
+}
+
+/* Footer */
+.lotus-attribution {
+  margin-top: 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--lotus-primary);
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .lotus-header {
+    padding: 2rem 1rem 1.5rem;
+  }
+  
+  .back-link {
+    left: 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .lotus-header h1 {
+    font-size: 1.75rem;
+  }
+  
+  .lotus-header .subtitle {
+    font-size: 1rem;
+  }
+}
