@@ -154,5 +154,5 @@ function setupEventListeners() {
   }, { passive: true });
 }
 
-// Initialize on DOM ready
-document.addEventListener('DOMContentLoaded', initGallery);
+// Script loads at end of <body> — DOM is guaranteed ready, init immediately
+initGallery();
