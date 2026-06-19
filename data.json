@@ -1,0 +1,162 @@
+{
+  "avatars": [
+    {
+      "id": "fantasy_01",
+      "filename": "avatar_fantasy_1.jpg",
+      "prompt": "Mystical Dragon & Crystal Orb",
+      "theme": "fantasy"
+    },
+    {
+      "id": "fantasy_02",
+      "filename": "avatar_fantasy_2.jpg",
+      "prompt": "Elven Queen of the Enchanted Forest",
+      "theme": "fantasy"
+    },
+    {
+      "id": "fantasy_03",
+      "filename": "avatar_fantasy_3.jpg",
+      "prompt": "Arcane Portal with Glowing Runes",
+      "theme": "fantasy"
+    },
+    {
+      "id": "fantasy_04",
+      "filename": "avatar_fantasy_4.jpg",
+      "prompt": "Wizard of the Storm Peak",
+      "theme": "fantasy"
+    },
+    {
+      "id": "fantasy_05",
+      "filename": "avatar_fantasy_5.jpg",
+      "prompt": "Phoenix Reborn in Golden Flames",
+      "theme": "fantasy"
+    },
+    {
+      "id": "scifi_01",
+      "filename": "avatar_scifi_1.jpg",
+      "prompt": "Neon Cyberpunk Cityscape",
+      "theme": "sci-fi"
+    },
+    {
+      "id": "scifi_02",
+      "filename": "avatar_scifi_2.jpg",
+      "prompt": "Astronaut & Earth Glow",
+      "theme": "sci-fi"
+    },
+    {
+      "id": "scifi_03",
+      "filename": "avatar_scifi_3.jpg",
+      "prompt": "Chrome Robot in the Server Room",
+      "theme": "sci-fi"
+    },
+    {
+      "id": "scifi_04",
+      "filename": "avatar_scifi_4.jpg",
+      "prompt": "Generation Ship in Deep Space",
+      "theme": "sci-fi"
+    },
+    {
+      "id": "scifi_05",
+      "filename": "avatar_scifi_5.jpg",
+      "prompt": "Explorer on an Alien World",
+      "theme": "sci-fi"
+    },
+    {
+      "id": "nature_01",
+      "filename": "avatar_nature_1.jpg",
+      "prompt": "Mountain Lake at Sunrise",
+      "theme": "nature"
+    },
+    {
+      "id": "nature_02",
+      "filename": "avatar_nature_2.jpg",
+      "prompt": "Wildflower Field at Sunset",
+      "theme": "nature"
+    },
+    {
+      "id": "nature_03",
+      "filename": "avatar_nature_3.jpg",
+      "prompt": "Ancient Oak with Hidden Door",
+      "theme": "nature"
+    },
+    {
+      "id": "nature_04",
+      "filename": "avatar_nature_4.jpg",
+      "prompt": "Coral Reef Underwater World",
+      "theme": "nature"
+    },
+    {
+      "id": "nature_05",
+      "filename": "avatar_nature_5.jpg",
+      "prompt": "Wolf Howling at Northern Lights",
+      "theme": "nature"
+    },
+    {
+      "id": "abstract_01",
+      "filename": "avatar_abstract_1.jpg",
+      "prompt": "Gold & Blue Fluid Marble",
+      "theme": "abstract"
+    },
+    {
+      "id": "abstract_02",
+      "filename": "avatar_abstract_2.jpg",
+      "prompt": "Sacred Geometry Neon Pattern",
+      "theme": "abstract"
+    },
+    {
+      "id": "abstract_03",
+      "filename": "avatar_abstract_3.jpg",
+      "prompt": "Glitch Art Digital Portrait",
+      "theme": "abstract"
+    },
+    {
+      "id": "abstract_04",
+      "filename": "avatar_abstract_4.jpg",
+      "prompt": "Pastel Gradient Orbs",
+      "theme": "abstract"
+    },
+    {
+      "id": "abstract_05",
+      "filename": "avatar_abstract_5.jpg",
+      "prompt": "Fractal Galaxy Spiral",
+      "theme": "abstract"
+    },
+    {
+      "id": "mythology_01",
+      "filename": "avatar_mythology_1.jpg",
+      "prompt": "Divine Figure of Golden Light",
+      "theme": "mythology"
+    },
+    {
+      "id": "mythology_02",
+      "filename": "avatar_mythology_2.jpg",
+      "prompt": "Eye of Providence",
+      "theme": "mythology"
+    },
+    {
+      "id": "mythology_03",
+      "filename": "avatar_mythology_3.jpg",
+      "prompt": "Yggdrasil — Norse World Tree",
+      "theme": "mythology"
+    },
+    {
+      "id": "mythology_04",
+      "filename": "avatar_mythology_4.jpg",
+      "prompt": "Egyptian Ankh of Living Light",
+      "theme": "mythology"
+    },
+    {
+      "id": "mythology_05",
+      "filename": "avatar_mythology_5.jpg",
+      "prompt": "Cosmic Lotus Bloom",
+      "theme": "mythology"
+    }
+  ],
+  "metadata": {
+    "total": 25,
+    "themes": ["fantasy", "sci-fi", "nature", "abstract", "mythology"],
+    "images_per_theme": 5,
+    "format": "512x512 JPEG",
+    "generated": "2026-06-19",
+    "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
+  }
+}
