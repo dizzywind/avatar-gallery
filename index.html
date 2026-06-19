@@ -27,8 +27,8 @@
   </main>
 
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Avatar preview" hidden>
-    <button class="lightbox-close" aria-label="Close preview">&times;</button>
-    <button class="lightbox-nav lightbox-prev" aria-label="Previous image">&lsaquo;</button>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&lsaquo;</button>
     <div class="lightbox-content">
       <img id="lightboxImage" src="" alt="">
       <div class="lightbox-info">
@@ -37,7 +37,7 @@
         <span id="lightboxTheme" class="theme-badge"></span>
       </div>
     </div>
-    <button class="lightbox-nav lightbox-next" aria-label="Next image">&rsaquo;</button>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&rsaquo;</button>
   </div>
 
   <footer class="gallery-footer">
