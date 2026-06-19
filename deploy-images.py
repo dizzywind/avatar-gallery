@@ -172,6 +172,16 @@ def main():
     avatars = data.get("avatars", [])
     avatars = sort_avatars(avatars)
     
+    # Backfill category field for existing items lacking it
+    backfilled = 0
+    for avatar in avatars:
+        theme = avatar.get("theme")
+        if avatar.get("category") is None and theme:
+            avatar["category"] = theme
+            backfilled += 1
+    if backfilled:
+        print(f"Backfilled category for {backfilled} existing avatars")
+    
     # Scan source directory for new images
     new_images = []
     for img_path in SOURCE_DIR.iterdir():
@@ -209,7 +219,8 @@ def main():
             "id": avatar_id,
             "filename": filename,
             "prompt": prompt,
-            "theme": theme
+            "theme": theme,
+            "category": theme,
         }
         avatars.append(new_avatar)
         added_count += 1
@@ -246,7 +257,7 @@ def main():
     print("\nCommitting and pushing to GitHub...")
     
     # Add all changes
-    if not run_git_command("git add images/ data.json"):
+    if not run_git_command("git add -A"):
         return 1
     
     # Commit

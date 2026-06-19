@@ -8,6 +8,13 @@
       "category": "uncategorized"
     },
     {
+      "id": "uncategorized_106",
+      "filename": "idle_20260619_184657_d04.jpg",
+      "prompt": "Idle 20260619 184657 D04",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "uncategorized_81",
       "filename": "idle_20260619_172817_260.jpg",
       "prompt": "Idle 20260619 172817 260",
@@ -478,8 +485,8 @@
     },
     {
       "id": "lotus_61",
-      "filename": "Sacred_lotus_Gustave_Doré__Franklin_Bo_20260616.jpg",
-      "prompt": "Sacred Lotus Gustave Doré Franklin Bo",
+      "filename": "Sacred_lotus_Gustave_Dor\u00e9__Franklin_Bo_20260616.jpg",
+      "prompt": "Sacred Lotus Gustave Dor\u00e9 Franklin Bo",
       "theme": "lotus",
       "category": "lotus"
     },
@@ -506,57 +513,57 @@
     },
     {
       "id": "lotus_64",
-      "filename": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616_1.jpg",
-      "prompt": "Lotus Of Wisdom Gustave Doré Franklin 20260616 1",
+      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616_1.jpg",
+      "prompt": "Lotus Of Wisdom Gustave Dor\u00e9 Franklin 20260616 1",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_44",
-      "filename": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616.jpg",
-      "prompt": "Lotus Of Wisdom Gustave Doré Franklin",
+      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616.jpg",
+      "prompt": "Lotus Of Wisdom Gustave Dor\u00e9 Franklin",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_28",
-      "filename": "Lotus_of_Transcendence_Gustave_Doré__F_20260616_1.jpg",
-      "prompt": "Lotus Of Transcendence Gustave Doré F 20260616 1",
+      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616_1.jpg",
+      "prompt": "Lotus Of Transcendence Gustave Dor\u00e9 F 20260616 1",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_14",
-      "filename": "Lotus_of_Transcendence_Gustave_Doré__F_20260616.jpg",
-      "prompt": "Lotus Of Transcendence Gustave Doré F",
+      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616.jpg",
+      "prompt": "Lotus Of Transcendence Gustave Dor\u00e9 F",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_49",
-      "filename": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616_1.jpg",
-      "prompt": "Lotus Of Eternity Gustave Doré Frankl 20260616 1",
+      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616_1.jpg",
+      "prompt": "Lotus Of Eternity Gustave Dor\u00e9 Frankl 20260616 1",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_18",
-      "filename": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616.jpg",
-      "prompt": "Lotus Of Eternity Gustave Doré Frankl",
+      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616.jpg",
+      "prompt": "Lotus Of Eternity Gustave Dor\u00e9 Frankl",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_52",
-      "filename": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616_1.jpg",
-      "prompt": "Lotus Of Awakening Gustave Doré Frank 20260616 1",
+      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616_1.jpg",
+      "prompt": "Lotus Of Awakening Gustave Dor\u00e9 Frank 20260616 1",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_11",
-      "filename": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616.jpg",
-      "prompt": "Lotus Of Awakening Gustave Doré Frank",
+      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616.jpg",
+      "prompt": "Lotus Of Awakening Gustave Dor\u00e9 Frank",
       "theme": "lotus",
       "category": "lotus"
     },
@@ -1025,7 +1032,7 @@
     {
       "id": "mythology_03",
       "filename": "avatar_mythology_3.jpg",
-      "prompt": "Yggdrasil — Norse World Tree",
+      "prompt": "Yggdrasil \u2014 Norse World Tree",
       "theme": "mythology",
       "category": "mythology"
     },
@@ -1135,11 +1142,207 @@
       "category": "abstract"
     },
     {
-      "id": "uncategorized_106",
-      "filename": "idle_20260619_184657_d04.jpg",
-      "prompt": "Idle 20260619 184657 D04",
+      "id": "fantasy_09",
+      "filename": "A_mystical_dragon_curled_around_a_glowin_20260619.jpg",
+      "prompt": "Mystical Dragon Curled Around A Glowin 20260619",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "mythology_12",
+      "filename": "An_Egyptian_ankh_symbol_made_of_living_g_20260619.jpg",
+      "prompt": "An Egyptian Ankh Symbol Made Of Living G 20260619",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "fantasy_10",
+      "filename": "A_phoenix_rising_from_golden_flames_fea_20260619.jpg",
+      "prompt": "Phoenix Rising From Golden Flames Fea 20260619",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "abstract_27",
+      "filename": "Abstract_fluid_art_with_swirling_metalli_20260619.jpg",
+      "prompt": "Fluid Art With Swirling Metalli 20260619",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "lotus_88",
+      "filename": "A_lotus_flower_in_soft_watercolor_painti_20260619.jpg",
+      "prompt": "Lotus Flower In Soft Watercolor Painti 20260619",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "nature_06",
+      "filename": "A_giant_ancient_oak_tree_with_massive_ro_20260619.jpg",
+      "prompt": "Giant Ancient Oak Tree With Massive Ro 20260619",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "uncategorized_107",
+      "filename": "A_lone_figure_standing_on_a_cliff_edge_o_20260619.jpg",
+      "prompt": "Lone Figure Standing On A Cliff Edge O 20260619",
       "theme": "uncategorized",
       "category": "uncategorized"
+    },
+    {
+      "id": "scifi_15",
+      "filename": "An_astronaut_floating_in_zero_gravity_in_20260619.jpg",
+      "prompt": "An Astronaut Floating In Zero Gravity In 20260619",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "scifi_16",
+      "filename": "A_humanoid_robot_with_sleek_chrome_body_20260619.jpg",
+      "prompt": "Humanoid Robot With Sleek Chrome Body 20260619",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "abstract_28",
+      "filename": "Geometric_sacred_geometry_pattern_with_o_20260619.jpg",
+      "prompt": "Geometric Sacred Geometry Pattern With O 20260619",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "nature_07",
+      "filename": "A_Norse_world_tree_Yggdrasil_with_nine_r_20260619.jpg",
+      "prompt": "Norse World Tree Yggdrasil With Nine R 20260619",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "mythology_13",
+      "filename": "A_divine_figure_made_of_golden_light_ar_20260619.jpg",
+      "prompt": "Divine Figure Made Of Golden Light Ar 20260619",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "nature_08",
+      "filename": "A_field_of_wildflowers_stretching_to_the_20260619.jpg",
+      "prompt": "Field Of Wildflowers Stretching To The 20260619",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "scifi_17",
+      "filename": "A_futuristic_cyberpunk_cityscape_at_nigh_20260619.jpg",
+      "prompt": "Futuristic Cyberpunk Cityscape At Nigh 20260619",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "fantasy_11",
+      "filename": "A_magical_portal_swirling_with_cosmic_en_20260619.jpg",
+      "prompt": "Magical Portal Swirling With Cosmic En 20260619",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "uncategorized_108",
+      "filename": "idle_20260619_173623_56.jpg",
+      "prompt": "Idle 20260619 173623 56",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "portrait_14",
+      "filename": "An_elven_queen_with_silver_hair_and_glow_20260619.jpg",
+      "prompt": "An Elven Queen With Silver Hair And Glow 20260619",
+      "theme": "portrait",
+      "category": "portrait"
+    },
+    {
+      "id": "abstract_29",
+      "filename": "Abstract_glitch_art_portrait_fragmented_20260619.jpg",
+      "prompt": "Glitch Art Portrait Fragmented 20260619",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "fantasy_12",
+      "filename": "A_wise_old_wizard_with_a_long_white_bear_20260619.jpg",
+      "prompt": "Wise Old Wizard With A Long White Bear 20260619",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "lotus_89",
+      "filename": "A_single_lotus_flower_painted_in_traditi_20260619.jpg",
+      "prompt": "Single Lotus Flower Painted In Traditi 20260619",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "nature_09",
+      "filename": "A_serene_mountain_lake_at_sunrise_perfe_20260619.jpg",
+      "prompt": "Serene Mountain Lake At Sunrise Perfe 20260619",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "abstract_30",
+      "filename": "Minimalist_abstract_composition_of_soft_20260619.jpg",
+      "prompt": "Minimalist Abstract Composition Of Soft 20260619",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "nature_10",
+      "filename": "A_lone_wolf_howling_at_a_full_moon_on_a_20260619.jpg",
+      "prompt": "Lone Wolf Howling At A Full Moon On A 20260619",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "abstract_31",
+      "filename": "Abstract_fractal_spiral_pattern_resembli_20260619.jpg",
+      "prompt": "Fractal Spiral Pattern Resembli 20260619",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "lotus_90",
+      "filename": "A_lotus_flower_in_Japanese_ukiyo-e_woodb_20260619.jpg",
+      "prompt": "Lotus Flower In Japanese Ukiyo-E Woodb 20260619",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "mythology_14",
+      "filename": "The_Eye_of_Providence_inside_a_glowing_t_20260619.jpg",
+      "prompt": "The Eye Of Providence Inside A Glowing T 20260619",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "scifi_18",
+      "filename": "A_massive_generation_ship_traveling_thro_20260619.jpg",
+      "prompt": "Massive Generation Ship Traveling Thro 20260619",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "nature_11",
+      "filename": "A_coral_reef_underwater_scene_with_color_20260619.jpg",
+      "prompt": "Coral Reef Underwater Scene With Color 20260619",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "lotus_91",
+      "filename": "A_lotus_flower_blooming_from_cosmic_wate_20260619.jpg",
+      "prompt": "Lotus Flower Blooming From Cosmic Wate 20260619",
+      "theme": "lotus",
+      "category": "lotus"
     }
   ],
   "metadata": {
@@ -1162,12 +1365,12 @@
     "images_per_theme": 14,
     "format": "512x512 JPEG",
     "generated": "2026-06-19",
-    "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
+    "attribution": "Images generated via Pollinations.ai (Flux model) \u2014 free AI image generation API. https://pollinations.ai"
   },
   "_meta": {
-    "updatedAt": "2026-06-19T18:48:51.248895+00:00",
-    "updatedAtTimestamp": 1781894931,
+    "updatedAt": "2026-06-19T19:01:19.860346+00:00",
+    "updatedAtTimestamp": 1781895679,
     "totalImages": 192,
-    "lastDeployed": "Jun 19, 2026 at 06:48 PM"
+    "lastDeployed": "Jun 19, 2026 at 07:01 PM"
   }
 }
