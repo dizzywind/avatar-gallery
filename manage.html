@@ -286,6 +286,7 @@
 
     <div class="hidden" id="outputArea">
       <button class="btn accent" id="generateBtn">Generate Removal List</button>
+      <button class="btn" id="exportSelectedBtn">Save Updated data.json</button>
       <textarea id="output" readonly></textarea>
       <button class="btn" id="copyBtn">Copy to clipboard</button>
     </div>
@@ -424,6 +425,17 @@
         getFiltered().forEach(a => selected.delete(a.filename));
         renderGrid();
       });
+      function downloadUrl(filename, content, mime) {
+        const url = URL.createObjectURL(new Blob([content], { type: mime }));
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }
+
       document.getElementById('generateBtn').addEventListener('click', () => {
         const selectedArr = Array.from(selected);
         const out = selectedArr.map(f => 'remove ' + f).join('\n');
@@ -441,6 +453,50 @@
           ta.select();
           document.execCommand('copy');
         });
+      });
+      document.getElementById('exportSelectedBtn').addEventListener('click', async () => {
+        const selectedArr = Array.from(selected);
+        if (!selectedArr.length) return;
+        const ids = selectedArr.join(',');
+        const res = await fetch('/delete-manifest?selected=' + encodeURIComponent(ids), { cache: 'no-store' });
+        if (!res.ok) throw new Error('manifest HTTP ' + res.status);
+        const data = await res.json();
+        downloadUrl('delete-manifest.json', JSON.stringify(data, null, 2), 'application/json');
+      });
+      document.getElementById('removeSelected').addEventListener('click', async () => {
+        const selectedArr = Array.from(selected);
+        if (!selectedArr.length) return;
+        if (!confirm('Mark ' + selectedArr.length + ' selected image(s) as deleted and update data.json?')) return;
+        const ids = selectedArr.join(',');
+        const res = await fetch('/delete-manifest?selected=' + encodeURIComponent(ids), { cache: 'no-store' });
+        if (!res.ok) throw new Error('manifest HTTP ' + res.status);
+        const json = await res.json();
+        const manifest = json.manifest || [];
+        const manifestNames = new Set(manifest.filter(Boolean).map(Boolean));
+        try {
+          const dataRes = await fetch('data.json', { cache: 'no-store' });
+          const data = await dataRes.json();
+          const originalCount = (data.avatars || []).length;
+          const updated = (data.avatars || []).map(a => ({
+            ...a,
+            filename: manifestNames.has(a.filename) ? '__delete__' + a.filename : a.filename
+          }));
+          const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = 'data.json';
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+          selected.clear();
+          avatars = updated;
+          renderGrid();
+          alert('Downloaded updated data.json with ' + (originalCount - updated.filter(a => !a.filename.startsWith('__delete__')).length) + ' deletions.');
+        } catch (err) {
+          alert('Failed to update data.json: ' + err.message);
+        }
       });
     }
 
