@@ -4,11 +4,36 @@ let avatars = [];
 let filteredAvatars = [];
 let currentLightboxIndex = 0;
 
+// Utility: fetch with retry
+async function fetchWithRetry(url, options = {}, retries = 3, delay = 500) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const response = await fetch(url, options);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response;
+    } catch (error) {
+      if (attempt === retries) throw error;
+      console.warn(`Fetch attempt ${attempt} failed, retrying in ${delay}ms...`, error);
+      await new Promise(r => setTimeout(r, delay));
+    }
+  }
+}
+
+// Show/hide loading state
+function setLoading(isLoading) {
+  const grid = document.getElementById('galleryGrid');
+  const noResults = document.getElementById('noResults');
+  if (isLoading) {
+    grid.innerHTML = '<div class="loading-spinner" style="grid-column: 1/-1; display:flex; justify-content:center; align-items:center; padding:3rem;"></div>';
+    noResults.hidden = true;
+  }
+}
+
 // Initialize gallery
 async function initGallery() {
+  setLoading(true);
   try {
-    const response = await fetch('data.json');
-    if (!response.ok) throw new Error('Failed to load data.json');
+    const response = await fetchWithRetry('data.json');
     const data = await response.json();
     avatars = data.avatars;
     filteredAvatars = [...avatars];
@@ -16,7 +41,8 @@ async function initGallery() {
     setupEventListeners();
   } catch (error) {
     console.error('Gallery initialization failed:', error);
-    document.getElementById('galleryGrid').innerHTML =
+    const grid = document.getElementById('galleryGrid');
+    grid.innerHTML =
       '<p class="no-results" style="grid-column: 1/-1;">Failed to load gallery data.</p>';
   }
 }

@@ -123,6 +123,7 @@ body {
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   aspect-ratio: 1;
+  position: relative;
 }
 
 .gallery-item:hover {
@@ -185,6 +186,19 @@ body {
   color: var(--text-secondary);
   font-size: 1.125rem;
   grid-column: 1 / -1;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 .gallery-footer {
