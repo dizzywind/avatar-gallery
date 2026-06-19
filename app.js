@@ -35,6 +35,17 @@ async function fetchWithRetry(url, options = {}, retries = 3, delay = 500) {
   }
 }
 
+// Sort descending by date embedded in filename; undated items come last.
+function sortAvatarsDesc(avatars) {
+  const datePattern = /(\d{8})/;
+  return avatars.slice().sort((a, b) => {
+    const da = (a.filename.match(datePattern) || [])[1] || '00000000';
+    const db = (b.filename.match(datePattern) || [])[1] || '00000000';
+    if (db !== da) return db.localeCompare(da);
+    return b.filename.localeCompare(a.filename);
+  });
+}
+
 // Show/hide loading state
 function setLoading(isLoading) {
   const grid = document.getElementById('galleryGrid');
@@ -51,7 +62,7 @@ async function initGallery() {
   try {
     const response = await fetchWithRetry('data.json');
     const data = await response.json();
-    avatars = data.avatars || [];
+    avatars = sortAvatarsDesc(data.avatars || []);
     filteredAvatars = [...avatars];
     renderGallery();
     updateLastUpdated(data);
