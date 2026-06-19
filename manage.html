@@ -379,8 +379,8 @@
 
     function updateStats() {
       const el = document.getElementById('stats');
-      el.textContent = 'Total selected: ' + selected.size;
-      if (avatars.length) el.classList.remove('hidden');
+      el.textContent = selected.size + ' image' + (selected.size === 1 ? '' : 's') + ' selected';
+      el.classList.remove('hidden');
     }
 
     async function init() {
