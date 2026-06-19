@@ -5,6 +5,7 @@ Scans /data/hermes/media/images/ for new images, copies them to repo,
 updates data.json with theme detection, commits and pushes to GitHub.
 """
 
+import hashlib
 import os
 import json
 import shutil
@@ -63,6 +64,17 @@ def get_existing_image_files(images_dir):
     return {f.name for f in images_dir.iterdir() if f.is_file() and f.suffix.lower() in [".jpg", ".jpeg", ".png"]}
 
 
+def get_existing_image_hashes(images_dir):
+    """Return {filename: md5_hex} for current repo images."""
+    hashes = {}
+    for f in sorted(images_dir.iterdir()):
+        if not f.is_file() or f.suffix.lower() not in [".jpg", ".jpeg", ".png"]:
+            continue
+        with open(f, "rb") as fp:
+            hashes[f.name] = hashlib.md5(fp.read()).hexdigest()
+    return hashes
+
+
 def detect_theme(filename):
     """Detect theme from filename using keyword matching"""
     filename_lower = filename.lower()
@@ -75,23 +87,14 @@ def detect_theme(filename):
 
 def generate_prompt(filename):
     """Generate human-readable prompt from filename"""
-    # Remove extension and date patterns
     prompt = filename
     for pattern in CLEAN_PATTERNS:
         prompt = re.sub(pattern, " ", prompt, flags=re.IGNORECASE)
-    
-    # Replace underscores with spaces
+
     prompt = prompt.replace("_", " ")
-    
-    # Clean up multiple spaces
     prompt = re.sub(r"\s+", " ", prompt).strip()
-    
-    # Title case
     prompt = prompt.title()
-    
-    # Fix common acronyms
     prompt = prompt.replace("Ai ", "AI ").replace("A I", "AI")
-    
     return prompt
 
 
@@ -112,8 +115,7 @@ def get_next_id(theme, existing_avatars):
         "animals": "animals",
         "retro": "retro",
     }.get(theme, "uncategorized")
-    
-    # Find highest existing number for this theme
+
     max_num = 0
     for avatar in existing_avatars:
         if avatar["id"].startswith(theme_prefix + "_"):
@@ -122,7 +124,7 @@ def get_next_id(theme, existing_avatars):
                 max_num = max(max_num, num)
             except (ValueError, IndexError):
                 pass
-    
+
     return f"{theme_prefix}_{max_num + 1:02d}"
 
 
@@ -152,27 +154,25 @@ def main():
     print("Avatar Gallery Auto-Deploy")
     print(f"Started: {datetime.now().isoformat()}")
     print("=" * 60)
-    
-    # Ensure images directory exists
+
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
-    
-    # Get existing files
+
     existing_filenames = get_existing_filenames(DATA_JSON)
     existing_image_files = get_existing_image_files(IMAGES_DIR)
+    existing_image_hashes = get_existing_image_hashes(IMAGES_DIR)
     print(f"Existing in data.json: {len(existing_filenames)}")
     print(f"Existing in images/: {len(existing_image_files)}")
-    
-    # Load current data.json
+
     if DATA_JSON.exists():
         with open(DATA_JSON) as f:
             data = json.load(f)
     else:
         data = {"avatars": [], "metadata": {}}
-    
+
     avatars = data.get("avatars", [])
+    existing_avatars = list(avatars)
     avatars = sort_avatars(avatars)
-    
-    # Backfill category field for existing items lacking it
+
     backfilled = 0
     for avatar in avatars:
         theme = avatar.get("theme")
@@ -181,40 +181,57 @@ def main():
             backfilled += 1
     if backfilled:
         print(f"Backfilled category for {backfilled} existing avatars")
-    
-    # Scan source directory for new images
+
     new_images = []
+    empty_skips = []
+    dup_skips = []
     for img_path in SOURCE_DIR.iterdir():
         if not img_path.is_file():
             continue
         if img_path.suffix.lower() not in [".jpg", ".jpeg", ".png"]:
             continue
         if img_path.name in existing_filenames or img_path.name in existing_image_files:
+            dup_skips.append(img_path.name)
+            continue
+        if img_path.exists() and img_path.stat().st_size == 0:
+            empty_skips.append(img_path.name)
             continue
         new_images.append(img_path)
-    
+
     print(f"Found {len(new_images)} new images to deploy")
-    
+    if empty_skips:
+        print(f"Skipped {len(empty_skips)} 0-byte source images")
+    if dup_skips:
+        print(f"Skipped {len(dup_skips)} source files already in repo")
     if not new_images:
         print("No new images to deploy. Exiting.")
         return 0
-    
-    # Process each new image
+
     added_count = 0
     for img_path in new_images:
         filename = img_path.name
-        
-        # Detect theme and generate prompt
+
+        if not img_path.exists() or img_path.stat().st_size == 0:
+            print(f"Skipping 0-byte source image: {filename}")
+            empty_skips.append(filename)
+            continue
+
+        source = img_path.read_bytes()
+        source_hash = hashlib.md5(source).hexdigest()
+        if source_hash in existing_image_hashes.values():
+            print(f"Skipping duplicate content for: {filename}")
+            dup_skips.append(filename)
+            continue
+
         theme = detect_theme(filename)
         prompt = generate_prompt(filename)
-        avatar_id = get_next_id(theme, avatars)
-        
-        # Copy image to repo
+        avatar_id = get_next_id(theme, existing_avatars)
         dest_path = IMAGES_DIR / filename
+
         shutil.copy2(img_path, dest_path)
+        existing_image_hashes[filename] = source_hash
         print(f"Copied: {filename} -> {dest_path}")
-        
-        # Add to avatars list
+
         new_avatar = {
             "id": avatar_id,
             "filename": filename,
@@ -223,15 +240,15 @@ def main():
             "category": theme,
         }
         avatars.append(new_avatar)
+        existing_avatars.append(new_avatar)
         added_count += 1
         print(f"  Added: {avatar_id} | Theme: {theme} | Prompt: {prompt}")
-    
+
     if added_count == 0:
         print("No new images added.")
         return 0
-    
-    # Update metadata
-    themes = sorted(set(a["theme"] for a in avatars))
+
+    themes = sorted({a["theme"] for a in avatars})
     data["avatars"] = avatars
     data["metadata"] = {
         "total": len(avatars),
@@ -247,38 +264,32 @@ def main():
         "totalImages": len(avatars),
         "lastDeployed": datetime.now(timezone.utc).strftime("%b %d, %Y at %I:%M %p"),
     }
-    
-    # Write updated data.json
+
     with open(DATA_JSON, "w") as f:
         json.dump(data, f, indent=2)
     print(f"Updated data.json: {len(avatars)} total avatars")
-    
-    # Git operations
+
     print("\nCommitting and pushing to GitHub...")
-    
-    # Add all changes
+
     if not run_git_command("git add -A"):
         return 1
-    
-    # Commit
+
     commit_msg = f"Auto-deploy: Add {added_count} new images ({datetime.now().strftime('%Y-%m-%d %H:%M')})"
     if not run_git_command(f'git commit -m "{commit_msg}"'):
         print("No changes to commit or commit failed")
         return 1
-    
-    # Sync with remote before pushing to avoid non-fast-forward errors after PR merges
+
     if not run_git_command("git fetch origin master"):
         print("Fetch failed")
         return 1
     if not run_git_command("git rebase origin/master"):
         print("Rebase failed")
         return 1
-    
-    # Push
+
     if not run_git_command("git push origin master"):
         print("Push failed")
         return 1
-    
+
     print("Push successful! GitHub Pages will deploy automatically.")
     print(f"\nCompleted: {datetime.now().isoformat()}")
     print(f"Added {added_count} images")
