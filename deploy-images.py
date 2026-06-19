@@ -126,6 +126,16 @@ def get_next_id(theme, existing_avatars):
     return f"{theme_prefix}_{max_num + 1:02d}"
 
 
+def sort_avatars(avatars):
+    """Sort avatars newest-first based on date in filename; ties/without-date go last."""
+
+    def sort_key(a):
+        m = re.search(r'(20\d{6})', a.get('filename', ''))
+        return (m.group(1) if m else '00000000', a.get('filename', ''))
+
+    return sorted(avatars, key=sort_key, reverse=True)
+
+
 def run_git_command(cmd, cwd=REPO_DIR):
     """Run a git command and return result"""
     result = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, shell=True)
@@ -160,6 +170,7 @@ def main():
         data = {"avatars": [], "metadata": {}}
     
     avatars = data.get("avatars", [])
+    avatars = sort_avatars(avatars)
     
     # Scan source directory for new images
     new_images = []
