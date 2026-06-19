@@ -1151,10 +1151,58 @@
       "filename": "lotus_minimalist.jpg",
       "prompt": "Lotus Minimalist",
       "theme": "lotus"
+    },
+    {
+      "id": "uncategorized_37",
+      "filename": "idle_20260619_172306_bb4.jpg",
+      "prompt": "Idle 20260619 172306 Bb4",
+      "theme": "uncategorized"
+    },
+    {
+      "id": "uncategorized_38",
+      "filename": "idle_20260619_172408_559.jpg",
+      "prompt": "Idle 20260619 172408 559",
+      "theme": "uncategorized"
+    },
+    {
+      "id": "uncategorized_39",
+      "filename": "idle_20260619_172817_260.jpg",
+      "prompt": "Idle 20260619 172817 260",
+      "theme": "uncategorized"
+    },
+    {
+      "id": "uncategorized_40",
+      "filename": "idle_20260619_172513_bc5.jpg",
+      "prompt": "Idle 20260619 172513 Bc5",
+      "theme": "uncategorized"
+    },
+    {
+      "id": "uncategorized_41",
+      "filename": "idle_20260619_172717_9cc.jpg",
+      "prompt": "Idle 20260619 172717 9Cc",
+      "theme": "uncategorized"
+    },
+    {
+      "id": "uncategorized_42",
+      "filename": "idle_20260619_172920_ba5.jpg",
+      "prompt": "Idle 20260619 172920 Ba5",
+      "theme": "uncategorized"
+    },
+    {
+      "id": "uncategorized_43",
+      "filename": "idle_20260619_172616_211.jpg",
+      "prompt": "Idle 20260619 172616 211",
+      "theme": "uncategorized"
+    },
+    {
+      "id": "uncategorized_44",
+      "filename": "idle_20260619_173020_f09.jpg",
+      "prompt": "Idle 20260619 173020 F09",
+      "theme": "uncategorized"
     }
   ],
   "metadata": {
-    "total": 192,
+    "total": 200,
     "themes": [
       "abstract",
       "animals",
@@ -1170,15 +1218,15 @@
       "uncategorized",
       "watercolor"
     ],
-    "images_per_theme": 14,
+    "images_per_theme": 15,
     "format": "512x512 JPEG",
     "generated": "2026-06-19",
     "attribution": "Images generated via Pollinations.ai (Flux model) \u2014 free AI image generation API. https://pollinations.ai"
   },
   "_meta": {
-    "updatedAt": "2026-06-19T17:16:18.580611+00:00",
-    "updatedAtTimestamp": 1781889378,
-    "totalImages": 192,
-    "lastDeployed": "Jun 19, 2026 at 05:16 PM"
+    "updatedAt": "2026-06-19T17:31:21.294502+00:00",
+    "updatedAtTimestamp": 1781890281,
+    "totalImages": 200,
+    "lastDeployed": "Jun 19, 2026 at 05:31 PM"
   }
 }
