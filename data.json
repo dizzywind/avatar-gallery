@@ -50,13 +50,6 @@
       "category": "lotus"
     },
     {
-      "id": "lotus_67",
-      "filename": "Zen_ink_wash_painting_of_a_single_lotus_20260619.jpg",
-      "prompt": "Zen Ink Wash Painting Of A Single Lotus",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
       "id": "lotus_33",
       "filename": "Zen_ink_wash_lotus_icon_small_minimalis_20260619.jpg",
       "prompt": "Zen Ink Wash Lotus Icon Small Minimalis",
@@ -141,13 +134,6 @@
       "category": "lotus"
     },
     {
-      "id": "lotus_46",
-      "filename": "Sacred_geometry_lotus_flower_Flower_of_20260619_1.jpg",
-      "prompt": "Sacred Geometry Lotus Flower Flower Of 20260619 1",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
       "id": "lotus_81",
       "filename": "Sacred_geometry_lotus_flower_Flower_of_20260619.jpg",
       "prompt": "Sacred Geometry Lotus Flower Flower Of 20260619",
@@ -167,48 +153,6 @@
       "prompt": "Sacred Geometry Background Texture Deep",
       "theme": "mythology",
       "category": "mythology"
-    },
-    {
-      "id": "lotus_24",
-      "filename": "One_line_drawing_of_a_lotus_flower_sing_20260619.jpg",
-      "prompt": "One Line Drawing Of A Lotus Flower Sing",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "minimalist_04",
-      "filename": "Minimalist_single_continuous_line_art_of_20260619.jpg",
-      "prompt": "Minimalist Single Continuous Line Art Of",
-      "theme": "minimalist",
-      "category": "minimalist"
-    },
-    {
-      "id": "lotus_71",
-      "filename": "Minimalist_lotus_flower_single_continuou_20260619.jpg",
-      "prompt": "Minimalist Lotus Flower Single Continuou 20260619",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_59",
-      "filename": "Minimalist_line_art_of_a_lotus_flower_s_20260619_1.jpg",
-      "prompt": "Minimalist Line Art Of A Lotus Flower S 20260619 1",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_62",
-      "filename": "Minimalist_line_art_of_a_lotus_flower_s_20260619.jpg",
-      "prompt": "Minimalist Line Art Of A Lotus Flower S",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_70",
-      "filename": "Minimalist_line_art_lotus_icon_small_lo_20260619.jpg",
-      "prompt": "Minimalist Line Art Lotus Icon Small Lo 20260619",
-      "theme": "lotus",
-      "category": "lotus"
     },
     {
       "id": "minimalist_02",
@@ -246,13 +190,6 @@
       "category": "tattoo"
     },
     {
-      "id": "lotus_87",
-      "filename": "A_sacred_geometry_lotus_mandala_perfect_20260619.jpg",
-      "prompt": "Sacred Geometry Lotus Mandala Perfect 20260619",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
       "id": "uncategorized_29",
       "filename": "retro_avatar_portrait_1980s_synthwave_s_20260618.jpg",
       "prompt": "Retro Avatar Portrait 1980S Synthwave S",
@@ -274,13 +211,6 @@
       "category": "nature"
     },
     {
-      "id": "minimalist_03",
-      "filename": "minimalist_avatar_portrait_simple_geome_20260618.jpg",
-      "prompt": "Minimalist Avatar Portrait Simple Geome",
-      "theme": "minimalist",
-      "category": "minimalist"
-    },
-    {
       "id": "abstract_26",
       "filename": "minimalist_avatar_portrait_abstract_wat_20260618.jpg",
       "prompt": "Minimalist Avatar Portrait Abstract Wat",
@@ -288,25 +218,11 @@
       "category": "abstract"
     },
     {
-      "id": "fantasy_08",
-      "filename": "fantasy_avatar_portrait_wise_old_wizard_20260618.jpg",
-      "prompt": "Fantasy Avatar Portrait Wise Old Wizard",
-      "theme": "fantasy",
-      "category": "fantasy"
-    },
-    {
       "id": "uncategorized_31",
       "filename": "fantasy_avatar_portrait_elven_warrior_w_20260618.jpg",
       "prompt": "Fantasy Avatar Portrait Elven Warrior W",
       "theme": "fantasy",
       "category": "fantasy"
-    },
-    {
-      "id": "scifi_13",
-      "filename": "cyberpunk_avatar_portrait_neon-lit_face_20260618.jpg",
-      "prompt": "Cyberpunk Avatar Portrait Neon-Lit Face",
-      "theme": "sci-fi",
-      "category": "sci-fi"
     },
     {
       "id": "scifi_07",
@@ -447,27 +363,6 @@
       "prompt": "Monochrome Black And White Portrait Of A",
       "theme": "sci-fi",
       "category": "sci-fi"
-    },
-    {
-      "id": "portrait_02",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617_1.jpg",
-      "prompt": "Avatar Concept For AI Assistant Hermes A 20260617 1",
-      "theme": "portrait",
-      "category": "portrait"
-    },
-    {
-      "id": "portrait_09",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg",
-      "prompt": "Avatar Concept For AI Assistant Hermes A 20260617",
-      "theme": "portrait",
-      "category": "portrait"
-    },
-    {
-      "id": "portrait_04",
-      "filename": "Anime-style_female_character_as_AI_agent_20260617.jpg",
-      "prompt": "Anime-Style Female Character As AI Agent 20260617",
-      "theme": "portrait",
-      "category": "portrait"
     },
     {
       "id": "lotus_27",
@@ -890,13 +785,6 @@
       "category": "abstract"
     },
     {
-      "id": "tattoo_12",
-      "filename": "duck_tribal_svg_20260522.png",
-      "prompt": "Duck Tribal Svg 20260522",
-      "theme": "tattoo",
-      "category": "tattoo"
-    },
-    {
       "id": "uncategorized_04",
       "filename": "duck_tribal_20260522.jpg",
       "prompt": "Duck Tribal",
@@ -928,13 +816,6 @@
       "id": "lotus_29",
       "filename": "lotus_avatar_watercolor.jpg",
       "prompt": "Lotus Avatar Watercolor",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_53",
-      "filename": "lotus_avatar_lineart.jpg",
-      "prompt": "Lotus Avatar Lineart",
       "theme": "lotus",
       "category": "lotus"
     },
