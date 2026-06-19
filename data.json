@@ -1073,10 +1073,88 @@
       "filename": "idle_verify_20260619_1218_ba.jpg",
       "prompt": "Idle Verify 20260619 1218 Ba",
       "theme": "uncategorized"
+    },
+    {
+      "id": "portrait_01",
+      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525_1.jpg",
+      "prompt": "Avatar Concept For An AI Assistant Named 20260525 1",
+      "theme": "portrait"
+    },
+    {
+      "id": "portrait_02",
+      "filename": "Anime-style_female_character_as_AI_agent_20260617.jpg",
+      "prompt": "Anime-Style Female Character As AI Agent 20260617",
+      "theme": "portrait"
+    },
+    {
+      "id": "portrait_03",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_4.jpg",
+      "prompt": "Portrait Of A Handsome Young East Asian 20260525 4",
+      "theme": "portrait"
+    },
+    {
+      "id": "portrait_04",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525.jpg",
+      "prompt": "Portrait Of A Handsome Young East Asian 20260525",
+      "theme": "portrait"
+    },
+    {
+      "id": "lotus_70",
+      "filename": "Minimalist_line_art_lotus_icon_small_lo_20260619.jpg",
+      "prompt": "Minimalist Line Art Lotus Icon Small Lo 20260619",
+      "theme": "lotus"
+    },
+    {
+      "id": "lotus_71",
+      "filename": "Minimalist_lotus_flower_single_continuou_20260619.jpg",
+      "prompt": "Minimalist Lotus Flower Single Continuou 20260619",
+      "theme": "lotus"
+    },
+    {
+      "id": "tattoo_12",
+      "filename": "duck_tribal_svg_20260522.png",
+      "prompt": "Duck Tribal Svg 20260522",
+      "theme": "tattoo"
+    },
+    {
+      "id": "portrait_05",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_2.jpg",
+      "prompt": "Avatar Concept For AI Assistant Hermes 20260525 2",
+      "theme": "portrait"
+    },
+    {
+      "id": "portrait_06",
+      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525.jpg",
+      "prompt": "Avatar Concept For An AI Assistant Named 20260525",
+      "theme": "portrait"
+    },
+    {
+      "id": "portrait_07",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg",
+      "prompt": "Avatar Concept For AI Assistant Hermes A 20260617",
+      "theme": "portrait"
+    },
+    {
+      "id": "portrait_08",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_3.jpg",
+      "prompt": "Portrait Of A Handsome Young East Asian 20260525 3",
+      "theme": "portrait"
+    },
+    {
+      "id": "portrait_09",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_1.jpg",
+      "prompt": "Portrait Of A Handsome Young East Asian 20260525 1",
+      "theme": "portrait"
+    },
+    {
+      "id": "lotus_72",
+      "filename": "lotus_minimalist.jpg",
+      "prompt": "Lotus Minimalist",
+      "theme": "lotus"
     }
   ],
   "metadata": {
-    "total": 194,
+    "total": 192,
     "themes": [
       "abstract",
       "animals",
@@ -1098,9 +1176,9 @@
     "attribution": "Images generated via Pollinations.ai (Flux model) \u2014 free AI image generation API. https://pollinations.ai"
   },
   "_meta": {
-    "updatedAt": "2026-06-19T15:16:22.887768+00:00",
-    "updatedAtTimestamp": 1781882182,
-    "totalImages": 194,
-    "lastDeployed": "Jun 19, 2026 at 03:16 PM"
+    "updatedAt": "2026-06-19T17:01:21.348585+00:00",
+    "updatedAtTimestamp": 1781888481,
+    "totalImages": 192,
+    "lastDeployed": "Jun 19, 2026 at 05:01 PM"
   }
 }
