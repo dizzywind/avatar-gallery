@@ -135,7 +135,7 @@
     {
       "id": "mythology_03",
       "filename": "avatar_mythology_3.jpg",
-      "prompt": "Yggdrasil — Norse World Tree",
+      "prompt": "Yggdrasil \u2014 Norse World Tree",
       "theme": "mythology"
     },
     {
@@ -153,40 +153,52 @@
     {
       "id": "lotus_01",
       "filename": "avatar_lotus_1.jpg",
-      "prompt": "Sacred Lotus at Dawn",
-      "theme": "lotus"
+      "prompt": "Zen Ink Wash \u2014 black ink brush painting, minimalist sumi-e style, white background, elegant brush strokes, negative space",
+      "theme": "lotus",
+      "style": "Zen Ink Wash"
     },
     {
       "id": "lotus_02",
       "filename": "avatar_lotus_2.jpg",
-      "prompt": "Golden Lotus Mandala",
-      "theme": "lotus"
+      "prompt": "Ukiyo-e Woodblock \u2014 Japanese woodblock print style, flat bold colors, strong black outlines, traditional Edo-period art",
+      "theme": "lotus",
+      "style": "Ukiyo-e Woodblock"
     },
     {
       "id": "lotus_03",
       "filename": "avatar_lotus_3.jpg",
-      "prompt": "Crystal Lotus in Cosmic Void",
-      "theme": "lotus"
+      "prompt": "Watercolor Devotional \u2014 soft watercolor painting, pastel pink and lavender tones, spiritual devotional art, ethereal glow",
+      "theme": "lotus",
+      "style": "Watercolor Devotional"
     },
     {
       "id": "lotus_04",
       "filename": "avatar_lotus_4.jpg",
-      "prompt": "Watercolor Dream Lotus",
-      "theme": "lotus"
+      "prompt": "Sacred Geometry Digital \u2014 geometric mandala patterns, digital art, symmetrical lotus design, purple and gold palette",
+      "theme": "lotus",
+      "style": "Sacred Geometry Digital"
     },
     {
       "id": "lotus_05",
       "filename": "avatar_lotus_5.jpg",
-      "prompt": "Cosmic Lotus Bloom",
-      "theme": "lotus"
+      "prompt": "Minimalist Line Art \u2014 single continuous line drawing, ultra-minimal, clean black line on white background",
+      "theme": "lotus",
+      "style": "Minimalist Line Art"
     }
   ],
   "metadata": {
     "total": 30,
-    "themes": ["fantasy", "sci-fi", "nature", "abstract", "mythology", "lotus"],
+    "themes": [
+      "fantasy",
+      "sci-fi",
+      "nature",
+      "abstract",
+      "mythology",
+      "lotus"
+    ],
     "images_per_theme": 5,
     "format": "512x512 JPEG",
     "generated": "2026-06-19",
-    "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
+    "attribution": "Images generated via Pollinations.ai (Flux model) \u2014 free AI image generation API. https://pollinations.ai"
   }
 }
