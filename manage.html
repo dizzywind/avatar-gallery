@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avatar Gallery — Manage Images</title>
+  <style>
+    :root {
+      --bg-primary: #0d0d0d;
+      --bg-secondary: #1a1a1a;
+      --bg-tertiary: #242424;
+      --text-primary: #f0f0f0;
+      --text-secondary: #a0a0a0;
+      --accent: #00d4aa;
+      --accent-hover: #00e8bb;
+      --accent-soft: rgba(0, 212, 170, 0.15);
+      --border: #333;
+      --error: #ef4444;
+      --error-soft: rgba(239, 68, 68, 0.2);
+      --radius: 10px;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-primary: #f8f8f8;
+        --bg-secondary: #ffffff;
+        --bg-tertiary: #f0f0f0;
+        --text-primary: #1a1a1a;
+        --text-secondary: #555;
+        --accent: #00a888;
+        --accent-hover: #00c898;
+        --accent-soft: rgba(0, 168, 136, 0.15);
+        --border: #ddd;
+        --error: #dc2626;
+        --error-soft: rgba(220, 38, 38, 0.15);
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.4;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 16px;
+      padding-bottom: 96px;
+    }
+    header {
+      margin-bottom: 16px;
+    }
+    header h1 {
+      font-size: 1.4rem;
+      letter-spacing: 0.3px;
+    }
+    header p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .toolbar select,
+    .toolbar input {
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      border: 1px solid var(--border);
+      padding: 8px 10px;
+      border-radius: var(--radius);
+      font-size: 0.95rem;
+    }
+    .toolbar input { flex: 1; min-width: 180px; }
+    .btn {
+      border: 1px solid var(--border);
+      background: var(--bg-tertiary);
+      color: var(--text-primary);
+      padding: 8px 12px;
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+    .btn:hover { border-color: var(--accent); }
+    .btn.accent {
+      background: var(--accent);
+      color: #0a0a0a;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+    .btn.accent:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+    .stats {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+    }
+    .card {
+      position: relative;
+      background: var(--bg-secondary);
+      border: 2px solid transparent;
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: transform .1s ease, border-color .1s ease;
+      cursor: pointer;
+    }
+    .card:hover .hover-overlay,
+    .card:focus-visible .hover-overlay {
+      opacity: 1;
+    }
+    .card.selected { border-color: var(--error); }
+    .card.selected .check-overlay { opacity: 1; }
+    .card img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+      background: var(--bg-tertiary);
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    .card .meta {
+      padding: 8px;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .card .theme-badge {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: rgba(0,0,0,0.55);
+      color: var(--text-primary);
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      text-transform: capitalize;
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(2px);
+      z-index: 2;
+      pointer-events: none;
+    }
+    .hover-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.25);
+      opacity: 0;
+      transition: opacity .15s ease;
+      pointer-events: none;
+      z-index: 3;
+    }
+    .card.selected .hover-overlay {
+      background: var(--error-soft);
+      opacity: 1;
+    }
+    .check-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(239, 68, 68, 0.25);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 2;
+      box-shadow: inset 0 0 0 3px var(--error);
+    }
+    .checkbox-wrap {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      z-index: 4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .checkbox-pill {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      background: rgba(0,0,0,0.45);
+      border: 2px solid rgba(255,255,255,0.85);
+      border-radius: 50%;
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+      transition: transform .1s ease, background .1s ease;
+    }
+    .checkbox-wrap input {
+      width: 18px;
+      height: 18px;
+      accent-color: #fff;
+      background: transparent;
+      cursor: pointer;
+      position: relative;
+      z-index: 5;
+    }
+    .bottom-bar {
+      position: fixed;
+      left: 0; right: 0; bottom: 0;
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border);
+      padding: 12px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .bottom-bar .left { display: flex; gap: 10px; flex-wrap: wrap; }
+    .bottom-bar .right { color: var(--text-secondary); font-size: 0.95rem; }
+    textarea {
+      width: 100%;
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 10px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.9rem;
+      margin: 10px 0;
+      min-height: 90px;
+    }
+    .hidden { display: none; }
+    @media (max-width: 480px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+      .checkbox-pill {
+        width: 40px;
+        height: 40px;
+        border-width: 3px;
+      }
+      .checkbox-wrap input {
+        width: 22px;
+        height: 22px;
+      }
+      .checkbox-wrap { top: 6px; right: 6px; }
+      .card .theme-badge { top: 6px; left: 6px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Manage Images</h1>
+      <p>Select images to remove. Click the image or checkbox to toggle.</p>
+      <p class="stats hidden" id="stats"></p>
+    </header>
+
+    <div class="toolbar">
+      <select id="themeFilter"><option value="all">All themes</option></select>
+      <input id="search" placeholder="Search by prompt…" />
+      <button class="btn" id="selectAll">Select all</button>
+      <button class="btn" id="deselectAll">Deselect all</button>
+    </div>
+
+    <div id="grid" class="grid"></div>
+
+    <div class="hidden" id="outputArea">
+      <button class="btn accent" id="generateBtn">Generate Removal List</button>
+      <textarea id="output" readonly></textarea>
+      <button class="btn" id="copyBtn">Copy to clipboard</button>
+    </div>
+  </div>
+
+  <div class="bottom-bar">
+    <div class="left">
+      <button class="btn accent" id="removeSelected" disabled>Remove Selected</button>
+    </div>
+    <div class="right" id="count">0 images selected</div>
+  </div>
+
+  <script>
+    let avatars = [];
+    let selected = new Set();
+
+    function renderThemeFilter() {
+      const themes = Array.from(new Set(avatars.map(a => a.theme))).sort();
+      const sel = document.getElementById('themeFilter');
+      themes.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        sel.appendChild(opt);
+      });
+    }
+
+    function getFiltered() {
+      const theme = document.getElementById('themeFilter').value;
+      const q = document.getElementById('search').value.trim().toLowerCase();
+      return avatars.filter(a => {
+        if (theme !== 'all' && a.theme !== theme) return false;
+        if (q && !(a.prompt || '').toLowerCase().includes(q)) return false;
+        return true;
+      });
+    }
+
+    function renderGrid() {
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
+      const filtered = getFiltered();
+      if (!filtered.length) {
+        grid.innerHTML = '<p style="color:var(--text-secondary)">No images match.</p>';
+        updateButtons();
+        return;
+      }
+      filtered.forEach(a => {
+        const card = document.createElement('div');
+        card.className = 'card' + (selected.has(a.filename) ? ' selected' : '');
+        const img = document.createElement('img');
+        img.src = '../images/' + a.filename;
+        img.alt = a.prompt;
+        img.loading = 'lazy';
+        img.draggable = false;
+
+        const hover = document.createElement('div');
+        hover.className = 'hover-overlay';
+
+        const checkOverlay = document.createElement('div');
+        checkOverlay.className = 'check-overlay';
+
+        const theme = document.createElement('div');
+        theme.className = 'theme-badge';
+        theme.textContent = a.theme;
+
+        const cbWrap = document.createElement('div');
+        cbWrap.className = 'checkbox-wrap';
+        const pill = document.createElement('div');
+        pill.className = 'checkbox-pill';
+        const input = document.createElement('input');
+        input.type = 'checkbox';
+        input.checked = selected.has(a.filename);
+        input.addEventListener('change', e => {
+          if (e.target.checked) selected.add(a.filename); else selected.delete(a.filename);
+          card.classList.toggle('selected', e.target.checked);
+          updateButtons();
+        });
+        pill.appendChild(input);
+        cbWrap.appendChild(pill);
+        cbWrap.addEventListener('click', e => e.stopPropagation());
+
+        const meta = document.createElement('div');
+        meta.className = 'meta';
+        meta.textContent = a.prompt;
+
+        card.addEventListener('click', () => {
+          const isSelected = selected.has(a.filename);
+          if (isSelected) selected.delete(a.filename); else selected.add(a.filename);
+          input.checked = !isSelected;
+          card.classList.toggle('selected', !isSelected);
+          updateButtons();
+        });
+
+        card.appendChild(hover);
+        card.appendChild(checkOverlay);
+        card.appendChild(theme);
+        card.appendChild(img);
+        card.appendChild(cbWrap);
+        card.appendChild(meta);
+        grid.appendChild(card);
+      });
+      updateButtons();
+    }
+
+    function updateButtons() {
+      const countEl = document.getElementById('count');
+      const btn = document.getElementById('removeSelected');
+      countEl.textContent = selected.size + ' image' + (selected.size === 1 ? '' : 's') + ' selected';
+      btn.disabled = selected.size === 0;
+      document.getElementById('outputArea').classList.toggle('hidden', selected.size === 0);
+      updateStats();
+    }
+
+    function updateStats() {
+      const el = document.getElementById('stats');
+      const last = avatars.length ? avatars[avatars.length - 1].filename : '';
+      el.textContent = 'Total stored: ' + avatars.length;
+      el.classList.remove('hidden');
+    }
+
+    async function init() {
+      try {
+        const res = await fetch('data.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const json = await res.json();
+        avatars = json.avatars || [];
+      } catch (err) {
+        avatars = [];
+        alert('Failed to load data.json: ' + err.message);
+      }
+      renderThemeFilter();
+      renderGrid();
+      document.getElementById('themeFilter').addEventListener('change', renderGrid);
+      document.getElementById('search').addEventListener('input', renderGrid);
+      document.getElementById('selectAll').addEventListener('click', () => {
+        getFiltered().forEach(a => selected.add(a.filename));
+        renderGrid();
+      });
+      document.getElementById('deselectAll').addEventListener('click', () => {
+        getFiltered().forEach(a => selected.delete(a.filename));
+        renderGrid();
+      });
+      document.getElementById('generateBtn').addEventListener('click', () => {
+        const selectedArr = Array.from(selected);
+        const out = selectedArr.map(f => 'remove ' + f).join('\n');
+        document.getElementById('output').value = out;
+      });
+      document.getElementById('copyBtn').addEventListener('click', () => {
+        const ta = document.getElementById('output');
+        ta.select();
+        navigator.clipboard.writeText(ta.value).then(() => {
+          const btn = document.getElementById('copyBtn');
+          const prev = btn.textContent;
+          btn.textContent = 'Copied!';
+          setTimeout(() => btn.textContent = prev, 1200);
+        }).catch(() => {
+          ta.select();
+          document.execCommand('copy');
+        });
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>
