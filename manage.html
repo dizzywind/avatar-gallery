@@ -192,15 +192,34 @@
       -webkit-backdrop-filter: blur(4px);
       box-shadow: 0 1px 3px rgba(0,0,0,0.5);
       transition: transform .1s ease, background .1s ease, border-color .1s ease;
-    }
-    .checkbox-wrap input {
-      width: 18px;
-      height: 18px;
-      accent-color: #fff;
-      background: transparent;
       cursor: pointer;
       position: relative;
-      z-index: 5;
+    }
+    .checkbox-pill::after {
+      content: '';
+      width: 10px;
+      height: 16px;
+      border: solid rgba(255,255,255,0.4);
+      border-width: 0 3px 3px 0;
+      transform: rotate(45deg) scale(0);
+      transition: transform .15s ease, border-color .15s ease;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -10px;
+      margin-left: -5px;
+      opacity: 0;
+    }
+    .card.selected .checkbox-pill::after {
+      transform: rotate(45deg) scale(1);
+      border-color: #ffffff;
+      opacity: 1;
+    }
+    .checkbox-pill:hover::after {
+      border-color: rgba(255,255,255,0.7);
+    }
+    .card.selected .checkbox-pill:hover::after {
+      border-color: #ffffff;
     }
     .bottom-bar {
       position: fixed;
@@ -236,9 +255,12 @@
         height: 40px;
         border-width: 3px;
       }
-      .checkbox-wrap input {
-        width: 24px;
-        height: 24px;
+      .checkbox-pill::after {
+        border-width: 0 4px 4px 0;
+        width: 12px;
+        height: 18px;
+        margin-top: -11px;
+        margin-left: -6px;
       }
       .checkbox-wrap { top: 6px; right: 6px; }
       .card .theme-badge { top: 6px; left: 6px; }
@@ -313,6 +335,7 @@
       filtered.forEach(a => {
         const card = document.createElement('div');
         card.className = 'card' + (selected.has(a.filename) ? ' selected' : '');
+        card.title = 'Click to select';
         const img = document.createElement('img');
         img.src = '../images/' + a.filename;
         img.alt = a.prompt;
@@ -333,17 +356,14 @@
         cbWrap.className = 'checkbox-wrap';
         const pill = document.createElement('div');
         pill.className = 'checkbox-pill';
-        const input = document.createElement('input');
-        input.type = 'checkbox';
-        input.checked = selected.has(a.filename);
-        input.addEventListener('change', e => {
-          if (e.target.checked) selected.add(a.filename); else selected.delete(a.filename);
-          card.classList.toggle('selected', e.target.checked);
+        pill.addEventListener('click', e => {
+          e.stopPropagation();
+          const isSelected = selected.has(a.filename);
+          if (isSelected) selected.delete(a.filename); else selected.add(a.filename);
+          card.classList.toggle('selected', !isSelected);
           updateButtons();
         });
-        pill.appendChild(input);
         cbWrap.appendChild(pill);
-        cbWrap.addEventListener('click', e => e.stopPropagation());
 
         const meta = document.createElement('div');
         meta.className = 'meta';
@@ -352,7 +372,6 @@
         card.addEventListener('click', () => {
           const isSelected = selected.has(a.filename);
           if (isSelected) selected.delete(a.filename); else selected.add(a.filename);
-          input.checked = !isSelected;
           card.classList.toggle('selected', !isSelected);
           updateButtons();
         });
