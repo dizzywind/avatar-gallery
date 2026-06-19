@@ -221,20 +221,10 @@
     .card.selected .checkbox-pill:hover::after {
       border-color: #000000;
     }
-    .bottom-bar {
-      position: fixed;
-      left: 0; right: 0; bottom: 0;
-      background: var(--bg-secondary);
-      border-top: 1px solid var(--border);
-      padding: 12px 16px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-      justify-content: space-between;
+    .selection-count {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
     }
-    .bottom-bar .left { display: flex; gap: 10px; flex-wrap: wrap; }
-    .bottom-bar .right { color: var(--text-secondary); font-size: 0.95rem; }
     textarea {
       width: 100%;
       background: var(--bg-secondary);
@@ -284,19 +274,12 @@
 
     <div id="grid" class="grid"></div>
 
-    <div class="hidden" id="outputArea">
+    <div id="outputArea">
       <button class="btn accent" id="generateBtn">Generate Removal List</button>
       <button class="btn" id="exportSelectedBtn">Save Updated data.json</button>
       <textarea id="output" readonly></textarea>
       <button class="btn" id="copyBtn">Copy to clipboard</button>
     </div>
-  </div>
-
-  <div class="bottom-bar">
-    <div class="left">
-      <button class="btn accent" id="removeSelected" disabled>Remove Selected</button>
-    </div>
-    <div class="right" id="count">0 images selected</div>
   </div>
 
   <script>
@@ -389,11 +372,6 @@
     }
 
     function updateButtons() {
-      const countEl = document.getElementById('count');
-      const btn = document.getElementById('removeSelected');
-      countEl.textContent = selected.size + ' image' + (selected.size === 1 ? '' : 's') + ' selected';
-      btn.disabled = selected.size === 0;
-      document.getElementById('outputArea').classList.toggle('hidden', selected.size === 0);
       updateStats();
     }
 
@@ -438,7 +416,7 @@
 
       document.getElementById('generateBtn').addEventListener('click', () => {
         const selectedArr = Array.from(selected);
-        const out = selectedArr.map(f => 'remove ' + f).join('\n');
+        const out = '[repo: dizzywind/avatar-gallery]\n' + selectedArr.map(f => 'remove ' + f).join('\n');
         document.getElementById('output').value = out;
       });
       document.getElementById('copyBtn').addEventListener('click', () => {
@@ -462,30 +440,6 @@
         if (!res.ok) throw new Error('manifest HTTP ' + res.status);
         const data = await res.json();
         downloadUrl('delete-manifest.json', JSON.stringify(data, null, 2), 'application/json');
-      });
-      document.getElementById('removeSelected').addEventListener('click', () => {
-        const selectedArr = Array.from(selected);
-        if (!selectedArr.length) return;
-        const text = selectedArr.map(f => f.split('.')[0]).join(' ');
-        navigator.clipboard.writeText(text).then(() => {
-          const btn = document.getElementById('removeSelected');
-          const prev = btn.textContent;
-          btn.textContent = 'Copied!';
-          btn.disabled = true;
-          setTimeout(() => {
-            btn.textContent = prev;
-            btn.disabled = false;
-          }, 1500);
-        }).catch(() => {
-          const ta = document.createElement('textarea');
-          ta.value = text;
-          ta.style.position = 'fixed'; ta.style.left = '-9999px';
-          document.body.appendChild(ta);
-          ta.select();
-          document.execCommand('copy');
-          document.body.removeChild(ta);
-          alert('Copied: ' + text);
-        });
       });
     }
 
