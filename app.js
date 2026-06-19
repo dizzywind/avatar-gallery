@@ -3,6 +3,7 @@
 let avatars = [];
 let filteredAvatars = [];
 let currentLightboxIndex = 0;
+let currentSearchQuery = '';
 
 // Style panel state
 let stylePanelState = {
@@ -114,15 +115,42 @@ function renderGallery() {
   });
 }
 
-// Filter avatars by theme
-function filterGallery(theme) {
-  if (theme === 'all') {
-    filteredAvatars = [...avatars];
-  } else {
-    filteredAvatars = avatars.filter(a => a.theme === theme);
+// Filter avatars by theme and search query
+function applyFilters() {
+  let result = [...avatars];
+  
+  // Apply theme filter
+  const activeFilterBtn = document.querySelector('.filter-btn.active');
+  const activeTheme = activeFilterBtn ? activeFilterBtn.dataset.filter : 'all';
+  
+  if (activeTheme !== 'all') {
+    result = result.filter(a => a.theme === activeTheme);
   }
+  
+  // Apply search filter
+  if (currentSearchQuery) {
+    const query = currentSearchQuery.toLowerCase();
+    result = result.filter(a => a.prompt.toLowerCase().includes(query));
+  }
+  
+  filteredAvatars = result;
   renderGallery();
-  updateActiveFilter(theme);
+  updateActiveFilter(activeTheme);
+  updateSearchClearButton();
+}
+
+// Filter avatars by theme (kept for backward compatibility with filter buttons)
+function filterGallery(theme) {
+  const activeFilterBtn = document.querySelector('.filter-btn.active');
+  if (activeFilterBtn) {
+    activeFilterBtn.classList.remove('active');
+  }
+  // Find and activate the clicked theme button
+  const newActiveBtn = document.querySelector(`.filter-btn[data-filter="${theme}"]`);
+  if (newActiveBtn) {
+    newActiveBtn.classList.add('active');
+  }
+  applyFilters();
 }
 
 // Update active filter button
@@ -130,6 +158,14 @@ function updateActiveFilter(activeTheme) {
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.filter === activeTheme);
   });
+}
+
+// Update search clear button visibility
+function updateSearchClearButton() {
+  const clearBtn = document.getElementById('searchClear');
+  if (clearBtn) {
+    clearBtn.hidden = !currentSearchQuery;
+  }
 }
 
 // Lightbox functions
@@ -845,6 +881,36 @@ function setupEventListeners() {
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => filterGallery(btn.dataset.filter));
   });
+
+  // Search input
+  const searchInput = document.getElementById('searchInput');
+  const searchClear = document.getElementById('searchClear');
+  
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      currentSearchQuery = e.target.value.trim();
+      applyFilters();
+    });
+    
+    // Clear search on Escape key
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        searchInput.value = '';
+        currentSearchQuery = '';
+        applyFilters();
+        searchInput.blur();
+      }
+    });
+  }
+  
+  if (searchClear) {
+    searchClear.addEventListener('click', () => {
+      searchInput.value = '';
+      currentSearchQuery = '';
+      applyFilters();
+      searchInput.focus();
+    });
+  }
 
   // Lightbox controls
   document.getElementById('lightboxClose').addEventListener('click', closeLightbox);

@@ -23,12 +23,15 @@ THEME_KEYWORDS = [
     (["lotus"], "lotus"),
     (["dragon", "elf", "wizard", "phoenix", "portal", "rune", "enchant", "magic"], "fantasy"),
     (["cyber", "robot", "space", "astronaut", "neon", "chrome", "alien", "ship"], "sci-fi"),
-    (["mountain", "lake", "forest", "ocean", "flower", "tree", "wolf", "butterfly", "sunset"], "nature"),
-    (["abstract", "fractal", "geometric", "fluid", "marble", "gradient", "glitch", "spiral", "mandala"], "abstract"),
-    (["divine", "providence", "yggdrasil", "ankh", "egyptian", "norse", "god", "sacred", "cosmic"], "mythology"),
-    (["tattoo", "ink", "brush", "sumi", "woodblock", "ukiyo"], "tattoo"),
-    (["watercolor", "wash", "paint"], "watercolor"),
-    (["minimal", "line", "simple", "clean", "continuous"], "minimalist"),
+    (["mountain", "lake", "forest", "ocean", "flower", "tree", "wolf", "butterfly", "sunset", "coral", "reef", "underwater", "wildflower", "nature"], "nature"),
+    (["abstract", "fractal", "geometric", "fluid", "marble", "gradient", "glitch", "spiral", "mandala", "calligraphy", "brush", "expressionist", "chaotic"], "abstract"),
+    (["divine", "providence", "yggdrasil", "ankh", "egyptian", "norse", "god", "sacred", "cosmic", "celestial", "eye"], "mythology"),
+    (["tattoo", "ink", "brush", "sumi", "woodblock", "ukiyo", "tribal"], "tattoo"),
+    (["watercolor", "wash", "paint", "devotional"], "watercolor"),
+    (["minimal", "line", "simple", "clean", "continuous", "single", "zen"], "minimalist"),
+    (["portrait", "avatar", "character", "face", "handsome", "elfen", "mage", "warrior", "elegant", "playful", "pastel", "artdeco", "dark", "concept", "assistant", "ai", "anime", "named", "hermes"], "portrait"),
+    (["dog", "cat", "animal", "guardian", "ghibli", "wolf", "creature"], "animals"),
+    (["retro", "synthwave", "1970s", "1980s", "disco", "80s", "70s"], "retro"),
 ]
 
 # Patterns to strip from filename for prompt generation
@@ -105,6 +108,9 @@ def get_next_id(theme, existing_avatars):
         "watercolor": "watercolor",
         "minimalist": "minimalist",
         "uncategorized": "uncategorized",
+        "portrait": "portrait",
+        "animals": "animals",
+        "retro": "retro",
     }.get(theme, "uncategorized")
     
     # Find highest existing number for this theme

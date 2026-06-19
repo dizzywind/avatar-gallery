@@ -256,7 +256,7 @@
       "id": "uncategorized_01",
       "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_2.jpg",
       "prompt": "Portrait Of A Handsome Young East Asian 20260525 2",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "minimalist_01",
@@ -274,7 +274,7 @@
       "id": "uncategorized_02",
       "filename": "dog_guardian_20260522.jpg",
       "prompt": "Dog Guardian 20260522",
-      "theme": "uncategorized"
+      "theme": "animals"
     },
     {
       "id": "lotus_11",
@@ -316,7 +316,7 @@
       "id": "uncategorized_03",
       "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617_1.jpg",
       "prompt": "Avatar Concept For AI Assistant Hermes A 20260617 1",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "lotus_14",
@@ -328,7 +328,7 @@
       "id": "uncategorized_04",
       "filename": "duck_tribal_20260522.jpg",
       "prompt": "Duck Tribal 20260522",
-      "theme": "uncategorized"
+      "theme": "tattoo"
     },
     {
       "id": "mythology_06",
@@ -436,13 +436,13 @@
       "id": "uncategorized_05",
       "filename": "Avatar_concept_for_an_AI_assistant_named_20260525_1.jpg",
       "prompt": "Avatar Concept For An AI Assistant Named 20260525 1",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "uncategorized_06",
       "filename": "Anime-style_female_character_as_AI_agent_20260617.jpg",
       "prompt": "Anime-Style Female Character As AI Agent 20260617",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "lotus_22",
@@ -454,7 +454,7 @@
       "id": "uncategorized_07",
       "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_4.jpg",
       "prompt": "Portrait Of A Handsome Young East Asian 20260525 4",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "lotus_23",
@@ -484,13 +484,13 @@
       "id": "uncategorized_08",
       "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525.jpg",
       "prompt": "Avatar Concept For AI Assistant Hermes 20260525",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "uncategorized_09",
       "filename": "dog_ghibli_20260522.jpg",
       "prompt": "Dog Ghibli 20260522",
-      "theme": "uncategorized"
+      "theme": "animals"
     },
     {
       "id": "lotus_26",
@@ -520,19 +520,19 @@
       "id": "uncategorized_10",
       "filename": "Portrait_of_a_handsome_young_East_Asian_20260525.jpg",
       "prompt": "Portrait Of A Handsome Young East Asian 20260525",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "uncategorized_11",
       "filename": "avatar_pastel_20260618.jpg",
       "prompt": "Avatar Pastel 20260618",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "uncategorized_12",
       "filename": "A_lone_figure_standing_on_a_cliff_edge_o_20260619.jpg",
       "prompt": "Lone Figure Standing On A Cliff Edge O 20260619",
-      "theme": "uncategorized"
+      "theme": "nature"
     },
     {
       "id": "scifi_09",
@@ -550,7 +550,7 @@
       "id": "uncategorized_13",
       "filename": "avatar_artdeco_20260618.jpg",
       "prompt": "Avatar Artdeco 20260618",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "scifi_10",
@@ -598,7 +598,7 @@
       "id": "uncategorized_14",
       "filename": "dog_ghibli_v2_20260522.jpg",
       "prompt": "Dog Ghibli V2 20260522",
-      "theme": "uncategorized"
+      "theme": "animals"
     },
     {
       "id": "abstract_17",
@@ -634,7 +634,7 @@
       "id": "uncategorized_15",
       "filename": "duck_tribal_svg_20260522.png",
       "prompt": "Duck Tribal Svg 20260522",
-      "theme": "uncategorized"
+      "theme": "tattoo"
     },
     {
       "id": "minimalist_02",
@@ -658,7 +658,7 @@
       "id": "uncategorized_16",
       "filename": "An_elven_queen_with_silver_hair_and_glow_20260619.jpg",
       "prompt": "An Elven Queen With Silver Hair And Glow 20260619",
-      "theme": "uncategorized"
+      "theme": "fantasy"
     },
     {
       "id": "lotus_34",
@@ -670,7 +670,7 @@
       "id": "uncategorized_17",
       "filename": "retro_avatar_portrait_1970s_disco_style_20260618.jpg",
       "prompt": "Retro Avatar Portrait 1970S Disco Style 20260618",
-      "theme": "uncategorized"
+      "theme": "retro"
     },
     {
       "id": "lotus_35",
@@ -700,7 +700,7 @@
       "id": "uncategorized_18",
       "filename": "avatar_playful_20260618.jpg",
       "prompt": "Avatar Playful 20260618",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "minimalist_04",
@@ -736,7 +736,7 @@
       "id": "uncategorized_19",
       "filename": "Retro_80s_synthwave_portrait_avatar_gra_20260618.jpg",
       "prompt": "Retro 80S Synthwave Portrait Avatar Gra 20260618",
-      "theme": "uncategorized"
+      "theme": "retro"
     },
     {
       "id": "fantasy_10",
@@ -790,7 +790,7 @@
       "id": "uncategorized_20",
       "filename": "Nature_spirit_portrait_avatar_face_inte_20260618.jpg",
       "prompt": "Nature Spirit Portrait Avatar Face Inte 20260618",
-      "theme": "uncategorized"
+      "theme": "nature"
     },
     {
       "id": "lotus_42",
@@ -814,7 +814,7 @@
       "id": "uncategorized_21",
       "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_2.jpg",
       "prompt": "Avatar Concept For AI Assistant Hermes 20260525 2",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "abstract_23",
@@ -844,7 +844,7 @@
       "id": "uncategorized_22",
       "filename": "Avatar_concept_for_an_AI_assistant_named_20260525.jpg",
       "prompt": "Avatar Concept For An AI Assistant Named 20260525",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "mythology_09",
@@ -916,19 +916,19 @@
       "id": "uncategorized_23",
       "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg",
       "prompt": "Avatar Concept For AI Assistant Hermes A 20260617",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "uncategorized_24",
       "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_3.jpg",
       "prompt": "Portrait Of A Handsome Young East Asian 20260525 3",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "uncategorized_25",
       "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_1.jpg",
       "prompt": "Portrait Of A Handsome Young East Asian 20260525 1",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "lotus_52",
@@ -958,7 +958,7 @@
       "id": "uncategorized_26",
       "filename": "Futuristic_sci-fi_portrait_avatar_sleek_20260618.jpg",
       "prompt": "Futuristic Sci-Fi Portrait Avatar Sleek 20260618",
-      "theme": "uncategorized"
+      "theme": "sci-fi"
     },
     {
       "id": "lotus_55",
@@ -994,13 +994,13 @@
       "id": "uncategorized_27",
       "filename": "avatar_celestial_20260618.jpg",
       "prompt": "Avatar Celestial 20260618",
-      "theme": "uncategorized"
+      "theme": "mythology"
     },
     {
       "id": "uncategorized_28",
       "filename": "avatar_dark_20260618.jpg",
       "prompt": "Avatar Dark 20260618",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "scifi_14",
@@ -1024,13 +1024,13 @@
       "id": "uncategorized_29",
       "filename": "retro_avatar_portrait_1980s_synthwave_s_20260618.jpg",
       "prompt": "Retro Avatar Portrait 1980S Synthwave S 20260618",
-      "theme": "uncategorized"
+      "theme": "retro"
     },
     {
       "id": "uncategorized_30",
       "filename": "Mystical_fantasy_mage_portrait_avatar_e_20260618.jpg",
       "prompt": "Mystical Fantasy Mage Portrait Avatar E 20260618",
-      "theme": "uncategorized"
+      "theme": "fantasy"
     },
     {
       "id": "lotus_60",
@@ -1060,7 +1060,7 @@
       "id": "uncategorized_31",
       "filename": "fantasy_avatar_portrait_elven_warrior_w_20260618.jpg",
       "prompt": "Fantasy Avatar Portrait Elven Warrior W 20260618",
-      "theme": "uncategorized"
+      "theme": "fantasy"
     },
     {
       "id": "tattoo_09",
@@ -1072,7 +1072,7 @@
       "id": "uncategorized_32",
       "filename": "avatar_elegant_20260618.jpg",
       "prompt": "Avatar Elegant 20260618",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "lotus_62",
@@ -1084,13 +1084,13 @@
       "id": "uncategorized_33",
       "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_1.jpg",
       "prompt": "Avatar Concept For AI Assistant Hermes 20260525 1",
-      "theme": "uncategorized"
+      "theme": "portrait"
     },
     {
       "id": "uncategorized_34",
       "filename": "A_coral_reef_underwater_scene_with_color_20260619.jpg",
       "prompt": "Coral Reef Underwater Scene With Color 20260619",
-      "theme": "uncategorized"
+      "theme": "nature"
     },
     {
       "id": "tattoo_10",
@@ -1150,7 +1150,7 @@
       "id": "uncategorized_35",
       "filename": "nature_avatar_portrait_face_made_of_blo_20260618.jpg",
       "prompt": "Nature Avatar Portrait Face Made Of Blo 20260618",
-      "theme": "uncategorized"
+      "theme": "nature"
     },
     {
       "id": "lotus_69",
