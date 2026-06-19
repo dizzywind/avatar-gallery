@@ -380,8 +380,8 @@
     },
     {
       "id": "lotus_61",
-      "filename": "Sacred_lotus_Gustave_Doré__Franklin_Bo_20260616.jpg",
-      "prompt": "Sacred Lotus Gustave Doré Franklin Bo",
+      "filename": "Sacred_lotus_Gustave_Dor\u00e9__Franklin_Bo_20260616.jpg",
+      "prompt": "Sacred Lotus Gustave Dor\u00e9 Franklin Bo",
       "theme": "lotus",
       "category": "lotus"
     },
@@ -408,57 +408,57 @@
     },
     {
       "id": "lotus_64",
-      "filename": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616_1.jpg",
-      "prompt": "Lotus Of Wisdom Gustave Doré Franklin 20260616 1",
+      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616_1.jpg",
+      "prompt": "Lotus Of Wisdom Gustave Dor\u00e9 Franklin 20260616 1",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_44",
-      "filename": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616.jpg",
-      "prompt": "Lotus Of Wisdom Gustave Doré Franklin",
+      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616.jpg",
+      "prompt": "Lotus Of Wisdom Gustave Dor\u00e9 Franklin",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_28",
-      "filename": "Lotus_of_Transcendence_Gustave_Doré__F_20260616_1.jpg",
-      "prompt": "Lotus Of Transcendence Gustave Doré F 20260616 1",
+      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616_1.jpg",
+      "prompt": "Lotus Of Transcendence Gustave Dor\u00e9 F 20260616 1",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_14",
-      "filename": "Lotus_of_Transcendence_Gustave_Doré__F_20260616.jpg",
-      "prompt": "Lotus Of Transcendence Gustave Doré F",
+      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616.jpg",
+      "prompt": "Lotus Of Transcendence Gustave Dor\u00e9 F",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_49",
-      "filename": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616_1.jpg",
-      "prompt": "Lotus Of Eternity Gustave Doré Frankl 20260616 1",
+      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616_1.jpg",
+      "prompt": "Lotus Of Eternity Gustave Dor\u00e9 Frankl 20260616 1",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_18",
-      "filename": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616.jpg",
-      "prompt": "Lotus Of Eternity Gustave Doré Frankl",
+      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616.jpg",
+      "prompt": "Lotus Of Eternity Gustave Dor\u00e9 Frankl",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_52",
-      "filename": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616_1.jpg",
-      "prompt": "Lotus Of Awakening Gustave Doré Frank 20260616 1",
+      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616_1.jpg",
+      "prompt": "Lotus Of Awakening Gustave Dor\u00e9 Frank 20260616 1",
       "theme": "lotus",
       "category": "lotus"
     },
     {
       "id": "lotus_11",
-      "filename": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616.jpg",
-      "prompt": "Lotus Of Awakening Gustave Doré Frank",
+      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616.jpg",
+      "prompt": "Lotus Of Awakening Gustave Dor\u00e9 Frank",
       "theme": "lotus",
       "category": "lotus"
     },
@@ -913,7 +913,7 @@
     {
       "id": "mythology_03",
       "filename": "avatar_mythology_3.jpg",
-      "prompt": "Yggdrasil — Norse World Tree",
+      "prompt": "Yggdrasil \u2014 Norse World Tree",
       "theme": "mythology",
       "category": "mythology"
     },
@@ -1021,10 +1021,129 @@
       "prompt": "Gold & Blue Fluid Marble",
       "theme": "abstract",
       "category": "abstract"
+    },
+    {
+      "id": "portrait_14",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617_1.jpg",
+      "prompt": "Avatar Concept For AI Assistant Hermes A 20260617 1",
+      "theme": "portrait",
+      "category": "portrait"
+    },
+    {
+      "id": "fantasy_06",
+      "filename": "fantasy_avatar_portrait_wise_old_wizard_20260618.jpg",
+      "prompt": "Fantasy Avatar Portrait Wise Old Wizard 20260618",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "portrait_15",
+      "filename": "Anime-style_female_character_as_AI_agent_20260617.jpg",
+      "prompt": "Anime-Style Female Character As AI Agent 20260617",
+      "theme": "portrait",
+      "category": "portrait"
+    },
+    {
+      "id": "lotus_87",
+      "filename": "One_line_drawing_of_a_lotus_flower_sing_20260619.jpg",
+      "prompt": "One Line Drawing Of A Lotus Flower Sing 20260619",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_88",
+      "filename": "Minimalist_line_art_lotus_icon_small_lo_20260619.jpg",
+      "prompt": "Minimalist Line Art Lotus Icon Small Lo 20260619",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_89",
+      "filename": "Minimalist_lotus_flower_single_continuou_20260619.jpg",
+      "prompt": "Minimalist Lotus Flower Single Continuou 20260619",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "tattoo_14",
+      "filename": "duck_tribal_svg_20260522.png",
+      "prompt": "Duck Tribal Svg 20260522",
+      "theme": "tattoo",
+      "category": "tattoo"
+    },
+    {
+      "id": "minimalist_03",
+      "filename": "minimalist_avatar_portrait_simple_geome_20260618.jpg",
+      "prompt": "Minimalist Avatar Portrait Simple Geome 20260618",
+      "theme": "minimalist",
+      "category": "minimalist"
+    },
+    {
+      "id": "minimalist_04",
+      "filename": "Minimalist_single_continuous_line_art_of_20260619.jpg",
+      "prompt": "Minimalist Single Continuous Line Art Of 20260619",
+      "theme": "minimalist",
+      "category": "minimalist"
+    },
+    {
+      "id": "scifi_15",
+      "filename": "cyberpunk_avatar_portrait_neon-lit_face_20260618.jpg",
+      "prompt": "Cyberpunk Avatar Portrait Neon-Lit Face 20260618",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "lotus_90",
+      "filename": "Sacred_geometry_lotus_flower_Flower_of_20260619_1.jpg",
+      "prompt": "Sacred Geometry Lotus Flower Flower Of 20260619 1",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "portrait_16",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg",
+      "prompt": "Avatar Concept For AI Assistant Hermes A 20260617",
+      "theme": "portrait",
+      "category": "portrait"
+    },
+    {
+      "id": "lotus_91",
+      "filename": "lotus_avatar_lineart.jpg",
+      "prompt": "Lotus Avatar Lineart",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_92",
+      "filename": "Minimalist_line_art_of_a_lotus_flower_s_20260619_1.jpg",
+      "prompt": "Minimalist Line Art Of A Lotus Flower S 20260619 1",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_93",
+      "filename": "Minimalist_line_art_of_a_lotus_flower_s_20260619.jpg",
+      "prompt": "Minimalist Line Art Of A Lotus Flower S 20260619",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_94",
+      "filename": "A_sacred_geometry_lotus_mandala_perfect_20260619.jpg",
+      "prompt": "Sacred Geometry Lotus Mandala Perfect 20260619",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_95",
+      "filename": "Zen_ink_wash_painting_of_a_single_lotus_20260619.jpg",
+      "prompt": "Zen Ink Wash Painting Of A Single Lotus 20260619",
+      "theme": "lotus",
+      "category": "lotus"
     }
   ],
   "metadata": {
-    "total": 192,
+    "total": 163,
     "themes": [
       "abstract",
       "animals",
@@ -1040,15 +1159,15 @@
       "uncategorized",
       "watercolor"
     ],
-    "images_per_theme": 14,
+    "images_per_theme": 12,
     "format": "512x512 JPEG",
     "generated": "2026-06-19",
-    "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
+    "attribution": "Images generated via Pollinations.ai (Flux model) \u2014 free AI image generation API. https://pollinations.ai"
   },
   "_meta": {
-    "updatedAt": "2026-06-19T19:01:19.860346+00:00",
-    "updatedAtTimestamp": 1781895679,
-    "totalImages": 192,
-    "lastDeployed": "Jun 19, 2026 at 07:01 PM"
+    "updatedAt": "2026-06-19T19:31:23.114148+00:00",
+    "updatedAtTimestamp": 1781897483,
+    "totalImages": 163,
+    "lastDeployed": "Jun 19, 2026 at 07:31 PM"
   }
 }
