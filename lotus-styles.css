@@ -109,6 +109,13 @@
   font-style: italic;
 }
 
+/* Gallery grid — responsive layout matching avatar gallery */
+#lotusGalleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .lotus-header {
@@ -119,14 +126,24 @@
     left: 1rem;
     font-size: 0.875rem;
   }
+  
+  /* Tablet: 2-3 columns */
+  #lotusGalleryGrid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .lotus-header h1 {
     font-size: 1.75rem;
   }
   
   .lotus-header .subtitle {
     font-size: 1rem;
+  }
+  
+  /* Mobile: single column, no horizontal overflow */
+  #lotusGalleryGrid {
+    grid-template-columns: 1fr;
   }
 }
