@@ -244,6 +244,14 @@ def main():
         print("No changes to commit or commit failed")
         return 1
     
+    # Sync with remote before pushing to avoid non-fast-forward errors after PR merges
+    if not run_git_command("git fetch origin master"):
+        print("Fetch failed")
+        return 1
+    if not run_git_command("git rebase origin/master"):
+        print("Rebase failed")
+        return 1
+    
     # Push
     if not run_git_command("git push origin master"):
         print("Push failed")
