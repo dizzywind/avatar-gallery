@@ -1163,19 +1163,26 @@
     "total": 193,
     "themes": [
       "abstract",
+      "animals",
       "fantasy",
       "lotus",
       "minimalist",
       "mythology",
       "nature",
+      "portrait",
+      "retro",
       "sci-fi",
       "tattoo",
-      "uncategorized",
       "watercolor"
     ],
-    "images_per_theme": 19,
+    "images_per_theme": 16,
     "format": "512x512 JPEG",
     "generated": "2026-06-19",
     "attribution": "Images generated via Pollinations.ai (Flux model) \u2014 free AI image generation API. https://pollinations.ai"
+  },
+  "_meta": {
+    "updatedAt": "2026-06-19T10:15:41.600849+00:00",
+    "updatedAtTimestamp": 1781864141,
+    "totalImages": 193
   }
 }

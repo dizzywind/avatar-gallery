@@ -51,9 +51,10 @@ async function initGallery() {
   try {
     const response = await fetchWithRetry('data.json');
     const data = await response.json();
-    avatars = data.avatars;
+    avatars = data.avatars || [];
     filteredAvatars = [...avatars];
     renderGallery();
+    updateLastUpdated(data);
     setupEventListeners();
   } catch (error) {
     console.error('Gallery initialization failed:', error);
@@ -61,6 +62,34 @@ async function initGallery() {
     grid.innerHTML =
       '<p class="no-results" style="grid-column: 1/-1;">Failed to load gallery data.</p>';
   }
+}
+
+function updateLastUpdated(data) {
+  const el = document.getElementById('lastUpdated');
+  if (!el) return;
+  const meta = data && data._meta;
+  const total = meta && typeof meta.totalImages === 'number'
+    ? meta.totalImages
+    : Array.isArray(data && data.avatars) ? data.avatars.length : null;
+  if (!total) { el.textContent = ''; return; }
+  const raw = meta && meta.updatedAt ? meta.updatedAt : '';
+  let formatted = '';
+  if (raw) {
+    try {
+      const d = new Date(raw);
+      if (!isNaN(d.getTime())) {
+        formatted = d.toLocaleDateString('en-US', {
+          year: 'numeric', month: 'short', day: 'numeric'
+        });
+        const time = d.toLocaleTimeString('en-US', {
+          hour: 'numeric', minute: '2-digit'
+        });
+        formatted += ' at ' + time;
+      }
+    } catch (_) { formatted = ''; }
+  }
+  if (!formatted) formatted = raw || 'unknown date';
+  el.textContent = `🕒 Last updated: ${formatted} — ${total.toLocaleString()} images`;
 }
 
 // Render gallery grid

@@ -116,6 +116,20 @@ body {
   border-radius: 3px;
 }
 
+@media (max-width: 768px) {
+  .filter-nav-inner {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  .filter-btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
+}
+
 .filter-btn {
   padding: 0.625rem 1rem;
   border: 1px solid var(--border);
@@ -388,6 +402,12 @@ body {
 
 .gallery-footer a:hover {
   text-decoration: underline;
+}
+
+.last-updated {
+  color: var(--text-secondary);
+  font-size: 0.8125rem;
+  margin-top: 0.35rem;
 }
 
 /* Lightbox */

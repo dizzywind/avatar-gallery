@@ -11,7 +11,7 @@ import shutil
 import subprocess
 import re
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 
 SOURCE_DIR = Path("/data/hermes/media/images")
 REPO_DIR = Path("/root/avatar-gallery")
@@ -218,6 +218,12 @@ def main():
         "format": "512x512 JPEG",
         "generated": datetime.now().strftime("%Y-%m-%d"),
         "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
+    }
+    data["_meta"] = {
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "updatedAtTimestamp": int(datetime.now(timezone.utc).timestamp()),
+        "totalImages": len(avatars),
+        "lastDeployed": datetime.now(timezone.utc).strftime("%b %d, %Y at %I:%M %p"),
     }
     
     # Write updated data.json
