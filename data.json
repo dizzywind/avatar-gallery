@@ -175,12 +175,6 @@
       "theme": "lotus"
     },
     {
-      "id": "lotus_05",
-      "filename": "avatar_lotus_5.jpg",
-      "prompt": "Cosmic Lotus Bloom",
-      "theme": "lotus"
-    },
-    {
       "id": "abstract_06",
       "filename": "Calligraphy_brush_art_abstract_red_verm_20260525.jpg",
       "prompt": "Calligraphy Brush Art Abstract Red Verm",
@@ -427,28 +421,10 @@
       "theme": "lotus"
     },
     {
-      "id": "uncategorized_05",
-      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525_1.jpg",
-      "prompt": "Avatar Concept For An AI Assistant Named 20260525 1",
-      "theme": "portrait"
-    },
-    {
-      "id": "uncategorized_06",
-      "filename": "Anime-style_female_character_as_AI_agent_20260617.jpg",
-      "prompt": "Anime-Style Female Character As AI Agent",
-      "theme": "portrait"
-    },
-    {
       "id": "lotus_22",
       "filename": "Perfectly_symmetrical_lotus_mandala_pet_20260616.jpg",
       "prompt": "Perfectly Symmetrical Lotus Mandala Pet",
       "theme": "lotus"
-    },
-    {
-      "id": "uncategorized_07",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_4.jpg",
-      "prompt": "Portrait Of A Handsome Young East Asian 20260525 4",
-      "theme": "portrait"
     },
     {
       "id": "lotus_23",
@@ -509,12 +485,6 @@
       "filename": "Maximum_abstraction_sumi-e_ink_tattoo_s_20260525.jpg",
       "prompt": "Maximum Abstraction Sumi-E Ink Tattoo S",
       "theme": "abstract"
-    },
-    {
-      "id": "uncategorized_10",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525.jpg",
-      "prompt": "Portrait Of A Handsome Young East Asian",
-      "theme": "portrait"
     },
     {
       "id": "uncategorized_11",
@@ -583,12 +553,6 @@
       "theme": "mythology"
     },
     {
-      "id": "lotus_30",
-      "filename": "Minimalist_line_art_lotus_icon_small_lo_20260619.jpg",
-      "prompt": "Minimalist Line Art Lotus Icon Small Lo",
-      "theme": "lotus"
-    },
-    {
       "id": "uncategorized_14",
       "filename": "dog_ghibli_v2_20260522.jpg",
       "prompt": "Dog Ghibli V2",
@@ -599,12 +563,6 @@
       "filename": "Abstract_art_fluid_organic_shapes_in_de_20260525.jpg",
       "prompt": "Art Fluid Organic Shapes In De",
       "theme": "abstract"
-    },
-    {
-      "id": "lotus_31",
-      "filename": "Minimalist_lotus_flower_single_continuou_20260619.jpg",
-      "prompt": "Minimalist Lotus Flower Single Continuou",
-      "theme": "lotus"
     },
     {
       "id": "nature_08",
@@ -623,12 +581,6 @@
       "filename": "A_magical_portal_swirling_with_cosmic_en_20260619.jpg",
       "prompt": "Magical Portal Swirling With Cosmic En",
       "theme": "fantasy"
-    },
-    {
-      "id": "uncategorized_15",
-      "filename": "duck_tribal_svg_20260522.png",
-      "prompt": "Duck Tribal Svg",
-      "theme": "tattoo"
     },
     {
       "id": "minimalist_02",
@@ -805,12 +757,6 @@
       "theme": "lotus"
     },
     {
-      "id": "uncategorized_21",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_2.jpg",
-      "prompt": "Avatar Concept For AI Assistant Hermes 20260525 2",
-      "theme": "portrait"
-    },
-    {
       "id": "abstract_23",
       "filename": "Minimalist_abstract_composition_of_soft_20260619.jpg",
       "prompt": "Minimalist Abstract Composition Of Soft",
@@ -833,12 +779,6 @@
       "filename": "Calligraphy_brush_art_gold_and_black_in_20260525.jpg",
       "prompt": "Calligraphy Brush Art Gold And Black In",
       "theme": "tattoo"
-    },
-    {
-      "id": "uncategorized_22",
-      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525.jpg",
-      "prompt": "Avatar Concept For An AI Assistant Named",
-      "theme": "portrait"
     },
     {
       "id": "mythology_09",
@@ -907,24 +847,6 @@
       "theme": "lotus"
     },
     {
-      "id": "uncategorized_23",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg",
-      "prompt": "Avatar Concept For AI Assistant Hermes A",
-      "theme": "portrait"
-    },
-    {
-      "id": "uncategorized_24",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_3.jpg",
-      "prompt": "Portrait Of A Handsome Young East Asian 20260525 3",
-      "theme": "portrait"
-    },
-    {
-      "id": "uncategorized_25",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_1.jpg",
-      "prompt": "Portrait Of A Handsome Young East Asian 20260525 1",
-      "theme": "portrait"
-    },
-    {
       "id": "lotus_52",
       "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616_1.jpg",
       "prompt": "Lotus Of Awakening Gustave Dor\u00e9 Frank 20260616 1",
@@ -965,12 +887,6 @@
       "filename": "The_Eye_of_Providence_inside_a_glowing_t_20260619.jpg",
       "prompt": "The Eye Of Providence Inside A Glowing T",
       "theme": "mythology"
-    },
-    {
-      "id": "lotus_56",
-      "filename": "lotus_minimalist.jpg",
-      "prompt": "Lotus Minimalist",
-      "theme": "lotus"
     },
     {
       "id": "lotus_57",
