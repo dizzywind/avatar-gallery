@@ -241,12 +241,6 @@
       "theme": "abstract"
     },
     {
-      "id": "uncategorized_01",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_2.jpg",
-      "prompt": "Portrait Of A Handsome Young East Asian 20260525 2",
-      "theme": "portrait"
-    },
-    {
       "id": "minimalist_01",
       "filename": "Minimalist_background_texture_pure_whit_20260619.jpg",
       "prompt": "Minimalist Background Texture Pure Whit",
@@ -299,12 +293,6 @@
       "filename": "Japanese_ukiyo-e_woodblock_print_of_a_lo_20260619_2.jpg",
       "prompt": "Japanese Ukiyo-E Woodblock Print Of A Lo 20260619 2",
       "theme": "tattoo"
-    },
-    {
-      "id": "uncategorized_03",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617_1.jpg",
-      "prompt": "Avatar Concept For AI Assistant Hermes A 20260617 1",
-      "theme": "portrait"
     },
     {
       "id": "lotus_14",
