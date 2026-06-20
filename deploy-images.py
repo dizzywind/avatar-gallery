@@ -224,8 +224,28 @@ def main():
         print(f"Skipped {len(empty_skips)} 0-byte source images")
     if dup_skips:
         print(f"Skipped {len(dup_skips)} source files already in repo")
+
+    data["avatars"] = avatars
+    data["metadata"] = {
+        "total": len(avatars),
+        "themes": sorted({a["theme"] for a in avatars}),
+        "images_per_theme": len(avatars) // len({a["theme"] for a in avatars}) if avatars else 0,
+        "format": "512x512 JPEG",
+        "generated": datetime.now().strftime("%Y-%m-%d"),
+        "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
+    }
+    data["_meta"] = {
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "updatedAtTimestamp": int(datetime.now(timezone.utc).timestamp()),
+        "totalImages": len(avatars),
+        "lastDeployed": datetime.now(timezone.utc).strftime("%b %d, %Y at %I:%M %p"),
+    }
+
     if not new_images:
-        print("No new images to deploy. Exiting.")
+        print("No new images to deploy. Updating timestamp only.")
+        with open(DATA_JSON, "w") as f:
+            json.dump(data, f, indent=2)
+        print(f"Updated data.json: {len(avatars)} total avatars")
         return 0
 
     added_count = 0
@@ -266,7 +286,17 @@ def main():
         print(f"  Added: {avatar_id} | Theme: {theme} | Prompt: {prompt}")
 
     if added_count == 0:
-        print("No new images added.")
+        print("No new images added. Updating metadata.")
+        with open(DATA_JSON, "w") as f:
+            json.dump(data, f, indent=2)
+        print(f"Updated data.json: {len(avatars)} total avatars")
+
+        print("\nCommitting and pushing to GitHub...")
+        if not run_git_command("git add -A"):
+            return 0
+        commit_msg = f"Gallery metadata refresh ({datetime.now().strftime('%Y-%m-%d %H:%M')})"
+        run_git_command(f'git commit -m "{commit_msg}"') or True
+        run_git_command("git push origin master") or True
         return 0
 
     themes = sorted({a["theme"] for a in avatars})
