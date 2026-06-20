@@ -15,7 +15,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 SOURCE_DIR = Path("/data/hermes/media/images")
-REPO_DIR = Path("/data/projects/avatar-gallery")
+REPO_DIR = Path("/root/avatar-gallery")
 IMAGES_DIR = REPO_DIR / "images"
 DATA_JSON = REPO_DIR / "data.json"
 IDLE_STAGING_DIR = REPO_DIR / "data" / "idle"
