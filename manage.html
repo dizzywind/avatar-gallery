@@ -321,7 +321,11 @@
         card.className = 'card' + (selected.has(a.filename) ? ' selected' : '');
         card.title = 'Click to select';
         const img = document.createElement('img');
-        img.src = 'images/' + a.filename;
+        // Support both legacy (filename) and new (seed-based) entries
+        const imgSrc = a.seed
+          ? `https://image.pollinations.ai/prompt/${encodeURIComponent(a.prompt || 'avatar')}?width=512&height=512&model=flux&nologo=true&seed=${a.seed}`
+          : 'images/' + a.filename;
+        img.src = imgSrc;
         img.alt = a.prompt;
         img.loading = 'lazy';
         img.draggable = false;

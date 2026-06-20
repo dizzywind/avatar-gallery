@@ -46,6 +46,15 @@ function sortAvatarsDesc(avatars) {
   });
 }
 
+// Get image URL: Pollinations URL for seed-based entries, local file for legacy.
+function getImageUrl(avatar) {
+  if (avatar && avatar.seed) {
+    const prompt = encodeURIComponent(avatar.prompt || 'avatar');
+    return `https://image.pollinations.ai/prompt/${prompt}?width=512&height=512&model=flux&nologo=true&seed=${avatar.seed}`;
+  }
+  return `images/${avatar.filename}`;
+}
+
 // Show/hide loading state
 function setLoading(isLoading) {
   const grid = document.getElementById('galleryGrid');
@@ -138,7 +147,7 @@ function renderGallery() {
   noResults.hidden = true;
   grid.innerHTML = filteredAvatars.map((avatar, index) => `
     <article class="gallery-item" data-index="${index}" data-theme="${avatar.theme}" tabindex="0" role="listitem">
-      <img src="images/${avatar.filename}" alt="${avatar.prompt}" loading="lazy">
+      <img src="${getImageUrl(avatar)}" alt="${avatar.prompt}" loading="lazy">
       <div class="gallery-item-overlay">
         <div class="gallery-item-title">${avatar.prompt}</div>
         <div class="gallery-item-actions">
@@ -247,7 +256,7 @@ function updateLightbox() {
   const avatar = filteredAvatars[currentLightboxIndex];
   if (!avatar) return;
 
-  document.getElementById('lightboxImage').src = `images/${avatar.filename}`;
+  document.getElementById('lightboxImage').src = getImageUrl(avatar);
   document.getElementById('lightboxImage').alt = avatar.prompt;
   document.getElementById('lightboxTitle').textContent = avatar.prompt;
   document.getElementById('lightboxPrompt').textContent = avatar.prompt;
@@ -359,7 +368,7 @@ function renderSelectStep() {
     <div class="step-indicator">Step 2 of 5</div>
     
     <div class="ref-image-container">
-      <img src="images/${referenceImage.filename}" alt="${referenceImage.prompt}">
+      <img src="${getImageUrl(referenceImage)}" alt="${referenceImage.prompt}">
       <div class="ref-image-badge">Selected</div>
     </div>
 
@@ -497,7 +506,7 @@ function renderAnalyzeStep() {
     <div class="step-indicator">Step 3 of 5</div>
     
     <div class="ref-image-container">
-      <img src="images/${stylePanelState.referenceImage.filename}" alt="${stylePanelState.referenceImage.prompt}">
+      <img src="${getImageUrl(stylePanelState.referenceImage)}" alt="${stylePanelState.referenceImage.prompt}">
       <div class="ref-image-badge">Analyzing...</div>
     </div>
 
@@ -516,7 +525,7 @@ function renderReviewStep() {
     <div class="step-indicator">Step 3 of 5</div>
     
     <div class="ref-image-container">
-      <img src="images/${stylePanelState.referenceImage.filename}" alt="${stylePanelState.referenceImage.prompt}">
+      <img src="${getImageUrl(stylePanelState.referenceImage)}" alt="${stylePanelState.referenceImage.prompt}">
       <div class="ref-image-badge">✓ Extracted</div>
     </div>
 
@@ -749,7 +758,7 @@ function setupGenerateStepListeners() {
     
     // Update preview with a blur of the reference
     if (progress > 30) {
-      previewEl.style.backgroundImage = `url(images/${stylePanelState.referenceImage.filename})`;
+      previewEl.style.backgroundImage = `url(${getImageUrl(stylePanelState.referenceImage)})`;
       previewEl.innerHTML = '';
     }
     
@@ -772,7 +781,7 @@ function renderResultStep() {
     <div class="result-comparison">
       <div class="result-box">
         <div class="img">
-          <img src="images/${referenceImage.filename}" alt="${referenceImage.prompt}">
+          <img src="${getImageUrl(referenceImage)}" alt="${referenceImage.prompt}">
         </div>
         <div class="label">Style From</div>
       </div>

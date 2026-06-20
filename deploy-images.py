@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """
 Auto-deploy script for avatar gallery.
+
 Scans /data/hermes/media/images/ for new images, copies them to repo,
 updates data.json with theme detection, commits and pushes to GitHub.
+
+Handles two entry types:
+  - Legacy entries: have filename + fileSize → served from images/ directory
+  - Seed entries: have seed → frontend constructs Pollinations URL on-the-fly
 """
 
 import hashlib
@@ -24,7 +29,7 @@ IDLE_STAGING_DIR = REPO_DIR / "data" / "idle"
 THEME_KEYWORDS = [
     (["lotus"], "lotus"),
     (["dragon", "elf", "wizard", "phoenix", "portal", "rune", "enchant", "magic"], "fantasy"),
-    (["cyber", "robot", "space", "astronaut", "neon", "chrome", "alien", "ship"], "sci-fi"),
+    (["cyber", "robot", "space", "astronaut", "neon", "chrome", "alien", "ship"], "scifi"),
     (["mountain", "lake", "forest", "ocean", "flower", "tree", "wolf", "butterfly", "sunset", "coral", "reef", "underwater", "wildflower", "nature"], "nature"),
     (["abstract", "fractal", "geometric", "fluid", "marble", "gradient", "glitch", "spiral", "mandala", "calligraphy", "brush", "expressionist", "chaotic"], "abstract"),
     (["divine", "providence", "yggdrasil", "ankh", "egyptian", "norse", "god", "sacred", "cosmic", "celestial", "eye"], "mythology"),
@@ -40,22 +45,22 @@ THEME_KEYWORDS = [
 CLEAN_PATTERNS = [
     r"^A_",
     r"^Abstract_",
-    r"_2026\d{4}$",
-    r"_\d{4}$",
-    r"\.jpg$",
-    r"\.jpeg$",
-    r"\.png$",
+    r"_2026\\d{4}$",
+    r"_\\d{4}$",
+    r"\\.jpg$",
+    r"\\.jpeg$",
+    r"\\.png$",
     r"_+",
 ]
 
 
 def get_existing_filenames(data_json_path):
-    """Get set of existing filenames from data.json"""
+    """Get set of existing filenames from data.json (legacy entries only)."""
     if not data_json_path.exists():
         return set()
     with open(data_json_path) as f:
         data = json.load(f)
-    return {avatar["filename"] for avatar in data.get("avatars", [])}
+    return {avatar["filename"] for avatar in data.get("avatars", []) if avatar.get("filename")}
 
 
 def get_existing_image_files(images_dir):
@@ -103,6 +108,7 @@ def get_next_id(theme, existing_avatars):
     """Generate next ID for a theme"""
     theme_prefix = {
         "fantasy": "fantasy",
+        "scifi": "scifi",
         "sci-fi": "scifi",
         "nature": "nature",
         "abstract": "abstract",
@@ -122,8 +128,9 @@ def get_next_id(theme, existing_avatars):
         if avatar["id"].startswith(theme_prefix + "_"):
             try:
                 num = int(avatar["id"].split("_")[-1])
-                max_num = max(max_num, num)
-            except (ValueError, IndexError):
+                if num <= 9999:  # reject date/hash artifacts from old data
+                    max_num = max(max_num, num)
+            except (ValueError, IndexError, KeyError):
                 pass
 
     return f"{theme_prefix}_{max_num + 1:02d}"
@@ -162,25 +169,35 @@ def main():
     existing_filenames = get_existing_filenames(DATA_JSON)
     existing_image_files = get_existing_image_files(IMAGES_DIR)
     existing_image_hashes = get_existing_image_hashes(IMAGES_DIR)
-    print(f"Existing in data.json: {len(existing_filenames)}")
+    print(f"Existing in data.json: {len(existing_filenames)} (legacy file-based)")
     print(f"Existing in images/: {len(existing_image_files)}")
 
+    # Count seed-based entries (Pollinations URLs, no file copy needed)
+    seed_count = 0
+    if DATA_JSON.exists():
+        with open(DATA_JSON) as f:
+            data = json.load(f)
+        seed_count = sum(1 for a in data.get("avatars", []) if a.get("seed") is not None)
+    print(f"Seed-based entries (Pollinations URLs): {seed_count}")
+
+    # Copy idle output images to source dir (legacy path)
     copied_from_idle = 0
-    for idle_path in sorted(IDLE_STAGING_DIR.iterdir()):
-        if not idle_path.is_file():
-            continue
-        if idle_path.suffix.lower() not in [".jpg", ".jpeg", ".png"]:
-            continue
-        if idle_path.name in existing_filenames or idle_path.name in existing_image_files:
-            continue
-        if idle_path.exists() and idle_path.stat().st_size == 0:
-            continue
-        try:
-            shutil.copy2(idle_path, SOURCE_DIR / idle_path.name)
-            copied_from_idle += 1
-            print(f"Copied from idle output: {idle_path.name}")
-        except Exception as e:
-            print(f"Idle copy failed for {idle_path.name}: {e}")
+    if IDLE_STAGING_DIR.exists():
+        for idle_path in sorted(IDLE_STAGING_DIR.iterdir()):
+            if not idle_path.is_file():
+                continue
+            if idle_path.suffix.lower() not in [".jpg", ".jpeg", ".png"]:
+                continue
+            if idle_path.name in existing_filenames or idle_path.name in existing_image_files:
+                continue
+            if idle_path.exists() and idle_path.stat().st_size == 0:
+                continue
+            try:
+                shutil.copy2(idle_path, SOURCE_DIR / idle_path.name)
+                copied_from_idle += 1
+                print(f"Copied from idle output: {idle_path.name}")
+            except Exception as e:
+                print(f"Idle copy failed for {idle_path.name}: {e}")
     if copied_from_idle:
         print(f"Copied {copied_from_idle} images from idle output to media store")
 
@@ -194,6 +211,7 @@ def main():
     existing_avatars = list(avatars)
     avatars = sort_avatars(avatars)
 
+    # Backfill category from theme for legacy entries
     backfilled = 0
     for avatar in avatars:
         theme = avatar.get("theme")
@@ -230,7 +248,7 @@ def main():
         "total": len(avatars),
         "themes": sorted({a["theme"] for a in avatars}),
         "images_per_theme": len(avatars) // len({a["theme"] for a in avatars}) if avatars else 0,
-        "format": "512x512 JPEG",
+        "format": "512x512 JPEG (legacy) / Pollinations URL (new)",
         "generated": datetime.now().strftime("%Y-%m-%d"),
         "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
     }
@@ -273,6 +291,7 @@ def main():
         existing_image_hashes[filename] = source_hash
         print(f"Copied: {filename} -> {dest_path}")
 
+        # Legacy entry (file-based)
         new_avatar = {
             "id": avatar_id,
             "filename": filename,
@@ -305,7 +324,7 @@ def main():
         "total": len(avatars),
         "themes": themes,
         "images_per_theme": len(avatars) // len(themes) if themes else 0,
-        "format": "512x512 JPEG",
+        "format": "512x512 JPEG (legacy) / Pollinations URL (new)",
         "generated": datetime.now().strftime("%Y-%m-%d"),
         "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
     }
