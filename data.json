@@ -1,192 +1,6 @@
 {
   "avatars": [
     {
-      "id": "idle_20260620_131",
-      "filename": "idle_20260620_131144_584.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "createdAt": "2026-06-20T::+00:00",
-      "category": "uncategorized",
-      "seed": 916277
-    },
-    {
-      "id": "idle_20260620_125",
-      "filename": "idle_20260620_125735_9ba.jpg",
-      "prompt": "idle generated avatar (2026-06-20 12:59)",
-      "theme": "uncategorized",
-      "createdAt": "2026-06-20T::+00:00",
-      "category": "uncategorized",
-      "seed": 222999
-    },
-    {
-      "id": "uncategorized_1012",
-      "filename": "uncategorized_1012.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:51:06+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 73128,
-      "seed": 29457
-    },
-    {
-      "id": "uncategorized_1011",
-      "filename": "uncategorized_1011.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:50:04+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 59829,
-      "seed": 52635
-    },
-    {
-      "id": "uncategorized_1010",
-      "filename": "uncategorized_1010.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:48:34+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 59436,
-      "seed": 586109
-    },
-    {
-      "id": "uncategorized_1009",
-      "filename": "uncategorized_1009.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:47:33+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 61112,
-      "seed": 579281
-    },
-    {
-      "id": "uncategorized_1008",
-      "filename": "uncategorized_1008.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:46:32+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 70352,
-      "seed": 595695
-    },
-    {
-      "id": "uncategorized_1007",
-      "filename": "uncategorized_1007.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:45:30+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 58662,
-      "seed": 631834
-    },
-    {
-      "id": "uncategorized_1006",
-      "filename": "uncategorized_1006.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:44:29+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 47039,
-      "seed": 524583
-    },
-    {
-      "id": "uncategorized_1005",
-      "filename": "uncategorized_1005.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:43:27+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 56127,
-      "seed": 536078
-    },
-    {
-      "id": "uncategorized_1004",
-      "filename": "uncategorized_1004.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:42:26+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 55661,
-      "seed": 175235
-    },
-    {
-      "id": "uncategorized_1003",
-      "filename": "uncategorized_1003.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:41:24+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 57524,
-      "seed": 309832
-    },
-    {
-      "id": "uncategorized_1002",
-      "filename": "uncategorized_1002.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:40:22+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 64773,
-      "seed": 912242
-    },
-    {
-      "id": "uncategorized_1001",
-      "filename": "uncategorized_1001.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:39:21+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 51616,
-      "seed": 62782
-    },
-    {
-      "id": "uncategorized_1000",
-      "filename": "uncategorized_1000.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:38:19+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 57164,
-      "seed": 932692
-    },
-    {
-      "id": "uncategorized_999",
-      "filename": "uncategorized_999.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:37:17+00:00",
-      "width": null,
-      "height": null,
-      "fileSize": 49935,
-      "seed": 280240
-    },
-    {
       "id": "uncategorized_20260640",
       "filename": "uncategorized_20260640.jpg",
       "prompt": "idle generated avatar",
@@ -1039,6 +853,38 @@
       "seed": 798302
     },
     {
+      "id": "idle_20260620_131",
+      "filename": "idle_20260620_131144_584.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T::+00:00",
+      "category": "uncategorized",
+      "seed": 916277
+    },
+    {
+      "id": "registered_uncategorized_856",
+      "filename": "idle_20260620_131041_0ba.jpg",
+      "prompt": "idle_20260620_131041_0ba",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_130937_4b2",
+      "filename": "idle_20260620_130937_4b2.jpg",
+      "prompt": "idle 20260620 130937 4b2",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 507217
+    },
+    {
+      "id": "uncategorized_idle_20260620_130807_07c",
+      "filename": "idle_20260620_130807_07c.jpg",
+      "prompt": "idle 20260620 130807 07c",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 271622
+    },
+    {
       "id": "uncategorized_idle_20260620_130720_719",
       "filename": "idle_20260620_130720_719.jpg",
       "prompt": "idle generated avatar",
@@ -1049,6 +895,14 @@
       "fileSize": 85493,
       "category": "uncategorized",
       "seed": 547045
+    },
+    {
+      "id": "uncategorized_idle_20260620_130635_892",
+      "filename": "idle_20260620_130635_892.jpg",
+      "prompt": "idle 20260620 130635 892",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 603256
     },
     {
       "id": "uncategorized_idle_20260620_130553_d68",
@@ -1063,6 +917,14 @@
       "seed": 755431
     },
     {
+      "id": "uncategorized_idle_20260620_130506_e6d",
+      "filename": "idle_20260620_130506_e6d.jpg",
+      "prompt": "idle 20260620 130506 e6d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 854399
+    },
+    {
       "id": "uncategorized_idle_20260620_130427_496",
       "filename": "idle_20260620_130427_496.jpg",
       "prompt": "idle generated avatar",
@@ -1073,6 +935,14 @@
       "fileSize": 80749,
       "category": "uncategorized",
       "seed": 207957
+    },
+    {
+      "id": "uncategorized_idle_20260620_130342_8d2",
+      "filename": "idle_20260620_130342_8d2.jpg",
+      "prompt": "idle 20260620 130342 8d2",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 492059
     },
     {
       "id": "uncategorized_idle_20260620_130258_1ce",
@@ -1087,6 +957,14 @@
       "seed": 423199
     },
     {
+      "id": "uncategorized_idle_20260620_130215_946",
+      "filename": "idle_20260620_130215_946.jpg",
+      "prompt": "idle 20260620 130215 946",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 708368
+    },
+    {
       "id": "uncategorized_idle_20260620_130123_a06",
       "filename": "idle_20260620_130123_a06.jpg",
       "prompt": "idle generated avatar",
@@ -1097,6 +975,14 @@
       "fileSize": 86146,
       "category": "uncategorized",
       "seed": 123544
+    },
+    {
+      "id": "uncategorized_idle_20260620_130035_0b9",
+      "filename": "idle_20260620_130035_0b9.jpg",
+      "prompt": "idle 20260620 130035 0b9",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 753484
     },
     {
       "id": "uncategorized_idle_20260620_125950_e53",
@@ -1111,6 +997,14 @@
       "seed": 895590
     },
     {
+      "id": "uncategorized_idle_20260620_125905_000",
+      "filename": "idle_20260620_125905_000.jpg",
+      "prompt": "idle 20260620 125905 000",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 103021
+    },
+    {
       "id": "uncategorized_idle_20260620_125824_1b0",
       "filename": "idle_20260620_125824_1b0.jpg",
       "prompt": "idle generated avatar",
@@ -1121,6 +1015,15 @@
       "fileSize": 76458,
       "category": "uncategorized",
       "seed": 348213
+    },
+    {
+      "id": "idle_20260620_125",
+      "filename": "idle_20260620_125735_9ba.jpg",
+      "prompt": "idle generated avatar (2026-06-20 12:59)",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T::+00:00",
+      "category": "uncategorized",
+      "seed": 222999
     },
     {
       "id": "uncategorized_idle_20260620_125650_8a2",
@@ -1135,6 +1038,13 @@
       "seed": 415725
     },
     {
+      "id": "registered_uncategorized_855",
+      "filename": "idle_20260620_125605_4b4.jpg",
+      "prompt": "idle_20260620_125605_4b4",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "uncategorized_idle_20260620_125520_5dd",
       "filename": "idle_20260620_125520_5dd.jpg",
       "prompt": "idle generated avatar",
@@ -1145,6 +1055,13 @@
       "fileSize": 106410,
       "category": "uncategorized",
       "seed": 379202
+    },
+    {
+      "id": "registered_uncategorized_854",
+      "filename": "idle_20260620_125435_ae2.jpg",
+      "prompt": "idle_20260620_125435_ae2",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "uncategorized_idle_20260620_125350_01f",
@@ -1159,6 +1076,13 @@
       "seed": 938770
     },
     {
+      "id": "registered_uncategorized_853",
+      "filename": "idle_20260620_125305_abd.jpg",
+      "prompt": "idle_20260620_125305_abd",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "uncategorized_idle_20260620_125220_14a",
       "filename": "idle_20260620_125220_14a.jpg",
       "prompt": "idle generated avatar",
@@ -1169,6 +1093,13 @@
       "fileSize": 87947,
       "category": "uncategorized",
       "seed": 440139
+    },
+    {
+      "id": "registered_uncategorized_852",
+      "filename": "idle_20260620_125140_d31.jpg",
+      "prompt": "idle_20260620_125140_d31",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "uncategorized_idle_20260620_125050_9b6",
@@ -1183,6 +1114,13 @@
       "seed": 172379
     },
     {
+      "id": "registered_uncategorized_851",
+      "filename": "idle_20260620_125005_c86.jpg",
+      "prompt": "idle_20260620_125005_c86",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "uncategorized_idle_20260620_124920_150",
       "filename": "idle_20260620_124920_150.jpg",
       "prompt": "idle generated avatar",
@@ -1193,6 +1131,14 @@
       "fileSize": 100054,
       "category": "uncategorized",
       "seed": 29929
+    },
+    {
+      "id": "uncategorized_idle_20260620_124835_e0f",
+      "filename": "idle_20260620_124835_e0f.jpg",
+      "prompt": "idle 20260620 124835 e0f",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 358244
     },
     {
       "id": "uncategorized_idle_20260620_124750_084",
@@ -1207,6 +1153,14 @@
       "seed": 199097
     },
     {
+      "id": "uncategorized_idle_20260620_124705_ce1",
+      "filename": "idle_20260620_124705_ce1.jpg",
+      "prompt": "idle 20260620 124705 ce1",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 368981
+    },
+    {
       "id": "uncategorized_idle_20260620_124620_09c",
       "filename": "idle_20260620_124620_09c.jpg",
       "prompt": "idle generated avatar",
@@ -1217,6 +1171,14 @@
       "fileSize": 82852,
       "category": "uncategorized",
       "seed": 462256
+    },
+    {
+      "id": "uncategorized_idle_20260620_124535_d4e",
+      "filename": "idle_20260620_124535_d4e.jpg",
+      "prompt": "idle 20260620 124535 d4e",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 507128
     },
     {
       "id": "uncategorized_idle_20260620_124450_fe2",
@@ -1231,6 +1193,14 @@
       "seed": 523412
     },
     {
+      "id": "uncategorized_idle_20260620_124405_97f",
+      "filename": "idle_20260620_124405_97f.jpg",
+      "prompt": "idle 20260620 124405 97f",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 527669
+    },
+    {
       "id": "uncategorized_idle_20260620_124320_917",
       "filename": "idle_20260620_124320_917.jpg",
       "prompt": "idle generated avatar",
@@ -1241,6 +1211,14 @@
       "fileSize": 122635,
       "category": "uncategorized",
       "seed": 637572
+    },
+    {
+      "id": "uncategorized_idle_20260620_124235_616",
+      "filename": "idle_20260620_124235_616.jpg",
+      "prompt": "idle 20260620 124235 616",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 410948
     },
     {
       "id": "uncategorized_idle_20260620_124150_2af",
@@ -1255,6 +1233,14 @@
       "seed": 52602
     },
     {
+      "id": "uncategorized_idle_20260620_124105_f54",
+      "filename": "idle_20260620_124105_f54.jpg",
+      "prompt": "idle 20260620 124105 f54",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 957704
+    },
+    {
       "id": "uncategorized_idle_20260620_124019_a13",
       "filename": "idle_20260620_124019_a13.jpg",
       "prompt": "idle generated avatar",
@@ -1265,6 +1251,14 @@
       "fileSize": 82298,
       "category": "uncategorized",
       "seed": 295992
+    },
+    {
+      "id": "uncategorized_idle_20260620_123934_212",
+      "filename": "idle_20260620_123934_212.jpg",
+      "prompt": "idle 20260620 123934 212",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 542554
     },
     {
       "id": "uncategorized_idle_20260620_123850_f2e",
@@ -1279,6 +1273,14 @@
       "seed": 577521
     },
     {
+      "id": "uncategorized_idle_20260620_123806_4dc",
+      "filename": "idle_20260620_123806_4dc.jpg",
+      "prompt": "idle 20260620 123806 4dc",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 561353
+    },
+    {
       "id": "uncategorized_idle_20260620_123721_4de",
       "filename": "idle_20260620_123721_4de.jpg",
       "prompt": "idle generated avatar",
@@ -1289,6 +1291,14 @@
       "fileSize": 107675,
       "category": "uncategorized",
       "seed": 286412
+    },
+    {
+      "id": "uncategorized_idle_20260620_123635_456",
+      "filename": "idle_20260620_123635_456.jpg",
+      "prompt": "idle 20260620 123635 456",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 777684
     },
     {
       "id": "uncategorized_idle_20260620_123551_e0b",
@@ -1303,6 +1313,14 @@
       "seed": 489253
     },
     {
+      "id": "uncategorized_idle_20260620_123508_5b3",
+      "filename": "idle_20260620_123508_5b3.jpg",
+      "prompt": "idle 20260620 123508 5b3",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 677197
+    },
+    {
       "id": "uncategorized_idle_20260620_123425_c1f",
       "filename": "idle_20260620_123425_c1f.jpg",
       "prompt": "idle generated avatar",
@@ -1313,6 +1331,14 @@
       "fileSize": 91797,
       "category": "uncategorized",
       "seed": 343524
+    },
+    {
+      "id": "uncategorized_idle_20260620_123344_7c7",
+      "filename": "idle_20260620_123344_7c7.jpg",
+      "prompt": "idle 20260620 123344 7c7",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 613023
     },
     {
       "id": "uncategorized_idle_20260620_123257_863",
@@ -1327,6 +1353,14 @@
       "seed": 41413
     },
     {
+      "id": "uncategorized_idle_20260620_123211_9df",
+      "filename": "idle_20260620_123211_9df.jpg",
+      "prompt": "idle 20260620 123211 9df",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 40323
+    },
+    {
       "id": "uncategorized_idle_20260620_123113_b7d",
       "filename": "idle_20260620_123113_b7d.jpg",
       "prompt": "idle generated avatar",
@@ -1337,6 +1371,22 @@
       "fileSize": 111031,
       "category": "uncategorized",
       "seed": 165931
+    },
+    {
+      "id": "uncategorized_idle_20260620_123103_70b",
+      "filename": "idle_20260620_123103_70b.jpg",
+      "prompt": "idle 20260620 123103 70b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 191981
+    },
+    {
+      "id": "idle_20260620_122",
+      "filename": "idle_20260620_122934_d74.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 929330
     },
     {
       "id": "uncategorized_idle_20260620_122849_f2b",
@@ -1351,6 +1401,14 @@
       "seed": 194080
     },
     {
+      "id": "uncategorized_idle_20260620_122804_b6e",
+      "filename": "idle_20260620_122804_b6e.jpg",
+      "prompt": "idle 20260620 122804 b6e",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 946597
+    },
+    {
       "id": "uncategorized_idle_20260620_122718_ac9",
       "filename": "idle_20260620_122718_ac9.jpg",
       "prompt": "idle generated avatar",
@@ -1361,6 +1419,14 @@
       "fileSize": 83125,
       "category": "uncategorized",
       "seed": 946184
+    },
+    {
+      "id": "uncategorized_idle_20260620_122634_348",
+      "filename": "idle_20260620_122634_348.jpg",
+      "prompt": "idle 20260620 122634 348",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 949870
     },
     {
       "id": "uncategorized_idle_20260620_122549_c59",
@@ -1375,6 +1441,14 @@
       "seed": 25176
     },
     {
+      "id": "uncategorized_idle_20260620_122504_bd0",
+      "filename": "idle_20260620_122504_bd0.jpg",
+      "prompt": "idle 20260620 122504 bd0",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 727580
+    },
+    {
       "id": "uncategorized_idle_20260620_122418_f67",
       "filename": "idle_20260620_122418_f67.jpg",
       "prompt": "idle generated avatar",
@@ -1385,6 +1459,14 @@
       "fileSize": 107991,
       "category": "uncategorized",
       "seed": 604532
+    },
+    {
+      "id": "uncategorized_idle_20260620_122333_cf8",
+      "filename": "idle_20260620_122333_cf8.jpg",
+      "prompt": "idle 20260620 122333 cf8",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 1850
     },
     {
       "id": "uncategorized_idle_20260620_122248_080",
@@ -1399,6 +1481,14 @@
       "seed": 688339
     },
     {
+      "id": "uncategorized_idle_20260620_122203_734",
+      "filename": "idle_20260620_122203_734.jpg",
+      "prompt": "idle 20260620 122203 734",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 679690
+    },
+    {
       "id": "uncategorized_idle_20260620_122119_659",
       "filename": "idle_20260620_122119_659.jpg",
       "prompt": "idle generated avatar",
@@ -1409,6 +1499,14 @@
       "fileSize": 99199,
       "category": "uncategorized",
       "seed": 338245
+    },
+    {
+      "id": "uncategorized_idle_20260620_122033_c85",
+      "filename": "idle_20260620_122033_c85.jpg",
+      "prompt": "idle 20260620 122033 c85",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 163477
     },
     {
       "id": "uncategorized_idle_20260620_121948_e35",
@@ -1423,6 +1521,14 @@
       "seed": 888714
     },
     {
+      "id": "uncategorized_idle_20260620_121903_a22",
+      "filename": "idle_20260620_121903_a22.jpg",
+      "prompt": "idle 20260620 121903 a22",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 286771
+    },
+    {
       "id": "uncategorized_idle_20260620_121818_b28",
       "filename": "idle_20260620_121818_b28.jpg",
       "prompt": "idle generated avatar",
@@ -1433,6 +1539,14 @@
       "fileSize": 80270,
       "category": "uncategorized",
       "seed": 116517
+    },
+    {
+      "id": "uncategorized_idle_20260620_121733_e6a",
+      "filename": "idle_20260620_121733_e6a.jpg",
+      "prompt": "idle 20260620 121733 e6a",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 344113
     },
     {
       "id": "uncategorized_idle_20260620_121648_f7e",
@@ -1447,6 +1561,14 @@
       "seed": 446443
     },
     {
+      "id": "uncategorized_idle_20260620_121603_c16",
+      "filename": "idle_20260620_121603_c16.jpg",
+      "prompt": "idle 20260620 121603 c16",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 867350
+    },
+    {
       "id": "uncategorized_idle_20260620_121518_0e4",
       "filename": "idle_20260620_121518_0e4.jpg",
       "prompt": "idle generated avatar",
@@ -1457,6 +1579,14 @@
       "fileSize": 90561,
       "category": "uncategorized",
       "seed": 489318
+    },
+    {
+      "id": "uncategorized_idle_20260620_121433_d7d",
+      "filename": "idle_20260620_121433_d7d.jpg",
+      "prompt": "idle 20260620 121433 d7d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 302874
     },
     {
       "id": "uncategorized_idle_20260620_121349_41e",
@@ -1471,6 +1601,14 @@
       "seed": 486098
     },
     {
+      "id": "uncategorized_idle_20260620_121303_bdd",
+      "filename": "idle_20260620_121303_bdd.jpg",
+      "prompt": "idle 20260620 121303 bdd",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 595198
+    },
+    {
       "id": "uncategorized_idle_20260620_121218_539",
       "filename": "idle_20260620_121218_539.jpg",
       "prompt": "idle generated avatar",
@@ -1481,6 +1619,14 @@
       "fileSize": 117903,
       "category": "uncategorized",
       "seed": 317673
+    },
+    {
+      "id": "uncategorized_idle_20260620_121135_061",
+      "filename": "idle_20260620_121135_061.jpg",
+      "prompt": "idle 20260620 121135 061",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 575026
     },
     {
       "id": "uncategorized_idle_20260620_121048_62b",
@@ -1495,6 +1641,14 @@
       "seed": 166045
     },
     {
+      "id": "uncategorized_idle_20260620_121004_b67",
+      "filename": "idle_20260620_121004_b67.jpg",
+      "prompt": "idle 20260620 121004 b67",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 573927
+    },
+    {
       "id": "uncategorized_idle_20260620_120918_31a",
       "filename": "idle_20260620_120918_31a.jpg",
       "prompt": "idle generated avatar",
@@ -1505,6 +1659,14 @@
       "fileSize": 84546,
       "category": "uncategorized",
       "seed": 171591
+    },
+    {
+      "id": "uncategorized_idle_20260620_120833_392",
+      "filename": "idle_20260620_120833_392.jpg",
+      "prompt": "idle 20260620 120833 392",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 206541
     },
     {
       "id": "uncategorized_idle_20260620_120750_87a",
@@ -1519,6 +1681,14 @@
       "seed": 67839
     },
     {
+      "id": "uncategorized_idle_20260620_120703_eb4",
+      "filename": "idle_20260620_120703_eb4.jpg",
+      "prompt": "idle 20260620 120703 eb4",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 850889
+    },
+    {
       "id": "uncategorized_idle_20260620_120618_9a8",
       "filename": "idle_20260620_120618_9a8.jpg",
       "prompt": "idle generated avatar",
@@ -1529,6 +1699,14 @@
       "fileSize": 109157,
       "category": "uncategorized",
       "seed": 565161
+    },
+    {
+      "id": "uncategorized_idle_20260620_120535_b10",
+      "filename": "idle_20260620_120535_b10.jpg",
+      "prompt": "idle 20260620 120535 b10",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 221987
     },
     {
       "id": "uncategorized_idle_20260620_120449_f85",
@@ -1543,6 +1721,14 @@
       "seed": 443143
     },
     {
+      "id": "uncategorized_idle_20260620_120406_5ca",
+      "filename": "idle_20260620_120406_5ca.jpg",
+      "prompt": "idle 20260620 120406 5ca",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 794692
+    },
+    {
       "id": "uncategorized_idle_20260620_120327_f40",
       "filename": "idle_20260620_120327_f40.jpg",
       "prompt": "idle generated avatar",
@@ -1553,6 +1739,14 @@
       "fileSize": 70636,
       "category": "uncategorized",
       "seed": 248761
+    },
+    {
+      "id": "uncategorized_idle_20260620_120234_8b9",
+      "filename": "idle_20260620_120234_8b9.jpg",
+      "prompt": "idle 20260620 120234 8b9",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 797561
     },
     {
       "id": "uncategorized_idle_20260620_120149_d1c",
@@ -1567,6 +1761,14 @@
       "seed": 478014
     },
     {
+      "id": "uncategorized_idle_20260620_120104_817",
+      "filename": "idle_20260620_120104_817.jpg",
+      "prompt": "idle 20260620 120104 817",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 295918
+    },
+    {
       "id": "uncategorized_idle_20260620_120018_dad",
       "filename": "idle_20260620_120018_dad.jpg",
       "prompt": "idle generated avatar",
@@ -1577,6 +1779,14 @@
       "fileSize": 110238,
       "category": "uncategorized",
       "seed": 862640
+    },
+    {
+      "id": "uncategorized_idle_20260620_115933_d3a",
+      "filename": "idle_20260620_115933_d3a.jpg",
+      "prompt": "idle 20260620 115933 d3a",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 183439
     },
     {
       "id": "uncategorized_idle_20260620_115848_849",
@@ -1591,6 +1801,14 @@
       "seed": 990899
     },
     {
+      "id": "uncategorized_idle_20260620_115803_ed1",
+      "filename": "idle_20260620_115803_ed1.jpg",
+      "prompt": "idle 20260620 115803 ed1",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 403762
+    },
+    {
       "id": "uncategorized_idle_20260620_115719_a6e",
       "filename": "idle_20260620_115719_a6e.jpg",
       "prompt": "idle generated avatar",
@@ -1601,6 +1819,14 @@
       "fileSize": 85444,
       "category": "uncategorized",
       "seed": 973105
+    },
+    {
+      "id": "uncategorized_idle_20260620_115633_030",
+      "filename": "idle_20260620_115633_030.jpg",
+      "prompt": "idle 20260620 115633 030",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 700097
     },
     {
       "id": "uncategorized_idle_20260620_115549_017",
@@ -1615,6 +1841,14 @@
       "seed": 934111
     },
     {
+      "id": "uncategorized_idle_20260620_115503_6ab",
+      "filename": "idle_20260620_115503_6ab.jpg",
+      "prompt": "idle 20260620 115503 6ab",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 234799
+    },
+    {
       "id": "uncategorized_idle_20260620_115418_56f",
       "filename": "idle_20260620_115418_56f.jpg",
       "prompt": "idle generated avatar",
@@ -1625,6 +1859,14 @@
       "fileSize": 100523,
       "category": "uncategorized",
       "seed": 466233
+    },
+    {
+      "id": "uncategorized_idle_20260620_115333_62d",
+      "filename": "idle_20260620_115333_62d.jpg",
+      "prompt": "idle 20260620 115333 62d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 155646
     },
     {
       "id": "uncategorized_idle_20260620_115248_d1f",
@@ -1639,6 +1881,14 @@
       "seed": 887461
     },
     {
+      "id": "uncategorized_idle_20260620_115203_876",
+      "filename": "idle_20260620_115203_876.jpg",
+      "prompt": "idle 20260620 115203 876",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 734745
+    },
+    {
       "id": "uncategorized_idle_20260620_115118_5c2",
       "filename": "idle_20260620_115118_5c2.jpg",
       "prompt": "idle generated avatar",
@@ -1649,6 +1899,14 @@
       "fileSize": 88434,
       "category": "uncategorized",
       "seed": 776503
+    },
+    {
+      "id": "uncategorized_idle_20260620_115033_719",
+      "filename": "idle_20260620_115033_719.jpg",
+      "prompt": "idle 20260620 115033 719",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 565087
     },
     {
       "id": "uncategorized_idle_20260620_114948_55b",
@@ -1663,6 +1921,14 @@
       "seed": 579518
     },
     {
+      "id": "uncategorized_idle_20260620_114903_68f",
+      "filename": "idle_20260620_114903_68f.jpg",
+      "prompt": "idle 20260620 114903 68f",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 278273
+    },
+    {
       "id": "uncategorized_idle_20260620_114818_4da",
       "filename": "idle_20260620_114818_4da.jpg",
       "prompt": "idle generated avatar",
@@ -1673,6 +1939,14 @@
       "fileSize": 97671,
       "category": "uncategorized",
       "seed": 360164
+    },
+    {
+      "id": "uncategorized_idle_b9a",
+      "filename": "idle_20260620_114733_b9a.jpg",
+      "prompt": "idle b9a",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 749540
     },
     {
       "id": "uncategorized_idle_20260620_114648_63d",
@@ -1687,6 +1961,14 @@
       "seed": 355504
     },
     {
+      "id": "uncategorized_idle_aa1",
+      "filename": "idle_20260620_114604_aa1.jpg",
+      "prompt": "idle aa1",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 349957
+    },
+    {
       "id": "uncategorized_idle_20260620_114518_7c5",
       "filename": "idle_20260620_114518_7c5.jpg",
       "prompt": "idle generated avatar",
@@ -1697,6 +1979,14 @@
       "fileSize": 73436,
       "category": "uncategorized",
       "seed": 108598
+    },
+    {
+      "id": "uncategorized_idle_62c",
+      "filename": "idle_20260620_114435_62c.jpg",
+      "prompt": "idle 62c",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 94247
     },
     {
       "id": "uncategorized_idle_20260620_114413_423",
@@ -1711,6 +2001,14 @@
       "seed": 891498
     },
     {
+      "id": "uncategorized_idle_e4c",
+      "filename": "idle_20260620_114303_e4c.jpg",
+      "prompt": "idle e4c",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 278009
+    },
+    {
       "id": "uncategorized_idle_20260620_114218_639",
       "filename": "idle_20260620_114218_639.jpg",
       "prompt": "idle generated avatar",
@@ -1721,6 +2019,14 @@
       "fileSize": 114494,
       "category": "uncategorized",
       "seed": 778446
+    },
+    {
+      "id": "uncategorized_idle_0d8",
+      "filename": "idle_20260620_114134_0d8.jpg",
+      "prompt": "idle 0d8",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 381897
     },
     {
       "id": "uncategorized_idle_20260620_114049_182",
@@ -1735,6 +2041,14 @@
       "seed": 415718
     },
     {
+      "id": "uncategorized_idle_979",
+      "filename": "idle_20260620_114005_979.jpg",
+      "prompt": "idle 979",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 132641
+    },
+    {
       "id": "uncategorized_idle_20260620_113918_68e",
       "filename": "idle_20260620_113918_68e.jpg",
       "prompt": "idle generated avatar",
@@ -1745,6 +2059,14 @@
       "fileSize": 87840,
       "category": "uncategorized",
       "seed": 197199
+    },
+    {
+      "id": "uncategorized_idle_20260620_113833_48c",
+      "filename": "idle_20260620_113833_48c.jpg",
+      "prompt": "idle 20260620 113833 48c",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 195141
     },
     {
       "id": "uncategorized_idle_20260620_113748_668",
@@ -1759,6 +2081,14 @@
       "seed": 535338
     },
     {
+      "id": "uncategorized_idle_20260620_113703_6ea",
+      "filename": "idle_20260620_113703_6ea.jpg",
+      "prompt": "idle 20260620 113703 6ea",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 431508
+    },
+    {
       "id": "uncategorized_idle_20260620_113618_486",
       "filename": "idle_20260620_113618_486.jpg",
       "prompt": "idle generated avatar",
@@ -1769,6 +2099,14 @@
       "fileSize": 115806,
       "category": "uncategorized",
       "seed": 382825
+    },
+    {
+      "id": "uncategorized_idle_20260620_113533_be1",
+      "filename": "idle_20260620_113533_be1.jpg",
+      "prompt": "idle 20260620 113533 be1",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 80522
     },
     {
       "id": "uncategorized_idle_20260620_113448_679",
@@ -1783,6 +2121,14 @@
       "seed": 827884
     },
     {
+      "id": "uncategorized_idle_20260620_113403_aa7",
+      "filename": "idle_20260620_113403_aa7.jpg",
+      "prompt": "idle 20260620 113403 aa7",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 591831
+    },
+    {
       "id": "uncategorized_idle_20260620_113318_2df",
       "filename": "idle_20260620_113318_2df.jpg",
       "prompt": "idle generated avatar",
@@ -1793,6 +2139,14 @@
       "fileSize": 76098,
       "category": "uncategorized",
       "seed": 512427
+    },
+    {
+      "id": "uncategorized_idle_20260620_113233_79a",
+      "filename": "idle_20260620_113233_79a.jpg",
+      "prompt": "idle 20260620 113233 79a",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 3826
     },
     {
       "id": "uncategorized_idle_20260620_113148_aef",
@@ -1807,6 +2161,14 @@
       "seed": 342345
     },
     {
+      "id": "uncategorized_idle_20260620_113103_f00",
+      "filename": "idle_20260620_113103_f00.jpg",
+      "prompt": "idle 20260620 113103 f00",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 18018
+    },
+    {
       "id": "uncategorized_idle_20260620_113018_270",
       "filename": "idle_20260620_113018_270.jpg",
       "prompt": "idle generated avatar",
@@ -1817,6 +2179,14 @@
       "fileSize": 108728,
       "category": "uncategorized",
       "seed": 783714
+    },
+    {
+      "id": "uncategorized_idle_20260620_112933_923",
+      "filename": "idle_20260620_112933_923.jpg",
+      "prompt": "idle 20260620 112933 923",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 256950
     },
     {
       "id": "uncategorized_idle_20260620_112848_638",
@@ -1831,6 +2201,14 @@
       "seed": 944880
     },
     {
+      "id": "uncategorized_idle_20260620_112804_3a9",
+      "filename": "idle_20260620_112804_3a9.jpg",
+      "prompt": "idle 20260620 112804 3a9",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 395481
+    },
+    {
       "id": "uncategorized_idle_20260620_112718_5ef",
       "filename": "idle_20260620_112718_5ef.jpg",
       "prompt": "idle generated avatar",
@@ -1841,6 +2219,14 @@
       "fileSize": 75980,
       "category": "uncategorized",
       "seed": 70783
+    },
+    {
+      "id": "uncategorized_idle_20260620_112633_199",
+      "filename": "idle_20260620_112633_199.jpg",
+      "prompt": "idle 20260620 112633 199",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 992091
     },
     {
       "id": "uncategorized_idle_20260620_112548_bbc",
@@ -1855,6 +2241,14 @@
       "seed": 739957
     },
     {
+      "id": "uncategorized_idle_20260620_112503_cd6",
+      "filename": "idle_20260620_112503_cd6.jpg",
+      "prompt": "idle 20260620 112503 cd6",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 174586
+    },
+    {
       "id": "uncategorized_idle_20260620_112418_9d1",
       "filename": "idle_20260620_112418_9d1.jpg",
       "prompt": "idle generated avatar",
@@ -1865,6 +2259,14 @@
       "fileSize": 100879,
       "category": "uncategorized",
       "seed": 530483
+    },
+    {
+      "id": "uncategorized_idle_20260620_112334_38a",
+      "filename": "idle_20260620_112334_38a.jpg",
+      "prompt": "idle 20260620 112334 38a",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 189467
     },
     {
       "id": "uncategorized_idle_20260620_112248_afd",
@@ -1879,6 +2281,14 @@
       "seed": 820285
     },
     {
+      "id": "uncategorized_idle_20260620_112203_225",
+      "filename": "idle_20260620_112203_225.jpg",
+      "prompt": "idle 20260620 112203 225",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 286101
+    },
+    {
       "id": "uncategorized_idle_20260620_112119_fe2",
       "filename": "idle_20260620_112119_fe2.jpg",
       "prompt": "idle generated avatar",
@@ -1889,6 +2299,14 @@
       "fileSize": 77845,
       "category": "uncategorized",
       "seed": 328229
+    },
+    {
+      "id": "uncategorized_idle_20260620_112033_7b5",
+      "filename": "idle_20260620_112033_7b5.jpg",
+      "prompt": "idle 20260620 112033 7b5",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 166146
     },
     {
       "id": "uncategorized_idle_20260620_111948_3ac",
@@ -1903,6 +2321,14 @@
       "seed": 319357
     },
     {
+      "id": "uncategorized_idle_20260620_111903_bb1",
+      "filename": "idle_20260620_111903_bb1.jpg",
+      "prompt": "idle 20260620 111903 bb1",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 832087
+    },
+    {
       "id": "uncategorized_idle_20260620_111818_ef2",
       "filename": "idle_20260620_111818_ef2.jpg",
       "prompt": "idle generated avatar",
@@ -1913,6 +2339,14 @@
       "fileSize": 106010,
       "category": "uncategorized",
       "seed": 692303
+    },
+    {
+      "id": "uncategorized_idle_20260620_111733_0ae",
+      "filename": "idle_20260620_111733_0ae.jpg",
+      "prompt": "idle 20260620 111733 0ae",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 176705
     },
     {
       "id": "uncategorized_idle_20260620_111648_268",
@@ -1927,6 +2361,14 @@
       "seed": 548370
     },
     {
+      "id": "uncategorized_idle_20260620_111603_f8c",
+      "filename": "idle_20260620_111603_f8c.jpg",
+      "prompt": "idle 20260620 111603 f8c",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 357818
+    },
+    {
       "id": "uncategorized_idle_20260620_111518_411",
       "filename": "idle_20260620_111518_411.jpg",
       "prompt": "idle generated avatar",
@@ -1937,6 +2379,14 @@
       "fileSize": 64381,
       "category": "uncategorized",
       "seed": 890381
+    },
+    {
+      "id": "uncategorized_idle_20260620_111434_a28",
+      "filename": "idle_20260620_111434_a28.jpg",
+      "prompt": "idle 20260620 111434 a28",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 787690
     },
     {
       "id": "uncategorized_idle_20260620_111348_ff3",
@@ -1951,6 +2401,14 @@
       "seed": 929170
     },
     {
+      "id": "uncategorized_idle_20260620_111311_b08",
+      "filename": "idle_20260620_111311_b08.jpg",
+      "prompt": "idle 20260620 111311 b08",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 553074
+    },
+    {
       "id": "uncategorized_idle_20260620_111219_5a5",
       "filename": "idle_20260620_111219_5a5.jpg",
       "prompt": "idle generated avatar",
@@ -1961,6 +2419,14 @@
       "fileSize": 98340,
       "category": "uncategorized",
       "seed": 133317
+    },
+    {
+      "id": "uncategorized_idle_20260620_111136_911",
+      "filename": "idle_20260620_111136_911.jpg",
+      "prompt": "idle 20260620 111136 911",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 763480
     },
     {
       "id": "uncategorized_idle_20260620_111050_e4e",
@@ -1975,6 +2441,14 @@
       "seed": 211379
     },
     {
+      "id": "uncategorized_idle_20260620_111003_c36",
+      "filename": "idle_20260620_111003_c36.jpg",
+      "prompt": "idle 20260620 111003 c36",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 78066
+    },
+    {
       "id": "uncategorized_idle_20260620_110920_71c",
       "filename": "idle_20260620_110920_71c.jpg",
       "prompt": "idle generated avatar",
@@ -1985,6 +2459,14 @@
       "fileSize": 83327,
       "category": "uncategorized",
       "seed": 308638
+    },
+    {
+      "id": "uncategorized_idle_20260620_110833_2a1",
+      "filename": "idle_20260620_110833_2a1.jpg",
+      "prompt": "idle 20260620 110833 2a1",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 451006
     },
     {
       "id": "uncategorized_idle_20260620_110749_047",
@@ -1999,6 +2481,14 @@
       "seed": 523663
     },
     {
+      "id": "uncategorized_idle_20260620_110705_ec3",
+      "filename": "idle_20260620_110705_ec3.jpg",
+      "prompt": "idle 20260620 110705 ec3",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 10975
+    },
+    {
       "id": "uncategorized_idle_20260620_110618_20b",
       "filename": "idle_20260620_110618_20b.jpg",
       "prompt": "idle generated avatar",
@@ -2009,6 +2499,14 @@
       "fileSize": 93525,
       "category": "uncategorized",
       "seed": 156728
+    },
+    {
+      "id": "uncategorized_idle_20260620_110533_61d",
+      "filename": "idle_20260620_110533_61d.jpg",
+      "prompt": "idle 20260620 110533 61d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 821547
     },
     {
       "id": "uncategorized_idle_20260620_110448_071",
@@ -2023,6 +2521,14 @@
       "seed": 837970
     },
     {
+      "id": "uncategorized_idle_20260620_110403_fb8",
+      "filename": "idle_20260620_110403_fb8.jpg",
+      "prompt": "idle 20260620 110403 fb8",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 833085
+    },
+    {
       "id": "uncategorized_idle_20260620_110318_450",
       "filename": "idle_20260620_110318_450.jpg",
       "prompt": "idle generated avatar",
@@ -2033,6 +2539,14 @@
       "fileSize": 89533,
       "category": "uncategorized",
       "seed": 389475
+    },
+    {
+      "id": "uncategorized_idle_20260620_110233_851",
+      "filename": "idle_20260620_110233_851.jpg",
+      "prompt": "idle 20260620 110233 851",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 346609
     },
     {
       "id": "uncategorized_idle_20260620_110148_db9",
@@ -2047,6 +2561,14 @@
       "seed": 827385
     },
     {
+      "id": "uncategorized_idle_20260620_110103_038",
+      "filename": "idle_20260620_110103_038.jpg",
+      "prompt": "idle 20260620 110103 038",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 114327
+    },
+    {
       "id": "uncategorized_idle_20260620_110018_e4f",
       "filename": "idle_20260620_110018_e4f.jpg",
       "prompt": "idle generated avatar",
@@ -2057,6 +2579,14 @@
       "fileSize": 105514,
       "category": "uncategorized",
       "seed": 461501
+    },
+    {
+      "id": "uncategorized_idle_20260620_105933_ec4",
+      "filename": "idle_20260620_105933_ec4.jpg",
+      "prompt": "idle 20260620 105933 ec4",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 422926
     },
     {
       "id": "uncategorized_idle_20260620_105848_f37",
@@ -2071,6 +2601,14 @@
       "seed": 500208
     },
     {
+      "id": "uncategorized_idle_20260620_105803_104",
+      "filename": "idle_20260620_105803_104.jpg",
+      "prompt": "idle 20260620 105803 104",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 725535
+    },
+    {
       "id": "uncategorized_idle_20260620_105718_f77",
       "filename": "idle_20260620_105718_f77.jpg",
       "prompt": "idle generated avatar",
@@ -2081,6 +2619,14 @@
       "fileSize": 84649,
       "category": "uncategorized",
       "seed": 988458
+    },
+    {
+      "id": "uncategorized_idle_20260620_105633_f13",
+      "filename": "idle_20260620_105633_f13.jpg",
+      "prompt": "idle 20260620 105633 f13",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 103839
     },
     {
       "id": "uncategorized_idle_20260620_105548_04b",
@@ -2095,6 +2641,14 @@
       "seed": 306190
     },
     {
+      "id": "uncategorized_idle_20260620_105503_f0b",
+      "filename": "idle_20260620_105503_f0b.jpg",
+      "prompt": "idle 20260620 105503 f0b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 579727
+    },
+    {
       "id": "uncategorized_idle_20260620_105418_af8",
       "filename": "idle_20260620_105418_af8.jpg",
       "prompt": "idle generated avatar",
@@ -2105,6 +2659,14 @@
       "fileSize": 114281,
       "category": "uncategorized",
       "seed": 305742
+    },
+    {
+      "id": "uncategorized_idle_20260620_105333_1b5",
+      "filename": "idle_20260620_105333_1b5.jpg",
+      "prompt": "idle 20260620 105333 1b5",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 351510
     },
     {
       "id": "uncategorized_idle_20260620_105248_191",
@@ -2119,6 +2681,14 @@
       "seed": 506458
     },
     {
+      "id": "uncategorized_idle_20260620_105203_d40",
+      "filename": "idle_20260620_105203_d40.jpg",
+      "prompt": "idle 20260620 105203 d40",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 26147
+    },
+    {
       "id": "uncategorized_idle_20260620_105118_098",
       "filename": "idle_20260620_105118_098.jpg",
       "prompt": "idle generated avatar",
@@ -2129,6 +2699,14 @@
       "fileSize": 87546,
       "category": "uncategorized",
       "seed": 178728
+    },
+    {
+      "id": "uncategorized_idle_20260620_105033_d77",
+      "filename": "idle_20260620_105033_d77.jpg",
+      "prompt": "idle 20260620 105033 d77",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 597315
     },
     {
       "id": "uncategorized_idle_20260620_104948_b85",
@@ -2143,6 +2721,14 @@
       "seed": 615285
     },
     {
+      "id": "uncategorized_idle_20260620_104903_b82",
+      "filename": "idle_20260620_104903_b82.jpg",
+      "prompt": "idle 20260620 104903 b82",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 89245
+    },
+    {
       "id": "uncategorized_idle_20260620_104819_d5c",
       "filename": "idle_20260620_104819_d5c.jpg",
       "prompt": "idle generated avatar",
@@ -2153,6 +2739,14 @@
       "fileSize": 102956,
       "category": "uncategorized",
       "seed": 129290
+    },
+    {
+      "id": "uncategorized_idle_20260620_104733_e01",
+      "filename": "idle_20260620_104733_e01.jpg",
+      "prompt": "idle 20260620 104733 e01",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 721655
     },
     {
       "id": "uncategorized_idle_20260620_104648_3f9",
@@ -2167,6 +2761,14 @@
       "seed": 424969
     },
     {
+      "id": "uncategorized_idle_20260620_104603_cd4",
+      "filename": "idle_20260620_104603_cd4.jpg",
+      "prompt": "idle 20260620 104603 cd4",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 819514
+    },
+    {
       "id": "uncategorized_idle_20260620_104518_b24",
       "filename": "idle_20260620_104518_b24.jpg",
       "prompt": "idle generated avatar",
@@ -2177,6 +2779,14 @@
       "fileSize": 81842,
       "category": "uncategorized",
       "seed": 334204
+    },
+    {
+      "id": "uncategorized_idle_20260620_104433_6f3",
+      "filename": "idle_20260620_104433_6f3.jpg",
+      "prompt": "idle 20260620 104433 6f3",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 722142
     },
     {
       "id": "uncategorized_idle_20260620_104348_04b",
@@ -2191,6 +2801,14 @@
       "seed": 807612
     },
     {
+      "id": "uncategorized_idle_20260620_104303_e49",
+      "filename": "idle_20260620_104303_e49.jpg",
+      "prompt": "idle 20260620 104303 e49",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 56830
+    },
+    {
       "id": "uncategorized_idle_20260620_104218_176",
       "filename": "idle_20260620_104218_176.jpg",
       "prompt": "idle generated avatar",
@@ -2201,6 +2819,14 @@
       "fileSize": 121145,
       "category": "uncategorized",
       "seed": 121447
+    },
+    {
+      "id": "uncategorized_idle_20260620_104133_6f3",
+      "filename": "idle_20260620_104133_6f3.jpg",
+      "prompt": "idle 20260620 104133 6f3",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 523699
     },
     {
       "id": "uncategorized_idle_20260620_104049_310",
@@ -2215,6 +2841,14 @@
       "seed": 246952
     },
     {
+      "id": "uncategorized_idle_20260620_104004_623",
+      "filename": "idle_20260620_104004_623.jpg",
+      "prompt": "idle 20260620 104004 623",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 452956
+    },
+    {
       "id": "uncategorized_idle_20260620_103918_31c",
       "filename": "idle_20260620_103918_31c.jpg",
       "prompt": "idle generated avatar",
@@ -2225,6 +2859,14 @@
       "fileSize": 70410,
       "category": "uncategorized",
       "seed": 928744
+    },
+    {
+      "id": "uncategorized_idle_20260620_103833_97b",
+      "filename": "idle_20260620_103833_97b.jpg",
+      "prompt": "idle 20260620 103833 97b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 73864
     },
     {
       "id": "uncategorized_idle_20260620_103748_c4d",
@@ -2239,6 +2881,14 @@
       "seed": 220017
     },
     {
+      "id": "uncategorized_idle_20260620_103703_8f1",
+      "filename": "idle_20260620_103703_8f1.jpg",
+      "prompt": "idle 20260620 103703 8f1",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 86492
+    },
+    {
       "id": "uncategorized_idle_20260620_103618_f31",
       "filename": "idle_20260620_103618_f31.jpg",
       "prompt": "idle generated avatar",
@@ -2249,6 +2899,14 @@
       "fileSize": 103388,
       "category": "uncategorized",
       "seed": 366509
+    },
+    {
+      "id": "uncategorized_idle_20260620_103533_e00",
+      "filename": "idle_20260620_103533_e00.jpg",
+      "prompt": "idle 20260620 103533 e00",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 879189
     },
     {
       "id": "uncategorized_idle_20260620_103448_977",
@@ -2263,6 +2921,14 @@
       "seed": 514962
     },
     {
+      "id": "uncategorized_idle_20260620_103403_e58",
+      "filename": "idle_20260620_103403_e58.jpg",
+      "prompt": "idle 20260620 103403 e58",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 467425
+    },
+    {
       "id": "uncategorized_idle_20260620_103319_8c2",
       "filename": "idle_20260620_103319_8c2.jpg",
       "prompt": "idle generated avatar",
@@ -2273,6 +2939,14 @@
       "fileSize": 60088,
       "category": "uncategorized",
       "seed": 472358
+    },
+    {
+      "id": "uncategorized_idle_20260620_103234_a8d",
+      "filename": "idle_20260620_103234_a8d.jpg",
+      "prompt": "idle 20260620 103234 a8d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 416844
     },
     {
       "id": "uncategorized_idle_20260620_103148_c3a",
@@ -2287,6 +2961,14 @@
       "seed": 773693
     },
     {
+      "id": "uncategorized_idle_20260620_103103_57f",
+      "filename": "idle_20260620_103103_57f.jpg",
+      "prompt": "idle 20260620 103103 57f",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 914311
+    },
+    {
       "id": "uncategorized_idle_20260620_103018_813",
       "filename": "idle_20260620_103018_813.jpg",
       "prompt": "idle generated avatar",
@@ -2297,6 +2979,14 @@
       "fileSize": 114082,
       "category": "uncategorized",
       "seed": 627900
+    },
+    {
+      "id": "uncategorized_idle_20260620_102933_032",
+      "filename": "idle_20260620_102933_032.jpg",
+      "prompt": "idle 20260620 102933 032",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 608346
     },
     {
       "id": "uncategorized_idle_20260620_102848_b09",
@@ -2311,6 +3001,14 @@
       "seed": 427275
     },
     {
+      "id": "uncategorized_idle_20260620_102803_d9b",
+      "filename": "idle_20260620_102803_d9b.jpg",
+      "prompt": "idle 20260620 102803 d9b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 110030
+    },
+    {
       "id": "uncategorized_idle_20260620_102718_647",
       "filename": "idle_20260620_102718_647.jpg",
       "prompt": "idle generated avatar",
@@ -2321,6 +3019,14 @@
       "fileSize": 68909,
       "category": "uncategorized",
       "seed": 54167
+    },
+    {
+      "id": "uncategorized_idle_20260620_102633_e0d",
+      "filename": "idle_20260620_102633_e0d.jpg",
+      "prompt": "idle 20260620 102633 e0d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 467445
     },
     {
       "id": "uncategorized_idle_20260620_102548_4db",
@@ -2335,6 +3041,14 @@
       "seed": 549261
     },
     {
+      "id": "uncategorized_idle_20260620_102503_964",
+      "filename": "idle_20260620_102503_964.jpg",
+      "prompt": "idle 20260620 102503 964",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 952036
+    },
+    {
       "id": "uncategorized_idle_20260620_102418_aa1",
       "filename": "idle_20260620_102418_aa1.jpg",
       "prompt": "idle generated avatar",
@@ -2345,6 +3059,14 @@
       "fileSize": 110603,
       "category": "uncategorized",
       "seed": 231515
+    },
+    {
+      "id": "uncategorized_idle_20260620_102333_ee6",
+      "filename": "idle_20260620_102333_ee6.jpg",
+      "prompt": "idle 20260620 102333 ee6",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 687893
     },
     {
       "id": "uncategorized_idle_20260620_102248_cb3",
@@ -2359,6 +3081,14 @@
       "seed": 163479
     },
     {
+      "id": "uncategorized_idle_20260620_102203_432",
+      "filename": "idle_20260620_102203_432.jpg",
+      "prompt": "idle 20260620 102203 432",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 748611
+    },
+    {
       "id": "uncategorized_idle_20260620_102118_190",
       "filename": "idle_20260620_102118_190.jpg",
       "prompt": "idle generated avatar",
@@ -2369,6 +3099,14 @@
       "fileSize": 88507,
       "category": "uncategorized",
       "seed": 983034
+    },
+    {
+      "id": "uncategorized_idle_20260620_102033_395",
+      "filename": "idle_20260620_102033_395.jpg",
+      "prompt": "idle 20260620 102033 395",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 139445
     },
     {
       "id": "uncategorized_idle_20260620_101948_0d5",
@@ -2383,6 +3121,14 @@
       "seed": 722652
     },
     {
+      "id": "uncategorized_idle_20260620_101903_c3e",
+      "filename": "idle_20260620_101903_c3e.jpg",
+      "prompt": "idle 20260620 101903 c3e",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 32505
+    },
+    {
       "id": "uncategorized_idle_20260620_101818_55c",
       "filename": "idle_20260620_101818_55c.jpg",
       "prompt": "idle generated avatar",
@@ -2393,6 +3139,14 @@
       "fileSize": 122070,
       "category": "uncategorized",
       "seed": 62029
+    },
+    {
+      "id": "uncategorized_idle_20260620_101733_c28",
+      "filename": "idle_20260620_101733_c28.jpg",
+      "prompt": "idle 20260620 101733 c28",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 595161
     },
     {
       "id": "uncategorized_idle_20260620_101648_b12",
@@ -2407,6 +3161,14 @@
       "seed": 572183
     },
     {
+      "id": "uncategorized_idle_20260620_101603_005",
+      "filename": "idle_20260620_101603_005.jpg",
+      "prompt": "idle 20260620 101603 005",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 401786
+    },
+    {
       "id": "uncategorized_idle_20260620_101518_d8c",
       "filename": "idle_20260620_101518_d8c.jpg",
       "prompt": "idle generated avatar",
@@ -2417,6 +3179,14 @@
       "fileSize": 77693,
       "category": "uncategorized",
       "seed": 456043
+    },
+    {
+      "id": "uncategorized_idle_20260620_101433_8aa",
+      "filename": "idle_20260620_101433_8aa.jpg",
+      "prompt": "idle 20260620 101433 8aa",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 129938
     },
     {
       "id": "uncategorized_idle_20260620_101348_670",
@@ -2431,6 +3201,14 @@
       "seed": 113975
     },
     {
+      "id": "uncategorized_idle_20260620_101303_c7e",
+      "filename": "idle_20260620_101303_c7e.jpg",
+      "prompt": "idle 20260620 101303 c7e",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 925057
+    },
+    {
       "id": "uncategorized_idle_20260620_101218_2eb",
       "filename": "idle_20260620_101218_2eb.jpg",
       "prompt": "idle generated avatar",
@@ -2441,6 +3219,14 @@
       "fileSize": 105493,
       "category": "uncategorized",
       "seed": 631319
+    },
+    {
+      "id": "uncategorized_idle_20260620_101133_32d",
+      "filename": "idle_20260620_101133_32d.jpg",
+      "prompt": "idle 20260620 101133 32d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 98620
     },
     {
       "id": "uncategorized_idle_20260620_101048_d0e",
@@ -2455,6 +3241,14 @@
       "seed": 462017
     },
     {
+      "id": "uncategorized_idle_20260620_101003_409",
+      "filename": "idle_20260620_101003_409.jpg",
+      "prompt": "idle 20260620 101003 409",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 933470
+    },
+    {
       "id": "uncategorized_idle_20260620_100919_50c",
       "filename": "idle_20260620_100919_50c.jpg",
       "prompt": "idle generated avatar",
@@ -2465,6 +3259,14 @@
       "fileSize": 91805,
       "category": "uncategorized",
       "seed": 111233
+    },
+    {
+      "id": "uncategorized_idle_20260620_100834_9a5",
+      "filename": "idle_20260620_100834_9a5.jpg",
+      "prompt": "idle 20260620 100834 9a5",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 547204
     },
     {
       "id": "uncategorized_idle_20260620_100749_ab3",
@@ -2479,6 +3281,14 @@
       "seed": 290253
     },
     {
+      "id": "uncategorized_idle_20260620_100705_4a5",
+      "filename": "idle_20260620_100705_4a5.jpg",
+      "prompt": "idle 20260620 100705 4a5",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 364839
+    },
+    {
       "id": "uncategorized_idle_20260620_100618_6fc",
       "filename": "idle_20260620_100618_6fc.jpg",
       "prompt": "idle generated avatar",
@@ -2489,6 +3299,14 @@
       "fileSize": 112799,
       "category": "uncategorized",
       "seed": 471055
+    },
+    {
+      "id": "uncategorized_idle_20260620_100533_678",
+      "filename": "idle_20260620_100533_678.jpg",
+      "prompt": "idle 20260620 100533 678",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 148950
     },
     {
       "id": "uncategorized_idle_20260620_100450_ea2",
@@ -2503,6 +3321,14 @@
       "seed": 697887
     },
     {
+      "id": "uncategorized_idle_20260620_100403_212",
+      "filename": "idle_20260620_100403_212.jpg",
+      "prompt": "idle 20260620 100403 212",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 610059
+    },
+    {
       "id": "uncategorized_idle_20260620_100318_0c0",
       "filename": "idle_20260620_100318_0c0.jpg",
       "prompt": "idle generated avatar",
@@ -2513,6 +3339,14 @@
       "fileSize": 84681,
       "category": "uncategorized",
       "seed": 444877
+    },
+    {
+      "id": "uncategorized_idle_20260620_100239_b6b",
+      "filename": "idle_20260620_100239_b6b.jpg",
+      "prompt": "idle 20260620 100239 b6b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 984769
     },
     {
       "id": "uncategorized_idle_20260620_100149_8b3",
@@ -2527,6 +3361,14 @@
       "seed": 10136
     },
     {
+      "id": "uncategorized_idle_20260620_100104_00d",
+      "filename": "idle_20260620_100104_00d.jpg",
+      "prompt": "idle 20260620 100104 00d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 662063
+    },
+    {
       "id": "uncategorized_idle_20260620_100018_af2",
       "filename": "idle_20260620_100018_af2.jpg",
       "prompt": "idle generated avatar",
@@ -2537,6 +3379,14 @@
       "fileSize": 112489,
       "category": "uncategorized",
       "seed": 2937
+    },
+    {
+      "id": "uncategorized_idle_20260620_095933_098",
+      "filename": "idle_20260620_095933_098.jpg",
+      "prompt": "idle 20260620 095933 098",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 893872
     },
     {
       "id": "uncategorized_idle_20260620_095848_db0",
@@ -2551,6 +3401,14 @@
       "seed": 274960
     },
     {
+      "id": "uncategorized_idle_20260620_095803_d08",
+      "filename": "idle_20260620_095803_d08.jpg",
+      "prompt": "idle 20260620 095803 d08",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 870499
+    },
+    {
       "id": "uncategorized_idle_20260620_095718_ea9",
       "filename": "idle_20260620_095718_ea9.jpg",
       "prompt": "idle generated avatar",
@@ -2561,6 +3419,14 @@
       "fileSize": 73629,
       "category": "uncategorized",
       "seed": 734372
+    },
+    {
+      "id": "uncategorized_idle_20260620_095633_7f9",
+      "filename": "idle_20260620_095633_7f9.jpg",
+      "prompt": "idle 20260620 095633 7f9",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 808807
     },
     {
       "id": "uncategorized_idle_20260620_095548_42d",
@@ -2575,6 +3441,14 @@
       "seed": 792301
     },
     {
+      "id": "uncategorized_idle_20260620_095503_e8f",
+      "filename": "idle_20260620_095503_e8f.jpg",
+      "prompt": "idle 20260620 095503 e8f",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 726695
+    },
+    {
       "id": "uncategorized_idle_20260620_095419_c41",
       "filename": "idle_20260620_095419_c41.jpg",
       "prompt": "idle generated avatar",
@@ -2585,6 +3459,14 @@
       "fileSize": 117623,
       "category": "uncategorized",
       "seed": 539869
+    },
+    {
+      "id": "uncategorized_idle_20260620_095333_d04",
+      "filename": "idle_20260620_095333_d04.jpg",
+      "prompt": "idle 20260620 095333 d04",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 913072
     },
     {
       "id": "uncategorized_idle_20260620_095248_e68",
@@ -2599,6 +3481,14 @@
       "seed": 499537
     },
     {
+      "id": "uncategorized_idle_20260620_095203_dd4",
+      "filename": "idle_20260620_095203_dd4.jpg",
+      "prompt": "idle 20260620 095203 dd4",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 706682
+    },
+    {
       "id": "uncategorized_idle_20260620_095118_7a0",
       "filename": "idle_20260620_095118_7a0.jpg",
       "prompt": "idle generated avatar",
@@ -2609,6 +3499,14 @@
       "fileSize": 82731,
       "category": "uncategorized",
       "seed": 630719
+    },
+    {
+      "id": "uncategorized_idle_20260620_095033_9ad",
+      "filename": "idle_20260620_095033_9ad.jpg",
+      "prompt": "idle 20260620 095033 9ad",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 874604
     },
     {
       "id": "uncategorized_idle_20260620_094948_67a",
@@ -2623,6 +3521,14 @@
       "seed": 873785
     },
     {
+      "id": "uncategorized_idle_20260620_094903_6ef",
+      "filename": "idle_20260620_094903_6ef.jpg",
+      "prompt": "idle 20260620 094903 6ef",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 886751
+    },
+    {
       "id": "uncategorized_idle_20260620_094818_65b",
       "filename": "idle_20260620_094818_65b.jpg",
       "prompt": "idle generated avatar",
@@ -2633,6 +3539,14 @@
       "fileSize": 107426,
       "category": "uncategorized",
       "seed": 545321
+    },
+    {
+      "id": "uncategorized_idle_20260620_094733_e05",
+      "filename": "idle_20260620_094733_e05.jpg",
+      "prompt": "idle 20260620 094733 e05",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 373382
     },
     {
       "id": "uncategorized_idle_20260620_094648_4e6",
@@ -2647,6 +3561,14 @@
       "seed": 540361
     },
     {
+      "id": "uncategorized_idle_20260620_094603_084",
+      "filename": "idle_20260620_094603_084.jpg",
+      "prompt": "idle 20260620 094603 084",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 463847
+    },
+    {
       "id": "uncategorized_idle_20260620_094518_496",
       "filename": "idle_20260620_094518_496.jpg",
       "prompt": "idle generated avatar",
@@ -2657,6 +3579,14 @@
       "fileSize": 100258,
       "category": "uncategorized",
       "seed": 621456
+    },
+    {
+      "id": "uncategorized_idle_20260620_094433_85f",
+      "filename": "idle_20260620_094433_85f.jpg",
+      "prompt": "idle 20260620 094433 85f",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 926073
     },
     {
       "id": "uncategorized_idle_20260620_094349_4c3",
@@ -2671,6 +3601,14 @@
       "seed": 529453
     },
     {
+      "id": "uncategorized_idle_20260620_094303_a3e",
+      "filename": "idle_20260620_094303_a3e.jpg",
+      "prompt": "idle 20260620 094303 a3e",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 206288
+    },
+    {
       "id": "uncategorized_idle_20260620_094218_167",
       "filename": "idle_20260620_094218_167.jpg",
       "prompt": "idle generated avatar",
@@ -2681,6 +3619,14 @@
       "fileSize": 118666,
       "category": "uncategorized",
       "seed": 359800
+    },
+    {
+      "id": "uncategorized_idle_20260620_094133_dcf",
+      "filename": "idle_20260620_094133_dcf.jpg",
+      "prompt": "idle 20260620 094133 dcf",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 963447
     },
     {
       "id": "uncategorized_idle_20260620_094048_342",
@@ -2695,6 +3641,14 @@
       "seed": 409202
     },
     {
+      "id": "uncategorized_idle_20260620_094003_0e0",
+      "filename": "idle_20260620_094003_0e0.jpg",
+      "prompt": "idle 20260620 094003 0e0",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 845428
+    },
+    {
       "id": "uncategorized_idle_20260620_093919_ab8",
       "filename": "idle_20260620_093919_ab8.jpg",
       "prompt": "idle generated avatar",
@@ -2705,6 +3659,14 @@
       "fileSize": 87699,
       "category": "uncategorized",
       "seed": 416320
+    },
+    {
+      "id": "uncategorized_idle_20260620_093834_916",
+      "filename": "idle_20260620_093834_916.jpg",
+      "prompt": "idle 20260620 093834 916",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 359571
     },
     {
       "id": "uncategorized_idle_20260620_093749_d3c",
@@ -2719,6 +3681,14 @@
       "seed": 532795
     },
     {
+      "id": "uncategorized_idle_20260620_093703_3ac",
+      "filename": "idle_20260620_093703_3ac.jpg",
+      "prompt": "idle 20260620 093703 3ac",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 609226
+    },
+    {
       "id": "uncategorized_idle_20260620_093619_e9f",
       "filename": "idle_20260620_093619_e9f.jpg",
       "prompt": "idle generated avatar",
@@ -2729,6 +3699,14 @@
       "fileSize": 103070,
       "category": "uncategorized",
       "seed": 267578
+    },
+    {
+      "id": "uncategorized_idle_20260620_093534_f6b",
+      "filename": "idle_20260620_093534_f6b.jpg",
+      "prompt": "idle 20260620 093534 f6b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 258982
     },
     {
       "id": "uncategorized_idle_20260620_093448_67b",
@@ -2743,6 +3721,14 @@
       "seed": 70258
     },
     {
+      "id": "uncategorized_idle_20260620_093403_ade",
+      "filename": "idle_20260620_093403_ade.jpg",
+      "prompt": "idle 20260620 093403 ade",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 443156
+    },
+    {
       "id": "uncategorized_idle_20260620_093318_ac4",
       "filename": "idle_20260620_093318_ac4.jpg",
       "prompt": "idle generated avatar",
@@ -2753,6 +3739,14 @@
       "fileSize": 80152,
       "category": "uncategorized",
       "seed": 924567
+    },
+    {
+      "id": "uncategorized_idle_20260620_093233_722",
+      "filename": "idle_20260620_093233_722.jpg",
+      "prompt": "idle 20260620 093233 722",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 280227
     },
     {
       "id": "uncategorized_idle_20260620_093148_683",
@@ -2767,6 +3761,14 @@
       "seed": 889325
     },
     {
+      "id": "uncategorized_idle_20260620_093103_5ac",
+      "filename": "idle_20260620_093103_5ac.jpg",
+      "prompt": "idle 20260620 093103 5ac",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 297444
+    },
+    {
       "id": "uncategorized_idle_20260620_093018_4c3",
       "filename": "idle_20260620_093018_4c3.jpg",
       "prompt": "idle generated avatar",
@@ -2777,6 +3779,14 @@
       "fileSize": 115204,
       "category": "uncategorized",
       "seed": 188215
+    },
+    {
+      "id": "uncategorized_idle_20260620_092933_e58",
+      "filename": "idle_20260620_092933_e58.jpg",
+      "prompt": "idle 20260620 092933 e58",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 201616
     },
     {
       "id": "uncategorized_idle_20260620_092848_7b4",
@@ -2791,6 +3801,14 @@
       "seed": 998918
     },
     {
+      "id": "uncategorized_idle_20260620_092803_88e",
+      "filename": "idle_20260620_092803_88e.jpg",
+      "prompt": "idle 20260620 092803 88e",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 766897
+    },
+    {
       "id": "uncategorized_idle_20260620_092718_7e9",
       "filename": "idle_20260620_092718_7e9.jpg",
       "prompt": "idle generated avatar",
@@ -2801,6 +3819,14 @@
       "fileSize": 62835,
       "category": "uncategorized",
       "seed": 198675
+    },
+    {
+      "id": "uncategorized_idle_20260620_092633_579",
+      "filename": "idle_20260620_092633_579.jpg",
+      "prompt": "idle 20260620 092633 579",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 171952
     },
     {
       "id": "uncategorized_idle_20260620_092548_828",
@@ -2815,6 +3841,14 @@
       "seed": 46330
     },
     {
+      "id": "uncategorized_idle_20260620_092503_95d",
+      "filename": "idle_20260620_092503_95d.jpg",
+      "prompt": "idle 20260620 092503 95d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 797628
+    },
+    {
       "id": "uncategorized_idle_20260620_092418_14f",
       "filename": "idle_20260620_092418_14f.jpg",
       "prompt": "idle generated avatar",
@@ -2825,6 +3859,14 @@
       "fileSize": 113142,
       "category": "uncategorized",
       "seed": 964736
+    },
+    {
+      "id": "uncategorized_idle_20260620_092333_bb7",
+      "filename": "idle_20260620_092333_bb7.jpg",
+      "prompt": "idle 20260620 092333 bb7",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 870010
     },
     {
       "id": "uncategorized_idle_20260620_092248_410",
@@ -2839,6 +3881,14 @@
       "seed": 565481
     },
     {
+      "id": "uncategorized_idle_20260620_092203_b1a",
+      "filename": "idle_20260620_092203_b1a.jpg",
+      "prompt": "idle 20260620 092203 b1a",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 250224
+    },
+    {
       "id": "uncategorized_idle_20260620_092118_726",
       "filename": "idle_20260620_092118_726.jpg",
       "prompt": "idle generated avatar",
@@ -2849,6 +3899,14 @@
       "fileSize": 89919,
       "category": "uncategorized",
       "seed": 356034
+    },
+    {
+      "id": "uncategorized_idle_20260620_092033_7ec",
+      "filename": "idle_20260620_092033_7ec.jpg",
+      "prompt": "idle 20260620 092033 7ec",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 783041
     },
     {
       "id": "uncategorized_idle_20260620_091948_ac8",
@@ -2863,6 +3921,14 @@
       "seed": 669654
     },
     {
+      "id": "uncategorized_idle_20260620_091903_837",
+      "filename": "idle_20260620_091903_837.jpg",
+      "prompt": "idle 20260620 091903 837",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 719157
+    },
+    {
       "id": "uncategorized_idle_20260620_091818_e54",
       "filename": "idle_20260620_091818_e54.jpg",
       "prompt": "idle generated avatar",
@@ -2873,6 +3939,14 @@
       "fileSize": 105256,
       "category": "uncategorized",
       "seed": 27547
+    },
+    {
+      "id": "uncategorized_idle_20260620_091733_1af",
+      "filename": "idle_20260620_091733_1af.jpg",
+      "prompt": "idle 20260620 091733 1af",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 324572
     },
     {
       "id": "uncategorized_idle_20260620_091648_71e",
@@ -2887,6 +3961,14 @@
       "seed": 35296
     },
     {
+      "id": "uncategorized_idle_20260620_091604_8f4",
+      "filename": "idle_20260620_091604_8f4.jpg",
+      "prompt": "idle 20260620 091604 8f4",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 319227
+    },
+    {
       "id": "uncategorized_idle_20260620_091518_fa3",
       "filename": "idle_20260620_091518_fa3.jpg",
       "prompt": "idle generated avatar",
@@ -2897,6 +3979,14 @@
       "fileSize": 85853,
       "category": "uncategorized",
       "seed": 44884
+    },
+    {
+      "id": "uncategorized_idle_20260620_091433_dfc",
+      "filename": "idle_20260620_091433_dfc.jpg",
+      "prompt": "idle 20260620 091433 dfc",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 795940
     },
     {
       "id": "uncategorized_idle_20260620_091348_32e",
@@ -2911,6 +4001,14 @@
       "seed": 91922
     },
     {
+      "id": "uncategorized_idle_20260620_091303_c5d",
+      "filename": "idle_20260620_091303_c5d.jpg",
+      "prompt": "idle 20260620 091303 c5d",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 208180
+    },
+    {
       "id": "uncategorized_idle_20260620_091218_665",
       "filename": "idle_20260620_091218_665.jpg",
       "prompt": "idle generated avatar",
@@ -2921,6 +4019,14 @@
       "fileSize": 111077,
       "category": "uncategorized",
       "seed": 770942
+    },
+    {
+      "id": "uncategorized_idle_20260620_091133_870",
+      "filename": "idle_20260620_091133_870.jpg",
+      "prompt": "idle 20260620 091133 870",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 931443
     },
     {
       "id": "uncategorized_idle_20260620_091048_666",
@@ -2935,6 +4041,14 @@
       "seed": 283803
     },
     {
+      "id": "uncategorized_idle_20260620_091003_39e",
+      "filename": "idle_20260620_091003_39e.jpg",
+      "prompt": "idle 20260620 091003 39e",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 8486
+    },
+    {
       "id": "uncategorized_idle_20260620_090918_20f",
       "filename": "idle_20260620_090918_20f.jpg",
       "prompt": "idle generated avatar",
@@ -2945,6 +4059,14 @@
       "fileSize": 88448,
       "category": "uncategorized",
       "seed": 544413
+    },
+    {
+      "id": "uncategorized_idle_20260620_090833_eff",
+      "filename": "idle_20260620_090833_eff.jpg",
+      "prompt": "idle 20260620 090833 eff",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 806529
     },
     {
       "id": "uncategorized_idle_20260620_090751_b2f",
@@ -2959,6 +4081,14 @@
       "seed": 577931
     },
     {
+      "id": "uncategorized_idle_20260620_090703_8f2",
+      "filename": "idle_20260620_090703_8f2.jpg",
+      "prompt": "idle 20260620 090703 8f2",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 955367
+    },
+    {
       "id": "uncategorized_idle_20260620_090619_2f3",
       "filename": "idle_20260620_090619_2f3.jpg",
       "prompt": "idle generated avatar",
@@ -2969,6 +4099,14 @@
       "fileSize": 117070,
       "category": "uncategorized",
       "seed": 866633
+    },
+    {
+      "id": "uncategorized_idle_20260620_090536_01b",
+      "filename": "idle_20260620_090536_01b.jpg",
+      "prompt": "idle 20260620 090536 01b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 540307
     },
     {
       "id": "uncategorized_idle_20260620_090448_ecb",
@@ -2983,6 +4121,14 @@
       "seed": 451815
     },
     {
+      "id": "uncategorized_idle_20260620_090404_e30",
+      "filename": "idle_20260620_090404_e30.jpg",
+      "prompt": "idle 20260620 090404 e30",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 737694
+    },
+    {
       "id": "uncategorized_idle_20260620_090318_92c",
       "filename": "idle_20260620_090318_92c.jpg",
       "prompt": "idle generated avatar",
@@ -2993,6 +4139,14 @@
       "fileSize": 73397,
       "category": "uncategorized",
       "seed": 302203
+    },
+    {
+      "id": "uncategorized_idle_20260620_090233_e98",
+      "filename": "idle_20260620_090233_e98.jpg",
+      "prompt": "idle 20260620 090233 e98",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 553435
     },
     {
       "id": "uncategorized_idle_20260620_090148_ebf",
@@ -3007,6 +4161,14 @@
       "seed": 501923
     },
     {
+      "id": "uncategorized_idle_20260620_090103_678",
+      "filename": "idle_20260620_090103_678.jpg",
+      "prompt": "idle 20260620 090103 678",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 101616
+    },
+    {
       "id": "uncategorized_idle_20260620_090018_768",
       "filename": "idle_20260620_090018_768.jpg",
       "prompt": "idle generated avatar",
@@ -3017,6 +4179,14 @@
       "fileSize": 103456,
       "category": "uncategorized",
       "seed": 587400
+    },
+    {
+      "id": "uncategorized_idle_20260620_085933_be2",
+      "filename": "idle_20260620_085933_be2.jpg",
+      "prompt": "idle 20260620 085933 be2",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 189035
     },
     {
       "id": "uncategorized_idle_20260620_085848_716",
@@ -3031,6 +4201,14 @@
       "seed": 107840
     },
     {
+      "id": "uncategorized_idle_20260620_085803_b96",
+      "filename": "idle_20260620_085803_b96.jpg",
+      "prompt": "idle 20260620 085803 b96",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 528448
+    },
+    {
       "id": "uncategorized_idle_20260620_085718_034",
       "filename": "idle_20260620_085718_034.jpg",
       "prompt": "idle generated avatar",
@@ -3041,6 +4219,14 @@
       "fileSize": 73162,
       "category": "uncategorized",
       "seed": 977810
+    },
+    {
+      "id": "uncategorized_idle_20260620_085633_69e",
+      "filename": "idle_20260620_085633_69e.jpg",
+      "prompt": "idle 20260620 085633 69e",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 125666
     },
     {
       "id": "uncategorized_idle_20260620_085548_4fe",
@@ -3055,6 +4241,14 @@
       "seed": 384617
     },
     {
+      "id": "uncategorized_idle_20260620_085503_c97",
+      "filename": "idle_20260620_085503_c97.jpg",
+      "prompt": "idle 20260620 085503 c97",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 345842
+    },
+    {
       "id": "uncategorized_idle_20260620_085418_413",
       "filename": "idle_20260620_085418_413.jpg",
       "prompt": "idle generated avatar",
@@ -3065,6 +4259,14 @@
       "fileSize": 101673,
       "category": "uncategorized",
       "seed": 222257
+    },
+    {
+      "id": "uncategorized_idle_20260620_085333_175",
+      "filename": "idle_20260620_085333_175.jpg",
+      "prompt": "idle 20260620 085333 175",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 195448
     },
     {
       "id": "uncategorized_idle_20260620_085248_c3d",
@@ -3079,6 +4281,14 @@
       "seed": 48343
     },
     {
+      "id": "uncategorized_idle_20260620_085203_b94",
+      "filename": "idle_20260620_085203_b94.jpg",
+      "prompt": "idle 20260620 085203 b94",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 760105
+    },
+    {
       "id": "uncategorized_idle_20260620_085118_0a2",
       "filename": "idle_20260620_085118_0a2.jpg",
       "prompt": "idle generated avatar",
@@ -3089,6 +4299,14 @@
       "fileSize": 84564,
       "category": "uncategorized",
       "seed": 104658
+    },
+    {
+      "id": "uncategorized_idle_20260620_085033_f87",
+      "filename": "idle_20260620_085033_f87.jpg",
+      "prompt": "idle 20260620 085033 f87",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 93037
     },
     {
       "id": "uncategorized_idle_20260620_084948_183",
@@ -3103,6 +4321,14 @@
       "seed": 671947
     },
     {
+      "id": "uncategorized_idle_20260620_084903_032",
+      "filename": "idle_20260620_084903_032.jpg",
+      "prompt": "idle 20260620 084903 032",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 186373
+    },
+    {
       "id": "uncategorized_idle_20260620_084818_092",
       "filename": "idle_20260620_084818_092.jpg",
       "prompt": "idle generated avatar",
@@ -3113,6 +4339,14 @@
       "fileSize": 115915,
       "category": "uncategorized",
       "seed": 615391
+    },
+    {
+      "id": "uncategorized_idle_20260620_084733_eb7",
+      "filename": "idle_20260620_084733_eb7.jpg",
+      "prompt": "idle 20260620 084733 eb7",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 387104
     },
     {
       "id": "uncategorized_idle_20260620_084648_3de",
@@ -3127,6 +4361,14 @@
       "seed": 483831
     },
     {
+      "id": "uncategorized_idle_20260620_084603_1ec",
+      "filename": "idle_20260620_084603_1ec.jpg",
+      "prompt": "idle 20260620 084603 1ec",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 256940
+    },
+    {
       "id": "uncategorized_idle_20260620_084518_602",
       "filename": "idle_20260620_084518_602.jpg",
       "prompt": "idle generated avatar",
@@ -3137,6 +4379,14 @@
       "fileSize": 84827,
       "category": "uncategorized",
       "seed": 505064
+    },
+    {
+      "id": "uncategorized_idle_20260620_084433_84b",
+      "filename": "idle_20260620_084433_84b.jpg",
+      "prompt": "idle 20260620 084433 84b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 674632
     },
     {
       "id": "uncategorized_idle_20260620_084348_998",
@@ -3151,6 +4401,14 @@
       "seed": 518461
     },
     {
+      "id": "uncategorized_idle_20260620_084303_76b",
+      "filename": "idle_20260620_084303_76b.jpg",
+      "prompt": "idle 20260620 084303 76b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 206668
+    },
+    {
       "id": "uncategorized_idle_20260620_084218_bd4",
       "filename": "idle_20260620_084218_bd4.jpg",
       "prompt": "idle generated avatar",
@@ -3161,6 +4419,14 @@
       "fileSize": 107186,
       "category": "uncategorized",
       "seed": 814760
+    },
+    {
+      "id": "uncategorized_idle_20260620_084133_68a",
+      "filename": "idle_20260620_084133_68a.jpg",
+      "prompt": "idle 20260620 084133 68a",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 209364
     },
     {
       "id": "uncategorized_idle_20260620_084048_132",
@@ -3175,6 +4441,14 @@
       "seed": 653768
     },
     {
+      "id": "uncategorized_idle_20260620_084003_d31",
+      "filename": "idle_20260620_084003_d31.jpg",
+      "prompt": "idle 20260620 084003 d31",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 898364
+    },
+    {
       "id": "uncategorized_idle_20260620_083918_3dc",
       "filename": "idle_20260620_083918_3dc.jpg",
       "prompt": "idle generated avatar",
@@ -3185,6 +4459,14 @@
       "fileSize": 86793,
       "category": "uncategorized",
       "seed": 572746
+    },
+    {
+      "id": "uncategorized_idle_20260620_083833_9b3",
+      "filename": "idle_20260620_083833_9b3.jpg",
+      "prompt": "idle 20260620 083833 9b3",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 925657
     },
     {
       "id": "uncategorized_idle_20260620_083748_aea",
@@ -3199,6 +4481,14 @@
       "seed": 427023
     },
     {
+      "id": "uncategorized_idle_20260620_083703_0d4",
+      "filename": "idle_20260620_083703_0d4.jpg",
+      "prompt": "idle 20260620 083703 0d4",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 630136
+    },
+    {
       "id": "uncategorized_idle_20260620_083618_e22",
       "filename": "idle_20260620_083618_e22.jpg",
       "prompt": "idle generated avatar",
@@ -3209,6 +4499,14 @@
       "fileSize": 111417,
       "category": "uncategorized",
       "seed": 945897
+    },
+    {
+      "id": "uncategorized_idle_20260620_083533_b55",
+      "filename": "idle_20260620_083533_b55.jpg",
+      "prompt": "idle 20260620 083533 b55",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 359525
     },
     {
       "id": "uncategorized_idle_20260620_083448_158",
@@ -3223,6 +4521,14 @@
       "seed": 818238
     },
     {
+      "id": "uncategorized_idle_20260620_083403_af9",
+      "filename": "idle_20260620_083403_af9.jpg",
+      "prompt": "idle 20260620 083403 af9",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 590497
+    },
+    {
       "id": "uncategorized_idle_20260620_083318_bd5",
       "filename": "idle_20260620_083318_bd5.jpg",
       "prompt": "idle generated avatar",
@@ -3233,6 +4539,14 @@
       "fileSize": 95403,
       "category": "uncategorized",
       "seed": 937182
+    },
+    {
+      "id": "uncategorized_idle_20260620_083233_2ae",
+      "filename": "idle_20260620_083233_2ae.jpg",
+      "prompt": "idle 20260620 083233 2ae",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 718760
     },
     {
       "id": "uncategorized_idle_20260620_083148_59f",
@@ -3247,6 +4561,14 @@
       "seed": 735847
     },
     {
+      "id": "uncategorized_idle_20260620_083103_7e6",
+      "filename": "idle_20260620_083103_7e6.jpg",
+      "prompt": "idle 20260620 083103 7e6",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 506094
+    },
+    {
       "id": "uncategorized_idle_20260620_083018_b1e",
       "filename": "idle_20260620_083018_b1e.jpg",
       "prompt": "idle generated avatar",
@@ -3257,6 +4579,14 @@
       "fileSize": 105808,
       "category": "uncategorized",
       "seed": 629080
+    },
+    {
+      "id": "uncategorized_idle_20260620_082933_109",
+      "filename": "idle_20260620_082933_109.jpg",
+      "prompt": "idle 20260620 082933 109",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 390713
     },
     {
       "id": "uncategorized_idle_20260620_082848_f37",
@@ -3271,6 +4601,14 @@
       "seed": 908884
     },
     {
+      "id": "uncategorized_idle_20260620_082803_672",
+      "filename": "idle_20260620_082803_672.jpg",
+      "prompt": "idle 20260620 082803 672",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 947737
+    },
+    {
       "id": "uncategorized_idle_20260620_082718_581",
       "filename": "idle_20260620_082718_581.jpg",
       "prompt": "idle generated avatar",
@@ -3281,6 +4619,14 @@
       "fileSize": 89968,
       "category": "uncategorized",
       "seed": 753393
+    },
+    {
+      "id": "uncategorized_idle_20260620_082633_bef",
+      "filename": "idle_20260620_082633_bef.jpg",
+      "prompt": "idle 20260620 082633 bef",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 339443
     },
     {
       "id": "uncategorized_idle_20260620_082548_b70",
@@ -3295,6 +4641,14 @@
       "seed": 85896
     },
     {
+      "id": "uncategorized_idle_20260620_082503_9d0",
+      "filename": "idle_20260620_082503_9d0.jpg",
+      "prompt": "idle 20260620 082503 9d0",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 229731
+    },
+    {
       "id": "uncategorized_idle_20260620_082418_a62",
       "filename": "idle_20260620_082418_a62.jpg",
       "prompt": "idle generated avatar",
@@ -3305,6 +4659,14 @@
       "fileSize": 102037,
       "category": "uncategorized",
       "seed": 855477
+    },
+    {
+      "id": "uncategorized_idle_20260620_082333_dfb",
+      "filename": "idle_20260620_082333_dfb.jpg",
+      "prompt": "idle 20260620 082333 dfb",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 279631
     },
     {
       "id": "uncategorized_idle_20260620_082248_d04",
@@ -3319,6 +4681,14 @@
       "seed": 562463
     },
     {
+      "id": "uncategorized_idle_20260620_082203_390",
+      "filename": "idle_20260620_082203_390.jpg",
+      "prompt": "idle 20260620 082203 390",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 156621
+    },
+    {
       "id": "uncategorized_idle_20260620_082118_bcc",
       "filename": "idle_20260620_082118_bcc.jpg",
       "prompt": "idle generated avatar",
@@ -3329,6 +4699,14 @@
       "fileSize": 78702,
       "category": "uncategorized",
       "seed": 547995
+    },
+    {
+      "id": "uncategorized_idle_20260620_082033_758",
+      "filename": "idle_20260620_082033_758.jpg",
+      "prompt": "idle 20260620 082033 758",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 986470
     },
     {
       "id": "uncategorized_idle_20260620_081948_373",
@@ -3343,6 +4721,14 @@
       "seed": 55318
     },
     {
+      "id": "uncategorized_idle_20260620_081903_230",
+      "filename": "idle_20260620_081903_230.jpg",
+      "prompt": "idle 20260620 081903 230",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 697529
+    },
+    {
       "id": "uncategorized_idle_20260620_081818_312",
       "filename": "idle_20260620_081818_312.jpg",
       "prompt": "idle generated avatar",
@@ -3353,6 +4739,14 @@
       "fileSize": 113463,
       "category": "uncategorized",
       "seed": 600581
+    },
+    {
+      "id": "uncategorized_idle_20260620_081733_eed",
+      "filename": "idle_20260620_081733_eed.jpg",
+      "prompt": "idle 20260620 081733 eed",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 983836
     },
     {
       "id": "uncategorized_idle_20260620_081648_696",
@@ -3367,6 +4761,14 @@
       "seed": 790301
     },
     {
+      "id": "uncategorized_idle_20260620_081603_787",
+      "filename": "idle_20260620_081603_787.jpg",
+      "prompt": "idle 20260620 081603 787",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 309966
+    },
+    {
       "id": "uncategorized_idle_20260620_081518_c22",
       "filename": "idle_20260620_081518_c22.jpg",
       "prompt": "idle generated avatar",
@@ -3377,6 +4779,14 @@
       "fileSize": 92286,
       "category": "uncategorized",
       "seed": 721692
+    },
+    {
+      "id": "uncategorized_idle_20260620_081433_20e",
+      "filename": "idle_20260620_081433_20e.jpg",
+      "prompt": "idle 20260620 081433 20e",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 29346
     },
     {
       "id": "uncategorized_idle_20260620_081348_c74",
@@ -3391,6 +4801,14 @@
       "seed": 435494
     },
     {
+      "id": "uncategorized_idle_20260620_081303_dd3",
+      "filename": "idle_20260620_081303_dd3.jpg",
+      "prompt": "idle 20260620 081303 dd3",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 398118
+    },
+    {
       "id": "uncategorized_idle_20260620_081218_f9b",
       "filename": "idle_20260620_081218_f9b.jpg",
       "prompt": "idle generated avatar",
@@ -3401,6 +4819,14 @@
       "fileSize": 99615,
       "category": "uncategorized",
       "seed": 722218
+    },
+    {
+      "id": "uncategorized_idle_20260620_081133_5bc",
+      "filename": "idle_20260620_081133_5bc.jpg",
+      "prompt": "idle 20260620 081133 5bc",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 920230
     },
     {
       "id": "uncategorized_idle_20260620_081048_2fd",
@@ -3415,6 +4841,14 @@
       "seed": 903552
     },
     {
+      "id": "uncategorized_idle_20260620_081003_e4b",
+      "filename": "idle_20260620_081003_e4b.jpg",
+      "prompt": "idle 20260620 081003 e4b",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 897677
+    },
+    {
       "id": "uncategorized_idle_20260620_080918_70e",
       "filename": "idle_20260620_080918_70e.jpg",
       "prompt": "idle generated avatar",
@@ -3425,6 +4859,14 @@
       "fileSize": 89126,
       "category": "uncategorized",
       "seed": 165597
+    },
+    {
+      "id": "uncategorized_idle_20260620_080833_bd3",
+      "filename": "idle_20260620_080833_bd3.jpg",
+      "prompt": "idle 20260620 080833 bd3",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 626700
     },
     {
       "id": "uncategorized_idle_20260620_080752_6f9",
@@ -3439,6 +4881,14 @@
       "seed": 284895
     },
     {
+      "id": "uncategorized_idle_20260620_080703_9dc",
+      "filename": "idle_20260620_080703_9dc.jpg",
+      "prompt": "idle 20260620 080703 9dc",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 40423
+    },
+    {
       "id": "uncategorized_idle_20260620_080621_af8",
       "filename": "idle_20260620_080621_af8.jpg",
       "prompt": "idle generated avatar",
@@ -3451,6 +4901,14 @@
       "seed": 210915
     },
     {
+      "id": "uncategorized_idle_20260620_080526_522",
+      "filename": "idle_20260620_080526_522.jpg",
+      "prompt": "idle 20260620 080526 522",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 227461
+    },
+    {
       "id": "uncategorized_idle_20260620_080517_97c",
       "filename": "idle_20260620_080517_97c.jpg",
       "prompt": "idle generated avatar",
@@ -3461,6 +4919,14 @@
       "fileSize": 110494,
       "category": "uncategorized",
       "seed": 663444
+    },
+    {
+      "id": "uncategorized_idle_20260620_080353_180",
+      "filename": "idle_20260620_080353_180.jpg",
+      "prompt": "idle 20260620 080353 180",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "seed": 993642
     },
     {
       "id": "uncategorized_idle_20260620_080308_cac",
@@ -3641,6 +5107,18 @@
       "fileSize": 110979,
       "category": "uncategorized",
       "seed": 25835
+    },
+    {
+      "id": "uncategorized_idle_20260620_075145_c12",
+      "filename": "idle_20260620_075145_c12.jpg",
+      "prompt": "idle 20260620 075145 c12",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T08:03:17",
+      "width": 768,
+      "height": 768,
+      "fileSize": 79284,
+      "category": "uncategorized",
+      "seed": 736335
     },
     {
       "id": "uncategorized_idle_20260620_075100_060",
@@ -4385,1610 +5863,6 @@
       "fileSize": 112967,
       "category": "uncategorized",
       "seed": 93972
-    },
-    {
-      "id": "uncategorized_idle_20260620_075145_c12",
-      "filename": "idle_20260620_075145_c12.jpg",
-      "prompt": "idle 20260620 075145 c12",
-      "theme": "uncategorized",
-      "createdAt": "2026-06-20T08:03:17",
-      "width": 768,
-      "height": 768,
-      "fileSize": 79284,
-      "category": "uncategorized",
-      "seed": 736335
-    },
-    {
-      "id": "uncategorized_idle_20260620_130937_4b2",
-      "filename": "idle_20260620_130937_4b2.jpg",
-      "prompt": "idle 20260620 130937 4b2",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 507217
-    },
-    {
-      "id": "uncategorized_idle_20260620_130807_07c",
-      "filename": "idle_20260620_130807_07c.jpg",
-      "prompt": "idle 20260620 130807 07c",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 271622
-    },
-    {
-      "id": "uncategorized_idle_20260620_130635_892",
-      "filename": "idle_20260620_130635_892.jpg",
-      "prompt": "idle 20260620 130635 892",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 603256
-    },
-    {
-      "id": "uncategorized_idle_20260620_130506_e6d",
-      "filename": "idle_20260620_130506_e6d.jpg",
-      "prompt": "idle 20260620 130506 e6d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 854399
-    },
-    {
-      "id": "uncategorized_idle_20260620_130342_8d2",
-      "filename": "idle_20260620_130342_8d2.jpg",
-      "prompt": "idle 20260620 130342 8d2",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 492059
-    },
-    {
-      "id": "uncategorized_idle_20260620_130215_946",
-      "filename": "idle_20260620_130215_946.jpg",
-      "prompt": "idle 20260620 130215 946",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 708368
-    },
-    {
-      "id": "uncategorized_idle_20260620_130035_0b9",
-      "filename": "idle_20260620_130035_0b9.jpg",
-      "prompt": "idle 20260620 130035 0b9",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 753484
-    },
-    {
-      "id": "uncategorized_idle_20260620_125905_000",
-      "filename": "idle_20260620_125905_000.jpg",
-      "prompt": "idle 20260620 125905 000",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 103021
-    },
-    {
-      "id": "uncategorized_idle_20260620_124835_e0f",
-      "filename": "idle_20260620_124835_e0f.jpg",
-      "prompt": "idle 20260620 124835 e0f",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 358244
-    },
-    {
-      "id": "uncategorized_idle_20260620_124705_ce1",
-      "filename": "idle_20260620_124705_ce1.jpg",
-      "prompt": "idle 20260620 124705 ce1",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 368981
-    },
-    {
-      "id": "uncategorized_idle_20260620_124535_d4e",
-      "filename": "idle_20260620_124535_d4e.jpg",
-      "prompt": "idle 20260620 124535 d4e",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 507128
-    },
-    {
-      "id": "uncategorized_idle_20260620_124405_97f",
-      "filename": "idle_20260620_124405_97f.jpg",
-      "prompt": "idle 20260620 124405 97f",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 527669
-    },
-    {
-      "id": "uncategorized_idle_20260620_124235_616",
-      "filename": "idle_20260620_124235_616.jpg",
-      "prompt": "idle 20260620 124235 616",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 410948
-    },
-    {
-      "id": "uncategorized_idle_20260620_124105_f54",
-      "filename": "idle_20260620_124105_f54.jpg",
-      "prompt": "idle 20260620 124105 f54",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 957704
-    },
-    {
-      "id": "uncategorized_idle_20260620_123934_212",
-      "filename": "idle_20260620_123934_212.jpg",
-      "prompt": "idle 20260620 123934 212",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 542554
-    },
-    {
-      "id": "uncategorized_idle_20260620_123806_4dc",
-      "filename": "idle_20260620_123806_4dc.jpg",
-      "prompt": "idle 20260620 123806 4dc",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 561353
-    },
-    {
-      "id": "uncategorized_idle_20260620_123635_456",
-      "filename": "idle_20260620_123635_456.jpg",
-      "prompt": "idle 20260620 123635 456",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 777684
-    },
-    {
-      "id": "uncategorized_idle_20260620_123508_5b3",
-      "filename": "idle_20260620_123508_5b3.jpg",
-      "prompt": "idle 20260620 123508 5b3",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 677197
-    },
-    {
-      "id": "uncategorized_idle_20260620_123344_7c7",
-      "filename": "idle_20260620_123344_7c7.jpg",
-      "prompt": "idle 20260620 123344 7c7",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 613023
-    },
-    {
-      "id": "uncategorized_idle_20260620_123211_9df",
-      "filename": "idle_20260620_123211_9df.jpg",
-      "prompt": "idle 20260620 123211 9df",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 40323
-    },
-    {
-      "id": "uncategorized_idle_20260620_123103_70b",
-      "filename": "idle_20260620_123103_70b.jpg",
-      "prompt": "idle 20260620 123103 70b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 191981
-    },
-    {
-      "id": "idle_20260620_122",
-      "filename": "idle_20260620_122934_d74.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 929330
-    },
-    {
-      "id": "uncategorized_idle_20260620_122804_b6e",
-      "filename": "idle_20260620_122804_b6e.jpg",
-      "prompt": "idle 20260620 122804 b6e",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 946597
-    },
-    {
-      "id": "uncategorized_idle_20260620_122634_348",
-      "filename": "idle_20260620_122634_348.jpg",
-      "prompt": "idle 20260620 122634 348",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 949870
-    },
-    {
-      "id": "uncategorized_idle_20260620_122504_bd0",
-      "filename": "idle_20260620_122504_bd0.jpg",
-      "prompt": "idle 20260620 122504 bd0",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 727580
-    },
-    {
-      "id": "uncategorized_idle_20260620_122333_cf8",
-      "filename": "idle_20260620_122333_cf8.jpg",
-      "prompt": "idle 20260620 122333 cf8",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 1850
-    },
-    {
-      "id": "uncategorized_idle_20260620_122203_734",
-      "filename": "idle_20260620_122203_734.jpg",
-      "prompt": "idle 20260620 122203 734",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 679690
-    },
-    {
-      "id": "uncategorized_idle_20260620_122033_c85",
-      "filename": "idle_20260620_122033_c85.jpg",
-      "prompt": "idle 20260620 122033 c85",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 163477
-    },
-    {
-      "id": "uncategorized_idle_20260620_121903_a22",
-      "filename": "idle_20260620_121903_a22.jpg",
-      "prompt": "idle 20260620 121903 a22",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 286771
-    },
-    {
-      "id": "uncategorized_idle_20260620_121733_e6a",
-      "filename": "idle_20260620_121733_e6a.jpg",
-      "prompt": "idle 20260620 121733 e6a",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 344113
-    },
-    {
-      "id": "uncategorized_idle_20260620_121603_c16",
-      "filename": "idle_20260620_121603_c16.jpg",
-      "prompt": "idle 20260620 121603 c16",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 867350
-    },
-    {
-      "id": "uncategorized_idle_20260620_121433_d7d",
-      "filename": "idle_20260620_121433_d7d.jpg",
-      "prompt": "idle 20260620 121433 d7d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 302874
-    },
-    {
-      "id": "uncategorized_idle_20260620_121303_bdd",
-      "filename": "idle_20260620_121303_bdd.jpg",
-      "prompt": "idle 20260620 121303 bdd",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 595198
-    },
-    {
-      "id": "uncategorized_idle_20260620_121135_061",
-      "filename": "idle_20260620_121135_061.jpg",
-      "prompt": "idle 20260620 121135 061",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 575026
-    },
-    {
-      "id": "uncategorized_idle_20260620_121004_b67",
-      "filename": "idle_20260620_121004_b67.jpg",
-      "prompt": "idle 20260620 121004 b67",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 573927
-    },
-    {
-      "id": "uncategorized_idle_20260620_120833_392",
-      "filename": "idle_20260620_120833_392.jpg",
-      "prompt": "idle 20260620 120833 392",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 206541
-    },
-    {
-      "id": "uncategorized_idle_20260620_120703_eb4",
-      "filename": "idle_20260620_120703_eb4.jpg",
-      "prompt": "idle 20260620 120703 eb4",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 850889
-    },
-    {
-      "id": "uncategorized_idle_20260620_120535_b10",
-      "filename": "idle_20260620_120535_b10.jpg",
-      "prompt": "idle 20260620 120535 b10",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 221987
-    },
-    {
-      "id": "uncategorized_idle_20260620_120406_5ca",
-      "filename": "idle_20260620_120406_5ca.jpg",
-      "prompt": "idle 20260620 120406 5ca",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 794692
-    },
-    {
-      "id": "uncategorized_idle_20260620_120234_8b9",
-      "filename": "idle_20260620_120234_8b9.jpg",
-      "prompt": "idle 20260620 120234 8b9",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 797561
-    },
-    {
-      "id": "uncategorized_idle_20260620_120104_817",
-      "filename": "idle_20260620_120104_817.jpg",
-      "prompt": "idle 20260620 120104 817",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 295918
-    },
-    {
-      "id": "uncategorized_idle_20260620_115933_d3a",
-      "filename": "idle_20260620_115933_d3a.jpg",
-      "prompt": "idle 20260620 115933 d3a",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 183439
-    },
-    {
-      "id": "uncategorized_idle_20260620_115803_ed1",
-      "filename": "idle_20260620_115803_ed1.jpg",
-      "prompt": "idle 20260620 115803 ed1",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 403762
-    },
-    {
-      "id": "uncategorized_idle_20260620_115633_030",
-      "filename": "idle_20260620_115633_030.jpg",
-      "prompt": "idle 20260620 115633 030",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 700097
-    },
-    {
-      "id": "uncategorized_idle_20260620_115503_6ab",
-      "filename": "idle_20260620_115503_6ab.jpg",
-      "prompt": "idle 20260620 115503 6ab",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 234799
-    },
-    {
-      "id": "uncategorized_idle_20260620_115333_62d",
-      "filename": "idle_20260620_115333_62d.jpg",
-      "prompt": "idle 20260620 115333 62d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 155646
-    },
-    {
-      "id": "uncategorized_idle_20260620_115203_876",
-      "filename": "idle_20260620_115203_876.jpg",
-      "prompt": "idle 20260620 115203 876",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 734745
-    },
-    {
-      "id": "uncategorized_idle_20260620_115033_719",
-      "filename": "idle_20260620_115033_719.jpg",
-      "prompt": "idle 20260620 115033 719",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 565087
-    },
-    {
-      "id": "uncategorized_idle_20260620_114903_68f",
-      "filename": "idle_20260620_114903_68f.jpg",
-      "prompt": "idle 20260620 114903 68f",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 278273
-    },
-    {
-      "id": "uncategorized_idle_b9a",
-      "filename": "idle_20260620_114733_b9a.jpg",
-      "prompt": "idle b9a",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 749540
-    },
-    {
-      "id": "uncategorized_idle_aa1",
-      "filename": "idle_20260620_114604_aa1.jpg",
-      "prompt": "idle aa1",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 349957
-    },
-    {
-      "id": "uncategorized_idle_62c",
-      "filename": "idle_20260620_114435_62c.jpg",
-      "prompt": "idle 62c",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 94247
-    },
-    {
-      "id": "uncategorized_idle_e4c",
-      "filename": "idle_20260620_114303_e4c.jpg",
-      "prompt": "idle e4c",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 278009
-    },
-    {
-      "id": "uncategorized_idle_0d8",
-      "filename": "idle_20260620_114134_0d8.jpg",
-      "prompt": "idle 0d8",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 381897
-    },
-    {
-      "id": "uncategorized_idle_979",
-      "filename": "idle_20260620_114005_979.jpg",
-      "prompt": "idle 979",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 132641
-    },
-    {
-      "id": "uncategorized_idle_20260620_113833_48c",
-      "filename": "idle_20260620_113833_48c.jpg",
-      "prompt": "idle 20260620 113833 48c",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 195141
-    },
-    {
-      "id": "uncategorized_idle_20260620_113703_6ea",
-      "filename": "idle_20260620_113703_6ea.jpg",
-      "prompt": "idle 20260620 113703 6ea",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 431508
-    },
-    {
-      "id": "uncategorized_idle_20260620_113533_be1",
-      "filename": "idle_20260620_113533_be1.jpg",
-      "prompt": "idle 20260620 113533 be1",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 80522
-    },
-    {
-      "id": "uncategorized_idle_20260620_113403_aa7",
-      "filename": "idle_20260620_113403_aa7.jpg",
-      "prompt": "idle 20260620 113403 aa7",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 591831
-    },
-    {
-      "id": "uncategorized_idle_20260620_113233_79a",
-      "filename": "idle_20260620_113233_79a.jpg",
-      "prompt": "idle 20260620 113233 79a",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 3826
-    },
-    {
-      "id": "uncategorized_idle_20260620_113103_f00",
-      "filename": "idle_20260620_113103_f00.jpg",
-      "prompt": "idle 20260620 113103 f00",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 18018
-    },
-    {
-      "id": "uncategorized_idle_20260620_112933_923",
-      "filename": "idle_20260620_112933_923.jpg",
-      "prompt": "idle 20260620 112933 923",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 256950
-    },
-    {
-      "id": "uncategorized_idle_20260620_112804_3a9",
-      "filename": "idle_20260620_112804_3a9.jpg",
-      "prompt": "idle 20260620 112804 3a9",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 395481
-    },
-    {
-      "id": "uncategorized_idle_20260620_112633_199",
-      "filename": "idle_20260620_112633_199.jpg",
-      "prompt": "idle 20260620 112633 199",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 992091
-    },
-    {
-      "id": "uncategorized_idle_20260620_112503_cd6",
-      "filename": "idle_20260620_112503_cd6.jpg",
-      "prompt": "idle 20260620 112503 cd6",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 174586
-    },
-    {
-      "id": "uncategorized_idle_20260620_112334_38a",
-      "filename": "idle_20260620_112334_38a.jpg",
-      "prompt": "idle 20260620 112334 38a",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 189467
-    },
-    {
-      "id": "uncategorized_idle_20260620_112203_225",
-      "filename": "idle_20260620_112203_225.jpg",
-      "prompt": "idle 20260620 112203 225",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 286101
-    },
-    {
-      "id": "uncategorized_idle_20260620_112033_7b5",
-      "filename": "idle_20260620_112033_7b5.jpg",
-      "prompt": "idle 20260620 112033 7b5",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 166146
-    },
-    {
-      "id": "uncategorized_idle_20260620_111903_bb1",
-      "filename": "idle_20260620_111903_bb1.jpg",
-      "prompt": "idle 20260620 111903 bb1",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 832087
-    },
-    {
-      "id": "uncategorized_idle_20260620_111733_0ae",
-      "filename": "idle_20260620_111733_0ae.jpg",
-      "prompt": "idle 20260620 111733 0ae",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 176705
-    },
-    {
-      "id": "uncategorized_idle_20260620_111603_f8c",
-      "filename": "idle_20260620_111603_f8c.jpg",
-      "prompt": "idle 20260620 111603 f8c",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 357818
-    },
-    {
-      "id": "uncategorized_idle_20260620_111434_a28",
-      "filename": "idle_20260620_111434_a28.jpg",
-      "prompt": "idle 20260620 111434 a28",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 787690
-    },
-    {
-      "id": "uncategorized_idle_20260620_111311_b08",
-      "filename": "idle_20260620_111311_b08.jpg",
-      "prompt": "idle 20260620 111311 b08",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 553074
-    },
-    {
-      "id": "uncategorized_idle_20260620_111136_911",
-      "filename": "idle_20260620_111136_911.jpg",
-      "prompt": "idle 20260620 111136 911",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 763480
-    },
-    {
-      "id": "uncategorized_idle_20260620_111003_c36",
-      "filename": "idle_20260620_111003_c36.jpg",
-      "prompt": "idle 20260620 111003 c36",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 78066
-    },
-    {
-      "id": "uncategorized_idle_20260620_110833_2a1",
-      "filename": "idle_20260620_110833_2a1.jpg",
-      "prompt": "idle 20260620 110833 2a1",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 451006
-    },
-    {
-      "id": "uncategorized_idle_20260620_110705_ec3",
-      "filename": "idle_20260620_110705_ec3.jpg",
-      "prompt": "idle 20260620 110705 ec3",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 10975
-    },
-    {
-      "id": "uncategorized_idle_20260620_110533_61d",
-      "filename": "idle_20260620_110533_61d.jpg",
-      "prompt": "idle 20260620 110533 61d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 821547
-    },
-    {
-      "id": "uncategorized_idle_20260620_110403_fb8",
-      "filename": "idle_20260620_110403_fb8.jpg",
-      "prompt": "idle 20260620 110403 fb8",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 833085
-    },
-    {
-      "id": "uncategorized_idle_20260620_110233_851",
-      "filename": "idle_20260620_110233_851.jpg",
-      "prompt": "idle 20260620 110233 851",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 346609
-    },
-    {
-      "id": "uncategorized_idle_20260620_110103_038",
-      "filename": "idle_20260620_110103_038.jpg",
-      "prompt": "idle 20260620 110103 038",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 114327
-    },
-    {
-      "id": "uncategorized_idle_20260620_105933_ec4",
-      "filename": "idle_20260620_105933_ec4.jpg",
-      "prompt": "idle 20260620 105933 ec4",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 422926
-    },
-    {
-      "id": "uncategorized_idle_20260620_105803_104",
-      "filename": "idle_20260620_105803_104.jpg",
-      "prompt": "idle 20260620 105803 104",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 725535
-    },
-    {
-      "id": "uncategorized_idle_20260620_105633_f13",
-      "filename": "idle_20260620_105633_f13.jpg",
-      "prompt": "idle 20260620 105633 f13",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 103839
-    },
-    {
-      "id": "uncategorized_idle_20260620_105503_f0b",
-      "filename": "idle_20260620_105503_f0b.jpg",
-      "prompt": "idle 20260620 105503 f0b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 579727
-    },
-    {
-      "id": "uncategorized_idle_20260620_105333_1b5",
-      "filename": "idle_20260620_105333_1b5.jpg",
-      "prompt": "idle 20260620 105333 1b5",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 351510
-    },
-    {
-      "id": "uncategorized_idle_20260620_105203_d40",
-      "filename": "idle_20260620_105203_d40.jpg",
-      "prompt": "idle 20260620 105203 d40",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 26147
-    },
-    {
-      "id": "uncategorized_idle_20260620_105033_d77",
-      "filename": "idle_20260620_105033_d77.jpg",
-      "prompt": "idle 20260620 105033 d77",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 597315
-    },
-    {
-      "id": "uncategorized_idle_20260620_104903_b82",
-      "filename": "idle_20260620_104903_b82.jpg",
-      "prompt": "idle 20260620 104903 b82",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 89245
-    },
-    {
-      "id": "uncategorized_idle_20260620_104733_e01",
-      "filename": "idle_20260620_104733_e01.jpg",
-      "prompt": "idle 20260620 104733 e01",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 721655
-    },
-    {
-      "id": "uncategorized_idle_20260620_104603_cd4",
-      "filename": "idle_20260620_104603_cd4.jpg",
-      "prompt": "idle 20260620 104603 cd4",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 819514
-    },
-    {
-      "id": "uncategorized_idle_20260620_104433_6f3",
-      "filename": "idle_20260620_104433_6f3.jpg",
-      "prompt": "idle 20260620 104433 6f3",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 722142
-    },
-    {
-      "id": "uncategorized_idle_20260620_104303_e49",
-      "filename": "idle_20260620_104303_e49.jpg",
-      "prompt": "idle 20260620 104303 e49",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 56830
-    },
-    {
-      "id": "uncategorized_idle_20260620_104133_6f3",
-      "filename": "idle_20260620_104133_6f3.jpg",
-      "prompt": "idle 20260620 104133 6f3",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 523699
-    },
-    {
-      "id": "uncategorized_idle_20260620_104004_623",
-      "filename": "idle_20260620_104004_623.jpg",
-      "prompt": "idle 20260620 104004 623",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 452956
-    },
-    {
-      "id": "uncategorized_idle_20260620_103833_97b",
-      "filename": "idle_20260620_103833_97b.jpg",
-      "prompt": "idle 20260620 103833 97b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 73864
-    },
-    {
-      "id": "uncategorized_idle_20260620_103703_8f1",
-      "filename": "idle_20260620_103703_8f1.jpg",
-      "prompt": "idle 20260620 103703 8f1",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 86492
-    },
-    {
-      "id": "uncategorized_idle_20260620_103533_e00",
-      "filename": "idle_20260620_103533_e00.jpg",
-      "prompt": "idle 20260620 103533 e00",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 879189
-    },
-    {
-      "id": "uncategorized_idle_20260620_103403_e58",
-      "filename": "idle_20260620_103403_e58.jpg",
-      "prompt": "idle 20260620 103403 e58",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 467425
-    },
-    {
-      "id": "uncategorized_idle_20260620_103234_a8d",
-      "filename": "idle_20260620_103234_a8d.jpg",
-      "prompt": "idle 20260620 103234 a8d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 416844
-    },
-    {
-      "id": "uncategorized_idle_20260620_103103_57f",
-      "filename": "idle_20260620_103103_57f.jpg",
-      "prompt": "idle 20260620 103103 57f",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 914311
-    },
-    {
-      "id": "uncategorized_idle_20260620_102933_032",
-      "filename": "idle_20260620_102933_032.jpg",
-      "prompt": "idle 20260620 102933 032",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 608346
-    },
-    {
-      "id": "uncategorized_idle_20260620_102803_d9b",
-      "filename": "idle_20260620_102803_d9b.jpg",
-      "prompt": "idle 20260620 102803 d9b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 110030
-    },
-    {
-      "id": "uncategorized_idle_20260620_102633_e0d",
-      "filename": "idle_20260620_102633_e0d.jpg",
-      "prompt": "idle 20260620 102633 e0d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 467445
-    },
-    {
-      "id": "uncategorized_idle_20260620_102503_964",
-      "filename": "idle_20260620_102503_964.jpg",
-      "prompt": "idle 20260620 102503 964",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 952036
-    },
-    {
-      "id": "uncategorized_idle_20260620_102333_ee6",
-      "filename": "idle_20260620_102333_ee6.jpg",
-      "prompt": "idle 20260620 102333 ee6",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 687893
-    },
-    {
-      "id": "uncategorized_idle_20260620_102203_432",
-      "filename": "idle_20260620_102203_432.jpg",
-      "prompt": "idle 20260620 102203 432",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 748611
-    },
-    {
-      "id": "uncategorized_idle_20260620_102033_395",
-      "filename": "idle_20260620_102033_395.jpg",
-      "prompt": "idle 20260620 102033 395",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 139445
-    },
-    {
-      "id": "uncategorized_idle_20260620_101903_c3e",
-      "filename": "idle_20260620_101903_c3e.jpg",
-      "prompt": "idle 20260620 101903 c3e",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 32505
-    },
-    {
-      "id": "uncategorized_idle_20260620_101733_c28",
-      "filename": "idle_20260620_101733_c28.jpg",
-      "prompt": "idle 20260620 101733 c28",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 595161
-    },
-    {
-      "id": "uncategorized_idle_20260620_101603_005",
-      "filename": "idle_20260620_101603_005.jpg",
-      "prompt": "idle 20260620 101603 005",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 401786
-    },
-    {
-      "id": "uncategorized_idle_20260620_101433_8aa",
-      "filename": "idle_20260620_101433_8aa.jpg",
-      "prompt": "idle 20260620 101433 8aa",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 129938
-    },
-    {
-      "id": "uncategorized_idle_20260620_101303_c7e",
-      "filename": "idle_20260620_101303_c7e.jpg",
-      "prompt": "idle 20260620 101303 c7e",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 925057
-    },
-    {
-      "id": "uncategorized_idle_20260620_101133_32d",
-      "filename": "idle_20260620_101133_32d.jpg",
-      "prompt": "idle 20260620 101133 32d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 98620
-    },
-    {
-      "id": "uncategorized_idle_20260620_101003_409",
-      "filename": "idle_20260620_101003_409.jpg",
-      "prompt": "idle 20260620 101003 409",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 933470
-    },
-    {
-      "id": "uncategorized_idle_20260620_100834_9a5",
-      "filename": "idle_20260620_100834_9a5.jpg",
-      "prompt": "idle 20260620 100834 9a5",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 547204
-    },
-    {
-      "id": "uncategorized_idle_20260620_100705_4a5",
-      "filename": "idle_20260620_100705_4a5.jpg",
-      "prompt": "idle 20260620 100705 4a5",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 364839
-    },
-    {
-      "id": "uncategorized_idle_20260620_100533_678",
-      "filename": "idle_20260620_100533_678.jpg",
-      "prompt": "idle 20260620 100533 678",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 148950
-    },
-    {
-      "id": "uncategorized_idle_20260620_100403_212",
-      "filename": "idle_20260620_100403_212.jpg",
-      "prompt": "idle 20260620 100403 212",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 610059
-    },
-    {
-      "id": "uncategorized_idle_20260620_100239_b6b",
-      "filename": "idle_20260620_100239_b6b.jpg",
-      "prompt": "idle 20260620 100239 b6b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 984769
-    },
-    {
-      "id": "uncategorized_idle_20260620_100104_00d",
-      "filename": "idle_20260620_100104_00d.jpg",
-      "prompt": "idle 20260620 100104 00d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 662063
-    },
-    {
-      "id": "uncategorized_idle_20260620_095933_098",
-      "filename": "idle_20260620_095933_098.jpg",
-      "prompt": "idle 20260620 095933 098",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 893872
-    },
-    {
-      "id": "uncategorized_idle_20260620_095803_d08",
-      "filename": "idle_20260620_095803_d08.jpg",
-      "prompt": "idle 20260620 095803 d08",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 870499
-    },
-    {
-      "id": "uncategorized_idle_20260620_095633_7f9",
-      "filename": "idle_20260620_095633_7f9.jpg",
-      "prompt": "idle 20260620 095633 7f9",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 808807
-    },
-    {
-      "id": "uncategorized_idle_20260620_095503_e8f",
-      "filename": "idle_20260620_095503_e8f.jpg",
-      "prompt": "idle 20260620 095503 e8f",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 726695
-    },
-    {
-      "id": "uncategorized_idle_20260620_095333_d04",
-      "filename": "idle_20260620_095333_d04.jpg",
-      "prompt": "idle 20260620 095333 d04",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 913072
-    },
-    {
-      "id": "uncategorized_idle_20260620_095203_dd4",
-      "filename": "idle_20260620_095203_dd4.jpg",
-      "prompt": "idle 20260620 095203 dd4",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 706682
-    },
-    {
-      "id": "uncategorized_idle_20260620_095033_9ad",
-      "filename": "idle_20260620_095033_9ad.jpg",
-      "prompt": "idle 20260620 095033 9ad",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 874604
-    },
-    {
-      "id": "uncategorized_idle_20260620_094903_6ef",
-      "filename": "idle_20260620_094903_6ef.jpg",
-      "prompt": "idle 20260620 094903 6ef",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 886751
-    },
-    {
-      "id": "uncategorized_idle_20260620_094733_e05",
-      "filename": "idle_20260620_094733_e05.jpg",
-      "prompt": "idle 20260620 094733 e05",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 373382
-    },
-    {
-      "id": "uncategorized_idle_20260620_094603_084",
-      "filename": "idle_20260620_094603_084.jpg",
-      "prompt": "idle 20260620 094603 084",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 463847
-    },
-    {
-      "id": "uncategorized_idle_20260620_094433_85f",
-      "filename": "idle_20260620_094433_85f.jpg",
-      "prompt": "idle 20260620 094433 85f",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 926073
-    },
-    {
-      "id": "uncategorized_idle_20260620_094303_a3e",
-      "filename": "idle_20260620_094303_a3e.jpg",
-      "prompt": "idle 20260620 094303 a3e",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 206288
-    },
-    {
-      "id": "uncategorized_idle_20260620_094133_dcf",
-      "filename": "idle_20260620_094133_dcf.jpg",
-      "prompt": "idle 20260620 094133 dcf",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 963447
-    },
-    {
-      "id": "uncategorized_idle_20260620_094003_0e0",
-      "filename": "idle_20260620_094003_0e0.jpg",
-      "prompt": "idle 20260620 094003 0e0",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 845428
-    },
-    {
-      "id": "uncategorized_idle_20260620_093834_916",
-      "filename": "idle_20260620_093834_916.jpg",
-      "prompt": "idle 20260620 093834 916",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 359571
-    },
-    {
-      "id": "uncategorized_idle_20260620_093703_3ac",
-      "filename": "idle_20260620_093703_3ac.jpg",
-      "prompt": "idle 20260620 093703 3ac",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 609226
-    },
-    {
-      "id": "uncategorized_idle_20260620_093534_f6b",
-      "filename": "idle_20260620_093534_f6b.jpg",
-      "prompt": "idle 20260620 093534 f6b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 258982
-    },
-    {
-      "id": "uncategorized_idle_20260620_093403_ade",
-      "filename": "idle_20260620_093403_ade.jpg",
-      "prompt": "idle 20260620 093403 ade",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 443156
-    },
-    {
-      "id": "uncategorized_idle_20260620_093233_722",
-      "filename": "idle_20260620_093233_722.jpg",
-      "prompt": "idle 20260620 093233 722",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 280227
-    },
-    {
-      "id": "uncategorized_idle_20260620_093103_5ac",
-      "filename": "idle_20260620_093103_5ac.jpg",
-      "prompt": "idle 20260620 093103 5ac",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 297444
-    },
-    {
-      "id": "uncategorized_idle_20260620_092933_e58",
-      "filename": "idle_20260620_092933_e58.jpg",
-      "prompt": "idle 20260620 092933 e58",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 201616
-    },
-    {
-      "id": "uncategorized_idle_20260620_092803_88e",
-      "filename": "idle_20260620_092803_88e.jpg",
-      "prompt": "idle 20260620 092803 88e",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 766897
-    },
-    {
-      "id": "uncategorized_idle_20260620_092633_579",
-      "filename": "idle_20260620_092633_579.jpg",
-      "prompt": "idle 20260620 092633 579",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 171952
-    },
-    {
-      "id": "uncategorized_idle_20260620_092503_95d",
-      "filename": "idle_20260620_092503_95d.jpg",
-      "prompt": "idle 20260620 092503 95d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 797628
-    },
-    {
-      "id": "uncategorized_idle_20260620_092333_bb7",
-      "filename": "idle_20260620_092333_bb7.jpg",
-      "prompt": "idle 20260620 092333 bb7",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 870010
-    },
-    {
-      "id": "uncategorized_idle_20260620_092203_b1a",
-      "filename": "idle_20260620_092203_b1a.jpg",
-      "prompt": "idle 20260620 092203 b1a",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 250224
-    },
-    {
-      "id": "uncategorized_idle_20260620_092033_7ec",
-      "filename": "idle_20260620_092033_7ec.jpg",
-      "prompt": "idle 20260620 092033 7ec",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 783041
-    },
-    {
-      "id": "uncategorized_idle_20260620_091903_837",
-      "filename": "idle_20260620_091903_837.jpg",
-      "prompt": "idle 20260620 091903 837",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 719157
-    },
-    {
-      "id": "uncategorized_idle_20260620_091733_1af",
-      "filename": "idle_20260620_091733_1af.jpg",
-      "prompt": "idle 20260620 091733 1af",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 324572
-    },
-    {
-      "id": "uncategorized_idle_20260620_091604_8f4",
-      "filename": "idle_20260620_091604_8f4.jpg",
-      "prompt": "idle 20260620 091604 8f4",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 319227
-    },
-    {
-      "id": "uncategorized_idle_20260620_091433_dfc",
-      "filename": "idle_20260620_091433_dfc.jpg",
-      "prompt": "idle 20260620 091433 dfc",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 795940
-    },
-    {
-      "id": "uncategorized_idle_20260620_091303_c5d",
-      "filename": "idle_20260620_091303_c5d.jpg",
-      "prompt": "idle 20260620 091303 c5d",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 208180
-    },
-    {
-      "id": "uncategorized_idle_20260620_091133_870",
-      "filename": "idle_20260620_091133_870.jpg",
-      "prompt": "idle 20260620 091133 870",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 931443
-    },
-    {
-      "id": "uncategorized_idle_20260620_091003_39e",
-      "filename": "idle_20260620_091003_39e.jpg",
-      "prompt": "idle 20260620 091003 39e",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 8486
-    },
-    {
-      "id": "uncategorized_idle_20260620_090833_eff",
-      "filename": "idle_20260620_090833_eff.jpg",
-      "prompt": "idle 20260620 090833 eff",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 806529
-    },
-    {
-      "id": "uncategorized_idle_20260620_090703_8f2",
-      "filename": "idle_20260620_090703_8f2.jpg",
-      "prompt": "idle 20260620 090703 8f2",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 955367
-    },
-    {
-      "id": "uncategorized_idle_20260620_090536_01b",
-      "filename": "idle_20260620_090536_01b.jpg",
-      "prompt": "idle 20260620 090536 01b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 540307
-    },
-    {
-      "id": "uncategorized_idle_20260620_090404_e30",
-      "filename": "idle_20260620_090404_e30.jpg",
-      "prompt": "idle 20260620 090404 e30",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 737694
-    },
-    {
-      "id": "uncategorized_idle_20260620_090233_e98",
-      "filename": "idle_20260620_090233_e98.jpg",
-      "prompt": "idle 20260620 090233 e98",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 553435
-    },
-    {
-      "id": "uncategorized_idle_20260620_090103_678",
-      "filename": "idle_20260620_090103_678.jpg",
-      "prompt": "idle 20260620 090103 678",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 101616
-    },
-    {
-      "id": "uncategorized_idle_20260620_085933_be2",
-      "filename": "idle_20260620_085933_be2.jpg",
-      "prompt": "idle 20260620 085933 be2",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 189035
-    },
-    {
-      "id": "uncategorized_idle_20260620_085803_b96",
-      "filename": "idle_20260620_085803_b96.jpg",
-      "prompt": "idle 20260620 085803 b96",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 528448
-    },
-    {
-      "id": "uncategorized_idle_20260620_085633_69e",
-      "filename": "idle_20260620_085633_69e.jpg",
-      "prompt": "idle 20260620 085633 69e",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 125666
-    },
-    {
-      "id": "uncategorized_idle_20260620_085503_c97",
-      "filename": "idle_20260620_085503_c97.jpg",
-      "prompt": "idle 20260620 085503 c97",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 345842
-    },
-    {
-      "id": "uncategorized_idle_20260620_085333_175",
-      "filename": "idle_20260620_085333_175.jpg",
-      "prompt": "idle 20260620 085333 175",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 195448
-    },
-    {
-      "id": "uncategorized_idle_20260620_085203_b94",
-      "filename": "idle_20260620_085203_b94.jpg",
-      "prompt": "idle 20260620 085203 b94",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 760105
-    },
-    {
-      "id": "uncategorized_idle_20260620_085033_f87",
-      "filename": "idle_20260620_085033_f87.jpg",
-      "prompt": "idle 20260620 085033 f87",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 93037
-    },
-    {
-      "id": "uncategorized_idle_20260620_084903_032",
-      "filename": "idle_20260620_084903_032.jpg",
-      "prompt": "idle 20260620 084903 032",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 186373
-    },
-    {
-      "id": "uncategorized_idle_20260620_084733_eb7",
-      "filename": "idle_20260620_084733_eb7.jpg",
-      "prompt": "idle 20260620 084733 eb7",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 387104
-    },
-    {
-      "id": "uncategorized_idle_20260620_084603_1ec",
-      "filename": "idle_20260620_084603_1ec.jpg",
-      "prompt": "idle 20260620 084603 1ec",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 256940
-    },
-    {
-      "id": "uncategorized_idle_20260620_084433_84b",
-      "filename": "idle_20260620_084433_84b.jpg",
-      "prompt": "idle 20260620 084433 84b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 674632
-    },
-    {
-      "id": "uncategorized_idle_20260620_084303_76b",
-      "filename": "idle_20260620_084303_76b.jpg",
-      "prompt": "idle 20260620 084303 76b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 206668
-    },
-    {
-      "id": "uncategorized_idle_20260620_084133_68a",
-      "filename": "idle_20260620_084133_68a.jpg",
-      "prompt": "idle 20260620 084133 68a",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 209364
-    },
-    {
-      "id": "uncategorized_idle_20260620_084003_d31",
-      "filename": "idle_20260620_084003_d31.jpg",
-      "prompt": "idle 20260620 084003 d31",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 898364
-    },
-    {
-      "id": "uncategorized_idle_20260620_083833_9b3",
-      "filename": "idle_20260620_083833_9b3.jpg",
-      "prompt": "idle 20260620 083833 9b3",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 925657
-    },
-    {
-      "id": "uncategorized_idle_20260620_083703_0d4",
-      "filename": "idle_20260620_083703_0d4.jpg",
-      "prompt": "idle 20260620 083703 0d4",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 630136
-    },
-    {
-      "id": "uncategorized_idle_20260620_083533_b55",
-      "filename": "idle_20260620_083533_b55.jpg",
-      "prompt": "idle 20260620 083533 b55",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 359525
-    },
-    {
-      "id": "uncategorized_idle_20260620_083403_af9",
-      "filename": "idle_20260620_083403_af9.jpg",
-      "prompt": "idle 20260620 083403 af9",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 590497
-    },
-    {
-      "id": "uncategorized_idle_20260620_083233_2ae",
-      "filename": "idle_20260620_083233_2ae.jpg",
-      "prompt": "idle 20260620 083233 2ae",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 718760
-    },
-    {
-      "id": "uncategorized_idle_20260620_083103_7e6",
-      "filename": "idle_20260620_083103_7e6.jpg",
-      "prompt": "idle 20260620 083103 7e6",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 506094
-    },
-    {
-      "id": "uncategorized_idle_20260620_082933_109",
-      "filename": "idle_20260620_082933_109.jpg",
-      "prompt": "idle 20260620 082933 109",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 390713
-    },
-    {
-      "id": "uncategorized_idle_20260620_082803_672",
-      "filename": "idle_20260620_082803_672.jpg",
-      "prompt": "idle 20260620 082803 672",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 947737
-    },
-    {
-      "id": "uncategorized_idle_20260620_082633_bef",
-      "filename": "idle_20260620_082633_bef.jpg",
-      "prompt": "idle 20260620 082633 bef",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 339443
-    },
-    {
-      "id": "uncategorized_idle_20260620_082503_9d0",
-      "filename": "idle_20260620_082503_9d0.jpg",
-      "prompt": "idle 20260620 082503 9d0",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 229731
-    },
-    {
-      "id": "uncategorized_idle_20260620_082333_dfb",
-      "filename": "idle_20260620_082333_dfb.jpg",
-      "prompt": "idle 20260620 082333 dfb",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 279631
-    },
-    {
-      "id": "uncategorized_idle_20260620_082203_390",
-      "filename": "idle_20260620_082203_390.jpg",
-      "prompt": "idle 20260620 082203 390",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 156621
-    },
-    {
-      "id": "uncategorized_idle_20260620_082033_758",
-      "filename": "idle_20260620_082033_758.jpg",
-      "prompt": "idle 20260620 082033 758",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 986470
-    },
-    {
-      "id": "uncategorized_idle_20260620_081903_230",
-      "filename": "idle_20260620_081903_230.jpg",
-      "prompt": "idle 20260620 081903 230",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 697529
-    },
-    {
-      "id": "uncategorized_idle_20260620_081733_eed",
-      "filename": "idle_20260620_081733_eed.jpg",
-      "prompt": "idle 20260620 081733 eed",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 983836
-    },
-    {
-      "id": "uncategorized_idle_20260620_081603_787",
-      "filename": "idle_20260620_081603_787.jpg",
-      "prompt": "idle 20260620 081603 787",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 309966
-    },
-    {
-      "id": "uncategorized_idle_20260620_081433_20e",
-      "filename": "idle_20260620_081433_20e.jpg",
-      "prompt": "idle 20260620 081433 20e",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 29346
-    },
-    {
-      "id": "uncategorized_idle_20260620_081303_dd3",
-      "filename": "idle_20260620_081303_dd3.jpg",
-      "prompt": "idle 20260620 081303 dd3",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 398118
-    },
-    {
-      "id": "uncategorized_idle_20260620_081133_5bc",
-      "filename": "idle_20260620_081133_5bc.jpg",
-      "prompt": "idle 20260620 081133 5bc",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 920230
-    },
-    {
-      "id": "uncategorized_idle_20260620_081003_e4b",
-      "filename": "idle_20260620_081003_e4b.jpg",
-      "prompt": "idle 20260620 081003 e4b",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 897677
-    },
-    {
-      "id": "uncategorized_idle_20260620_080833_bd3",
-      "filename": "idle_20260620_080833_bd3.jpg",
-      "prompt": "idle 20260620 080833 bd3",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 626700
-    },
-    {
-      "id": "uncategorized_idle_20260620_080703_9dc",
-      "filename": "idle_20260620_080703_9dc.jpg",
-      "prompt": "idle 20260620 080703 9dc",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 40423
-    },
-    {
-      "id": "uncategorized_idle_20260620_080526_522",
-      "filename": "idle_20260620_080526_522.jpg",
-      "prompt": "idle 20260620 080526 522",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 227461
-    },
-    {
-      "id": "uncategorized_idle_20260620_080353_180",
-      "filename": "idle_20260620_080353_180.jpg",
-      "prompt": "idle 20260620 080353 180",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "seed": 993642
     },
     {
       "id": "uncategorized_idle_20260620_051159_10c",
@@ -6759,6 +6633,13 @@
       "seed": 174347
     },
     {
+      "id": "registered_uncategorized_850",
+      "filename": "Zen_ink_wash_painting_of_a_single_lotus_20260619.jpg",
+      "prompt": "Zen_ink_wash_painting_of_a_single_lotus_20260619",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "lotus_zen_ink_wash_lotus_icon_small_minimalis_",
       "filename": "Zen_ink_wash_lotus_icon_small_minimalis_20260619.jpg",
       "prompt": "Zen ink wash lotus icon small minimalis",
@@ -6789,6 +6670,13 @@
       "theme": "lotus",
       "category": "lotus",
       "seed": 240098
+    },
+    {
+      "id": "registered_uncategorized_849",
+      "filename": "Watercolor_painting_of_a_glowing_lotus_f_20260619.jpg",
+      "prompt": "Watercolor_painting_of_a_glowing_lotus_f_20260619",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "lotus_watercolor_lotus_icon_small_lotus_flowe_",
@@ -6863,6 +6751,13 @@
       "seed": 211811
     },
     {
+      "id": "registered_uncategorized_848",
+      "filename": "Sacred_geometry_lotus_flower_Flower_of_20260619.jpg",
+      "prompt": "Sacred_geometry_lotus_flower_Flower_of_20260619",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "mythology_sacred_geometry_decorative_border_with_f",
       "filename": "Sacred_geometry_decorative_border_with_F_20260619.jpg",
       "prompt": "Sacred geometry decorative border with F",
@@ -6911,6 +6806,13 @@
       "seed": 103294
     },
     {
+      "id": "registered_uncategorized_842",
+      "filename": "Minimalist_line_art_of_a_lotus_flower_s_20260619.jpg",
+      "prompt": "Minimalist_line_art_of_a_lotus_flower_s_20260619",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "lotus_minimalist_line_art_lotus_icon_small_lo_",
       "filename": "Minimalist_line_art_lotus_icon_small_lo_20260619.jpg",
       "prompt": "Minimalist line art lotus icon small lo",
@@ -6949,6 +6851,20 @@
       "theme": "tattoo",
       "category": "tattoo",
       "seed": 992252
+    },
+    {
+      "id": "registered_uncategorized_837",
+      "filename": "Japanese_ukiyo-e_woodblock_print_of_a_lo_20260619_1.jpg",
+      "prompt": "Japanese_ukiyo-e_woodblock_print_of_a_lo_20260619_1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "registered_uncategorized_836",
+      "filename": "Japanese_ukiyo-e_woodblock_print_of_a_lo_20260619.jpg",
+      "prompt": "Japanese_ukiyo-e_woodblock_print_of_a_lo_20260619",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "abstract_geometric_sacred_geometry_pattern_with_o",
@@ -7383,12 +7299,26 @@
       "seed": 935083
     },
     {
+      "id": "registered_uncategorized_843",
+      "filename": "Monochrome_black_and_white_portrait_of_a_20260617.jpg",
+      "prompt": "Monochrome_black_and_white_portrait_of_a_20260617",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_a",
       "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617_1.jpg",
       "prompt": "Avatar concept for AI assistant Hermes A 20260617 1",
       "theme": "uncategorized",
       "category": "uncategorized",
       "seed": 307777
+    },
+    {
+      "id": "registered_uncategorized_834",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg",
+      "prompt": "Avatar_concept_for_AI_assistant_Hermes_A_20260617",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "uncategorized_animestyle_female_character_as_ai_agent_",
@@ -7455,12 +7385,26 @@
       "seed": 44906
     },
     {
+      "id": "registered_uncategorized_841",
+      "filename": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616.jpg",
+      "prompt": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "lotus_lotus_of_transcendence_gustave_dor_f_202",
       "filename": "Lotus_of_Transcendence_Gustave_Doré__F_20260616_1.jpg",
       "prompt": "Lotus of Transcendence Gustave Doré  F 20260616 1",
       "theme": "lotus",
       "category": "lotus",
       "seed": 811520
+    },
+    {
+      "id": "registered_uncategorized_840",
+      "filename": "Lotus_of_Transcendence_Gustave_Doré__F_20260616.jpg",
+      "prompt": "Lotus_of_Transcendence_Gustave_Doré__F_20260616",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "lotus_lotus_of_eternity_gustave_dor_frankl_202",
@@ -7471,12 +7415,26 @@
       "seed": 944966
     },
     {
+      "id": "registered_uncategorized_839",
+      "filename": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616.jpg",
+      "prompt": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "lotus_lotus_of_awakening_gustave_dor_frank_202",
       "filename": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616_1.jpg",
       "prompt": "Lotus of Awakening Gustave Doré  Frank 20260616 1",
       "theme": "lotus",
       "category": "lotus",
       "seed": 861270
+    },
+    {
+      "id": "registered_uncategorized_838",
+      "filename": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616.jpg",
+      "prompt": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "lotus_fractal_lotus_with_recursive_petals_sac_",
@@ -7549,6 +7507,34 @@
       "theme": "uncategorized",
       "category": "uncategorized",
       "seed": 837622
+    },
+    {
+      "id": "registered_uncategorized_847",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_3.jpg",
+      "prompt": "Portrait_of_a_handsome_young_East_Asian_20260525_3",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "registered_uncategorized_846",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_2.jpg",
+      "prompt": "Portrait_of_a_handsome_young_East_Asian_20260525_2",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "registered_uncategorized_845",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_1.jpg",
+      "prompt": "Portrait_of_a_handsome_young_East_Asian_20260525_1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "registered_uncategorized_844",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525.jpg",
+      "prompt": "Portrait_of_a_handsome_young_East_Asian_20260525",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "abstract_maximum_abstraction_sumie_ink_tattoo_s_2",
@@ -7679,12 +7665,33 @@
       "seed": 727062
     },
     {
+      "id": "registered_uncategorized_835",
+      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525.jpg",
+      "prompt": "Avatar_concept_for_an_AI_assistant_named_20260525",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_2",
       "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_2.jpg",
       "prompt": "Avatar concept for AI assistant Hermes 20260525 2",
       "theme": "uncategorized",
       "category": "uncategorized",
       "seed": 767786
+    },
+    {
+      "id": "registered_uncategorized_833",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_1.jpg",
+      "prompt": "Avatar_concept_for_AI_assistant_Hermes_20260525_1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "registered_uncategorized_832",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525.jpg",
+      "prompt": "Avatar_concept_for_AI_assistant_Hermes_20260525",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "lotus_abstract_sumie_lotus_tattoo_bold_sweep_2",
@@ -7741,6 +7748,34 @@
       "theme": "abstract",
       "category": "abstract",
       "seed": 551875
+    },
+    {
+      "id": "registered_uncategorized_831",
+      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_3.jpg",
+      "prompt": "Abstract_ethereal_avatar_for_AI_assistan_20260525_3",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "registered_uncategorized_830",
+      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_2.jpg",
+      "prompt": "Abstract_ethereal_avatar_for_AI_assistan_20260525_2",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "registered_uncategorized_829",
+      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_1.jpg",
+      "prompt": "Abstract_ethereal_avatar_for_AI_assistan_20260525_1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "registered_uncategorized_828",
+      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525.jpg",
+      "prompt": "Abstract_ethereal_avatar_for_AI_assistan_20260525",
+      "theme": "uncategorized",
+      "category": "uncategorized"
     },
     {
       "id": "abstract_abstract_cosmic_art_swirling_nebula_of_2",
@@ -7805,6 +7840,174 @@
       "theme": "uncategorized",
       "category": "uncategorized",
       "seed": 260385
+    },
+    {
+      "id": "uncategorized_999",
+      "filename": "uncategorized_999.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:37:17+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 49935,
+      "seed": 280240
+    },
+    {
+      "id": "uncategorized_1012",
+      "filename": "uncategorized_1012.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:51:06+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 73128,
+      "seed": 29457
+    },
+    {
+      "id": "uncategorized_1011",
+      "filename": "uncategorized_1011.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:50:04+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 59829,
+      "seed": 52635
+    },
+    {
+      "id": "uncategorized_1010",
+      "filename": "uncategorized_1010.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:48:34+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 59436,
+      "seed": 586109
+    },
+    {
+      "id": "uncategorized_1009",
+      "filename": "uncategorized_1009.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:47:33+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 61112,
+      "seed": 579281
+    },
+    {
+      "id": "uncategorized_1008",
+      "filename": "uncategorized_1008.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:46:32+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 70352,
+      "seed": 595695
+    },
+    {
+      "id": "uncategorized_1007",
+      "filename": "uncategorized_1007.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:45:30+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 58662,
+      "seed": 631834
+    },
+    {
+      "id": "uncategorized_1006",
+      "filename": "uncategorized_1006.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:44:29+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 47039,
+      "seed": 524583
+    },
+    {
+      "id": "uncategorized_1005",
+      "filename": "uncategorized_1005.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:43:27+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 56127,
+      "seed": 536078
+    },
+    {
+      "id": "uncategorized_1004",
+      "filename": "uncategorized_1004.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:42:26+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 55661,
+      "seed": 175235
+    },
+    {
+      "id": "uncategorized_1003",
+      "filename": "uncategorized_1003.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:41:24+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 57524,
+      "seed": 309832
+    },
+    {
+      "id": "uncategorized_1002",
+      "filename": "uncategorized_1002.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:40:22+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 64773,
+      "seed": 912242
+    },
+    {
+      "id": "uncategorized_1001",
+      "filename": "uncategorized_1001.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:39:21+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 51616,
+      "seed": 62782
+    },
+    {
+      "id": "uncategorized_1000",
+      "filename": "uncategorized_1000.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:38:19+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 57164,
+      "seed": 932692
     },
     {
       "id": "lotus_lotus_avatar_watercolor",
@@ -8055,219 +8258,64 @@
       "seed": 958522
     },
     {
-      "id": "registered_uncategorized_828",
-      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525.jpg",
-      "prompt": "Abstract_ethereal_avatar_for_AI_assistan_20260525",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_829",
-      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_1.jpg",
-      "prompt": "Abstract_ethereal_avatar_for_AI_assistan_20260525_1",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_830",
-      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_2.jpg",
-      "prompt": "Abstract_ethereal_avatar_for_AI_assistan_20260525_2",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_831",
-      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_3.jpg",
-      "prompt": "Abstract_ethereal_avatar_for_AI_assistan_20260525_3",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_832",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525.jpg",
-      "prompt": "Avatar_concept_for_AI_assistant_Hermes_20260525",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_833",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_1.jpg",
-      "prompt": "Avatar_concept_for_AI_assistant_Hermes_20260525_1",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_834",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg",
-      "prompt": "Avatar_concept_for_AI_assistant_Hermes_A_20260617",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_835",
-      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525.jpg",
-      "prompt": "Avatar_concept_for_an_AI_assistant_named_20260525",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_836",
-      "filename": "Japanese_ukiyo-e_woodblock_print_of_a_lo_20260619.jpg",
-      "prompt": "Japanese_ukiyo-e_woodblock_print_of_a_lo_20260619",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_837",
-      "filename": "Japanese_ukiyo-e_woodblock_print_of_a_lo_20260619_1.jpg",
-      "prompt": "Japanese_ukiyo-e_woodblock_print_of_a_lo_20260619_1",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_838",
-      "filename": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616.jpg",
-      "prompt": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_839",
-      "filename": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616.jpg",
-      "prompt": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_840",
-      "filename": "Lotus_of_Transcendence_Gustave_Doré__F_20260616.jpg",
-      "prompt": "Lotus_of_Transcendence_Gustave_Doré__F_20260616",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_841",
-      "filename": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616.jpg",
-      "prompt": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_842",
-      "filename": "Minimalist_line_art_of_a_lotus_flower_s_20260619.jpg",
-      "prompt": "Minimalist_line_art_of_a_lotus_flower_s_20260619",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_843",
-      "filename": "Monochrome_black_and_white_portrait_of_a_20260617.jpg",
-      "prompt": "Monochrome_black_and_white_portrait_of_a_20260617",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_844",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525.jpg",
-      "prompt": "Portrait_of_a_handsome_young_East_Asian_20260525",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_845",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_1.jpg",
-      "prompt": "Portrait_of_a_handsome_young_East_Asian_20260525_1",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_846",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_2.jpg",
-      "prompt": "Portrait_of_a_handsome_young_East_Asian_20260525_2",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_847",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_3.jpg",
-      "prompt": "Portrait_of_a_handsome_young_East_Asian_20260525_3",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_848",
-      "filename": "Sacred_geometry_lotus_flower_Flower_of_20260619.jpg",
-      "prompt": "Sacred_geometry_lotus_flower_Flower_of_20260619",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_849",
-      "filename": "Watercolor_painting_of_a_glowing_lotus_f_20260619.jpg",
-      "prompt": "Watercolor_painting_of_a_glowing_lotus_f_20260619",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_850",
-      "filename": "Zen_ink_wash_painting_of_a_single_lotus_20260619.jpg",
-      "prompt": "Zen_ink_wash_painting_of_a_single_lotus_20260619",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_851",
-      "filename": "idle_20260620_125005_c86.jpg",
-      "prompt": "idle_20260620_125005_c86",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_852",
-      "filename": "idle_20260620_125140_d31.jpg",
-      "prompt": "idle_20260620_125140_d31",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_853",
-      "filename": "idle_20260620_125305_abd.jpg",
-      "prompt": "idle_20260620_125305_abd",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_854",
-      "filename": "idle_20260620_125435_ae2.jpg",
-      "prompt": "idle_20260620_125435_ae2",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_855",
-      "filename": "idle_20260620_125605_4b4.jpg",
-      "prompt": "idle_20260620_125605_4b4",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "registered_uncategorized_856",
-      "filename": "idle_20260620_131041_0ba.jpg",
-      "prompt": "idle_20260620_131041_0ba",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
       "id": "uncategorized_1013",
       "prompt": "idle generated avatar",
       "theme": "uncategorized",
       "category": "uncategorized",
       "createdAt": "2026-06-20T17:15:59+00:00",
       "seed": 368917
+    },
+    {
+      "id": "uncategorized_1014",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T17:26:20+00:00",
+      "seed": 510797
+    },
+    {
+      "id": "uncategorized_1015",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T17:27:21+00:00",
+      "seed": 876018
+    },
+    {
+      "id": "uncategorized_1016",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T17:28:23+00:00",
+      "seed": 142300
+    },
+    {
+      "id": "uncategorized_1017",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T17:29:24+00:00",
+      "seed": 815319
+    },
+    {
+      "id": "uncategorized_1018",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T17:30:26+00:00",
+      "seed": 777594
+    },
+    {
+      "id": "uncategorized_1019",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T17:31:27+00:00",
+      "seed": 575494
     }
   ],
   "metadata": {
-    "total": 856,
+    "total": 858,
     "themes": [
       "abstract",
       "fantasy",
@@ -8281,14 +8329,14 @@
       "uncategorized"
     ],
     "images_per_theme": 85,
-    "format": "512x512 JPEG",
+    "format": "512x512 JPEG (legacy) / Pollinations URL (new)",
     "generated": "2026-06-20",
     "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
   },
   "_meta": {
-    "updatedAt": "2026-06-20T17:15:59.566273+00:00",
-    "updatedAtTimestamp": 1781975759,
-    "totalImages": 854,
-    "lastDeployed": "Jun 20, 2026 at 05:15 PM"
+    "updatedAt": "2026-06-20T17:31:27.638108+00:00",
+    "updatedAtTimestamp": 1781976687,
+    "totalImages": 860,
+    "lastDeployed": "Jun 20, 2026 at 05:31 PM"
   }
 }
