@@ -70,9 +70,9 @@ def validate(data_path: str) -> int:
     total = len(avatars)
     print(f"Validating {total} avatar entries...")
 
-    warn_ids = set()
     errors = []
     warnings = []
+    warn_ids = set()
 
     for i, avatar in enumerate(avatars):
         prefix = f"[{i}] id={avatar.get('id', 'MISSING')}"
@@ -99,7 +99,6 @@ def validate(data_path: str) -> int:
         # --- Required: theme ---
         theme = avatar.get("theme")
         if not isinstance(theme, str) or theme not in ALLOWED_THEMES:
-            # Allow "sci-fi" as alias for "scifi"
             normalized = theme.replace("sci-fi", "scifi").replace("minimal", "minimalist") if isinstance(theme, str) else theme
             if normalized not in ALLOWED_THEMES:
                 errors.append(f"{prefix}: 'theme' must be one of {sorted(ALLOWED_THEMES)}, got {theme!r}")
@@ -111,11 +110,10 @@ def validate(data_path: str) -> int:
                 errors.append(f"{prefix}: 'seed' must be positive integer, got {seed!r}")
 
         # --- Legacy: filename ---
-        has_seed = seed is not None
         filename = avatar.get("filename")
-        if not has_seed:
+        if seed is None:
             if not isinstance(filename, str) or not filename.strip():
-                errors.append(f"{prefix}: Legacy entry without 'seed' must have 'filename'")
+                errors.append(f"{prefix}: Legacy entry without 'seed' must have non-empty 'filename', got {filename!r}")
 
         # --- Legacy: fileSize ---
         file_size = avatar.get("fileSize")

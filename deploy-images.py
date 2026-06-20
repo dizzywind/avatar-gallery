@@ -292,6 +292,9 @@ def main():
         print(f"Copied: {filename} -> {dest_path}")
 
         # Legacy entry (file-based)
+        # Sanity check: legacy avatars should have a filename
+        if not filename:
+            raise ValueError(f"Missing filename for new legacy image: {img_path.name}")
         new_avatar = {
             "id": avatar_id,
             "filename": filename,

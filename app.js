@@ -39,10 +39,10 @@ async function fetchWithRetry(url, options = {}, retries = 3, delay = 500) {
 function sortAvatarsDesc(avatars) {
   const datePattern = /(\d{8})/;
   return avatars.slice().sort((a, b) => {
-    const da = (a.filename.match(datePattern) || [])[1] || '00000000';
-    const db = (b.filename.match(datePattern) || [])[1] || '00000000';
+    const da = (a.filename && a.filename.match(datePattern) || [])[1] || '00000000';
+    const db = (b.filename && b.filename.match(datePattern) || [])[1] || '00000000';
     if (db !== da) return db.localeCompare(da);
-    return b.filename.localeCompare(a.filename);
+    return (b.filename || '').localeCompare(a.filename || '');
   });
 }
 

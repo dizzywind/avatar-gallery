@@ -19,22 +19,6 @@
       "seed": 222999
     },
     {
-      "id": "uncategorized_1014",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:53:09+00:00",
-      "seed": 489890
-    },
-    {
-      "id": "uncategorized_1013",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:52:07+00:00",
-      "seed": 993696
-    },
-    {
       "id": "uncategorized_1012",
       "filename": "uncategorized_1012.jpg",
       "prompt": "idle generated avatar",
@@ -7432,8 +7416,8 @@
     },
     {
       "id": "lotus_sacred_lotus_gustave_dor_franklin_bo_202",
-      "filename": "Sacred_lotus_Gustave_Dor\u00e9__Franklin_Bo_20260616.jpg",
-      "prompt": "Sacred lotus Gustave Dor\u00e9  Franklin Bo",
+      "filename": "Sacred_lotus_Gustave_Doré__Franklin_Bo_20260616.jpg",
+      "prompt": "Sacred lotus Gustave Doré  Franklin Bo",
       "theme": "lotus",
       "category": "lotus",
       "seed": 625394
@@ -7464,32 +7448,32 @@
     },
     {
       "id": "lotus_lotus_of_wisdom_gustave_dor_franklin_202",
-      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616_1.jpg",
-      "prompt": "Lotus of Wisdom Gustave Dor\u00e9  Franklin 20260616 1",
+      "filename": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616_1.jpg",
+      "prompt": "Lotus of Wisdom Gustave Doré  Franklin 20260616 1",
       "theme": "lotus",
       "category": "lotus",
       "seed": 44906
     },
     {
       "id": "lotus_lotus_of_transcendence_gustave_dor_f_202",
-      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616_1.jpg",
-      "prompt": "Lotus of Transcendence Gustave Dor\u00e9  F 20260616 1",
+      "filename": "Lotus_of_Transcendence_Gustave_Doré__F_20260616_1.jpg",
+      "prompt": "Lotus of Transcendence Gustave Doré  F 20260616 1",
       "theme": "lotus",
       "category": "lotus",
       "seed": 811520
     },
     {
       "id": "lotus_lotus_of_eternity_gustave_dor_frankl_202",
-      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616_1.jpg",
-      "prompt": "Lotus of Eternity Gustave Dor\u00e9  Frankl 20260616 1",
+      "filename": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616_1.jpg",
+      "prompt": "Lotus of Eternity Gustave Doré  Frankl 20260616 1",
       "theme": "lotus",
       "category": "lotus",
       "seed": 944966
     },
     {
       "id": "lotus_lotus_of_awakening_gustave_dor_frank_202",
-      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616_1.jpg",
-      "prompt": "Lotus of Awakening Gustave Dor\u00e9  Frank 20260616 1",
+      "filename": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616_1.jpg",
+      "prompt": "Lotus of Awakening Gustave Doré  Frank 20260616 1",
       "theme": "lotus",
       "category": "lotus",
       "seed": 861270
@@ -7945,7 +7929,7 @@
     {
       "id": "mythology_03",
       "filename": "avatar_mythology_3.jpg",
-      "prompt": "Yggdrasil \u2014 Norse World Tree",
+      "prompt": "Yggdrasil — Norse World Tree",
       "theme": "mythology",
       "category": "mythology",
       "seed": 782975
@@ -8071,14 +8055,6 @@
       "seed": 958522
     },
     {
-      "id": "uncategorized_1015",
-      "prompt": "idle generated avatar",
-      "theme": "uncategorized",
-      "category": "uncategorized",
-      "createdAt": "2026-06-20T16:54:10+00:00",
-      "seed": 389398
-    },
-    {
       "id": "registered_uncategorized_828",
       "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525.jpg",
       "prompt": "Abstract_ethereal_avatar_for_AI_assistan_20260525",
@@ -8150,29 +8126,29 @@
     },
     {
       "id": "registered_uncategorized_838",
-      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616.jpg",
-      "prompt": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616",
+      "filename": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616.jpg",
+      "prompt": "Lotus_of_Awakening_Gustave_Doré__Frank_20260616",
       "theme": "uncategorized",
       "category": "uncategorized"
     },
     {
       "id": "registered_uncategorized_839",
-      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616.jpg",
-      "prompt": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616",
+      "filename": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616.jpg",
+      "prompt": "Lotus_of_Eternity_Gustave_Doré__Frankl_20260616",
       "theme": "uncategorized",
       "category": "uncategorized"
     },
     {
       "id": "registered_uncategorized_840",
-      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616.jpg",
-      "prompt": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616",
+      "filename": "Lotus_of_Transcendence_Gustave_Doré__F_20260616.jpg",
+      "prompt": "Lotus_of_Transcendence_Gustave_Doré__F_20260616",
       "theme": "uncategorized",
       "category": "uncategorized"
     },
     {
       "id": "registered_uncategorized_841",
-      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616.jpg",
-      "prompt": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616",
+      "filename": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616.jpg",
+      "prompt": "Lotus_of_Wisdom_Gustave_Doré__Franklin_20260616",
       "theme": "uncategorized",
       "category": "uncategorized"
     },
@@ -8280,6 +8256,14 @@
       "prompt": "idle_20260620_131041_0ba",
       "theme": "uncategorized",
       "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_1013",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T17:15:59+00:00",
+      "seed": 368917
     }
   ],
   "metadata": {
@@ -8299,12 +8283,12 @@
     "images_per_theme": 85,
     "format": "512x512 JPEG",
     "generated": "2026-06-20",
-    "attribution": "Images generated via Pollinations.ai (Flux model) \u2014 free AI image generation API. https://pollinations.ai"
+    "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
   },
   "_meta": {
-    "updatedAt": "2026-06-20T16:55:21.193667+00:00",
-    "updatedAtTimestamp": 1781974521,
-    "totalImages": 856,
-    "lastDeployed": "Jun 20, 2026 at 04:55 PM"
+    "updatedAt": "2026-06-20T17:15:59.566273+00:00",
+    "updatedAtTimestamp": 1781975759,
+    "totalImages": 854,
+    "lastDeployed": "Jun 20, 2026 at 05:15 PM"
   }
 }
