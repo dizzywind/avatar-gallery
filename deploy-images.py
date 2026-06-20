@@ -18,6 +18,7 @@ SOURCE_DIR = Path("/data/hermes/media/images")
 REPO_DIR = Path("/root/avatar-gallery")
 IMAGES_DIR = REPO_DIR / "images"
 DATA_JSON = REPO_DIR / "data.json"
+IDLE_STAGING_DIR = REPO_DIR / "data" / "idle"
 
 # Theme detection keywords (order matters - more specific first)
 THEME_KEYWORDS = [
@@ -156,12 +157,32 @@ def main():
     print("=" * 60)
 
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+    IDLE_STAGING_DIR.mkdir(parents=True, exist_ok=True)
 
     existing_filenames = get_existing_filenames(DATA_JSON)
     existing_image_files = get_existing_image_files(IMAGES_DIR)
     existing_image_hashes = get_existing_image_hashes(IMAGES_DIR)
     print(f"Existing in data.json: {len(existing_filenames)}")
     print(f"Existing in images/: {len(existing_image_files)}")
+
+    copied_from_idle = 0
+    for idle_path in sorted(IDLE_STAGING_DIR.iterdir()):
+        if not idle_path.is_file():
+            continue
+        if idle_path.suffix.lower() not in [".jpg", ".jpeg", ".png"]:
+            continue
+        if idle_path.name in existing_filenames or idle_path.name in existing_image_files:
+            continue
+        if idle_path.exists() and idle_path.stat().st_size == 0:
+            continue
+        try:
+            shutil.copy2(idle_path, SOURCE_DIR / idle_path.name)
+            copied_from_idle += 1
+            print(f"Copied from idle output: {idle_path.name}")
+        except Exception as e:
+            print(f"Idle copy failed for {idle_path.name}: {e}")
+    if copied_from_idle:
+        print(f"Copied {copied_from_idle} images from idle output to media store")
 
     if DATA_JSON.exists():
         with open(DATA_JSON) as f:
