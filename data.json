@@ -1,6 +1,468 @@
 {
   "avatars": [
     {
+      "id": "abstract_retro_avatar_portrait_1980s_synthwave_s_",
+      "filename": "retro_avatar_portrait_1980s_synthwave_s_20260618.jpg",
+      "prompt": "retro avatar portrait 1980s synthwave s",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "uncategorized_retro_avatar_portrait_1970s_disco_style_",
+      "filename": "retro_avatar_portrait_1970s_disco_style_20260618.jpg",
+      "prompt": "retro avatar portrait 1970s disco style",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_nature_avatar_portrait_face_made_of_blo_",
+      "filename": "nature_avatar_portrait_face_made_of_blo_20260618.jpg",
+      "prompt": "nature avatar portrait face made of blo",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "minimalist_minimalist_avatar_portrait_simple_geome_",
+      "filename": "minimalist_avatar_portrait_simple_geome_20260618.jpg",
+      "prompt": "minimalist avatar portrait simple geome",
+      "theme": "minimalist",
+      "category": "minimalist"
+    },
+    {
+      "id": "abstract_minimalist_avatar_portrait_abstract_wat_",
+      "filename": "minimalist_avatar_portrait_abstract_wat_20260618.jpg",
+      "prompt": "minimalist avatar portrait abstract wat",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "lotus_lotus_three_brushstrokes_20260527",
+      "filename": "lotus_three_brushstrokes_20260527.jpg",
+      "prompt": "lotus three brushstrokes",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_avatar_watercolor",
+      "filename": "lotus_avatar_watercolor.jpg",
+      "prompt": "lotus avatar watercolor",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_avatar_lineart",
+      "filename": "lotus_avatar_lineart.jpg",
+      "prompt": "lotus avatar lineart",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_avatar_geometric",
+      "filename": "lotus_avatar_geometric.jpg",
+      "prompt": "lotus avatar geometric",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "uncategorized_idle_verify_20260619_1218_ba",
+      "filename": "idle_verify_20260619_1218_ba.jpg",
+      "prompt": "idle verify 20260619 1218 ba",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_051301_b26",
+      "filename": "idle_20260620_051301_b26.jpg",
+      "prompt": "idle 20260620 051301 b26",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_051159_10c",
+      "filename": "idle_20260620_051159_10c.jpg",
+      "prompt": "idle 20260620 051159 10c",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_051058_974",
+      "filename": "idle_20260620_051058_974.jpg",
+      "prompt": "idle 20260620 051058 974",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_050606_6f4",
+      "filename": "idle_20260620_050606_6f4.jpg",
+      "prompt": "idle 20260620 050606 6f4",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_050505_aba",
+      "filename": "idle_20260620_050505_aba.jpg",
+      "prompt": "idle 20260620 050505 aba",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_050403_6a1",
+      "filename": "idle_20260620_050403_6a1.jpg",
+      "prompt": "idle 20260620 050403 6a1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_050301_75e",
+      "filename": "idle_20260620_050301_75e.jpg",
+      "prompt": "idle 20260620 050301 75e",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_050200_1ba",
+      "filename": "idle_20260620_050200_1ba.jpg",
+      "prompt": "idle 20260620 050200 1ba",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_050058_6e1",
+      "filename": "idle_20260620_050058_6e1.jpg",
+      "prompt": "idle 20260620 050058 6e1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045956_8ce",
+      "filename": "idle_20260620_045956_8ce.jpg",
+      "prompt": "idle 20260620 045956 8ce",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045855_611",
+      "filename": "idle_20260620_045855_611.jpg",
+      "prompt": "idle 20260620 045855 611",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045753_0ea",
+      "filename": "idle_20260620_045753_0ea.jpg",
+      "prompt": "idle 20260620 045753 0ea",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045651_f33",
+      "filename": "idle_20260620_045651_f33.jpg",
+      "prompt": "idle 20260620 045651 f33",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045550_95e",
+      "filename": "idle_20260620_045550_95e.jpg",
+      "prompt": "idle 20260620 045550 95e",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045448_050",
+      "filename": "idle_20260620_045448_050.jpg",
+      "prompt": "idle 20260620 045448 050",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045347_1dc",
+      "filename": "idle_20260620_045347_1dc.jpg",
+      "prompt": "idle 20260620 045347 1dc",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045245_17a",
+      "filename": "idle_20260620_045245_17a.jpg",
+      "prompt": "idle 20260620 045245 17a",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045144_3ad",
+      "filename": "idle_20260620_045144_3ad.jpg",
+      "prompt": "idle 20260620 045144 3ad",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_045043_31a",
+      "filename": "idle_20260620_045043_31a.jpg",
+      "prompt": "idle 20260620 045043 31a",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044941_3ad",
+      "filename": "idle_20260620_044941_3ad.jpg",
+      "prompt": "idle 20260620 044941 3ad",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044840_891",
+      "filename": "idle_20260620_044840_891.jpg",
+      "prompt": "idle 20260620 044840 891",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044738_5ee",
+      "filename": "idle_20260620_044738_5ee.jpg",
+      "prompt": "idle 20260620 044738 5ee",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044636_e54",
+      "filename": "idle_20260620_044636_e54.jpg",
+      "prompt": "idle 20260620 044636 e54",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044535_a31",
+      "filename": "idle_20260620_044535_a31.jpg",
+      "prompt": "idle 20260620 044535 a31",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044433_34e",
+      "filename": "idle_20260620_044433_34e.jpg",
+      "prompt": "idle 20260620 044433 34e",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044332_200",
+      "filename": "idle_20260620_044332_200.jpg",
+      "prompt": "idle 20260620 044332 200",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044230_9f3",
+      "filename": "idle_20260620_044230_9f3.jpg",
+      "prompt": "idle 20260620 044230 9f3",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044129_d50",
+      "filename": "idle_20260620_044129_d50.jpg",
+      "prompt": "idle 20260620 044129 d50",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_044027_1fc",
+      "filename": "idle_20260620_044027_1fc.jpg",
+      "prompt": "idle 20260620 044027 1fc",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043925_3b9",
+      "filename": "idle_20260620_043925_3b9.jpg",
+      "prompt": "idle 20260620 043925 3b9",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043823_de4",
+      "filename": "idle_20260620_043823_de4.jpg",
+      "prompt": "idle 20260620 043823 de4",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043722_f84",
+      "filename": "idle_20260620_043722_f84.jpg",
+      "prompt": "idle 20260620 043722 f84",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043621_51d",
+      "filename": "idle_20260620_043621_51d.jpg",
+      "prompt": "idle 20260620 043621 51d",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043519_9f6",
+      "filename": "idle_20260620_043519_9f6.jpg",
+      "prompt": "idle 20260620 043519 9f6",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043417_1cf",
+      "filename": "idle_20260620_043417_1cf.jpg",
+      "prompt": "idle 20260620 043417 1cf",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043316_d4e",
+      "filename": "idle_20260620_043316_d4e.jpg",
+      "prompt": "idle 20260620 043316 d4e",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043214_195",
+      "filename": "idle_20260620_043214_195.jpg",
+      "prompt": "idle 20260620 043214 195",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043113_ea3",
+      "filename": "idle_20260620_043113_ea3.jpg",
+      "prompt": "idle 20260620 043113 ea3",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_043012_fed",
+      "filename": "idle_20260620_043012_fed.jpg",
+      "prompt": "idle 20260620 043012 fed",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_042911_8ab",
+      "filename": "idle_20260620_042911_8ab.jpg",
+      "prompt": "idle 20260620 042911 8ab",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_042809_8a6",
+      "filename": "idle_20260620_042809_8a6.jpg",
+      "prompt": "idle 20260620 042809 8a6",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_042708_968",
+      "filename": "idle_20260620_042708_968.jpg",
+      "prompt": "idle 20260620 042708 968",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_042607_617",
+      "filename": "idle_20260620_042607_617.jpg",
+      "prompt": "idle 20260620 042607 617",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_042505_922",
+      "filename": "idle_20260620_042505_922.jpg",
+      "prompt": "idle 20260620 042505 922",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_042403_95f",
+      "filename": "idle_20260620_042403_95f.jpg",
+      "prompt": "idle 20260620 042403 95f",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_042302_759",
+      "filename": "idle_20260620_042302_759.jpg",
+      "prompt": "idle 20260620 042302 759",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_042200_6fc",
+      "filename": "idle_20260620_042200_6fc.jpg",
+      "prompt": "idle 20260620 042200 6fc",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_042059_842",
+      "filename": "idle_20260620_042059_842.jpg",
+      "prompt": "idle 20260620 042059 842",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_041958_9d5",
+      "filename": "idle_20260620_041958_9d5.jpg",
+      "prompt": "idle 20260620 041958 9d5",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_041856_186",
+      "filename": "idle_20260620_041856_186.jpg",
+      "prompt": "idle 20260620 041856 186",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_041725_c84",
+      "filename": "idle_20260620_041725_c84.jpg",
+      "prompt": "idle 20260620 041725 c84",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_20260619",
+      "filename": "idle_20260620_041400_cbb.jpg",
+      "prompt": "Idle 20260620 041400 Cbb",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_20260620",
+      "filename": "idle_20260620_040627_01f.jpg",
+      "prompt": "Idle 20260620 040627 01F",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_20260621",
+      "filename": "idle_20260620_040523_1fb.jpg",
+      "prompt": "Idle 20260620 040523 1Fb",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_20260622",
+      "filename": "idle_20260620_040413_10a.jpg",
+      "prompt": "Idle 20260620 040413 10A",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_20260623",
+      "filename": "idle_20260620_040310_31d.jpg",
+      "prompt": "Idle 20260620 040310 31D",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
       "id": "uncategorized_116",
       "filename": "idle_20260620_040208_62f.jpg",
       "prompt": "Idle 20260620 040208 62F",
@@ -232,13 +694,6 @@
       "category": "uncategorized"
     },
     {
-      "id": "uncategorized_idle_verify_20260619_1218_ba",
-      "filename": "idle_verify_20260619_1218_ba.jpg",
-      "prompt": "idle verify 20260619 1218 ba",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
       "id": "uncategorized_idle_20260619_184657_d04",
       "filename": "idle_20260619_184657_d04.jpg",
       "prompt": "idle 20260619 184657 d04",
@@ -279,6 +734,342 @@
       "prompt": "idle 20260619 172306 bb4",
       "theme": "uncategorized",
       "category": "uncategorized"
+    },
+    {
+      "id": "fantasy_fantasy_avatar_portrait_wise_old_wizard_",
+      "filename": "fantasy_avatar_portrait_wise_old_wizard_20260618.jpg",
+      "prompt": "fantasy avatar portrait wise old wizard",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "uncategorized_fantasy_avatar_portrait_elven_warrior_w_",
+      "filename": "fantasy_avatar_portrait_elven_warrior_w_20260618.jpg",
+      "prompt": "fantasy avatar portrait elven warrior w",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_duck_tribal_svg_20260522",
+      "filename": "duck_tribal_svg_20260522.png",
+      "prompt": "duck tribal svg",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_duck_tribal_20260522",
+      "filename": "duck_tribal_20260522.jpg",
+      "prompt": "duck tribal",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "tattoo_duck_tattoo_20260522",
+      "filename": "duck_tattoo_20260522.jpg",
+      "prompt": "duck tattoo",
+      "theme": "tattoo",
+      "category": "tattoo"
+    },
+    {
+      "id": "uncategorized_dog_guardian_20260522",
+      "filename": "dog_guardian_20260522.jpg",
+      "prompt": "dog guardian",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_dog_ghibli_v2_20260522",
+      "filename": "dog_ghibli_v2_20260522.jpg",
+      "prompt": "dog ghibli v2",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_dog_ghibli_20260522",
+      "filename": "dog_ghibli_20260522.jpg",
+      "prompt": "dog ghibli",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "scifi_cyberpunk_avatar_portrait_neonlit_face_2",
+      "filename": "cyberpunk_avatar_portrait_neon-lit_face_20260618.jpg",
+      "prompt": "cyberpunk avatar portrait neon lit face",
+      "theme": "scifi",
+      "category": "scifi"
+    },
+    {
+      "id": "scifi_cyberpunk_avatar_portrait_female_hacker_",
+      "filename": "cyberpunk_avatar_portrait_female_hacker_20260618.jpg",
+      "prompt": "cyberpunk avatar portrait female hacker",
+      "theme": "scifi",
+      "category": "scifi"
+    },
+    {
+      "id": "scifi_05",
+      "filename": "avatar_scifi_5.jpg",
+      "prompt": "Explorer on an Alien World",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "scifi_04",
+      "filename": "avatar_scifi_4.jpg",
+      "prompt": "Generation Ship in Deep Space",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "scifi_03",
+      "filename": "avatar_scifi_3.jpg",
+      "prompt": "Chrome Robot in the Server Room",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "scifi_02",
+      "filename": "avatar_scifi_2.jpg",
+      "prompt": "Astronaut & Earth Glow",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "scifi_01",
+      "filename": "avatar_scifi_1.jpg",
+      "prompt": "Neon Cyberpunk Cityscape",
+      "theme": "sci-fi",
+      "category": "sci-fi"
+    },
+    {
+      "id": "mythology_avatar_sacred_geometry_20260618",
+      "filename": "avatar_sacred_geometry_20260618.jpg",
+      "prompt": "avatar sacred geometry",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "uncategorized_avatar_playful_20260618",
+      "filename": "avatar_playful_20260618.jpg",
+      "prompt": "avatar playful",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_avatar_pastel_20260618",
+      "filename": "avatar_pastel_20260618.jpg",
+      "prompt": "avatar pastel",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "nature_05",
+      "filename": "avatar_nature_5.jpg",
+      "prompt": "Wolf Howling at Northern Lights",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "nature_04",
+      "filename": "avatar_nature_4.jpg",
+      "prompt": "Coral Reef Underwater World",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "nature_03",
+      "filename": "avatar_nature_3.jpg",
+      "prompt": "Ancient Oak with Hidden Door",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "nature_02",
+      "filename": "avatar_nature_2.jpg",
+      "prompt": "Wildflower Field at Sunset",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "nature_01",
+      "filename": "avatar_nature_1.jpg",
+      "prompt": "Mountain Lake at Sunrise",
+      "theme": "nature",
+      "category": "nature"
+    },
+    {
+      "id": "mythology_05",
+      "filename": "avatar_mythology_5.jpg",
+      "prompt": "Cosmic Lotus Bloom",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "mythology_04",
+      "filename": "avatar_mythology_4.jpg",
+      "prompt": "Egyptian Ankh of Living Light",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "mythology_03",
+      "filename": "avatar_mythology_3.jpg",
+      "prompt": "Yggdrasil \u2014 Norse World Tree",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "mythology_02",
+      "filename": "avatar_mythology_2.jpg",
+      "prompt": "Eye of Providence",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "mythology_01",
+      "filename": "avatar_mythology_1.jpg",
+      "prompt": "Divine Figure of Golden Light",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "scifi_avatar_monochrome_20260618",
+      "filename": "avatar_monochrome_20260618.jpg",
+      "prompt": "avatar monochrome",
+      "theme": "scifi",
+      "category": "scifi"
+    },
+    {
+      "id": "lotus_03",
+      "filename": "avatar_lotus_3.jpg",
+      "prompt": "Crystal Lotus in Cosmic Void",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_02",
+      "filename": "avatar_lotus_2.jpg",
+      "prompt": "Golden Lotus Mandala",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_01",
+      "filename": "avatar_lotus_1.jpg",
+      "prompt": "Sacred Lotus at Dawn",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "tattoo_avatar_inkwash_20260618",
+      "filename": "avatar_inkwash_20260618.jpg",
+      "prompt": "avatar inkwash",
+      "theme": "tattoo",
+      "category": "tattoo"
+    },
+    {
+      "id": "abstract_avatar_glitch_20260618",
+      "filename": "avatar_glitch_20260618.jpg",
+      "prompt": "avatar glitch",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "fantasy_05",
+      "filename": "avatar_fantasy_5.jpg",
+      "prompt": "Phoenix Reborn in Golden Flames",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_04",
+      "filename": "avatar_fantasy_4.jpg",
+      "prompt": "Wizard of the Storm Peak",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_03",
+      "filename": "avatar_fantasy_3.jpg",
+      "prompt": "Arcane Portal with Glowing Runes",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_02",
+      "filename": "avatar_fantasy_2.jpg",
+      "prompt": "Elven Queen of the Enchanted Forest",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "fantasy_01",
+      "filename": "avatar_fantasy_1.jpg",
+      "prompt": "Mystical Dragon & Crystal Orb",
+      "theme": "fantasy",
+      "category": "fantasy"
+    },
+    {
+      "id": "uncategorized_avatar_elegant_20260618",
+      "filename": "avatar_elegant_20260618.jpg",
+      "prompt": "avatar elegant",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_avatar_dark_20260618",
+      "filename": "avatar_dark_20260618.jpg",
+      "prompt": "avatar dark",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "mythology_avatar_celestial_20260618",
+      "filename": "avatar_celestial_20260618.jpg",
+      "prompt": "avatar celestial",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "uncategorized_avatar_artdeco_20260618",
+      "filename": "avatar_artdeco_20260618.jpg",
+      "prompt": "avatar artdeco",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "abstract_05",
+      "filename": "avatar_abstract_5.jpg",
+      "prompt": "Fractal Galaxy Spiral",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_04",
+      "filename": "avatar_abstract_4.jpg",
+      "prompt": "Pastel Gradient Orbs",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_03",
+      "filename": "avatar_abstract_3.jpg",
+      "prompt": "Glitch Art Digital Portrait",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_02",
+      "filename": "avatar_abstract_2.jpg",
+      "prompt": "Sacred Geometry Neon Pattern",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_01",
+      "filename": "avatar_abstract_1.jpg",
+      "prompt": "Gold & Blue Fluid Marble",
+      "theme": "abstract",
+      "category": "abstract"
     },
     {
       "id": "lotus_zen_ink_wash_painting_of_a_single_lotus_",
@@ -379,6 +1170,27 @@
       "category": "mythology"
     },
     {
+      "id": "lotus_square_avatar_of_a_minimalist_lotus_flow",
+      "filename": "Square_avatar_of_a_minimalist_lotus_flow_20260617.jpg",
+      "prompt": "Square avatar of a minimalist lotus flow",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_sacred_lotus_enclosing_a_luminous_ai_cor",
+      "filename": "Sacred_lotus_enclosing_a_luminous_AI_cor_20260616.jpg",
+      "prompt": "Sacred lotus enclosing a luminous AI cor",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_sacred_lotus_gustave_dor_franklin_bo_202",
+      "filename": "Sacred_lotus_Gustave_Dor\u00e9__Franklin_Bo_20260616.jpg",
+      "prompt": "Sacred lotus Gustave Dor\u00e9  Franklin Bo",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
       "id": "lotus_sacred_geometry_lotus_icon_small_lotus_2",
       "filename": "Sacred_geometry_lotus_icon_small_lotus_20260619.jpg",
       "prompt": "Sacred geometry lotus icon small lotus",
@@ -414,11 +1226,88 @@
       "category": "abstract"
     },
     {
+      "id": "abstract_retro_80s_synthwave_portrait_avatar_gra_",
+      "filename": "Retro_80s_synthwave_portrait_avatar_gra_20260618.jpg",
+      "prompt": "Retro 80s synthwave portrait avatar gra",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_4.jpg",
+      "prompt": "Portrait of a handsome young East Asian 20260525 4",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_3.jpg",
+      "prompt": "Portrait of a handsome young East Asian 20260525 3",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_2.jpg",
+      "prompt": "Portrait of a handsome young East Asian 20260525 2",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_1.jpg",
+      "prompt": "Portrait of a handsome young East Asian 20260525 1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
+      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525.jpg",
+      "prompt": "Portrait of a handsome young East Asian",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "lotus_perfectly_symmetrical_lotus_mandala_pet_",
+      "filename": "Perfectly_symmetrical_lotus_mandala_pet_20260616.jpg",
+      "prompt": "Perfectly symmetrical lotus mandala pet",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
       "id": "lotus_one_line_drawing_of_a_lotus_flower_sing_",
       "filename": "One_line_drawing_of_a_lotus_flower_sing_20260619.jpg",
       "prompt": "One line drawing of a lotus flower sing",
       "theme": "lotus",
       "category": "lotus"
+    },
+    {
+      "id": "mythology_nature_spirit_portrait_avatar_face_inte_",
+      "filename": "Nature_spirit_portrait_avatar_face_inte_20260618.jpg",
+      "prompt": "Nature spirit portrait avatar face inte",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "mythology_mystical_fantasy_mage_portrait_avatar_e_",
+      "filename": "Mystical_fantasy_mage_portrait_avatar_e_20260618.jpg",
+      "prompt": "Mystical fantasy mage portrait avatar e",
+      "theme": "mythology",
+      "category": "mythology"
+    },
+    {
+      "id": "scifi_monochrome_black_and_white_portrait_of_a",
+      "filename": "Monochrome_black_and_white_portrait_of_a_20260617_1.jpg",
+      "prompt": "Monochrome black and white portrait of a 20260617 1",
+      "theme": "scifi",
+      "category": "scifi"
+    },
+    {
+      "id": "scifi_monochrome_black_and_white_portrait_of_a",
+      "filename": "Monochrome_black_and_white_portrait_of_a_20260617.jpg",
+      "prompt": "Monochrome black and white portrait of a",
+      "theme": "scifi",
+      "category": "scifi"
     },
     {
       "id": "minimalist_minimalist_single_continuous_line_art_of",
@@ -463,6 +1352,13 @@
       "category": "minimalist"
     },
     {
+      "id": "abstract_minimalist_geometric_portrait_avatar_cl_",
+      "filename": "Minimalist_geometric_portrait_avatar_cl_20260618.jpg",
+      "prompt": "Minimalist geometric portrait avatar cl",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
       "id": "abstract_minimalist_background_texture_pure_whit_",
       "filename": "Minimalist_background_texture_pure_whit_20260619.jpg",
       "prompt": "Minimalist background texture pure whit",
@@ -475,6 +1371,139 @@
       "prompt": "Minimalist abstract composition of soft",
       "theme": "abstract",
       "category": "abstract"
+    },
+    {
+      "id": "lotus_minimal_sacred_lotus_with_engraved_neura",
+      "filename": "Minimal_sacred_lotus_with_engraved_neura_20260616.jpg",
+      "prompt": "Minimal sacred lotus with engraved neura",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_minimal_lotus_created_from_three_express",
+      "filename": "Minimal_lotus_created_from_three_express_20260527.jpg",
+      "prompt": "Minimal lotus created from three express",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_minimal_zen_lotus_with_engraved_neural_p",
+      "filename": "Minimal_Zen_lotus_with_engraved_neural_p_20260616.jpg",
+      "prompt": "Minimal Zen lotus with engraved neural p",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "abstract_maximum_abstraction_sumie_ink_tattoo_s_2",
+      "filename": "Maximum_abstraction_sumi-e_ink_tattoo_s_20260525.jpg",
+      "prompt": "Maximum abstraction sumi e ink tattoo s",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "lotus_maximum_abstraction_lotus_sumie_ink_tat_",
+      "filename": "Maximum_abstraction_lotus_sumi-e_ink_tat_20260525.jpg",
+      "prompt": "Maximum abstraction lotus sumi e ink tat",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_with_protective_spiritual_presence",
+      "filename": "Lotus_with_protective_spiritual_presence_20260525.jpg",
+      "prompt": "Lotus with protective spiritual presence",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_tattoo_design_brush_stroke_ink_st_",
+      "filename": "Lotus_tattoo_design_brush_stroke_ink_st_20260525.jpg",
+      "prompt": "Lotus tattoo design brush stroke ink st",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_sumie_ink_tattoo_semirealistic_202",
+      "filename": "Lotus_sumi-e_ink_tattoo_semi-realistic_20260525.jpg",
+      "prompt": "Lotus sumi e ink tattoo semi realistic",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_sumie_brush_tattoo_medium_abstra_2",
+      "filename": "Lotus_sumi-e_brush_tattoo_medium_abstra_20260525.jpg",
+      "prompt": "Lotus sumi e brush tattoo medium abstra",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_of_wisdom_gustave_dor_franklin_202",
+      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616_1.jpg",
+      "prompt": "Lotus of Wisdom Gustave Dor\u00e9  Franklin 20260616 1",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_of_wisdom_gustave_dor_franklin_202",
+      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616.jpg",
+      "prompt": "Lotus of Wisdom Gustave Dor\u00e9  Franklin",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_of_transcendence_gustave_dor_f_202",
+      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616_1.jpg",
+      "prompt": "Lotus of Transcendence Gustave Dor\u00e9  F 20260616 1",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_of_transcendence_gustave_dor_f_202",
+      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616.jpg",
+      "prompt": "Lotus of Transcendence Gustave Dor\u00e9  F",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_of_eternity_gustave_dor_frankl_202",
+      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616_1.jpg",
+      "prompt": "Lotus of Eternity Gustave Dor\u00e9  Frankl 20260616 1",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_of_eternity_gustave_dor_frankl_202",
+      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616.jpg",
+      "prompt": "Lotus of Eternity Gustave Dor\u00e9  Frankl",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_of_awakening_gustave_dor_frank_202",
+      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616_1.jpg",
+      "prompt": "Lotus of Awakening Gustave Dor\u00e9  Frank 20260616 1",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_of_awakening_gustave_dor_frank_202",
+      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616.jpg",
+      "prompt": "Lotus of Awakening Gustave Dor\u00e9  Frank",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_flower_sumie_ink_tattoo_clearly_20",
+      "filename": "Lotus_flower_sumi-e_ink_tattoo_clearly_20260525.jpg",
+      "prompt": "Lotus flower sumi e ink tattoo clearly",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_lotus_flower_sumie_brush_ink_tattoo_des_",
+      "filename": "Lotus_flower_sumi-e_brush_ink_tattoo_des_20260525.jpg",
+      "prompt": "Lotus flower sumi e brush ink tattoo des",
+      "theme": "lotus",
+      "category": "lotus"
     },
     {
       "id": "tattoo_japanese_ukiyoe_woodblock_print_of_a_lo_",
@@ -498,11 +1527,165 @@
       "category": "tattoo"
     },
     {
+      "id": "lotus_highly_abstract_sumie_lotus_tattoo_ges_2",
+      "filename": "Highly_abstract_sumi-e_lotus_tattoo_ges_20260525.jpg",
+      "prompt": "Highly abstract sumi e lotus tattoo ges",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_highly_abstract_lotus_sumie_ink_tattoo_2",
+      "filename": "Highly_abstract_lotus_sumi-e_ink_tattoo_20260525.jpg",
+      "prompt": "Highly abstract lotus sumi e ink tattoo",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
       "id": "abstract_geometric_sacred_geometry_pattern_with_o",
       "filename": "Geometric_sacred_geometry_pattern_with_o_20260619.jpg",
       "prompt": "Geometric sacred geometry pattern with o",
       "theme": "abstract",
       "category": "abstract"
+    },
+    {
+      "id": "uncategorized_futuristic_scifi_portrait_avatar_sleek_2",
+      "filename": "Futuristic_sci-fi_portrait_avatar_sleek_20260618.jpg",
+      "prompt": "Futuristic sci fi portrait avatar sleek",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "lotus_fractal_lotus_with_recursive_petals_sac_",
+      "filename": "Fractal_lotus_with_recursive_petals_sac_20260616.jpg",
+      "prompt": "Fractal lotus with recursive petals sac",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_fractal_lotus_composed_of_recursive_peta",
+      "filename": "Fractal_lotus_composed_of_recursive_peta_20260616.jpg",
+      "prompt": "Fractal lotus composed of recursive peta",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_floating_lotus_blooming_in_darkness_pet_",
+      "filename": "Floating_lotus_blooming_in_darkness_pet_20260616.jpg",
+      "prompt": "Floating lotus blooming in darkness pet",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_ethereal_lotus_blooming_from_neural_circ",
+      "filename": "Ethereal_lotus_blooming_from_neural_circ_20260616.jpg",
+      "prompt": "Ethereal lotus blooming from neural circ",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "scifi_cyberpunk_portrait_avatar_neonlit_face_2",
+      "filename": "Cyberpunk_portrait_avatar_neon-lit_face_20260618.jpg",
+      "prompt": "Cyberpunk portrait avatar neon lit face",
+      "theme": "scifi",
+      "category": "scifi"
+    },
+    {
+      "id": "tattoo_calligraphy_brush_art_vibrant_multicolo_",
+      "filename": "Calligraphy_brush_art_vibrant_multicolo_20260525.jpg",
+      "prompt": "Calligraphy brush art vibrant multicolo",
+      "theme": "tattoo",
+      "category": "tattoo"
+    },
+    {
+      "id": "abstract_calligraphy_brush_art_gradient_ink_wash_",
+      "filename": "Calligraphy_brush_art_gradient_ink_wash_20260525.jpg",
+      "prompt": "Calligraphy brush art gradient ink wash",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "tattoo_calligraphy_brush_art_gold_and_black_in_",
+      "filename": "Calligraphy_brush_art_gold_and_black_in_20260525.jpg",
+      "prompt": "Calligraphy brush art gold and black in",
+      "theme": "tattoo",
+      "category": "tattoo"
+    },
+    {
+      "id": "tattoo_calligraphy_brush_art_bold_black_ink_st_",
+      "filename": "Calligraphy_brush_art_bold_black_ink_st_20260525.jpg",
+      "prompt": "Calligraphy brush art bold black ink st",
+      "theme": "tattoo",
+      "category": "tattoo"
+    },
+    {
+      "id": "abstract_calligraphy_brush_art_abstract_red_verm_",
+      "filename": "Calligraphy_brush_art_abstract_red_verm_20260525.jpg",
+      "prompt": "Calligraphy brush art abstract red verm",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "uncategorized_avatar_concept_for_an_ai_assistant_named",
+      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525_1.jpg",
+      "prompt": "Avatar concept for an AI assistant named 20260525 1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_avatar_concept_for_an_ai_assistant_named",
+      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525.jpg",
+      "prompt": "Avatar concept for an AI assistant named",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_a",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617_1.jpg",
+      "prompt": "Avatar concept for AI assistant Hermes A 20260617 1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_a",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg",
+      "prompt": "Avatar concept for AI assistant Hermes A",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_2",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_2.jpg",
+      "prompt": "Avatar concept for AI assistant Hermes 20260525 2",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_2",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_1.jpg",
+      "prompt": "Avatar concept for AI assistant Hermes 20260525 1",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_2",
+      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525.jpg",
+      "prompt": "Avatar concept for AI assistant Hermes",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_animestyle_female_character_as_ai_agent_",
+      "filename": "Anime-style_female_character_as_AI_agent_20260617.jpg",
+      "prompt": "Anime style female character as AI agent",
+      "theme": "uncategorized",
+      "category": "uncategorized"
+    },
+    {
+      "id": "lotus_an_ethereal_lotus_blooming_from_intercon",
+      "filename": "An_ethereal_lotus_blooming_from_intercon_20260616.jpg",
+      "prompt": "ethereal lotus blooming from intercon",
+      "theme": "lotus",
+      "category": "lotus"
     },
     {
       "id": "uncategorized_an_elven_queen_with_silver_hair_and_glow",
@@ -526,9 +1709,51 @@
       "category": "mythology"
     },
     {
+      "id": "lotus_abstract_zen_lotus_symbol_ultra_minimal_",
+      "filename": "Abstract_zen_lotus_symbol_ultra_minimal_20260527.jpg",
+      "prompt": "Abstract zen lotus symbol ultra minimal",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_abstract_sumie_lotus_tattoo_bold_sweep_2",
+      "filename": "Abstract_sumi-e_lotus_tattoo_bold_sweep_20260525.jpg",
+      "prompt": "Abstract sumi e lotus tattoo bold sweep",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_abstract_sumie_lotus_guardian_tattoo_m_2",
+      "filename": "Abstract_sumi-e_lotus_guardian_tattoo_m_20260525.jpg",
+      "prompt": "Abstract sumi e lotus guardian tattoo m",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "lotus_abstract_lotus_sumie_ink_tattoo_loose_20",
+      "filename": "Abstract_lotus_sumi-e_ink_tattoo_loose_20260525.jpg",
+      "prompt": "Abstract lotus sumi e ink tattoo loose",
+      "theme": "lotus",
+      "category": "lotus"
+    },
+    {
+      "id": "abstract_abstract_landscape_art_gradient_waves_o_",
+      "filename": "Abstract_landscape_art_gradient_waves_o_20260525.jpg",
+      "prompt": "Abstract landscape art gradient waves o",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
       "id": "abstract_abstract_glitch_art_portrait_fragmented_",
       "filename": "Abstract_glitch_art_portrait_fragmented_20260619.jpg",
       "prompt": "Abstract glitch art portrait fragmented",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_abstract_geometric_art_sharp_angular_fo_",
+      "filename": "Abstract_geometric_art_sharp_angular_fo_20260525.jpg",
+      "prompt": "Abstract geometric art sharp angular fo",
       "theme": "abstract",
       "category": "abstract"
     },
@@ -547,11 +1772,74 @@
       "category": "abstract"
     },
     {
+      "id": "abstract_abstract_expressionist_art_chaotic_spla_",
+      "filename": "Abstract_expressionist_art_chaotic_spla_20260525.jpg",
+      "prompt": "Abstract expressionist art chaotic spla",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
+      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_4.jpg",
+      "prompt": "Abstract ethereal avatar for AI assistan 20260525 4",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
+      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_3.jpg",
+      "prompt": "Abstract ethereal avatar for AI assistan 20260525 3",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
+      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_2.jpg",
+      "prompt": "Abstract ethereal avatar for AI assistan 20260525 2",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
+      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_1.jpg",
+      "prompt": "Abstract ethereal avatar for AI assistan 20260525 1",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
+      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525.jpg",
+      "prompt": "Abstract ethereal avatar for AI assistan",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_abstract_cosmic_art_swirling_nebula_of_2",
+      "filename": "Abstract_cosmic_art_swirling_nebula_of_20260525.jpg",
+      "prompt": "Abstract cosmic art swirling nebula of",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
+      "id": "abstract_abstract_art_fluid_organic_shapes_in_de_",
+      "filename": "Abstract_art_fluid_organic_shapes_in_de_20260525.jpg",
+      "prompt": "Abstract art fluid organic shapes in de",
+      "theme": "abstract",
+      "category": "abstract"
+    },
+    {
       "id": "fantasy_a_wise_old_wizard_with_a_long_white_bear",
       "filename": "A_wise_old_wizard_with_a_long_white_bear_20260619.jpg",
       "prompt": "wise old wizard with a long white bear",
       "theme": "fantasy",
       "category": "fantasy"
+    },
+    {
+      "id": "lotus_a_stunning_lotus_flower_blooming_on_sere",
+      "filename": "A_stunning_lotus_flower_blooming_on_sere_20260617.jpg",
+      "prompt": "stunning lotus flower blooming on sere",
+      "theme": "lotus",
+      "category": "lotus"
     },
     {
       "id": "lotus_a_single_lotus_flower_painted_in_traditi",
@@ -685,937 +1973,6 @@
       "prompt": "Norse world tree Yggdrasil with nine r",
       "theme": "nature",
       "category": "nature"
-    },
-    {
-      "id": "abstract_retro_avatar_portrait_1980s_synthwave_s_",
-      "filename": "retro_avatar_portrait_1980s_synthwave_s_20260618.jpg",
-      "prompt": "retro avatar portrait 1980s synthwave s",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "uncategorized_retro_avatar_portrait_1970s_disco_style_",
-      "filename": "retro_avatar_portrait_1970s_disco_style_20260618.jpg",
-      "prompt": "retro avatar portrait 1970s disco style",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_nature_avatar_portrait_face_made_of_blo_",
-      "filename": "nature_avatar_portrait_face_made_of_blo_20260618.jpg",
-      "prompt": "nature avatar portrait face made of blo",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "minimalist_minimalist_avatar_portrait_simple_geome_",
-      "filename": "minimalist_avatar_portrait_simple_geome_20260618.jpg",
-      "prompt": "minimalist avatar portrait simple geome",
-      "theme": "minimalist",
-      "category": "minimalist"
-    },
-    {
-      "id": "abstract_minimalist_avatar_portrait_abstract_wat_",
-      "filename": "minimalist_avatar_portrait_abstract_wat_20260618.jpg",
-      "prompt": "minimalist avatar portrait abstract wat",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "fantasy_fantasy_avatar_portrait_wise_old_wizard_",
-      "filename": "fantasy_avatar_portrait_wise_old_wizard_20260618.jpg",
-      "prompt": "fantasy avatar portrait wise old wizard",
-      "theme": "fantasy",
-      "category": "fantasy"
-    },
-    {
-      "id": "uncategorized_fantasy_avatar_portrait_elven_warrior_w_",
-      "filename": "fantasy_avatar_portrait_elven_warrior_w_20260618.jpg",
-      "prompt": "fantasy avatar portrait elven warrior w",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "scifi_cyberpunk_avatar_portrait_neonlit_face_2",
-      "filename": "cyberpunk_avatar_portrait_neon-lit_face_20260618.jpg",
-      "prompt": "cyberpunk avatar portrait neon lit face",
-      "theme": "scifi",
-      "category": "scifi"
-    },
-    {
-      "id": "scifi_cyberpunk_avatar_portrait_female_hacker_",
-      "filename": "cyberpunk_avatar_portrait_female_hacker_20260618.jpg",
-      "prompt": "cyberpunk avatar portrait female hacker",
-      "theme": "scifi",
-      "category": "scifi"
-    },
-    {
-      "id": "mythology_avatar_sacred_geometry_20260618",
-      "filename": "avatar_sacred_geometry_20260618.jpg",
-      "prompt": "avatar sacred geometry",
-      "theme": "mythology",
-      "category": "mythology"
-    },
-    {
-      "id": "uncategorized_avatar_playful_20260618",
-      "filename": "avatar_playful_20260618.jpg",
-      "prompt": "avatar playful",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_avatar_pastel_20260618",
-      "filename": "avatar_pastel_20260618.jpg",
-      "prompt": "avatar pastel",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "scifi_avatar_monochrome_20260618",
-      "filename": "avatar_monochrome_20260618.jpg",
-      "prompt": "avatar monochrome",
-      "theme": "scifi",
-      "category": "scifi"
-    },
-    {
-      "id": "tattoo_avatar_inkwash_20260618",
-      "filename": "avatar_inkwash_20260618.jpg",
-      "prompt": "avatar inkwash",
-      "theme": "tattoo",
-      "category": "tattoo"
-    },
-    {
-      "id": "abstract_avatar_glitch_20260618",
-      "filename": "avatar_glitch_20260618.jpg",
-      "prompt": "avatar glitch",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "uncategorized_avatar_elegant_20260618",
-      "filename": "avatar_elegant_20260618.jpg",
-      "prompt": "avatar elegant",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_avatar_dark_20260618",
-      "filename": "avatar_dark_20260618.jpg",
-      "prompt": "avatar dark",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "mythology_avatar_celestial_20260618",
-      "filename": "avatar_celestial_20260618.jpg",
-      "prompt": "avatar celestial",
-      "theme": "mythology",
-      "category": "mythology"
-    },
-    {
-      "id": "uncategorized_avatar_artdeco_20260618",
-      "filename": "avatar_artdeco_20260618.jpg",
-      "prompt": "avatar artdeco",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "abstract_retro_80s_synthwave_portrait_avatar_gra_",
-      "filename": "Retro_80s_synthwave_portrait_avatar_gra_20260618.jpg",
-      "prompt": "Retro 80s synthwave portrait avatar gra",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "mythology_nature_spirit_portrait_avatar_face_inte_",
-      "filename": "Nature_spirit_portrait_avatar_face_inte_20260618.jpg",
-      "prompt": "Nature spirit portrait avatar face inte",
-      "theme": "mythology",
-      "category": "mythology"
-    },
-    {
-      "id": "mythology_mystical_fantasy_mage_portrait_avatar_e_",
-      "filename": "Mystical_fantasy_mage_portrait_avatar_e_20260618.jpg",
-      "prompt": "Mystical fantasy mage portrait avatar e",
-      "theme": "mythology",
-      "category": "mythology"
-    },
-    {
-      "id": "abstract_minimalist_geometric_portrait_avatar_cl_",
-      "filename": "Minimalist_geometric_portrait_avatar_cl_20260618.jpg",
-      "prompt": "Minimalist geometric portrait avatar cl",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "uncategorized_futuristic_scifi_portrait_avatar_sleek_2",
-      "filename": "Futuristic_sci-fi_portrait_avatar_sleek_20260618.jpg",
-      "prompt": "Futuristic sci fi portrait avatar sleek",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "scifi_cyberpunk_portrait_avatar_neonlit_face_2",
-      "filename": "Cyberpunk_portrait_avatar_neon-lit_face_20260618.jpg",
-      "prompt": "Cyberpunk portrait avatar neon lit face",
-      "theme": "scifi",
-      "category": "scifi"
-    },
-    {
-      "id": "lotus_square_avatar_of_a_minimalist_lotus_flow",
-      "filename": "Square_avatar_of_a_minimalist_lotus_flow_20260617.jpg",
-      "prompt": "Square avatar of a minimalist lotus flow",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "scifi_monochrome_black_and_white_portrait_of_a",
-      "filename": "Monochrome_black_and_white_portrait_of_a_20260617_1.jpg",
-      "prompt": "Monochrome black and white portrait of a 20260617 1",
-      "theme": "scifi",
-      "category": "scifi"
-    },
-    {
-      "id": "scifi_monochrome_black_and_white_portrait_of_a",
-      "filename": "Monochrome_black_and_white_portrait_of_a_20260617.jpg",
-      "prompt": "Monochrome black and white portrait of a",
-      "theme": "scifi",
-      "category": "scifi"
-    },
-    {
-      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_a",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617_1.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes A 20260617 1",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_a",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes A",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_animestyle_female_character_as_ai_agent_",
-      "filename": "Anime-style_female_character_as_AI_agent_20260617.jpg",
-      "prompt": "Anime style female character as AI agent",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "lotus_a_stunning_lotus_flower_blooming_on_sere",
-      "filename": "A_stunning_lotus_flower_blooming_on_sere_20260617.jpg",
-      "prompt": "stunning lotus flower blooming on sere",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_sacred_lotus_enclosing_a_luminous_ai_cor",
-      "filename": "Sacred_lotus_enclosing_a_luminous_AI_cor_20260616.jpg",
-      "prompt": "Sacred lotus enclosing a luminous AI cor",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_sacred_lotus_gustave_dor_franklin_bo_202",
-      "filename": "Sacred_lotus_Gustave_Dor\u00e9__Franklin_Bo_20260616.jpg",
-      "prompt": "Sacred lotus Gustave Dor\u00e9  Franklin Bo",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_perfectly_symmetrical_lotus_mandala_pet_",
-      "filename": "Perfectly_symmetrical_lotus_mandala_pet_20260616.jpg",
-      "prompt": "Perfectly symmetrical lotus mandala pet",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_minimal_sacred_lotus_with_engraved_neura",
-      "filename": "Minimal_sacred_lotus_with_engraved_neura_20260616.jpg",
-      "prompt": "Minimal sacred lotus with engraved neura",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_minimal_zen_lotus_with_engraved_neural_p",
-      "filename": "Minimal_Zen_lotus_with_engraved_neural_p_20260616.jpg",
-      "prompt": "Minimal Zen lotus with engraved neural p",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_of_wisdom_gustave_dor_franklin_202",
-      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616_1.jpg",
-      "prompt": "Lotus of Wisdom Gustave Dor\u00e9  Franklin 20260616 1",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_of_wisdom_gustave_dor_franklin_202",
-      "filename": "Lotus_of_Wisdom_Gustave_Dor\u00e9__Franklin_20260616.jpg",
-      "prompt": "Lotus of Wisdom Gustave Dor\u00e9  Franklin",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_of_transcendence_gustave_dor_f_202",
-      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616_1.jpg",
-      "prompt": "Lotus of Transcendence Gustave Dor\u00e9  F 20260616 1",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_of_transcendence_gustave_dor_f_202",
-      "filename": "Lotus_of_Transcendence_Gustave_Dor\u00e9__F_20260616.jpg",
-      "prompt": "Lotus of Transcendence Gustave Dor\u00e9  F",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_of_eternity_gustave_dor_frankl_202",
-      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616_1.jpg",
-      "prompt": "Lotus of Eternity Gustave Dor\u00e9  Frankl 20260616 1",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_of_eternity_gustave_dor_frankl_202",
-      "filename": "Lotus_of_Eternity_Gustave_Dor\u00e9__Frankl_20260616.jpg",
-      "prompt": "Lotus of Eternity Gustave Dor\u00e9  Frankl",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_of_awakening_gustave_dor_frank_202",
-      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616_1.jpg",
-      "prompt": "Lotus of Awakening Gustave Dor\u00e9  Frank 20260616 1",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_of_awakening_gustave_dor_frank_202",
-      "filename": "Lotus_of_Awakening_Gustave_Dor\u00e9__Frank_20260616.jpg",
-      "prompt": "Lotus of Awakening Gustave Dor\u00e9  Frank",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_fractal_lotus_with_recursive_petals_sac_",
-      "filename": "Fractal_lotus_with_recursive_petals_sac_20260616.jpg",
-      "prompt": "Fractal lotus with recursive petals sac",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_fractal_lotus_composed_of_recursive_peta",
-      "filename": "Fractal_lotus_composed_of_recursive_peta_20260616.jpg",
-      "prompt": "Fractal lotus composed of recursive peta",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_floating_lotus_blooming_in_darkness_pet_",
-      "filename": "Floating_lotus_blooming_in_darkness_pet_20260616.jpg",
-      "prompt": "Floating lotus blooming in darkness pet",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_ethereal_lotus_blooming_from_neural_circ",
-      "filename": "Ethereal_lotus_blooming_from_neural_circ_20260616.jpg",
-      "prompt": "Ethereal lotus blooming from neural circ",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_an_ethereal_lotus_blooming_from_intercon",
-      "filename": "An_ethereal_lotus_blooming_from_intercon_20260616.jpg",
-      "prompt": "ethereal lotus blooming from intercon",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_three_brushstrokes_20260527",
-      "filename": "lotus_three_brushstrokes_20260527.jpg",
-      "prompt": "lotus three brushstrokes",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_minimal_lotus_created_from_three_express",
-      "filename": "Minimal_lotus_created_from_three_express_20260527.jpg",
-      "prompt": "Minimal lotus created from three express",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_abstract_zen_lotus_symbol_ultra_minimal_",
-      "filename": "Abstract_zen_lotus_symbol_ultra_minimal_20260527.jpg",
-      "prompt": "Abstract zen lotus symbol ultra minimal",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_4.jpg",
-      "prompt": "Portrait of a handsome young East Asian 20260525 4",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_3.jpg",
-      "prompt": "Portrait of a handsome young East Asian 20260525 3",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_2.jpg",
-      "prompt": "Portrait of a handsome young East Asian 20260525 2",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525_1.jpg",
-      "prompt": "Portrait of a handsome young East Asian 20260525 1",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_portrait_of_a_handsome_young_east_asian_",
-      "filename": "Portrait_of_a_handsome_young_East_Asian_20260525.jpg",
-      "prompt": "Portrait of a handsome young East Asian",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "abstract_maximum_abstraction_sumie_ink_tattoo_s_2",
-      "filename": "Maximum_abstraction_sumi-e_ink_tattoo_s_20260525.jpg",
-      "prompt": "Maximum abstraction sumi e ink tattoo s",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "lotus_maximum_abstraction_lotus_sumie_ink_tat_",
-      "filename": "Maximum_abstraction_lotus_sumi-e_ink_tat_20260525.jpg",
-      "prompt": "Maximum abstraction lotus sumi e ink tat",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_with_protective_spiritual_presence",
-      "filename": "Lotus_with_protective_spiritual_presence_20260525.jpg",
-      "prompt": "Lotus with protective spiritual presence",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_tattoo_design_brush_stroke_ink_st_",
-      "filename": "Lotus_tattoo_design_brush_stroke_ink_st_20260525.jpg",
-      "prompt": "Lotus tattoo design brush stroke ink st",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_sumie_ink_tattoo_semirealistic_202",
-      "filename": "Lotus_sumi-e_ink_tattoo_semi-realistic_20260525.jpg",
-      "prompt": "Lotus sumi e ink tattoo semi realistic",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_sumie_brush_tattoo_medium_abstra_2",
-      "filename": "Lotus_sumi-e_brush_tattoo_medium_abstra_20260525.jpg",
-      "prompt": "Lotus sumi e brush tattoo medium abstra",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_flower_sumie_ink_tattoo_clearly_20",
-      "filename": "Lotus_flower_sumi-e_ink_tattoo_clearly_20260525.jpg",
-      "prompt": "Lotus flower sumi e ink tattoo clearly",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_flower_sumie_brush_ink_tattoo_des_",
-      "filename": "Lotus_flower_sumi-e_brush_ink_tattoo_des_20260525.jpg",
-      "prompt": "Lotus flower sumi e brush ink tattoo des",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_highly_abstract_sumie_lotus_tattoo_ges_2",
-      "filename": "Highly_abstract_sumi-e_lotus_tattoo_ges_20260525.jpg",
-      "prompt": "Highly abstract sumi e lotus tattoo ges",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_highly_abstract_lotus_sumie_ink_tattoo_2",
-      "filename": "Highly_abstract_lotus_sumi-e_ink_tattoo_20260525.jpg",
-      "prompt": "Highly abstract lotus sumi e ink tattoo",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "tattoo_calligraphy_brush_art_vibrant_multicolo_",
-      "filename": "Calligraphy_brush_art_vibrant_multicolo_20260525.jpg",
-      "prompt": "Calligraphy brush art vibrant multicolo",
-      "theme": "tattoo",
-      "category": "tattoo"
-    },
-    {
-      "id": "abstract_calligraphy_brush_art_gradient_ink_wash_",
-      "filename": "Calligraphy_brush_art_gradient_ink_wash_20260525.jpg",
-      "prompt": "Calligraphy brush art gradient ink wash",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "tattoo_calligraphy_brush_art_gold_and_black_in_",
-      "filename": "Calligraphy_brush_art_gold_and_black_in_20260525.jpg",
-      "prompt": "Calligraphy brush art gold and black in",
-      "theme": "tattoo",
-      "category": "tattoo"
-    },
-    {
-      "id": "tattoo_calligraphy_brush_art_bold_black_ink_st_",
-      "filename": "Calligraphy_brush_art_bold_black_ink_st_20260525.jpg",
-      "prompt": "Calligraphy brush art bold black ink st",
-      "theme": "tattoo",
-      "category": "tattoo"
-    },
-    {
-      "id": "abstract_calligraphy_brush_art_abstract_red_verm_",
-      "filename": "Calligraphy_brush_art_abstract_red_verm_20260525.jpg",
-      "prompt": "Calligraphy brush art abstract red verm",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "uncategorized_avatar_concept_for_an_ai_assistant_named",
-      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525_1.jpg",
-      "prompt": "Avatar concept for an AI assistant named 20260525 1",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_avatar_concept_for_an_ai_assistant_named",
-      "filename": "Avatar_concept_for_an_AI_assistant_named_20260525.jpg",
-      "prompt": "Avatar concept for an AI assistant named",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_2",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_2.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes 20260525 2",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_2",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525_1.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes 20260525 1",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_avatar_concept_for_ai_assistant_hermes_2",
-      "filename": "Avatar_concept_for_AI_assistant_Hermes_20260525.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "lotus_abstract_sumie_lotus_tattoo_bold_sweep_2",
-      "filename": "Abstract_sumi-e_lotus_tattoo_bold_sweep_20260525.jpg",
-      "prompt": "Abstract sumi e lotus tattoo bold sweep",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_abstract_sumie_lotus_guardian_tattoo_m_2",
-      "filename": "Abstract_sumi-e_lotus_guardian_tattoo_m_20260525.jpg",
-      "prompt": "Abstract sumi e lotus guardian tattoo m",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_abstract_lotus_sumie_ink_tattoo_loose_20",
-      "filename": "Abstract_lotus_sumi-e_ink_tattoo_loose_20260525.jpg",
-      "prompt": "Abstract lotus sumi e ink tattoo loose",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "abstract_abstract_landscape_art_gradient_waves_o_",
-      "filename": "Abstract_landscape_art_gradient_waves_o_20260525.jpg",
-      "prompt": "Abstract landscape art gradient waves o",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_abstract_geometric_art_sharp_angular_fo_",
-      "filename": "Abstract_geometric_art_sharp_angular_fo_20260525.jpg",
-      "prompt": "Abstract geometric art sharp angular fo",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_abstract_expressionist_art_chaotic_spla_",
-      "filename": "Abstract_expressionist_art_chaotic_spla_20260525.jpg",
-      "prompt": "Abstract expressionist art chaotic spla",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
-      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_4.jpg",
-      "prompt": "Abstract ethereal avatar for AI assistan 20260525 4",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
-      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_3.jpg",
-      "prompt": "Abstract ethereal avatar for AI assistan 20260525 3",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
-      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_2.jpg",
-      "prompt": "Abstract ethereal avatar for AI assistan 20260525 2",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
-      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525_1.jpg",
-      "prompt": "Abstract ethereal avatar for AI assistan 20260525 1",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_abstract_ethereal_avatar_for_ai_assistan",
-      "filename": "Abstract_ethereal_avatar_for_AI_assistan_20260525.jpg",
-      "prompt": "Abstract ethereal avatar for AI assistan",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_abstract_cosmic_art_swirling_nebula_of_2",
-      "filename": "Abstract_cosmic_art_swirling_nebula_of_20260525.jpg",
-      "prompt": "Abstract cosmic art swirling nebula of",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_abstract_art_fluid_organic_shapes_in_de_",
-      "filename": "Abstract_art_fluid_organic_shapes_in_de_20260525.jpg",
-      "prompt": "Abstract art fluid organic shapes in de",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "uncategorized_duck_tribal_svg_20260522",
-      "filename": "duck_tribal_svg_20260522.png",
-      "prompt": "duck tribal svg",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_duck_tribal_20260522",
-      "filename": "duck_tribal_20260522.jpg",
-      "prompt": "duck tribal",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "tattoo_duck_tattoo_20260522",
-      "filename": "duck_tattoo_20260522.jpg",
-      "prompt": "duck tattoo",
-      "theme": "tattoo",
-      "category": "tattoo"
-    },
-    {
-      "id": "uncategorized_dog_guardian_20260522",
-      "filename": "dog_guardian_20260522.jpg",
-      "prompt": "dog guardian",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_dog_ghibli_v2_20260522",
-      "filename": "dog_ghibli_v2_20260522.jpg",
-      "prompt": "dog ghibli v2",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_dog_ghibli_20260522",
-      "filename": "dog_ghibli_20260522.jpg",
-      "prompt": "dog ghibli",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "lotus_lotus_avatar_watercolor",
-      "filename": "lotus_avatar_watercolor.jpg",
-      "prompt": "lotus avatar watercolor",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_avatar_lineart",
-      "filename": "lotus_avatar_lineart.jpg",
-      "prompt": "lotus avatar lineart",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_lotus_avatar_geometric",
-      "filename": "lotus_avatar_geometric.jpg",
-      "prompt": "lotus avatar geometric",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "scifi_05",
-      "filename": "avatar_scifi_5.jpg",
-      "prompt": "Explorer on an Alien World",
-      "theme": "sci-fi",
-      "category": "sci-fi"
-    },
-    {
-      "id": "scifi_04",
-      "filename": "avatar_scifi_4.jpg",
-      "prompt": "Generation Ship in Deep Space",
-      "theme": "sci-fi",
-      "category": "sci-fi"
-    },
-    {
-      "id": "scifi_03",
-      "filename": "avatar_scifi_3.jpg",
-      "prompt": "Chrome Robot in the Server Room",
-      "theme": "sci-fi",
-      "category": "sci-fi"
-    },
-    {
-      "id": "scifi_02",
-      "filename": "avatar_scifi_2.jpg",
-      "prompt": "Astronaut & Earth Glow",
-      "theme": "sci-fi",
-      "category": "sci-fi"
-    },
-    {
-      "id": "scifi_01",
-      "filename": "avatar_scifi_1.jpg",
-      "prompt": "Neon Cyberpunk Cityscape",
-      "theme": "sci-fi",
-      "category": "sci-fi"
-    },
-    {
-      "id": "nature_05",
-      "filename": "avatar_nature_5.jpg",
-      "prompt": "Wolf Howling at Northern Lights",
-      "theme": "nature",
-      "category": "nature"
-    },
-    {
-      "id": "nature_04",
-      "filename": "avatar_nature_4.jpg",
-      "prompt": "Coral Reef Underwater World",
-      "theme": "nature",
-      "category": "nature"
-    },
-    {
-      "id": "nature_03",
-      "filename": "avatar_nature_3.jpg",
-      "prompt": "Ancient Oak with Hidden Door",
-      "theme": "nature",
-      "category": "nature"
-    },
-    {
-      "id": "nature_02",
-      "filename": "avatar_nature_2.jpg",
-      "prompt": "Wildflower Field at Sunset",
-      "theme": "nature",
-      "category": "nature"
-    },
-    {
-      "id": "nature_01",
-      "filename": "avatar_nature_1.jpg",
-      "prompt": "Mountain Lake at Sunrise",
-      "theme": "nature",
-      "category": "nature"
-    },
-    {
-      "id": "mythology_05",
-      "filename": "avatar_mythology_5.jpg",
-      "prompt": "Cosmic Lotus Bloom",
-      "theme": "mythology",
-      "category": "mythology"
-    },
-    {
-      "id": "mythology_04",
-      "filename": "avatar_mythology_4.jpg",
-      "prompt": "Egyptian Ankh of Living Light",
-      "theme": "mythology",
-      "category": "mythology"
-    },
-    {
-      "id": "mythology_03",
-      "filename": "avatar_mythology_3.jpg",
-      "prompt": "Yggdrasil \u2014 Norse World Tree",
-      "theme": "mythology",
-      "category": "mythology"
-    },
-    {
-      "id": "mythology_02",
-      "filename": "avatar_mythology_2.jpg",
-      "prompt": "Eye of Providence",
-      "theme": "mythology",
-      "category": "mythology"
-    },
-    {
-      "id": "mythology_01",
-      "filename": "avatar_mythology_1.jpg",
-      "prompt": "Divine Figure of Golden Light",
-      "theme": "mythology",
-      "category": "mythology"
-    },
-    {
-      "id": "lotus_03",
-      "filename": "avatar_lotus_3.jpg",
-      "prompt": "Crystal Lotus in Cosmic Void",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_02",
-      "filename": "avatar_lotus_2.jpg",
-      "prompt": "Golden Lotus Mandala",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "lotus_01",
-      "filename": "avatar_lotus_1.jpg",
-      "prompt": "Sacred Lotus at Dawn",
-      "theme": "lotus",
-      "category": "lotus"
-    },
-    {
-      "id": "fantasy_05",
-      "filename": "avatar_fantasy_5.jpg",
-      "prompt": "Phoenix Reborn in Golden Flames",
-      "theme": "fantasy",
-      "category": "fantasy"
-    },
-    {
-      "id": "fantasy_04",
-      "filename": "avatar_fantasy_4.jpg",
-      "prompt": "Wizard of the Storm Peak",
-      "theme": "fantasy",
-      "category": "fantasy"
-    },
-    {
-      "id": "fantasy_03",
-      "filename": "avatar_fantasy_3.jpg",
-      "prompt": "Arcane Portal with Glowing Runes",
-      "theme": "fantasy",
-      "category": "fantasy"
-    },
-    {
-      "id": "fantasy_02",
-      "filename": "avatar_fantasy_2.jpg",
-      "prompt": "Elven Queen of the Enchanted Forest",
-      "theme": "fantasy",
-      "category": "fantasy"
-    },
-    {
-      "id": "fantasy_01",
-      "filename": "avatar_fantasy_1.jpg",
-      "prompt": "Mystical Dragon & Crystal Orb",
-      "theme": "fantasy",
-      "category": "fantasy"
-    },
-    {
-      "id": "abstract_05",
-      "filename": "avatar_abstract_5.jpg",
-      "prompt": "Fractal Galaxy Spiral",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_04",
-      "filename": "avatar_abstract_4.jpg",
-      "prompt": "Pastel Gradient Orbs",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_03",
-      "filename": "avatar_abstract_3.jpg",
-      "prompt": "Glitch Art Digital Portrait",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_02",
-      "filename": "avatar_abstract_2.jpg",
-      "prompt": "Sacred Geometry Neon Pattern",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "abstract_01",
-      "filename": "avatar_abstract_1.jpg",
-      "prompt": "Gold & Blue Fluid Marble",
-      "theme": "abstract",
-      "category": "abstract"
-    },
-    {
-      "id": "uncategorized_20260619",
-      "filename": "idle_20260620_041400_cbb.jpg",
-      "prompt": "Idle 20260620 041400 Cbb",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_20260620",
-      "filename": "idle_20260620_040627_01f.jpg",
-      "prompt": "Idle 20260620 040627 01F",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_20260621",
-      "filename": "idle_20260620_040523_1fb.jpg",
-      "prompt": "Idle 20260620 040523 1Fb",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_20260622",
-      "filename": "idle_20260620_040413_10a.jpg",
-      "prompt": "Idle 20260620 040413 10A",
-      "theme": "uncategorized",
-      "category": "uncategorized"
-    },
-    {
-      "id": "uncategorized_20260623",
-      "filename": "idle_20260620_040310_31d.jpg",
-      "prompt": "Idle 20260620 040310 31D",
-      "theme": "uncategorized",
-      "category": "uncategorized"
     }
   ],
   "metadata": {
@@ -1638,9 +1995,9 @@
     "attribution": "Images generated via Pollinations.ai (Flux model) \u2014 free AI image generation API. https://pollinations.ai"
   },
   "_meta": {
-    "updatedAt": "2026-06-20T04:23:38.328320+00:00",
-    "updatedAtTimestamp": 1781929418,
-    "totalImages": 231,
-    "lastDeployed": "Jun 20, 2026 at 04:23 AM"
+    "updatedAt": "2026-06-20T05:13:16.271284+00:00",
+    "updatedAtTimestamp": 1781932396,
+    "totalImages": 282,
+    "lastDeployed": "Jun 20, 2026 at 05:13 AM"
   }
 }
