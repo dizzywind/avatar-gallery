@@ -1,6 +1,413 @@
 {
   "avatars": [
     {
+      "id": "uncategorized_20260640",
+      "filename": "uncategorized_20260640.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:36:16+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 53347
+    },
+    {
+      "id": "uncategorized_20260639",
+      "filename": "uncategorized_20260639.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:35:15+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 48320
+    },
+    {
+      "id": "uncategorized_20260638",
+      "filename": "uncategorized_20260638.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:34:14+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 52064
+    },
+    {
+      "id": "uncategorized_20260637",
+      "filename": "uncategorized_20260637.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:33:13+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 53249
+    },
+    {
+      "id": "uncategorized_20260636",
+      "filename": "uncategorized_20260636.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:32:11+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 53094
+    },
+    {
+      "id": "uncategorized_20260635",
+      "filename": "uncategorized_20260635.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:31:10+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 50828
+    },
+    {
+      "id": "uncategorized_20260634",
+      "filename": "uncategorized_20260634.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:30:08+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 53742
+    },
+    {
+      "id": "uncategorized_20260633",
+      "filename": "uncategorized_20260633.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:29:05+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 49959
+    },
+    {
+      "id": "uncategorized_20260632",
+      "filename": "uncategorized_20260632.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:28:04+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 49664
+    },
+    {
+      "id": "uncategorized_20260631",
+      "filename": "uncategorized_20260631.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:27:02+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 55013
+    },
+    {
+      "id": "uncategorized_20260630",
+      "filename": "uncategorized_20260630.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:26:00+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 59412
+    },
+    {
+      "id": "uncategorized_20260629",
+      "filename": "uncategorized_20260629.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:24:59+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 57044
+    },
+    {
+      "id": "uncategorized_20260628",
+      "filename": "uncategorized_20260628.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:23:56+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 52525
+    },
+    {
+      "id": "uncategorized_20260627",
+      "filename": "uncategorized_20260627.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:22:54+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 55757
+    },
+    {
+      "id": "uncategorized_20260626",
+      "filename": "uncategorized_20260626.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:21:53+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 51060
+    },
+    {
+      "id": "uncategorized_20260625",
+      "filename": "uncategorized_20260625.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:20:51+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 57001
+    },
+    {
+      "id": "uncategorized_20260624",
+      "filename": "uncategorized_20260624.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:19:50+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 53786
+    },
+    {
+      "id": "uncategorized_idle_20260620_161847_071",
+      "filename": "idle_20260620_161847_071.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:18:48",
+      "width": null,
+      "height": null,
+      "fileSize": 52243,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_161746_19c",
+      "filename": "idle_20260620_161746_19c.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:17:47",
+      "width": null,
+      "height": null,
+      "fileSize": 58378,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_161644_f5f",
+      "filename": "idle_20260620_161644_f5f.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:16:46",
+      "width": null,
+      "height": null,
+      "fileSize": 54440,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_161542_a04",
+      "filename": "idle_20260620_161542_a04.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:15:44",
+      "width": null,
+      "height": null,
+      "fileSize": 55725,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_161441_a24",
+      "filename": "idle_20260620_161441_a24.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:14:42",
+      "width": null,
+      "height": null,
+      "fileSize": 54007,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_161340_9b7",
+      "filename": "idle_20260620_161340_9b7.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:13:41",
+      "width": null,
+      "height": null,
+      "fileSize": 59050,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_161238_6f0",
+      "filename": "idle_20260620_161238_6f0.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:12:40",
+      "width": null,
+      "height": null,
+      "fileSize": 61095,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_161137_676",
+      "filename": "idle_20260620_161137_676.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:11:38",
+      "width": null,
+      "height": null,
+      "fileSize": 47194,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_161036_1d8",
+      "filename": "idle_20260620_161036_1d8.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:10:37",
+      "width": null,
+      "height": null,
+      "fileSize": 57347,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_160934_647",
+      "filename": "idle_20260620_160934_647.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:09:36",
+      "width": null,
+      "height": null,
+      "fileSize": 56888,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_160830_2c3",
+      "filename": "idle_20260620_160830_2c3.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:08:34",
+      "width": null,
+      "height": null,
+      "fileSize": 51135,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_160728_60a",
+      "filename": "idle_20260620_160728_60a.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:07:30",
+      "width": null,
+      "height": null,
+      "fileSize": 57309,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_160623_32c",
+      "filename": "idle_20260620_160623_32c.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:06:28",
+      "width": null,
+      "height": null,
+      "fileSize": 62702,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_160519_878",
+      "filename": "idle_20260620_160519_878.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:05:23",
+      "width": null,
+      "height": null,
+      "fileSize": 53447,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_160413_d90",
+      "filename": "idle_20260620_160413_d90.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:04:19",
+      "width": null,
+      "height": null,
+      "fileSize": 53252,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_160308_153",
+      "filename": "idle_20260620_160308_153.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:03:13",
+      "width": null,
+      "height": null,
+      "fileSize": 56087,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_160200_498",
+      "filename": "idle_20260620_160200_498.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:02:08",
+      "width": null,
+      "height": null,
+      "fileSize": 48508,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_160057_23d",
+      "filename": "idle_20260620_160057_23d.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T16:01:00",
+      "width": null,
+      "height": null,
+      "fileSize": 58142,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_155956_c94",
+      "filename": "idle_20260620_155956_c94.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T15:59:57",
+      "width": null,
+      "height": null,
+      "fileSize": 54032,
+      "category": "uncategorized"
+    },
+    {
+      "id": "uncategorized_idle_20260620_155855_294",
+      "filename": "idle_20260620_155855_294.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "createdAt": "2026-06-20T15:58:56",
+      "width": null,
+      "height": null,
+      "fileSize": 54251,
+      "category": "uncategorized"
+    },
+    {
       "id": "uncategorized_idle_20260620_155753_8dd",
       "filename": "idle_20260620_155753_8dd.jpg",
       "prompt": "idle generated avatar",
@@ -6670,6 +7077,39 @@
       "category": "uncategorized"
     },
     {
+      "id": "uncategorized_999",
+      "filename": "uncategorized_999.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:37:17+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 49935
+    },
+    {
+      "id": "uncategorized_1001",
+      "filename": "uncategorized_1001.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:39:21+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 51616
+    },
+    {
+      "id": "uncategorized_1000",
+      "filename": "uncategorized_1000.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:38:19+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 57164
+    },
+    {
       "id": "lotus_lotus_avatar_watercolor",
       "filename": "lotus_avatar_watercolor.jpg",
       "prompt": "lotus avatar watercolor",
@@ -6885,10 +7325,76 @@
       "prompt": "Gold & Blue Fluid Marble",
       "theme": "abstract",
       "category": "abstract"
+    },
+    {
+      "id": "uncategorized_1002",
+      "filename": "uncategorized_1002.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:40:22+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 64773
+    },
+    {
+      "id": "uncategorized_1003",
+      "filename": "uncategorized_1003.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:41:24+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 57524
+    },
+    {
+      "id": "uncategorized_1004",
+      "filename": "uncategorized_1004.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:42:26+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 55661
+    },
+    {
+      "id": "uncategorized_1005",
+      "filename": "uncategorized_1005.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:43:27+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 56127
+    },
+    {
+      "id": "uncategorized_1006",
+      "filename": "uncategorized_1006.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:44:29+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 47039
+    },
+    {
+      "id": "uncategorized_1007",
+      "filename": "uncategorized_1007.jpg",
+      "prompt": "idle generated avatar",
+      "theme": "uncategorized",
+      "category": "uncategorized",
+      "createdAt": "2026-06-20T16:45:30+00:00",
+      "width": null,
+      "height": null,
+      "fileSize": 58662
     }
   ],
   "metadata": {
-    "total": 802,
+    "total": 843,
     "themes": [
       "abstract",
       "fantasy",
@@ -6901,15 +7407,15 @@
       "tattoo",
       "uncategorized"
     ],
-    "images_per_theme": 80,
+    "images_per_theme": 84,
     "format": "512x512 JPEG",
     "generated": "2026-06-20",
     "attribution": "Images generated via Pollinations.ai (Flux model) \u2014 free AI image generation API. https://pollinations.ai"
   },
   "_meta": {
-    "updatedAt": "2026-06-20T15:58:28.710596+00:00",
-    "updatedAtTimestamp": 1781971108,
-    "totalImages": 802,
-    "lastDeployed": "Jun 20, 2026 at 03:58 PM"
+    "updatedAt": "2026-06-20T16:45:30.653765+00:00",
+    "updatedAtTimestamp": 1781973930,
+    "totalImages": 849,
+    "lastDeployed": "Jun 20, 2026 at 04:45 PM"
   }
 }
