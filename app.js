@@ -66,6 +66,7 @@ async function initGallery() {
     filteredAvatars = [...avatars];
     renderGallery();
     updateLastUpdated(data);
+    updateFilterCounts(data);
     setupEventListeners();
   } catch (error) {
     console.error('Gallery initialization failed:', error);
@@ -101,6 +102,26 @@ function updateLastUpdated(data) {
   }
   if (!formatted) formatted = raw || 'unknown date';
   el.textContent = `🕒 Last updated: ${formatted} — ${total.toLocaleString()} images`;
+}
+
+function updateFilterCounts(data) {
+  const avatars = (data && data.avatars) || [];
+  const counts = { all: avatars.length };
+  avatars.forEach(a => {
+    const theme = a.theme || 'uncategorized';
+    counts[theme] = (counts[theme] || 0) + 1;
+  });
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    const key = btn.dataset.filter;
+    if (key === 'all') {
+      btn.textContent = 'All';
+      return;
+    }
+    const count = counts[key];
+    if (typeof count === 'number') {
+      btn.textContent = key.charAt(0).toUpperCase() + key.slice(1) + ' (' + count + ')';
+    }
+  });
 }
 
 // Render gallery grid
