@@ -46,16 +46,8 @@ function sortAvatarsDesc(avatars) {
   });
 }
 
-// Get image URL: local file when available, Pollinations fallback for seed-based entries.
 function getImageUrl(avatar) {
-  if (avatar && avatar.filename) {
-    return `images/${avatar.filename}`;
-  }
-  if (avatar && avatar.seed) {
-    const prompt = encodeURIComponent(avatar.prompt || 'avatar');
-    return `https://image.pollinations.ai/prompt/${prompt}?width=512&height=512&model=flux&nologo=true&seed=${avatar.seed}`;
-  }
-  return '';
+  return `images/${avatar.filename}`;
 }
 
 // Show/hide loading state
