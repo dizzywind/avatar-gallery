@@ -12,7 +12,7 @@ import json
 import shutil
 import subprocess
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
 MEDIA_DIR = "/data/hermes/media/images"
 IDLE_DIR = "/data/projects/avatar-gallery/data/idle"
@@ -129,14 +129,53 @@ def main():
     repo_images = get_repo_images()
     media_images = get_media_images()
     data = load_data()
+    avatars = data.get('avatars', [])
     
-    # Get existing filenames in data.json
-    existing_filenames = {a.get('filename', '') for a in data.get('avatars', [])}
+    # Canonical image set currently on disk
+    repo_image_set = repo_images
     
-    # Find new images (in media but not in repo)
+    # Register images that exist in repo but are missing from data
+    existing_by_filename = {a.get('filename', ''): a for a in avatars}
+    registered = 0
+    dropped = 0
+    for filename in sorted(repo_image_set):
+        if filename in existing_by_filename:
+            continue
+        theme = detect_theme(filename)
+        prompt = filename.rsplit('.', 1)[0].replace('_', ' ').replace('-', ' ')
+        prompt = re.sub(r'\s*\d{8}\s*$', '', prompt)
+        prompt = re.sub(r'\s*\d{8}_\d+\s*$', '', prompt)
+        prompt = prompt.strip()
+        prompt = re.sub(r'^(A|An)\s+', '', prompt, count=1)
+        avatar_id = generate_id(filename, theme)
+        avatars.append({'id': avatar_id, 'filename': filename, 'prompt': prompt, 'theme': theme})
+        registered += 1
+        print(f"  Registered missing: {filename}")
+    
+    # Remove data entries whose files are no longer present on disk
+    before_drop = len(avatars)
+    avatars = [a for a in avatars if a.get('filename') and a['filename'] in repo_image_set]
+    dropped = before_drop - len(avatars)
+    if dropped:
+        print(f"  Dropped {dropped} entries missing files")
+    
+    # Sort newest-first by filename and normalize meta
+    avatars.sort(key=lambda a: a.get('filename', ''), reverse=True)
+    data['avatars'] = avatars
+    now = datetime.now(timezone.utc)
+    data['_meta'] = {
+        'updatedAt': now.isoformat(),
+        'updatedAtTimestamp': int(now.timestamp()),
+        'totalImages': len(avatars),
+        'lastDeployed': now.strftime('%b %d, %Y at %I:%M %p'),
+    }
+    save_data(data)
+    print(f"  Reconciled data.json (+{registered} registered, -{dropped} dropped, total: {len(avatars)})")
+    
+    # Find still-new images from media/idle that were just reconciled above
     new_images = {}
     for filename, filepath in media_images.items():
-        if filename not in repo_images and filename not in existing_filenames:
+        if filename not in repo_image_set and filename not in existing_by_filename:
             new_images[filename] = filepath
     
     if not new_images:
