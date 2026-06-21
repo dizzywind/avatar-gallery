@@ -1,0 +1,86 @@
+<!-- force pages refresh -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apollo Avatar Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="gallery-header">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <div>
+        <h1>Apollo Avatar Gallery</h1>
+        <p class="subtitle">AI-generated themed avatars — explore the full set</p>
+        <p class="last-updated" id="lastUpdated"></p>
+      </div>
+      <a href="manage.html" class="manage-link">Manage</a>
+    </div>
+  </header>
+
+  <nav class="filter-nav" aria-label="Theme filters">
+    <div class="filter-nav-inner">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="fantasy">Fantasy</button>
+      <button class="filter-btn" data-filter="sci-fi">Sci-Fi</button>
+      <button class="filter-btn" data-filter="nature">Nature</button>
+      <button class="filter-btn" data-filter="abstract">Abstract</button>
+      <button class="filter-btn" data-filter="mythology">Mythology</button>
+      <button class="filter-btn" data-filter="lotus">Lotus</button>
+      <button class="filter-btn" data-filter="tattoo">Tattoo</button>
+      <button class="filter-btn" data-filter="watercolor">Watercolor</button>
+      <button class="filter-btn" data-filter="minimalist">Minimalist</button>
+      <button class="filter-btn" data-filter="portrait">Portrait</button>
+      <button class="filter-btn" data-filter="animals">Animals</button>
+      <button class="filter-btn" data-filter="retro">Retro</button>
+    </div>
+  </nav>
+
+  <div class="search-container" aria-label="Search avatars">
+    <input type="search" id="searchInput" class="search-input" placeholder="Search by prompt..." aria-label="Search avatars by prompt">
+    <button id="searchClear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+  </div>
+
+  <main class="gallery-main">
+    <div class="gallery-grid" id="galleryGrid" role="list"></div>
+    <p class="no-results" id="noResults" hidden>No avatars match the selected filter.</p>
+  </main>
+
+  <!-- Lightbox for image preview -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Avatar preview" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&lsaquo;</button>
+    <div class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <div class="lightbox-info">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxPrompt"></p>
+        <span id="lightboxTheme" class="theme-badge"></span>
+      </div>
+    </div>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&rsaquo;</button>
+  </div>
+
+  <!-- Style Reference Panel (Side Panel) -->
+  <div class="style-panel-overlay" id="stylePanelOverlay" hidden></div>
+  <aside class="style-panel" id="stylePanel" role="dialog" aria-modal="true" aria-label="Style Reference" hidden>
+    <div class="style-panel-header">
+      <h2 id="stylePanelTitle">Style Reference</h2>
+      <button class="style-panel-close" id="stylePanelClose" aria-label="Close panel">&times;</button>
+    </div>
+    <div class="style-panel-body" id="stylePanelBody">
+      <!-- Dynamic content loaded based on step -->
+    </div>
+    <div class="style-panel-footer" id="stylePanelFooter">
+      <!-- Dynamic buttons based on step -->
+    </div>
+  </aside>
+
+  <footer class="gallery-footer">
+    <p>Images generated via <a href="https://pollinations.ai" target="_blank" rel="noopener">Pollinations.ai</a> (Flux model) — free AI image generation API.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
