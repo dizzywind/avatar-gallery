@@ -112,8 +112,13 @@ def git_commit_push(message):
         print(f"  git commit failed: {result.stderr}")
         return False
     print(f"  Committed: {message}")
-    
+
+    # Pull latest before push to avoid rejections (silently handles up-to-date)
+    print("  Pulling latest origin/master...")
+    subprocess.run(['git', 'pull', '--rebase', 'origin', 'master'], capture_output=True, text=True, timeout=60)
+
     # Push
+    print("  Pushing to origin/master...")
     result = subprocess.run(['git', 'push', 'origin', 'master'], capture_output=True, text=True, timeout=60)
     if result.returncode != 0:
         print(f"  git push failed: {result.stderr}")
