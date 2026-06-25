@@ -47,7 +47,12 @@ function sortAvatarsDesc(avatars) {
 }
 
 function getImageUrl(avatar) {
-  return `images/${avatar.filename}`;
+  if (avatar.filename) {
+    return `images/${avatar.filename}`;
+  }
+  const prompt = encodeURIComponent((avatar.prompt || '').slice(0, 120));
+  const seed = avatar.seed || Date.now();
+  return `https://image.pollinations.ai/prompt/${prompt}?width=512&height=512&model=flux&nologo=true&seed=${seed}`;
 }
 
 // Show/hide loading state
