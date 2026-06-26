@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head><title>Batch 6</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1a1a2e;color:#fff;font-family:monospace;padding:24px}
+h1{margin-bottom:16px;color:#e94560}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:24px}
+.cell{border:2px solid #333;border-radius:12px;padding:10px;background:#16213e}
+.cell img{width:100%;height:200px;object-fit:cover;border-radius:8px}
+.cell .fn{font-size:13px;margin-top:8px;color:#aaa;word-break:break-all}
+.cell .seed{font-size:11px;color:#666}
+input{width:70%;background:#0f3460;border:2px solid #555;color:#fff;padding:8px;border-radius:6px;font-size:14px;margin-top:4px}
+.theme-btns{margin-top:24px;display:flex;gap:8px;flex-wrap:wrap}
+.theme-btns button{background:#e94560;color:#fff;border:none;padding:12px 24px;border-radius:8px;font-size:14px;cursor:pointer;font-family:monospace}
+.theme-btns button:hover{background:#ff2e63}
+</style></head>
+<body>
+<h1>Batch 6 / 113</h1>
+<a href="page_5.html">Prev</a> | <a href="page_7.html">Next</a>
+<div class="grid">
+<div class="cell">
+<img src="../images/idle_20260620_160519_878.jpg" id="img30" onerror="this.style.background='#333'">
+<div class="fn">[30] idle_20260620_160519_878.jpg</div>
+<div class="seed">seed=637167 | idle generated avatar</div>
+<input type="text" id="t30" value="uncategorized">
+</div><div class="cell">
+<img src="../images/idle_20260620_160413_d90.jpg" id="img31" onerror="this.style.background='#333'">
+<div class="fn">[31] idle_20260620_160413_d90.jpg</div>
+<div class="seed">seed=485392 | idle generated avatar</div>
+<input type="text" id="t31" value="uncategorized">
+</div><div class="cell">
+<img src="../images/idle_20260620_160308_153.jpg" id="img32" onerror="this.style.background='#333'">
+<div class="fn">[32] idle_20260620_160308_153.jpg</div>
+<div class="seed">seed=732680 | idle generated avatar</div>
+<input type="text" id="t32" value="uncategorized">
+</div><div class="cell">
+<img src="../images/idle_20260620_160200_498.jpg" id="img33" onerror="this.style.background='#333'">
+<div class="fn">[33] idle_20260620_160200_498.jpg</div>
+<div class="seed">seed=234111 | idle generated avatar</div>
+<input type="text" id="t33" value="uncategorized">
+</div><div class="cell">
+<img src="../images/idle_20260620_160057_23d.jpg" id="img34" onerror="this.style.background='#333'">
+<div class="fn">[34] idle_20260620_160057_23d.jpg</div>
+<div class="seed">seed=682500 | idle generated avatar</div>
+<input type="text" id="t34" value="uncategorized">
+</div><div class="cell">
+<img src="../images/idle_20260620_155956_c94.jpg" id="img35" onerror="this.style.background='#333'">
+<div class="fn">[35] idle_20260620_155956_c94.jpg</div>
+<div class="seed">seed=170349 | idle generated avatar</div>
+<input type="text" id="t35" value="uncategorized">
+</div></div>
+<div class="theme-btns">
+<button onclick="setTheme('lotus')">Lotus</button>
+<button onclick="setTheme('nature')">Nature</button>
+<button onclick="setTheme('fantasy')">Fantasy</button>
+<button onclick="setTheme('abstract')">Abstract</button>
+<button onclick="setTheme('scifi')">Sci-Fi</button>
+<button onclick="setTheme('minimalist')">Minimalist</button>
+<button onclick="setTheme('mythology')">Mythology</button>
+<button onclick="setTheme('tattoo')">Tattoo</button>
+</div>
+<script>
+function setTheme(t){
+  const inputs=document.querySelectorAll('input[type=text]');
+  inputs.forEach(inp=>{
+    const valid=['lotus','nature','fantasy','abstract','scifi','minimalist','mythology','tattoo'];
+    if(valid.includes(inp.value)){{inp.value=t}}
+  });
+}
+</script>
+</body></html>

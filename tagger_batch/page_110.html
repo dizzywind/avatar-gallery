@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head><title>Batch 110</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1a1a2e;color:#fff;font-family:monospace;padding:24px}
+h1{margin-bottom:16px;color:#e94560}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:24px}
+.cell{border:2px solid #333;border-radius:12px;padding:10px;background:#16213e}
+.cell img{width:100%;height:200px;object-fit:cover;border-radius:8px}
+.cell .fn{font-size:13px;margin-top:8px;color:#aaa;word-break:break-all}
+.cell .seed{font-size:11px;color:#666}
+input{width:70%;background:#0f3460;border:2px solid #555;color:#fff;padding:8px;border-radius:6px;font-size:14px;margin-top:4px}
+.theme-btns{margin-top:24px;display:flex;gap:8px;flex-wrap:wrap}
+.theme-btns button{background:#e94560;color:#fff;border:none;padding:12px 24px;border-radius:8px;font-size:14px;cursor:pointer;font-family:monospace}
+.theme-btns button:hover{background:#ff2e63}
+</style></head>
+<body>
+<h1>Batch 110 / 113</h1>
+<a href="page_109.html">Prev</a> | <a href="page_111.html">Next</a>
+<div class="grid">
+<div class="cell">
+<img src="../images/avatar_pastel_20260618.jpg" id="img654" onerror="this.style.background='#333'">
+<div class="fn">[654] avatar_pastel_20260618.jpg</div>
+<div class="seed">seed=584793 | avatar pastel</div>
+<input type="text" id="t654" value="uncategorized">
+</div><div class="cell">
+<img src="../images/avatar_elegant_20260618.jpg" id="img655" onerror="this.style.background='#333'">
+<div class="fn">[655] avatar_elegant_20260618.jpg</div>
+<div class="seed">seed=508746 | avatar elegant</div>
+<input type="text" id="t655" value="uncategorized">
+</div><div class="cell">
+<img src="../images/avatar_dark_20260618.jpg" id="img656" onerror="this.style.background='#333'">
+<div class="fn">[656] avatar_dark_20260618.jpg</div>
+<div class="seed">seed=242590 | avatar dark</div>
+<input type="text" id="t656" value="uncategorized">
+</div><div class="cell">
+<img src="../images/Avatar_concept_for_AI_assistant_Hermes_A_20260617_1.jpg" id="img657" onerror="this.style.background='#333'">
+<div class="fn">[657] Avatar_concept_for_AI_assistant_Hermes_A_20260617_1.jpg</div>
+<div class="seed">seed=307777 | Avatar concept for AI assistant Hermes A 20260617 </div>
+<input type="text" id="t657" value="uncategorized">
+</div><div class="cell">
+<img src="../images/Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg" id="img658" onerror="this.style.background='#333'">
+<div class="fn">[658] Avatar_concept_for_AI_assistant_Hermes_A_20260617.jpg</div>
+<div class="seed">seed=490146 | Avatar_concept_for_AI_assistant_Hermes_A_20260617</div>
+<input type="text" id="t658" value="uncategorized">
+</div><div class="cell">
+<img src="../images/Avatar_concept_for_an_AI_assistant_named_20260525_1.jpg" id="img659" onerror="this.style.background='#333'">
+<div class="fn">[659] Avatar_concept_for_an_AI_assistant_named_20260525_1.jpg</div>
+<div class="seed">seed=727062 | Avatar concept for an AI assistant named 20260525 </div>
+<input type="text" id="t659" value="uncategorized">
+</div></div>
+<div class="theme-btns">
+<button onclick="setTheme('lotus')">Lotus</button>
+<button onclick="setTheme('nature')">Nature</button>
+<button onclick="setTheme('fantasy')">Fantasy</button>
+<button onclick="setTheme('abstract')">Abstract</button>
+<button onclick="setTheme('scifi')">Sci-Fi</button>
+<button onclick="setTheme('minimalist')">Minimalist</button>
+<button onclick="setTheme('mythology')">Mythology</button>
+<button onclick="setTheme('tattoo')">Tattoo</button>
+</div>
+<script>
+function setTheme(t){
+  const inputs=document.querySelectorAll('input[type=text]');
+  inputs.forEach(inp=>{
+    const valid=['lotus','nature','fantasy','abstract','scifi','minimalist','mythology','tattoo'];
+    if(valid.includes(inp.value)){{inp.value=t}}
+  });
+}
+</script>
+</body></html>

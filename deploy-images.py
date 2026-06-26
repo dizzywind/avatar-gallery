@@ -15,8 +15,8 @@ import re
 from datetime import datetime, timezone
 
 MEDIA_DIR = "/data/hermes/media/images"
-IDLE_DIR = "/data/projects/avatar-gallery/data/idle"
-REPO_DIR = "/data/projects/avatar-gallery"
+IDLE_DIR = "/root/avatar-gallery/images"
+REPO_DIR = "/root/avatar-gallery"
 IMAGES_DIR = os.path.join(REPO_DIR, "images")
 DATA_FILE = os.path.join(REPO_DIR, "data.json")
 
@@ -158,23 +158,26 @@ def main():
         print(f"  Registered missing: {filename}")
     
     # Remove data entries whose files are no longer present on disk
+    # Preserve metadata-only entries (seed-based, no filename)
     before_drop = len(avatars)
-    avatars = [a for a in avatars if a.get('filename') and a['filename'] in repo_image_set]
+    avatars = [a for a in avatars if not a.get('filename') or a['filename'] in repo_image_set]
     dropped = before_drop - len(avatars)
     if dropped:
         print(f"  Dropped {dropped} entries missing files")
     
     # Sort newest-first by filename and normalize meta
     avatars.sort(key=lambda a: a.get('filename', ''), reverse=True)
+    changed = (len(avatars) != len(data.get('avatars', [])))
     data['avatars'] = avatars
-    now = datetime.now(timezone.utc)
-    data['_meta'] = {
-        'updatedAt': now.isoformat(),
-        'updatedAtTimestamp': int(now.timestamp()),
-        'totalImages': len(avatars),
-        'lastDeployed': now.strftime('%b %d, %Y at %I:%M %p'),
-    }
-    save_data(data)
+    if changed or registered or dropped:
+        now = datetime.now(timezone.utc)
+        data['_meta'] = {
+            'updatedAt': now.isoformat(),
+            'updatedAtTimestamp': int(now.timestamp()),
+            'totalImages': len(avatars),
+            'lastDeployed': now.strftime('%b %d, %Y at %I:%M %p'),
+        }
+        save_data(data)
     print(f"  Reconciled data.json (+{registered} registered, -{dropped} dropped, total: {len(avatars)})")
     
     # Find still-new images from media/idle that were just reconciled above
@@ -184,7 +187,15 @@ def main():
             new_images[filename] = filepath
     
     if not new_images:
-        print("  No new images to deploy.")
+        print("  No new image files to copy.")
+        # Commit any data-only reconciliation or metadata updates
+        os.chdir(REPO_DIR)
+        result = subprocess.run(['git', 'status', '--porcelain'], capture_output=True, text=True)
+        if result.stdout.strip():
+            print("  Detected uncommitted data changes — committing.")
+            git_commit_push("Sync metadata updates")
+        else:
+            print("  No changes to deploy.")
         return
     
     print(f"  Found {len(new_images)} new images to deploy.")
