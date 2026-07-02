@@ -7,6 +7,8 @@ Deploy new images from /data/hermes/media/images/ to the avatar gallery repo.
 - GitHub Pages auto-deploys on push
 """
 
+import fcntl
+import logging
 import os
 import json
 import shutil
@@ -14,7 +16,17 @@ import subprocess
 import re
 import time
 import errno
+import sys
 from datetime import datetime, timezone
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    stream=sys.stdout,
+)
+log = logging.getLogger("deploy-images")
+
+LOCK_PATH = "/tmp/deploy-images.lock"
 
 MEDIA_DIR = "/data/hermes/media/images"
 IDLE_DIR = "/root/avatar-gallery/images"
@@ -36,18 +48,21 @@ THEME_PATTERNS = {
 }
 
 def run_with_retry(cmd, **kwargs):
-    # type: (...) -> subprocess.CompletedProcess[bytes]
     """Run a subprocess command, retrying on transient fork/resource errors."""
-    max_attempts = kwargs.pop('max_attempts', 5)
-    base_delay = kwargs.pop('retry_delay', 5)
+    max_attempts = kwargs.pop('max_attempts', 3)
+    base_delay = kwargs.pop('retry_delay', 1)
     for attempt in range(1, max_attempts + 1):
         try:
-            return subprocess.run(cmd, **kwargs)
+            result = subprocess.run(cmd, **kwargs)
+            return result
         except (BlockingIOError, OSError) as e:
             if getattr(e, 'errno', None) in (errno.EAGAIN, errno.ENOMEM, 11):
                 if attempt == max_attempts:
+                    log.error("Command failed after %d attempts: %s", attempt, cmd)
                     raise
-                time.sleep(base_delay * attempt)
+                delay = base_delay * (2 ** (attempt - 1))
+                log.warning("Retry %d/%d for %s after %s in %.1fs", attempt, max_attempts, cmd, e, delay)
+                time.sleep(delay)
                 continue
             raise
 
@@ -146,7 +161,19 @@ def git_commit_push(message):
 
 def main():
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{timestamp}] Starting image deploy...")
+    log.info("Starting image deploy...")
+
+    lock_fd = None
+    try:
+        lock_fd = open(LOCK_PATH, "w")
+        fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        log.warning("Another deploy instance is already running; exiting early.")
+        sys.exit(0)
+    except OSError as e:
+        if lock_fd:
+            lock_fd.close()
+        raise SystemExit(f"Lock unavailable: {e}")
     
     # Get current state
     repo_images = get_repo_images()
