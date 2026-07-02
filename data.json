@@ -11018,6 +11018,12 @@
       "category": "lotus",
       "createdAt": "2026-07-02T17:47:39+00:00",
       "seed": 174164794
+    },
+    {
+      "id": "uncategorized_probe",
+      "filename": ".probe.jpg",
+      "prompt": ".probe",
+      "theme": "uncategorized"
     }
   ],
   "metadata": {
