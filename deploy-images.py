@@ -228,9 +228,8 @@ def main():
         print(f"  Registered missing: {filename}")
     
     # Remove data entries whose files are no longer present on disk
-    # Preserve metadata-only entries (seed-based, no filename)
     before_drop = len(avatars)
-    avatars = [a for a in avatars if not a.get('filename') or a['filename'] in repo_image_set]
+    avatars = [a for a in avatars if a.get('filename') and a['filename'] in repo_image_set]
     dropped = before_drop - len(avatars)
     if dropped:
         print(f"  Dropped {dropped} entries missing files")
