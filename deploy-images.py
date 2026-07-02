@@ -12,6 +12,8 @@ import json
 import shutil
 import subprocess
 import re
+import time
+import errno
 from datetime import datetime, timezone
 
 MEDIA_DIR = "/data/hermes/media/images"
@@ -32,6 +34,22 @@ THEME_PATTERNS = {
     "watercolor": ["watercolor", "watercolour", "wash", "paint"],
     "minimalist": ["minimal", "minimalist", "line", "simple", "clean", "single", "continuous"],
 }
+
+def run_with_retry(cmd, **kwargs):
+    # type: (...) -> subprocess.CompletedProcess[bytes]
+    """Run a subprocess command, retrying on transient fork/resource errors."""
+    max_attempts = kwargs.pop('max_attempts', 5)
+    base_delay = kwargs.pop('retry_delay', 5)
+    for attempt in range(1, max_attempts + 1):
+        try:
+            return subprocess.run(cmd, **kwargs)
+        except (BlockingIOError, OSError) as e:
+            if getattr(e, 'errno', None) in (errno.EAGAIN, errno.ENOMEM, 11):
+                if attempt == max_attempts:
+                    raise
+                time.sleep(base_delay * attempt)
+                continue
+            raise
 
 def detect_theme(filename):
     """Detect theme from filename keywords."""
@@ -89,25 +107,25 @@ def git_commit_push(message):
     os.chdir(REPO_DIR)
     
     # Configure git if needed
-    subprocess.run(['git', 'config', 'user.email', 'deploy@avatar-gallery'], 
+    run_with_retry(['git', 'config', 'user.email', 'deploy@avatar-gallery'],
                    capture_output=True)
-    subprocess.run(['git', 'config', 'user.name', 'Avatar Gallery Deploy Bot'], 
+    run_with_retry(['git', 'config', 'user.name', 'Avatar Gallery Deploy Bot'],
                    capture_output=True)
     
     # Add all changes
-    result = subprocess.run(['git', 'add', '-A'], capture_output=True, text=True)
+    result = run_with_retry(['git', 'add', '-A'], capture_output=True, text=True)
     if result.returncode != 0:
         print(f"  git add failed: {result.stderr}")
         return False
     
     # Check if there are changes to commit
-    result = subprocess.run(['git', 'status', '--porcelain'], capture_output=True, text=True)
+    result = run_with_retry(['git', 'status', '--porcelain'], capture_output=True, text=True)
     if not result.stdout.strip():
         print("  No changes to commit.")
         return True  # Not an error, just nothing to do
     
     # Commit
-    result = subprocess.run(['git', 'commit', '-m', message], capture_output=True, text=True)
+    result = run_with_retry(['git', 'commit', '-m', message], capture_output=True, text=True)
     if result.returncode != 0:
         print(f"  git commit failed: {result.stderr}")
         return False
@@ -115,11 +133,11 @@ def git_commit_push(message):
 
     # Pull latest before push to avoid rejections (silently handles up-to-date)
     print("  Pulling latest origin/master...")
-    subprocess.run(['git', 'pull', '--rebase', 'origin', 'master'], capture_output=True, text=True, timeout=60)
+    run_with_retry(['git', 'pull', '--rebase', 'origin', 'master'], capture_output=True, text=True, timeout=60)
 
     # Push
     print("  Pushing to origin/master...")
-    result = subprocess.run(['git', 'push', 'origin', 'master'], capture_output=True, text=True, timeout=60)
+    result = run_with_retry(['git', 'push', 'origin', 'master'], capture_output=True, text=True, timeout=60)
     if result.returncode != 0:
         print(f"  git push failed: {result.stderr}")
         return False
@@ -190,7 +208,7 @@ def main():
         print("  No new image files to copy.")
         # Commit any data-only reconciliation or metadata updates
         os.chdir(REPO_DIR)
-        result = subprocess.run(['git', 'status', '--porcelain'], capture_output=True, text=True)
+        result = run_with_retry(['git', 'status', '--porcelain'], capture_output=True, text=True)
         if result.stdout.strip():
             print("  Detected uncommitted data changes — committing.")
             git_commit_push("Sync metadata updates")
