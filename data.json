@@ -1,22 +1,16 @@
 {
   "avatars": [
     {
-      "id": "watercolor_02",
+      "id": "abstract_watercolor_02",
       "filename": "watercolor_02.jpg",
-      "prompt": "idle 20260620 035855 603",
-      "theme": "watercolor",
-      "category": "watercolor"
+      "prompt": "watercolor 02",
+      "theme": "abstract"
     },
     {
-      "id": "watercolor_01",
+      "id": "abstract_watercolor_01",
       "filename": "watercolor_01.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "watercolor",
-      "createdAt": "2026-06-20T08:03:54",
-      "width": 768,
-      "height": 768,
-      "fileSize": 145362,
-      "category": "watercolor"
+      "prompt": "watercolor 01",
+      "theme": "abstract"
     },
     {
       "id": "uncategorized_uncategorized_999",
@@ -205,187 +199,154 @@
       "theme": "uncategorized"
     },
     {
-      "id": "tattoo_02",
+      "id": "tattoo_tattoo_02",
       "filename": "tattoo_02.jpg",
-      "prompt": "duck tribal",
-      "theme": "tattoo",
-      "category": "tattoo"
+      "prompt": "tattoo 02",
+      "theme": "tattoo"
     },
     {
-      "id": "tattoo_01",
+      "id": "tattoo_tattoo_01",
       "filename": "tattoo_01.jpg",
-      "prompt": "duck tribal svg",
-      "theme": "tattoo",
-      "category": "tattoo"
+      "prompt": "tattoo 01",
+      "theme": "tattoo"
     },
     {
-      "id": "sci-fi_23",
+      "id": "uncategorized_scifi_23",
       "filename": "sci-fi_23.jpg",
-      "prompt": "idle 20260620 033659 0b9",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 23",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_22",
+      "id": "uncategorized_scifi_22",
       "filename": "sci-fi_22.jpg",
-      "prompt": "idle 20260620 034327 f39",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 22",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_21",
+      "id": "uncategorized_scifi_21",
       "filename": "sci-fi_21.jpg",
-      "prompt": "idle 20260620 035012 a81",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 21",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_20",
+      "id": "uncategorized_scifi_20",
       "filename": "sci-fi_20.jpg",
-      "prompt": "idle 20260620 035142 b18",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 20",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_19",
+      "id": "uncategorized_scifi_19",
       "filename": "sci-fi_19.jpg",
-      "prompt": "idle 20260620 035245 e89",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 19",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_18",
+      "id": "uncategorized_scifi_18",
       "filename": "sci-fi_18.jpg",
-      "prompt": "idle 20260620 035550 5af",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 18",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_17",
+      "id": "uncategorized_scifi_17",
       "filename": "sci-fi_17.jpg",
-      "prompt": "Idle 20260620 040310 31D",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 17",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_16",
+      "id": "uncategorized_scifi_16",
       "filename": "sci-fi_16.jpg",
-      "prompt": "Idle 20260620 040523 1Fb",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 16",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_15",
+      "id": "uncategorized_scifi_15",
       "filename": "sci-fi_15.jpg",
-      "prompt": "idle 20260620 041958 9d5",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 15",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_14",
+      "id": "uncategorized_scifi_14",
       "filename": "sci-fi_14.jpg",
-      "prompt": "idle 20260620 042911 8ab",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 14",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_13",
+      "id": "uncategorized_scifi_13",
       "filename": "sci-fi_13.jpg",
-      "prompt": "idle 20260620 043722 f84",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 13",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_12",
+      "id": "uncategorized_scifi_12",
       "filename": "sci-fi_12.jpg",
-      "prompt": "idle 20260620 043823 de4",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 12",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_11",
+      "id": "uncategorized_scifi_11",
       "filename": "sci-fi_11.jpg",
-      "prompt": "idle 20260620 043925 3b9",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 11",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_10",
+      "id": "uncategorized_scifi_10",
       "filename": "sci-fi_10.jpg",
-      "prompt": "idle 20260620 044027 1fc",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 10",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_09",
+      "id": "uncategorized_scifi_09",
       "filename": "sci-fi_09.jpg",
-      "prompt": "idle 20260620 044433 34e",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 09",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_08",
+      "id": "uncategorized_scifi_08",
       "filename": "sci-fi_08.jpg",
-      "prompt": "idle 20260620 045347 1dc",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 08",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_07",
+      "id": "uncategorized_scifi_07",
       "filename": "sci-fi_07.jpg",
-      "prompt": "idle 20260620 050200 1ba",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 07",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_06",
+      "id": "uncategorized_scifi_06",
       "filename": "sci-fi_06.jpg",
-      "prompt": "idle 20260620 050301 75e",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 06",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_05",
+      "id": "uncategorized_scifi_05",
       "filename": "sci-fi_05.jpg",
-      "prompt": "idle 20260620 050403 6a1",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 05",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_04",
+      "id": "uncategorized_scifi_04",
       "filename": "sci-fi_04.jpg",
-      "prompt": "idle 20260620 050505 aba",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 04",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_03",
+      "id": "uncategorized_scifi_03",
       "filename": "sci-fi_03.jpg",
-      "prompt": "idle 20260620 051159 10c",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "sci fi 03",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_02",
+      "id": "uncategorized_scifi_02",
       "filename": "sci-fi_02.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "sci-fi",
-      "createdAt": "2026-06-20T08:03:54",
-      "width": 768,
-      "height": 768,
-      "fileSize": 113165,
-      "category": "sci-fi"
+      "prompt": "sci fi 02",
+      "theme": "uncategorized"
     },
     {
-      "id": "sci-fi_01",
+      "id": "uncategorized_scifi_01",
       "filename": "sci-fi_01.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "sci-fi",
-      "createdAt": "2026-06-20T08:03:54",
-      "width": 768,
-      "height": 768,
-      "fileSize": 113478,
-      "category": "sci-fi"
+      "prompt": "sci fi 01",
+      "theme": "uncategorized"
     },
     {
       "id": "abstract_retro_avatar_portrait_1980s_synthwave_s_",
@@ -401,144 +362,124 @@
       "theme": "uncategorized"
     },
     {
-      "id": "retro_01",
+      "id": "uncategorized_retro_01",
       "filename": "retro_01.jpg",
-      "prompt": "avatar artdeco",
-      "theme": "retro",
-      "category": "retro"
+      "prompt": "retro 01",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_20",
+      "id": "uncategorized_portrait_20",
       "filename": "portrait_20.jpg",
-      "prompt": "Anime style female character as AI agent",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 20",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_19",
+      "id": "uncategorized_portrait_19",
       "filename": "portrait_19.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 19",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_18",
+      "id": "uncategorized_portrait_18",
       "filename": "portrait_18.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes 20260525 1",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 18",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_17",
+      "id": "uncategorized_portrait_17",
       "filename": "portrait_17.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes 20260525 2",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 17",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_16",
+      "id": "uncategorized_portrait_16",
       "filename": "portrait_16.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes A",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 16",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_15",
+      "id": "uncategorized_portrait_15",
       "filename": "portrait_15.jpg",
-      "prompt": "Avatar concept for AI assistant Hermes A 20260617 1",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 15",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_14",
+      "id": "uncategorized_portrait_14",
       "filename": "portrait_14.jpg",
-      "prompt": "Avatar concept for an AI assistant named",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 14",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_13",
+      "id": "uncategorized_portrait_13",
       "filename": "portrait_13.jpg",
-      "prompt": "Avatar concept for an AI assistant named 20260525 1",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 13",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_12",
+      "id": "uncategorized_portrait_12",
       "filename": "portrait_12.jpg",
-      "prompt": "Futuristic sci fi portrait avatar sleek",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 12",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_11",
+      "id": "uncategorized_portrait_11",
       "filename": "portrait_11.jpg",
-      "prompt": "Portrait of a handsome young East Asian",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 11",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_10",
+      "id": "uncategorized_portrait_10",
       "filename": "portrait_10.jpg",
-      "prompt": "Portrait of a handsome young East Asian 20260525 1",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 10",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_09",
+      "id": "uncategorized_portrait_09",
       "filename": "portrait_09.jpg",
-      "prompt": "Portrait of a handsome young East Asian 20260525 2",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 09",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_08",
+      "id": "uncategorized_portrait_08",
       "filename": "portrait_08.jpg",
-      "prompt": "Portrait of a handsome young East Asian 20260525 3",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 08",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_07",
+      "id": "uncategorized_portrait_07",
       "filename": "portrait_07.jpg",
-      "prompt": "Portrait of a handsome young East Asian 20260525 4",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 07",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_06",
+      "id": "uncategorized_portrait_06",
       "filename": "portrait_06.jpg",
-      "prompt": "avatar dark",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 06",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_05",
+      "id": "uncategorized_portrait_05",
       "filename": "portrait_05.jpg",
-      "prompt": "avatar elegant",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 05",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_04",
+      "id": "uncategorized_portrait_04",
       "filename": "portrait_04.jpg",
-      "prompt": "avatar pastel",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 04",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_03",
+      "id": "uncategorized_portrait_03",
       "filename": "portrait_03.jpg",
-      "prompt": "fantasy avatar portrait elven warrior w",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 03",
+      "theme": "uncategorized"
     },
     {
-      "id": "portrait_02",
+      "id": "uncategorized_portrait_02",
       "filename": "portrait_02.jpg",
-      "prompt": "nature avatar portrait face made of blo",
-      "theme": "portrait",
-      "category": "portrait"
+      "prompt": "portrait 02",
+      "theme": "uncategorized"
     },
     {
       "id": "portrait_01",
@@ -554,205 +495,166 @@
       "theme": "uncategorized"
     },
     {
-      "id": "nature_29",
+      "id": "uncategorized_nature_29",
       "filename": "nature_29.jpg",
-      "prompt": "idle 20260620 033351 351",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 29",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_28",
+      "id": "uncategorized_nature_28",
       "filename": "nature_28.jpg",
-      "prompt": "idle 20260620 033556 120",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 28",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_27",
+      "id": "uncategorized_nature_27",
       "filename": "nature_27.jpg",
-      "prompt": "idle 20260620 034027 1b2",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 27",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_26",
+      "id": "uncategorized_nature_26",
       "filename": "nature_26.jpg",
-      "prompt": "idle 20260620 034242 7f8",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 26",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_25",
+      "id": "uncategorized_nature_25",
       "filename": "nature_25.jpg",
-      "prompt": "idle 20260620 034628 a48",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 25",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_24",
+      "id": "uncategorized_nature_24",
       "filename": "nature_24.jpg",
-      "prompt": "idle 20260620 034758 26f",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 24",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_23",
+      "id": "uncategorized_nature_23",
       "filename": "nature_23.jpg",
-      "prompt": "idle 20260620 035754 c41",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 23",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_22",
+      "id": "uncategorized_nature_22",
       "filename": "nature_22.jpg",
-      "prompt": "idle 20260620 035958 d00",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 22",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_21",
+      "id": "uncategorized_nature_21",
       "filename": "nature_21.jpg",
-      "prompt": "idle 20260620 040100 ee5",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 21",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_20",
+      "id": "uncategorized_nature_20",
       "filename": "nature_20.jpg",
-      "prompt": "Idle 20260620 041400 Cbb",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 20",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_19",
+      "id": "uncategorized_nature_19",
       "filename": "nature_19.jpg",
-      "prompt": "idle 20260620 041856 186",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 19",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_18",
+      "id": "uncategorized_nature_18",
       "filename": "nature_18.jpg",
-      "prompt": "idle 20260620 042505 922",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 18",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_17",
+      "id": "uncategorized_nature_17",
       "filename": "nature_17.jpg",
-      "prompt": "idle 20260620 042809 8a6",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 17",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_16",
+      "id": "uncategorized_nature_16",
       "filename": "nature_16.jpg",
-      "prompt": "idle 20260620 043316 d4e",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 16",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_15",
+      "id": "uncategorized_nature_15",
       "filename": "nature_15.jpg",
-      "prompt": "idle 20260620 043519 9f6",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 15",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_14",
+      "id": "uncategorized_nature_14",
       "filename": "nature_14.jpg",
-      "prompt": "idle 20260620 044129 d50",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 14",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_13",
+      "id": "uncategorized_nature_13",
       "filename": "nature_13.jpg",
-      "prompt": "idle 20260620 044332 200",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 13",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_12",
+      "id": "uncategorized_nature_12",
       "filename": "nature_12.jpg",
-      "prompt": "idle 20260620 044941 3ad",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 12",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_11",
+      "id": "uncategorized_nature_11",
       "filename": "nature_11.jpg",
-      "prompt": "idle 20260620 045245 17a",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 11",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_10",
+      "id": "uncategorized_nature_10",
       "filename": "nature_10.jpg",
-      "prompt": "idle 20260620 045753 0ea",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 10",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_09",
+      "id": "uncategorized_nature_09",
       "filename": "nature_09.jpg",
-      "prompt": "idle 20260620 045956 8ce",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "nature 09",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_08",
+      "id": "uncategorized_nature_08",
       "filename": "nature_08.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "nature",
-      "createdAt": "2026-06-20T08:03:53",
-      "width": 768,
-      "height": 768,
-      "fileSize": 156336,
-      "category": "nature"
+      "prompt": "nature 08",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_07",
+      "id": "uncategorized_nature_07",
       "filename": "nature_07.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "nature",
-      "createdAt": "2026-06-20T08:03:54",
-      "width": 768,
-      "height": 768,
-      "fileSize": 108017,
-      "category": "nature"
+      "prompt": "nature 07",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_06",
+      "id": "uncategorized_nature_06",
       "filename": "nature_06.jpg",
-      "prompt": "idle generated avatar",
-      "theme": "nature",
-      "createdAt": "2026-06-20T08:03:54",
-      "width": 768,
-      "height": 768,
-      "fileSize": 101926,
-      "category": "nature"
+      "prompt": "nature 06",
+      "theme": "uncategorized"
     },
     {
-      "id": "mythology_08",
+      "id": "uncategorized_mythology_08",
       "filename": "mythology_08.jpg",
-      "prompt": "idle 20260620 034543 b16",
-      "theme": "mythology",
-      "category": "mythology"
+      "prompt": "mythology 08",
+      "theme": "uncategorized"
     },
     {
-      "id": "mythology_07",
+      "id": "uncategorized_mythology_07",
       "filename": "mythology_07.jpg",
-      "prompt": "idle 20260620 043214 195",
-      "theme": "mythology",
-      "category": "mythology"
+      "prompt": "mythology 07",
+      "theme": "uncategorized"
     },
     {
-      "id": "mythology_06",
+      "id": "uncategorized_mythology_06",
       "filename": "mythology_06.jpg",
-      "prompt": "idle 20260620 045651 f33",
-      "theme": "mythology",
-      "category": "mythology"
+      "prompt": "mythology 06",
+      "theme": "uncategorized"
     },
     {
       "id": "minimalist_minimalist_avatar_portrait_simple_geome_",
@@ -769,46 +671,40 @@
       "category": "abstract"
     },
     {
-      "id": "minimalist_06",
+      "id": "minimalist_minimalist_06",
       "filename": "minimalist_06.jpg",
-      "prompt": "idle 20260620 034113 787",
-      "theme": "minimalist",
-      "category": "minimalist"
+      "prompt": "minimalist 06",
+      "theme": "minimalist"
     },
     {
-      "id": "minimalist_05",
+      "id": "minimalist_minimalist_05",
       "filename": "minimalist_05.jpg",
-      "prompt": "idle 20260620 034842 a45",
-      "theme": "minimalist",
-      "category": "minimalist"
+      "prompt": "minimalist 05",
+      "theme": "minimalist"
     },
     {
-      "id": "minimalist_04",
+      "id": "minimalist_minimalist_04",
       "filename": "minimalist_04.jpg",
-      "prompt": "idle 20260620 042607 617",
-      "theme": "minimalist",
-      "category": "minimalist"
+      "prompt": "minimalist 04",
+      "theme": "minimalist"
     },
     {
-      "id": "minimalist_03",
+      "id": "minimalist_minimalist_03",
       "filename": "minimalist_03.jpg",
-      "prompt": "idle 20260620 043621 51d",
-      "theme": "minimalist",
-      "category": "minimalist"
+      "prompt": "minimalist 03",
+      "theme": "minimalist"
     },
     {
-      "id": "minimalist_02",
+      "id": "minimalist_minimalist_02",
       "filename": "minimalist_02.jpg",
-      "prompt": "idle 20260620 045043 31a",
-      "theme": "minimalist",
-      "category": "minimalist"
+      "prompt": "minimalist 02",
+      "theme": "minimalist"
     },
     {
-      "id": "minimalist_01",
+      "id": "minimalist_minimalist_01",
       "filename": "minimalist_01.jpg",
-      "prompt": "idle 20260620 050058 6e1",
-      "theme": "minimalist",
-      "category": "minimalist"
+      "prompt": "minimalist 01",
+      "theme": "minimalist"
     },
     {
       "id": "lotus_lotus_three_brushstrokes_20260527",
@@ -839,46 +735,40 @@
       "category": "lotus"
     },
     {
-      "id": "lotus_09",
+      "id": "lotus_lotus_09",
       "filename": "lotus_09.jpg",
-      "prompt": "idle 20260619 172306 bb4",
-      "theme": "lotus",
-      "category": "lotus"
+      "prompt": "lotus 09",
+      "theme": "lotus"
     },
     {
-      "id": "lotus_08",
+      "id": "lotus_lotus_08",
       "filename": "lotus_08.jpg",
-      "prompt": "idle 20260619 172408 559",
-      "theme": "lotus",
-      "category": "lotus"
+      "prompt": "lotus 08",
+      "theme": "lotus"
     },
     {
-      "id": "lotus_07",
+      "id": "lotus_lotus_07",
       "filename": "lotus_07.jpg",
-      "prompt": "idle 20260619 172513 bc5",
-      "theme": "lotus",
-      "category": "lotus"
+      "prompt": "lotus 07",
+      "theme": "lotus"
     },
     {
-      "id": "lotus_06",
+      "id": "lotus_lotus_06",
       "filename": "lotus_06.jpg",
-      "prompt": "idle 20260619 172817 260",
-      "theme": "lotus",
-      "category": "lotus"
+      "prompt": "lotus 06",
+      "theme": "lotus"
     },
     {
-      "id": "lotus_05",
+      "id": "lotus_lotus_05",
       "filename": "lotus_05.jpg",
-      "prompt": "idle 20260619 173623 56",
-      "theme": "lotus",
-      "category": "lotus"
+      "prompt": "lotus 05",
+      "theme": "lotus"
     },
     {
-      "id": "lotus_04",
+      "id": "lotus_lotus_04",
       "filename": "lotus_04.jpg",
-      "prompt": "idle 20260619 184657 d04",
-      "theme": "lotus",
-      "category": "lotus"
+      "prompt": "lotus 04",
+      "theme": "lotus"
     },
     {
       "id": "uncategorized_idle_verify_20260619_1218_ba",
@@ -5030,39 +4920,34 @@
       "category": "scifi"
     },
     {
-      "id": "scifi_05",
+      "id": "uncategorized_avatar_scifi_5",
       "filename": "avatar_scifi_5.jpg",
-      "prompt": "Explorer on an Alien World",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "avatar scifi 5",
+      "theme": "uncategorized"
     },
     {
-      "id": "scifi_04",
+      "id": "uncategorized_avatar_scifi_4",
       "filename": "avatar_scifi_4.jpg",
-      "prompt": "Generation Ship in Deep Space",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "avatar scifi 4",
+      "theme": "uncategorized"
     },
     {
-      "id": "scifi_03",
+      "id": "uncategorized_avatar_scifi_3",
       "filename": "avatar_scifi_3.jpg",
-      "prompt": "Chrome Robot in the Server Room",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "avatar scifi 3",
+      "theme": "uncategorized"
     },
     {
-      "id": "scifi_02",
+      "id": "uncategorized_avatar_scifi_2",
       "filename": "avatar_scifi_2.jpg",
-      "prompt": "Astronaut & Earth Glow",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "avatar scifi 2",
+      "theme": "uncategorized"
     },
     {
-      "id": "scifi_01",
+      "id": "uncategorized_avatar_scifi_1",
       "filename": "avatar_scifi_1.jpg",
-      "prompt": "Neon Cyberpunk Cityscape",
-      "theme": "sci-fi",
-      "category": "sci-fi"
+      "prompt": "avatar scifi 1",
+      "theme": "uncategorized"
     },
     {
       "id": "mythology_avatar_sacred_geometry_20260618",
@@ -5084,74 +4969,64 @@
       "theme": "uncategorized"
     },
     {
-      "id": "nature_05",
+      "id": "uncategorized_avatar_nature_5",
       "filename": "avatar_nature_5.jpg",
-      "prompt": "Wolf Howling at Northern Lights",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "avatar nature 5",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_04",
+      "id": "uncategorized_avatar_nature_4",
       "filename": "avatar_nature_4.jpg",
-      "prompt": "Coral Reef Underwater World",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "avatar nature 4",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_03",
+      "id": "uncategorized_avatar_nature_3",
       "filename": "avatar_nature_3.jpg",
-      "prompt": "Ancient Oak with Hidden Door",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "avatar nature 3",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_02",
+      "id": "uncategorized_avatar_nature_2",
       "filename": "avatar_nature_2.jpg",
-      "prompt": "Wildflower Field at Sunset",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "avatar nature 2",
+      "theme": "uncategorized"
     },
     {
-      "id": "nature_01",
+      "id": "uncategorized_avatar_nature_1",
       "filename": "avatar_nature_1.jpg",
-      "prompt": "Mountain Lake at Sunrise",
-      "theme": "nature",
-      "category": "nature"
+      "prompt": "avatar nature 1",
+      "theme": "uncategorized"
     },
     {
-      "id": "mythology_05",
+      "id": "uncategorized_avatar_mythology_5",
       "filename": "avatar_mythology_5.jpg",
-      "prompt": "Cosmic Lotus Bloom",
-      "theme": "mythology",
-      "category": "mythology"
+      "prompt": "avatar mythology 5",
+      "theme": "uncategorized"
     },
     {
-      "id": "mythology_04",
+      "id": "uncategorized_avatar_mythology_4",
       "filename": "avatar_mythology_4.jpg",
-      "prompt": "Egyptian Ankh of Living Light",
-      "theme": "mythology",
-      "category": "mythology"
+      "prompt": "avatar mythology 4",
+      "theme": "uncategorized"
     },
     {
-      "id": "mythology_03",
+      "id": "uncategorized_avatar_mythology_3",
       "filename": "avatar_mythology_3.jpg",
-      "prompt": "Yggdrasil — Norse World Tree",
-      "theme": "mythology",
-      "category": "mythology"
+      "prompt": "avatar mythology 3",
+      "theme": "uncategorized"
     },
     {
-      "id": "mythology_02",
+      "id": "uncategorized_avatar_mythology_2",
       "filename": "avatar_mythology_2.jpg",
-      "prompt": "Eye of Providence",
-      "theme": "mythology",
-      "category": "mythology"
+      "prompt": "avatar mythology 2",
+      "theme": "uncategorized"
     },
     {
-      "id": "mythology_01",
+      "id": "uncategorized_avatar_mythology_1",
       "filename": "avatar_mythology_1.jpg",
-      "prompt": "Divine Figure of Golden Light",
-      "theme": "mythology",
-      "category": "mythology"
+      "prompt": "avatar mythology 1",
+      "theme": "uncategorized"
     },
     {
       "id": "scifi_avatar_monochrome_20260618",
@@ -5161,25 +5036,22 @@
       "category": "scifi"
     },
     {
-      "id": "lotus_03",
+      "id": "lotus_avatar_lotus_3",
       "filename": "avatar_lotus_3.jpg",
-      "prompt": "Crystal Lotus in Cosmic Void",
-      "theme": "lotus",
-      "category": "lotus"
+      "prompt": "avatar lotus 3",
+      "theme": "lotus"
     },
     {
-      "id": "lotus_02",
+      "id": "lotus_avatar_lotus_2",
       "filename": "avatar_lotus_2.jpg",
-      "prompt": "Golden Lotus Mandala",
-      "theme": "lotus",
-      "category": "lotus"
+      "prompt": "avatar lotus 2",
+      "theme": "lotus"
     },
     {
-      "id": "lotus_01",
+      "id": "lotus_avatar_lotus_1",
       "filename": "avatar_lotus_1.jpg",
-      "prompt": "Sacred Lotus at Dawn",
-      "theme": "lotus",
-      "category": "lotus"
+      "prompt": "avatar lotus 1",
+      "theme": "lotus"
     },
     {
       "id": "tattoo_avatar_inkwash_20260618",
@@ -5196,39 +5068,34 @@
       "category": "abstract"
     },
     {
-      "id": "fantasy_05",
+      "id": "uncategorized_avatar_fantasy_5",
       "filename": "avatar_fantasy_5.jpg",
-      "prompt": "Phoenix Reborn in Golden Flames",
-      "theme": "fantasy",
-      "category": "fantasy"
+      "prompt": "avatar fantasy 5",
+      "theme": "uncategorized"
     },
     {
-      "id": "fantasy_04",
+      "id": "uncategorized_avatar_fantasy_4",
       "filename": "avatar_fantasy_4.jpg",
-      "prompt": "Wizard of the Storm Peak",
-      "theme": "fantasy",
-      "category": "fantasy"
+      "prompt": "avatar fantasy 4",
+      "theme": "uncategorized"
     },
     {
-      "id": "fantasy_03",
+      "id": "uncategorized_avatar_fantasy_3",
       "filename": "avatar_fantasy_3.jpg",
-      "prompt": "Arcane Portal with Glowing Runes",
-      "theme": "fantasy",
-      "category": "fantasy"
+      "prompt": "avatar fantasy 3",
+      "theme": "uncategorized"
     },
     {
-      "id": "fantasy_02",
+      "id": "uncategorized_avatar_fantasy_2",
       "filename": "avatar_fantasy_2.jpg",
-      "prompt": "Elven Queen of the Enchanted Forest",
-      "theme": "fantasy",
-      "category": "fantasy"
+      "prompt": "avatar fantasy 2",
+      "theme": "uncategorized"
     },
     {
-      "id": "fantasy_01",
+      "id": "uncategorized_avatar_fantasy_1",
       "filename": "avatar_fantasy_1.jpg",
-      "prompt": "Mystical Dragon & Crystal Orb",
-      "theme": "fantasy",
-      "category": "fantasy"
+      "prompt": "avatar fantasy 1",
+      "theme": "uncategorized"
     },
     {
       "id": "uncategorized_avatar_elegant_20260618",
@@ -5256,39 +5123,34 @@
       "theme": "uncategorized"
     },
     {
-      "id": "abstract_05",
+      "id": "abstract_avatar_abstract_5",
       "filename": "avatar_abstract_5.jpg",
-      "prompt": "Fractal Galaxy Spiral",
-      "theme": "abstract",
-      "category": "abstract"
+      "prompt": "avatar abstract 5",
+      "theme": "abstract"
     },
     {
-      "id": "abstract_04",
+      "id": "abstract_avatar_abstract_4",
       "filename": "avatar_abstract_4.jpg",
-      "prompt": "Pastel Gradient Orbs",
-      "theme": "abstract",
-      "category": "abstract"
+      "prompt": "avatar abstract 4",
+      "theme": "abstract"
     },
     {
-      "id": "abstract_03",
+      "id": "abstract_avatar_abstract_3",
       "filename": "avatar_abstract_3.jpg",
-      "prompt": "Glitch Art Digital Portrait",
-      "theme": "abstract",
-      "category": "abstract"
+      "prompt": "avatar abstract 3",
+      "theme": "abstract"
     },
     {
-      "id": "abstract_02",
+      "id": "abstract_avatar_abstract_2",
       "filename": "avatar_abstract_2.jpg",
-      "prompt": "Sacred Geometry Neon Pattern",
-      "theme": "abstract",
-      "category": "abstract"
+      "prompt": "avatar abstract 2",
+      "theme": "abstract"
     },
     {
-      "id": "abstract_01",
+      "id": "abstract_avatar_abstract_1",
       "filename": "avatar_abstract_1.jpg",
-      "prompt": "Gold & Blue Fluid Marble",
-      "theme": "abstract",
-      "category": "abstract"
+      "prompt": "avatar abstract 1",
+      "theme": "abstract"
     },
     {
       "id": "animals_08",
@@ -5768,18 +5630,16 @@
       "category": "abstract"
     },
     {
-      "id": "abstract_521",
+      "id": "abstract_abstract_521",
       "filename": "abstract_521.jpg",
-      "prompt": "lone figure standing on a cliff edge o",
-      "theme": "abstract",
-      "category": "abstract"
+      "prompt": "abstract 521",
+      "theme": "abstract"
     },
     {
-      "id": "abstract_520",
+      "id": "abstract_abstract_520",
       "filename": "abstract_520.jpg",
-      "prompt": "elven queen with silver hair and glow",
-      "theme": "abstract",
-      "category": "abstract"
+      "prompt": "abstract 520",
+      "theme": "abstract"
     },
     {
       "id": "abstract_52",
@@ -6966,7 +6826,6 @@
       "prompt": "idle generated avatar (2026-06-20 12:59)",
       "theme": "abstract",
       "createdAt": "2026-06-20T::+00:00",
-      "source": "idle",
       "category": "abstract"
     },
     {
@@ -7166,7 +7025,6 @@
       "prompt": "idle generated avatar (2026-06-20 12:59)",
       "theme": "abstract",
       "createdAt": "2026-06-20T::+00:00",
-      "source": "idle",
       "category": "abstract"
     },
     {
@@ -7366,7 +7224,6 @@
       "prompt": "idle generated avatar (2026-06-20 12:59)",
       "theme": "abstract",
       "createdAt": "2026-06-20T::+00:00",
-      "source": "idle",
       "category": "abstract"
     },
     {
@@ -7566,7 +7423,6 @@
       "prompt": "idle generated avatar (2026-06-20 12:59)",
       "theme": "abstract",
       "createdAt": "2026-06-20T::+00:00",
-      "source": "idle",
       "category": "abstract"
     },
     {
@@ -7766,7 +7622,6 @@
       "prompt": "idle generated avatar (2026-06-20 12:59)",
       "theme": "abstract",
       "createdAt": "2026-06-20T::+00:00",
-      "source": "idle",
       "category": "abstract"
     },
     {
@@ -7966,7 +7821,6 @@
       "prompt": "idle generated avatar (2026-06-20 12:59)",
       "theme": "abstract",
       "createdAt": "2026-06-20T::+00:00",
-      "source": "idle",
       "category": "abstract"
     },
     {
@@ -10954,64 +10808,96 @@
       "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
       "theme": "lotus",
       "category": "lotus",
-      "createdAt": "2026-07-02T17:09:16+00:00",
-      "seed": 154584410
+      "createdAt": "2026-07-02T17:20:34+00:00",
+      "seed": 921057143
     },
     {
       "id": "lotus_204",
       "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
       "theme": "lotus",
       "category": "lotus",
-      "createdAt": "2026-07-02T17:10:18+00:00",
-      "seed": 122939674
+      "createdAt": "2026-07-02T17:21:36+00:00",
+      "seed": 500608639
     },
     {
       "id": "lotus_205",
       "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
       "theme": "lotus",
       "category": "lotus",
-      "createdAt": "2026-07-02T17:11:20+00:00",
-      "seed": 1026207042
+      "createdAt": "2026-07-02T17:22:37+00:00",
+      "seed": 517663028
     },
     {
       "id": "lotus_206",
       "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
       "theme": "lotus",
       "category": "lotus",
-      "createdAt": "2026-07-02T17:12:21+00:00",
-      "seed": 456569276
+      "createdAt": "2026-07-02T17:23:38+00:00",
+      "seed": 693948040
     },
     {
       "id": "lotus_207",
       "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
       "theme": "lotus",
       "category": "lotus",
-      "createdAt": "2026-07-02T17:13:23+00:00",
-      "seed": 947534122
+      "createdAt": "2026-07-02T17:24:43+00:00",
+      "seed": 664819220
     },
     {
       "id": "lotus_208",
       "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
       "theme": "lotus",
       "category": "lotus",
-      "createdAt": "2026-07-02T17:14:24+00:00",
-      "seed": 1020214776
+      "createdAt": "2026-07-02T17:25:44+00:00",
+      "seed": 923337816
     },
     {
       "id": "lotus_209",
       "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
       "theme": "lotus",
       "category": "lotus",
-      "createdAt": "2026-07-02T17:15:26+00:00",
-      "seed": 230338332
+      "createdAt": "2026-07-02T17:26:46+00:00",
+      "seed": 983319645
     },
     {
       "id": "lotus_210",
       "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
       "theme": "lotus",
       "category": "lotus",
-      "createdAt": "2026-07-02T17:16:27+00:00",
-      "seed": 279525084
+      "createdAt": "2026-07-02T17:27:47+00:00",
+      "seed": 419866214
+    },
+    {
+      "id": "lotus_211",
+      "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
+      "theme": "lotus",
+      "category": "lotus",
+      "createdAt": "2026-07-02T17:28:48+00:00",
+      "seed": 245323513
+    },
+    {
+      "id": "lotus_212",
+      "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
+      "theme": "lotus",
+      "category": "lotus",
+      "createdAt": "2026-07-02T17:29:50+00:00",
+      "seed": 220074012
+    },
+    {
+      "id": "lotus_213",
+      "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
+      "theme": "lotus",
+      "category": "lotus",
+      "createdAt": "2026-07-02T17:30:51+00:00",
+      "seed": 763370636
+    },
+    {
+      "id": "lotus_214",
+      "prompt": "lotus flower, {juxtaposition} , {style}, {composition}, {lighting}, {palette}, {quality}, no text,…",
+      "theme": "lotus",
+      "category": "lotus",
+      "createdAt": "2026-07-02T17:31:53+00:00",
+      "seed": 661184995
     }
   ],
   "metadata": {
@@ -11034,9 +10920,9 @@
     "attribution": "Images generated via Pollinations.ai (Flux model) — free AI image generation API. https://pollinations.ai"
   },
   "_meta": {
-    "updatedAt": "2026-07-02T17:16:27.374895+00:00",
-    "updatedAtTimestamp": 1783012587,
-    "totalImages": 1515,
-    "lastDeployed": "Jul 02, 2026 at 05:16 PM"
+    "updatedAt": "2026-07-02T17:32:32.133828+00:00",
+    "updatedAtTimestamp": 1783013552,
+    "totalImages": 1519,
+    "lastDeployed": "Jul 02, 2026 at 05:32 PM"
   }
 }

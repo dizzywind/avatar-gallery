@@ -110,12 +110,37 @@ def save_data(data):
 
 def generate_id(filename, theme):
     """Generate a unique ID for the avatar entry."""
-    base = re.sub(r'[_\s]+', '_', filename.rsplit('.', 1)[0].lower())
-    base = re.sub(r'[^a-z0-9_]', '', base)
-    # Shorten if too long
+    base = re.sub(r"[_\s]+", "_", filename.rsplit(".", 1)[0].lower())
+    base = re.sub(r"[^a-z0-9_]", "", base)
     if len(base) > 40:
         base = base[:40]
     return f"{theme}_{base}"
+
+def reconcile_corrupt_entries(avatars):
+    """Normalize corrupt state-blob entries while preserving legacy metadata."""
+    normalized = []
+    corrupt_count = 0
+    for a in avatars:
+        if isinstance(a, dict) and not a.get("filename"):
+            corrupt_count += 1
+            prompt = (a.get("prompt") or "").strip()
+            theme = (a.get("theme") or "").strip() or "uncategorized"
+            a["prompt"] = prompt
+            a["theme"] = theme
+            if not a.get("id"):
+                a["id"] = f"uncategorized_corrupt_{corrupt_count}"
+            if (a.get("category") or "").strip():
+                a["category"] = a["category"].strip()
+            else:
+                a["category"] = theme
+            if a.get("seed") and not a.get("createdAt"):
+                a["createdAt"] = datetime.now(timezone.utc).isoformat()
+            elif not a.get("createdAt"):
+                a.pop("seed", None)
+        normalized.append(a)
+    if corrupt_count:
+        log.warning("Normalized %d corrupt entries without filename", corrupt_count)
+    return normalized
 
 def git_commit_push(message):
     """Commit and push changes."""
