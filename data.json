@@ -4809,6 +4809,12 @@
       "theme": "watercolor"
     },
     {
+      "id": "nature_flowerfieldpaintedbycode",
+      "filename": "flower-field-painted-by-code.png",
+      "prompt": "flower field painted by code",
+      "theme": "nature"
+    },
+    {
       "id": "fantasy_fantasy_avatar_portrait_wise_old_wizard_",
       "filename": "fantasy_avatar_portrait_wise_old_wizard_20260618.jpg",
       "prompt": "fantasy avatar portrait wise old wizard",
@@ -10373,6 +10379,12 @@
       "category": "tattoo"
     },
     {
+      "id": "uncategorized_japanese_modern_poster_art_of_layered_fl",
+      "filename": "Japanese_modern_poster_art_of_layered_fl_20260824.jpg",
+      "prompt": "Japanese modern poster art of layered fl",
+      "theme": "uncategorized"
+    },
+    {
       "id": "lotus_highly_abstract_sumie_lotus_tattoo_ges_2",
       "filename": "Highly_abstract_sumi-e_lotus_tattoo_ges_20260525.jpg",
       "prompt": "Highly abstract sumi e lotus tattoo ges",
@@ -10419,6 +10431,12 @@
       "prompt": "Floating lotus blooming in darkness pet",
       "theme": "lotus",
       "category": "lotus"
+    },
+    {
+      "id": "abstract_flat_color_graphic_poster_of_a_vast_flow",
+      "filename": "Flat_color_graphic_poster_of_a_vast_flow_20260824.jpg",
+      "prompt": "Flat color graphic poster of a vast flow",
+      "theme": "abstract"
     },
     {
       "id": "lotus_ethereal_lotus_blooming_from_neural_circ",
@@ -10816,21 +10834,9 @@
       "theme": "uncategorized"
     },
     {
-      "id": "abstract_flat_color_graphic_poster_of_a_vast_flow",
-      "filename": "Flat_color_graphic_poster_of_a_vast_flow_20260824.jpg",
-      "prompt": "Flat color graphic poster of a vast flow",
-      "theme": "abstract"
-    },
-    {
-      "id": "uncategorized_japanese_modern_poster_art_of_layered_fl",
-      "filename": "Japanese_modern_poster_art_of_layered_fl_20260824.jpg",
-      "prompt": "Japanese modern poster art of layered fl",
-      "theme": "uncategorized"
-    },
-    {
-      "id": "nature_flowerfieldpaintedbycode",
-      "filename": "flower-field-painted-by-code.png",
-      "prompt": "flower field painted by code",
+      "id": "nature_flowerfieldpaintedbycodev4",
+      "filename": "flower-field-painted-by-code-v4.png",
+      "prompt": "flower field painted by code v4",
       "theme": "nature"
     }
   ],
