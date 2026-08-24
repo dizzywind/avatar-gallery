@@ -4815,6 +4815,12 @@
       "theme": "nature"
     },
     {
+      "id": "nature_flowerfieldpaintedbycodev4",
+      "filename": "flower-field-painted-by-code-v4.png",
+      "prompt": "flower field painted by code v4",
+      "theme": "nature"
+    },
+    {
       "id": "fantasy_fantasy_avatar_portrait_wise_old_wizard_",
       "filename": "fantasy_avatar_portrait_wise_old_wizard_20260618.jpg",
       "prompt": "fantasy avatar portrait wise old wizard",
@@ -10834,10 +10840,10 @@
       "theme": "uncategorized"
     },
     {
-      "id": "nature_flowerfieldpaintedbycodev4",
-      "filename": "flower-field-painted-by-code-v4.png",
-      "prompt": "flower field painted by code v4",
-      "theme": "nature"
+      "id": "scifi_neonrainpaintedbycode",
+      "filename": "neon-rain-painted-by-code.png",
+      "prompt": "neon rain painted by code",
+      "theme": "scifi"
     }
   ],
   "metadata": {
