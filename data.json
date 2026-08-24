@@ -489,6 +489,12 @@
       "category": "portrait"
     },
     {
+      "id": "scifi_neonrainpaintedbycode",
+      "filename": "neon-rain-painted-by-code.png",
+      "prompt": "neon rain painted by code",
+      "theme": "scifi"
+    },
+    {
       "id": "uncategorized_nature_avatar_portrait_face_made_of_blo_",
       "filename": "nature_avatar_portrait_face_made_of_blo_20260618.jpg",
       "prompt": "nature avatar portrait face made of blo",
@@ -10840,9 +10846,15 @@
       "theme": "uncategorized"
     },
     {
-      "id": "scifi_neonrainpaintedbycode",
-      "filename": "neon-rain-painted-by-code.png",
-      "prompt": "neon rain painted by code",
+      "id": "scifi_neonrainfinal",
+      "filename": "neon-rain-final.png",
+      "prompt": "neon rain final",
+      "theme": "scifi"
+    },
+    {
+      "id": "scifi_neonrainrich",
+      "filename": "neon-rain-rich.png",
+      "prompt": "neon rain rich",
       "theme": "scifi"
     }
   ],
