@@ -801,6 +801,12 @@
       "theme": "lotus"
     },
     {
+      "id": "lotus_lotuspondfinal",
+      "filename": "lotus-pond-final.png",
+      "prompt": "lotus pond final",
+      "theme": "lotus"
+    },
+    {
       "id": "uncategorized_idle_verify_20260619_1218_ba",
       "filename": "idle_verify_20260619_1218_ba.jpg",
       "prompt": "idle verify 20260619 1218 ba",
@@ -10870,9 +10876,9 @@
       "theme": "uncategorized"
     },
     {
-      "id": "lotus_lotuspondfinal",
-      "filename": "lotus-pond-final.png",
-      "prompt": "lotus pond final",
+      "id": "lotus_lotuswatercolorbrush",
+      "filename": "lotus-watercolor-brush.png",
+      "prompt": "lotus watercolor brush",
       "theme": "lotus"
     }
   ],
