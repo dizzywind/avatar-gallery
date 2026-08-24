@@ -489,6 +489,12 @@
       "category": "portrait"
     },
     {
+      "id": "scifi_neonrainv14final",
+      "filename": "neon-rain-v14-final.png",
+      "prompt": "neon rain v14 final",
+      "theme": "scifi"
+    },
+    {
       "id": "scifi_neonrainrich",
       "filename": "neon-rain-rich.png",
       "prompt": "neon rain rich",
@@ -786,6 +792,12 @@
       "id": "lotus_lotus_04",
       "filename": "lotus_04.jpg",
       "prompt": "lotus 04",
+      "theme": "lotus"
+    },
+    {
+      "id": "lotus_lotuspondpaintedbycode",
+      "filename": "lotus-pond-painted-by-code.png",
+      "prompt": "lotus pond painted by code",
       "theme": "lotus"
     },
     {
@@ -10858,16 +10870,10 @@
       "theme": "uncategorized"
     },
     {
-      "id": "lotus_lotuspondpaintedbycode",
-      "filename": "lotus-pond-painted-by-code.png",
-      "prompt": "lotus pond painted by code",
+      "id": "lotus_lotuspondfinal",
+      "filename": "lotus-pond-final.png",
+      "prompt": "lotus pond final",
       "theme": "lotus"
-    },
-    {
-      "id": "scifi_neonrainv14final",
-      "filename": "neon-rain-v14-final.png",
-      "prompt": "neon rain v14 final",
-      "theme": "scifi"
     }
   ],
   "metadata": {
